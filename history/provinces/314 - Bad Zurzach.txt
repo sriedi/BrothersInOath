@@ -1,0 +1,20 @@
+# c_bad_zurzach
+
+# County Title
+title = c_bad_zurzach
+
+# Settlements
+max_settlements = 6
+
+b_klingmau = castle
+b_tegerfelden = castle
+b_baldingen = castle
+b_bad_zurzach = city
+b_st_verena = temple
+#b_bad_zurzach_2 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_biel
+
+# County Title
+title = c_biel
+
+# Settlements
+max_settlements = 7
+
+b_nidau = castle
+b_biel = city
+b_biel_2 = castle
+b_boujean = temple
+b_ipsach = castle
+#b_biel_3 = temple
+#b_biel_4 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

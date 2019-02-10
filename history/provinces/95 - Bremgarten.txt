@@ -1,0 +1,21 @@
+# c_bremgarten
+
+# County Title
+title = c_bremgarten
+
+# Settlements
+max_settlements = 7
+
+b_bremgarten = castle
+b_bremgarten_2 = city
+b_bellikon = castle
+b_stetten_3 = temple
+#b_busslingen = city
+#b_kuenten = temple
+#b_rohrdorf = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

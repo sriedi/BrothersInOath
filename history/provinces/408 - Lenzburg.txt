@@ -1,0 +1,21 @@
+# c_lenzburg
+
+# County Title
+title = c_lenzburg
+
+# Settlements
+max_settlements = 7
+
+b_lenzburg = castle
+b_hallwyl = castle
+b_lenzburg_2 = city
+b_staufenberg = temple
+b_schafisheim = temple
+#b_lenzburg_3 = temple
+#b_lenzburg_4 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

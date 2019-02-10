@@ -1,0 +1,21 @@
+# c_villmergen
+
+# County Title
+title = c_villmergen
+
+# Settlements
+max_settlements = 7
+
+b_heidenhuebek = castle
+b_villmergen = city
+b_wohlen = city
+b_st_leonhard_2 = temple
+b_hessel = castle
+#b_waltenschwil = temple
+#b_buettikon = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

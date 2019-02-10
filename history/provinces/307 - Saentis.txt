@@ -1,0 +1,16 @@
+# c_saentis
+
+# County Title
+title = c_saentis
+
+# Settlements
+max_settlements = 2
+
+b_weissbad = castle
+b_wildkirchli = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

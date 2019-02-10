@@ -1,0 +1,18 @@
+# c_livigno
+
+# County Title
+title = c_livigno
+
+# Settlements
+max_settlements = 4
+
+b_livigno = castle
+b_san_antonio_2 = temple
+b_valdirentro = castle
+#b_isolaccia = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

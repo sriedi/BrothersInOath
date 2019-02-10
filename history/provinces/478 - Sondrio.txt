@@ -1,0 +1,18 @@
+# c_sondrio
+
+# County Title
+title = c_sondrio
+
+# Settlements
+max_settlements = 4
+
+b_chiuro_2 = castle
+b_sondrio = city
+b_berbenno = castle
+b_san_giovanni_3 = temple
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

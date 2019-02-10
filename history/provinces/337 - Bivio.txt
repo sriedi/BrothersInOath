@@ -1,0 +1,19 @@
+# c_bivio
+
+# County Title
+title = c_bivio
+
+# Settlements
+max_settlements = 5
+
+b_spuglatsch = castle
+b_riom = temple
+b_savognin = city
+b_bivio = city
+b_marmels = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

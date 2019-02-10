@@ -1,0 +1,18 @@
+# c_scuol
+
+# County Title
+title = c_scuol
+
+# Settlements
+max_settlements = 4
+
+b_tarasp = castle
+b_scuol = city
+b_san_peder = temple
+#b_scuol_2 = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

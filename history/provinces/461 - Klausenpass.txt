@@ -1,0 +1,17 @@
+# c_klausenpass
+
+# County Title
+title = c_klausenpass
+
+# Settlements
+max_settlements = 3
+
+b_unterschaechen = castle
+#b_klausenpass = city
+#b_klausenpass_2 = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

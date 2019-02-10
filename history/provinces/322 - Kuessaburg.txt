@@ -1,0 +1,20 @@
+# c_kuessaburg
+
+# County Title
+title = c_kuessaburg
+
+# Settlements
+max_settlements = 6
+
+b_kuessaburg = castle
+b_hohentengen = city
+b_stetten = temple
+b_griessen = castle
+b_krummhof = castle
+b_dangstetten = city
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

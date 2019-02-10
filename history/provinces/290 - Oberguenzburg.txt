@@ -1,0 +1,21 @@
+# c_oberguenzburg
+
+# County Title
+title = c_oberguenzburg
+
+# Settlements
+max_settlements = 7
+
+b_oberguenzburg = castle
+b_kaufbeuren = city
+b_rettenbach = castle
+b_schongau = city
+b_landsberg = castle
+b_buchole = castle
+b_mindelheim = city
+
+# Misc
+culture = bavarian
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_st_cergune
+
+# County Title
+title = c_st_cergune
+
+# Settlements
+max_settlements = 5
+
+b_st_cergune = temple
+b_oujion = temple
+b_la_cure_2 = city
+b_arzier = city
+b_bonmont = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

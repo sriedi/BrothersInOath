@@ -1,0 +1,16 @@
+# c_realp
+
+# County Title
+title = c_realp
+
+# Settlements
+max_settlements = 2
+
+b_realp = castle
+#b_realp_2 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

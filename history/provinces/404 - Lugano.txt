@@ -1,0 +1,21 @@
+# c_lugano
+
+# County Title
+title = c_lugano
+
+# Settlements
+max_settlements = 7
+
+b_paleari = castle
+b_morcote = castle
+b_castagnola = castle
+b_lugano = city
+#b_santa_maria = city
+#b_santissima = temple
+#b_bioggio = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

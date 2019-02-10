@@ -1,0 +1,20 @@
+# c_elgg
+
+# County Title
+title = c_elgg
+
+# Settlements
+max_settlements = 6
+
+b_elgg = castle
+b_elgg_2 = city
+b_schauenberg = castle
+b_hofstetten = temple
+#b_sennhof = city
+#b_hohbuehl = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

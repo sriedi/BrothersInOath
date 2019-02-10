@@ -1,0 +1,19 @@
+# c_avers
+
+# County Title
+title = c_avers
+
+# Settlements
+max_settlements = 5
+
+b_andeer = castle
+b_son_antonius = temple
+b_ziran = city
+#b_avers = castle
+#b_avers_2 = city
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

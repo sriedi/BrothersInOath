@@ -1,0 +1,19 @@
+# c_navisence
+
+# County Title
+title = c_navisence
+
+# Settlements
+max_settlements = 5
+
+b_rocha = castle
+b_grimentz = city
+b_st_jean_3 = temple
+b_st_luc = temple
+b_mission = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

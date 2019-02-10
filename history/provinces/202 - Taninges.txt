@@ -1,0 +1,19 @@
+# c_taninges
+
+# County Title
+title = c_taninges
+
+# Settlements
+max_settlements = 5
+
+b_taninges = castle
+b_st_jeoire = temple
+b_viuz_2 = castle
+b_samonens = castle
+#b_les_gets_2 = city
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

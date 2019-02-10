@@ -1,0 +1,21 @@
+# c_bergamo
+
+# County Title
+title = c_bergamo
+
+# Settlements
+max_settlements = 7
+
+b_boldone = castle
+b_bergamo = city
+b_sotto_2 = temple
+b_san_paolo_2 = temple
+b_seriate = castle
+b_stezzano = castle
+b_merate = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

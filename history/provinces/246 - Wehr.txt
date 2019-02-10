@@ -1,0 +1,21 @@
+# c_wehr
+
+# County Title
+title = c_wehr
+
+# Settlements
+max_settlements = 7
+
+b_wehr = castle
+b_bad_saeckingen = city
+b_wallbach = temple
+b_rippolingen = castle
+b_haroplingen = castle
+b_duttenberg = castle
+#b_wehr_2 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

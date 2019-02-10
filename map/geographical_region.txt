@@ -1,0 +1,27 @@
+world_aples = {
+	duchies = {
+			d_chur_raetia d_albula d_oberwallis d_engadin d_surselva d_aosta d_borgomanero d_domodossola
+			d_valais_bas d_ufgau d_uri d_unterwalden d_glarus d_rintel d_moesa 
+
+		}
+}
+world_midlands = {
+	duchies = {
+			d_zuerich d_solothurn d_basel d_surgau d_reuss d_luzern d_zug d_schwyz d_unteraargau d_oberaargau d_aarburgund d_neuchatel 
+			d_yverdon d_bern d_fribourg d_appenzell d_emmental d_gruyeres d_knonau d_konstanz d_kyburg d_landenberg d_montfort d_oberaargau d_rapperswil d_regensberg d_reuss d_romont d_schaffhausen d_thurgau d_toggenburg d_unteraargau d_unterwalden d_zug
+			
+	}
+}
+world_north = {
+	duchies = {
+	
+	}
+
+}
+
+world_europe_west = {
+	regions = {
+	world_aples world_midlands
+	} 
+	
+}

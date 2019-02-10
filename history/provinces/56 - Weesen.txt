@@ -1,0 +1,19 @@
+# c_weesen
+
+# County Title
+title = c_weesen
+
+# Settlements
+max_settlements = 5
+
+b_oberwindeck = castle
+b_weesen = city
+b_gmael = temple
+b_niederurnen = castle
+#b_weesen_2 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+terrain = hills
+#History

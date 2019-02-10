@@ -1,0 +1,19 @@
+# c_taminatal
+
+# County Title
+title = c_taminatal
+
+# Settlements
+max_settlements = 5
+
+b_wartenstein = castle
+b_bad_ragaz = city
+b_st_leonhard = temple
+#b_taminatal = castle
+#b_taminatal_2 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

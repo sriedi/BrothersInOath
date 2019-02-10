@@ -1,0 +1,21 @@
+# c_la_sarraz
+
+# County Title
+title = c_la_sarraz
+
+# Settlements
+max_settlements = 7
+
+b_la_sarraz = castle
+b_la_sarraz_2 = city
+b_st_loup = temple
+b_lisle = castle
+b_grancy = temple
+#b_chavannes_3 = temple
+#b_mauraz = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

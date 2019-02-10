@@ -1,0 +1,21 @@
+# c_habsburg
+
+# County Title
+title = c_habsburg
+
+# Settlements
+max_settlements = 7
+
+b_habsburg = castle
+b_wildegg = castle
+b_windisch = city
+b_villigen = temple
+b_besserstein = castle
+b_freudenau = castle
+b_siggenthal = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

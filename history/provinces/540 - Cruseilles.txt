@@ -1,0 +1,21 @@
+# c_cruseilles
+
+# County Title
+title = c_cruseilles
+
+# Settlements
+max_settlements = 7
+
+b_cruseilles = castle
+b_st_blaise_2 = temple
+b_copponex = castle
+b_villy = castle
+b_le_chable = castle
+#b_groisy = temple
+#b_beaumont = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

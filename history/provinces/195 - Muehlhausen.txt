@@ -1,0 +1,21 @@
+# c_muehlhausen
+
+# County Title
+title = c_muehlhausen
+
+# Settlements
+max_settlements = 7
+
+b_muehlhausen = city
+b_riedisheim = city
+b_rixheim = castle
+b_illzach = castle
+b_wittelsburg = castle
+b_pfastatt = temple
+b_wittenheim = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

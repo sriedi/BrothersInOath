@@ -1,0 +1,21 @@
+# c_wangen
+
+# County Title
+title = c_wangen
+
+# Settlements
+max_settlements = 7
+
+b_wangen_2 = castle
+b_wangen_3 = city
+b_isny = city
+b_trachtburg = castle
+b_argenbuehl = temple
+b_amtzell = castle
+b_eisenharz = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

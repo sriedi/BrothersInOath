@@ -1,0 +1,18 @@
+# c_fiesch
+
+# County Title
+title = c_fiesch
+
+# Settlements
+max_settlements = 4
+
+b_fiesch = castle
+b_ernen = castle
+b_binn = city
+b_heiligkreuz = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

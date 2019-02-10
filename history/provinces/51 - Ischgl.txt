@@ -1,0 +1,18 @@
+# c_ischgl
+
+# County Title
+title = c_ischgl
+
+# Settlements
+max_settlements = 4
+
+b_mathon = castle
+b_ischgl = city
+#b_versahl = temple
+#b_ebene = castle
+
+# Misc
+culture = tirolian
+religion = catholic
+
+#History

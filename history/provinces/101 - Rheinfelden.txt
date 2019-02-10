@@ -1,0 +1,20 @@
+# c_rheinfelden
+
+# County Title
+title = c_rheinfelden
+
+# Settlements
+max_settlements = 6
+
+b_riburg = castle
+b_reinfelden = city
+b_st_martin_3 = temple
+b_augst = city
+#b_rheinfelden = city
+#b_rheinfelden_2 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

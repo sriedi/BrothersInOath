@@ -1,0 +1,21 @@
+# c_nyon
+
+# County Title
+title = c_nyon
+
+# Settlements
+max_settlements = 7
+
+b_nyon = castle
+b_nyon_2 = city
+b_gingins = castle
+b_saint_martin = temple
+b_cossy = castle
+b_duillier = castle
+b_prangins = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

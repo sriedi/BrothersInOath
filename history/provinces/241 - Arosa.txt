@@ -1,0 +1,16 @@
+# c_arosa
+
+# County Title
+title = c_arosa
+
+# Settlements
+max_settlements = 2
+
+b_arosa = castle
+b_piest = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

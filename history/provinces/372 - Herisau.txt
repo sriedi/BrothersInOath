@@ -1,0 +1,16 @@
+# c_herisau
+
+# County Title
+title = c_herisau
+
+# Settlements
+max_settlements = 2
+
+b_ramsenburg = castle
+b_herisau = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

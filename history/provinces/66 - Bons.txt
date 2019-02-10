@@ -1,0 +1,21 @@
+# c_bons
+
+# County Title
+title = c_bons
+
+# Settlements
+max_settlements = 7
+
+b_chens = castle
+b_bons = city
+b_troches = castle
+b_st_didier = temple
+b_st_cergues = temple
+b_ballaison = castle
+b_les_crapons = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

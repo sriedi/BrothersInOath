@@ -1,0 +1,21 @@
+# c_uetliberg
+
+# County Title
+title = c_uetliberg
+
+# Settlements
+max_settlements = 7
+
+b_uetliburg = castle
+b_birmensdorf = city
+b_urdorf = castle
+b_uitikon = castle
+b_aesch_2 = temple
+#b_sellenbueren_2 = temple
+#b_wettswil_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

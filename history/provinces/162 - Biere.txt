@@ -1,0 +1,17 @@
+# c_biere
+
+# County Title
+title = c_biere
+
+# Settlements
+max_settlements = 3
+
+b_biere = castle
+b_st_george = temple
+b_st_oyens = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

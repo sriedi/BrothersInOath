@@ -1,0 +1,18 @@
+# c_wildhaus
+
+# County Title
+title = c_wildhaus
+
+# Settlements
+max_settlements = 4
+
+b_wildenburg = castle
+b_wildhaus = city
+b_alt_st_johann = temple
+#b_wildhaus_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+terrain = hills
+#History

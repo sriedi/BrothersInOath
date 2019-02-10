@@ -1,0 +1,21 @@
+# c_montgesoye
+
+# County Title
+title = c_montgesoye
+
+# Settlements
+max_settlements = 7
+
+b_montgesoye = castle
+b_ornans = city
+b_st_gorgon = temple
+b_st_denis = temple
+b_malbras = castle
+#b_chantrans = temple
+#b_vuillafans = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

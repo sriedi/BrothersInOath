@@ -1,0 +1,17 @@
+# c_muestair
+
+# County Title
+title = c_muestair
+
+# Settlements
+max_settlements = 3
+
+b_balcun = castle
+b_muestair = city
+b_son_jon = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

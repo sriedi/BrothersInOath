@@ -1,0 +1,18 @@
+# c_truns
+
+# County Title
+title = c_truns
+
+# Settlements
+max_settlements = 4
+
+b_saxenstein = castle
+b_riggenberg = castle
+b_truns = city
+#b_truns_2 = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

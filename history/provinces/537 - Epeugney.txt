@@ -1,0 +1,20 @@
+# c_epeugney
+
+# County Title
+title = c_epeugney
+
+# Settlements
+max_settlements = 6
+
+b_epeugney = castle
+b_montrond = castle
+b_rurey = city
+#b_cademene = castle
+#b_cleron = city
+#b_mont_dor = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

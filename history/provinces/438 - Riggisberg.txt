@@ -1,0 +1,20 @@
+# c_riggisberg
+
+# County Title
+title = c_riggisberg
+
+# Settlements
+max_settlements = 6
+
+b_burgistein = castle
+b_riggisberg = castle
+b_rueeggisberg = temple
+b_wattenwil = city
+#b_riggisberg_2 = city
+#b_riggisberg_3 = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

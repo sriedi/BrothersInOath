@@ -1,0 +1,21 @@
+# c_signau
+
+# County Title
+title = c_signau
+
+# Settlements
+max_settlements = 7
+
+b_signau = castle
+b_langnau = city
+b_trub = temple
+b_grauenstein = castle
+b_spitzenberg = castle
+#b_signau_2 = temple
+#b_signau_3 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

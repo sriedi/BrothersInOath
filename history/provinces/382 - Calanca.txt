@@ -1,0 +1,17 @@
+# c_calanca
+
+# County Title
+title = c_calanca
+
+# Settlements
+max_settlements = 3
+
+b_calanca = castle
+b_son_domenica = temple
+b_santa_maria_calanca = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

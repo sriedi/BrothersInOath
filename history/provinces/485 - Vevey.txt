@@ -1,0 +1,21 @@
+# c_vevey
+
+# County Title
+title = c_vevey
+
+# Settlements
+max_settlements = 7
+
+b_la_tour = castle
+b_vevey = city
+b_clarens = city
+b_vevey_2 = castle
+b_montreux = city
+b_st_legier = temple
+b_hauteville = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

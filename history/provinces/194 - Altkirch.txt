@@ -1,0 +1,21 @@
+# c_altkirch
+
+# County Title
+title = c_altkirch
+
+# Settlements
+max_settlements = 7
+
+b_jettingen = castle
+b_altkirch = city
+b_st_ulrich = temple
+b_dannemarie = temple
+b_friesen = castle
+b_winkel = castle
+#b_bendorf = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

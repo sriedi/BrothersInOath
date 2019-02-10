@@ -1,0 +1,20 @@
+# c_lucens
+
+# County Title
+title = c_lucens
+
+# Settlements
+max_settlements = 6
+
+b_lucens = castle
+b_lucens_2 = city
+b_marnand = temple
+b_henniez = temple
+#b_villarzel = city
+#b_dompierre = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

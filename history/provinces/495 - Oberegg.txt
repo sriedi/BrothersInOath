@@ -1,0 +1,16 @@
+# c_oberegg
+
+# County Title
+title = c_oberegg
+
+# Settlements
+max_settlements = 2
+
+b_oberegg = castle
+b_st_anton = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

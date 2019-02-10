@@ -1,0 +1,17 @@
+# c_beckenried
+
+# County Title
+title = c_beckenried
+
+# Settlements
+max_settlements = 3
+
+b_isenringen = castle
+b_emmetten = temple
+b_beckenried = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

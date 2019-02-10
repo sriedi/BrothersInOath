@@ -1,0 +1,21 @@
+# c_buchhorn
+
+# County Title
+title = c_buchhorn
+
+# Settlements
+max_settlements = 7
+
+b_buchhorn = city
+b_st_georgen_2 = temple
+b_waggershausen = city
+b_windhang = castle
+b_manzell = castle
+b_ittenhausen = castle
+b_ailingen = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

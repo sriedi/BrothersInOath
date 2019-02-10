@@ -1,0 +1,12 @@
+spriteTypes = {
+		spriteType = {
+				name = "GFX_icon_commonassembly_government"
+				texturefile = "gfx\\interface\\government_icon_commonassembly.dds"
+		}
+		spriteType = {
+				name = "GFX_event_commonassembly_oath"
+				texturefile = "gfx\\event_pictures\\common_assembly_oath.tga"
+		}
+
+
+}

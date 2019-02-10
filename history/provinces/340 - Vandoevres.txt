@@ -1,0 +1,21 @@
+# c_vandoevres
+
+# County Title
+title = c_vandoevres
+
+# Settlements
+max_settlements = 6
+
+b_rouelbeau = castle
+b_vandoeuvres = city
+b_collonge = temple
+b_st_maurice_3 = temple
+b_crest = castle
+#b_corsier = temple
+#b_meinier = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,16 @@
+# c_waldstatt
+
+# County Title
+title = c_waldstatt
+
+# Settlements
+max_settlements = 2
+
+b_geisshalden = castle
+b_waldstatt = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

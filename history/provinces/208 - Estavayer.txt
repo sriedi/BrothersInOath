@@ -1,0 +1,21 @@
+# c_estavayer
+
+# County Title
+title = c_estavayer
+
+# Settlements
+max_settlements = 7
+
+b_estavayer = castle
+b_estavayer_2 = temple
+b_moliere = castle
+b_st_maurrice = temple
+b_cheyres = castle
+#b_bollion = temple
+#b_seiry = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

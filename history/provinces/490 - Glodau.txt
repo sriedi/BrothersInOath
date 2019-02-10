@@ -1,0 +1,18 @@
+# c_glodau
+
+# County Title
+title = c_glodau
+
+# Settlements
+max_settlements = 4
+
+b_steinerberg = castle
+b_goldau = city
+b_arth = temple
+#b_glodau = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

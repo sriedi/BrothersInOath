@@ -1,0 +1,21 @@
+# c_buldenz
+
+# County Title
+title = c_buldenz
+
+# Settlements
+max_settlements = 1
+
+b_rosenegg = castle
+b_buldenz = city
+b_st_peter_2 = temple
+b_braz = castle
+#b_dalaas = city
+#b_gratz = temple
+#b_danoefen = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+
+#History

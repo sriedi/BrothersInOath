@@ -1,0 +1,19 @@
+# c_egg
+
+# County Title
+title = c_egg
+
+# Settlements
+max_settlements = 5
+
+b_grueningen = castle
+b_egg = city
+b_moenchaltdorf = temple
+b_gossau_2 = city
+#b_gruet = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

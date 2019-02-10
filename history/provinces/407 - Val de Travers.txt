@@ -1,0 +1,19 @@
+# c_val_de_travers
+
+# County Title
+title = c_val_de_travers
+
+# Settlements
+max_settlements = 5
+
+b_buttes = castle
+b_st_sulpice = temple
+b_motiers = temple
+b_fleurier = city
+b_bayard = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

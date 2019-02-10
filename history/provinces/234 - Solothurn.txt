@@ -1,0 +1,21 @@
+# c_solothurn
+
+# County Title
+title = c_solothurn
+
+# Settlements
+max_settlements = 7
+
+b_solothurn = city
+b_zuchwil = city
+b_bellach = city
+b_st_josef = temple
+b_visitation = temple
+b_st_katharinen = temple
+b_waldegg = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

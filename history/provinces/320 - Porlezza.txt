@@ -1,0 +1,20 @@
+# c_porlezza
+
+# County Title
+title = c_porlezza
+
+# Settlements
+max_settlements = 6
+
+b_porlezza = castle
+b_menaggio = city
+b_cusino = temple
+b_albogasio = temple
+#b_puria = city
+#b_drano = temple
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

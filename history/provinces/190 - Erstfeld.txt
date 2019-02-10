@@ -1,0 +1,19 @@
+# c_erstfeld
+
+# County Title
+title = c_erstfeld
+
+# Settlements
+max_settlements = 5
+
+b_attinghausen = castle
+b_erstfeld = city
+b_niederhofen = temple
+#b_erstfeld_2 = castle
+#b_erstfeld_3 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

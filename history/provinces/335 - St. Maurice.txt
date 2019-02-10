@@ -1,0 +1,19 @@
+# c_st_maurice
+
+# County Title
+title = c_st_maurice
+
+# Settlements
+max_settlements = 5
+
+b_st_maurice = temple
+b_fees = castle
+b_collonges = city
+b_st_maurice_2 = city
+b_illiez = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

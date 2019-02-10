@@ -1,0 +1,21 @@
+# c_muensingen
+
+# County Title
+title = c_muensingen
+
+# Settlements
+max_settlements = 7
+
+b_uttingen = castle
+b_huenignen = castle
+b_muensingen = city
+b_kiesen = castle
+b_oberdiessbach = temple
+#b_muensingen_2 = temple
+#b_muensingen_3 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

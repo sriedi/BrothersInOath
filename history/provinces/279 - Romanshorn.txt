@@ -1,0 +1,18 @@
+# c_romanshorn
+
+# County Title
+title = c_romanshorn
+
+# Settlements
+max_settlements = 4
+
+b_romanshorn = castle
+b_salmsach = city
+#b_romanshorn_2 = temple
+#b_romanshorn_3 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

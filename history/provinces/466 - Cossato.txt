@@ -1,0 +1,21 @@
+# c_cossato
+
+# County Title
+title = c_cossato
+
+# Settlements
+max_settlements = 7
+
+b_cossato = castle
+b_verres = city
+b_gressoney = temple
+b_callibana = castle
+#b_sagliano = city
+#b_quittengo = temple
+#b_veglio = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

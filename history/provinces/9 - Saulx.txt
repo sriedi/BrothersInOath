@@ -1,0 +1,21 @@
+# c_saulx
+
+# County Title
+title = c_saulx
+
+# Settlements
+max_settlements = 7
+
+b_saulx = castle
+b_mailleroncourt = castle
+b_bellenoye = castle
+b_gennverey = temple
+#b_vellfrie = city
+#b_flagy = temple
+#b_varogne = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

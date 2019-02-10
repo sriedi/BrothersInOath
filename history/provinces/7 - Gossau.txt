@@ -1,0 +1,17 @@
+# c_gossau
+
+# County Title
+title = c_gossau
+
+# Settlements
+max_settlements = 3
+
+b_oberberg = castle
+b_gossau = city
+#b_helfenberg = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

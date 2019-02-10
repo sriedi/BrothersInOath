@@ -1,0 +1,27 @@
+#ITALY
+technology = {
+	titles = {
+		d_aosta
+		d_bergramo
+		d_borgomanero
+		d_brescia
+		d_como
+		d_domodossola
+		d_lecco
+		d_leventina
+		d_lugano
+		d_maggia
+		d_milano
+		d_valtellina
+	}
+	1260 = {
+		military = 1.5
+		economy = 1.0
+		culture = 1.5
+	}
+	1500 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

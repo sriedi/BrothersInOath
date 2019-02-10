@@ -1,0 +1,17 @@
+# c_ermatingen
+
+# County Title
+title = c_ermatingen
+
+# Settlements
+max_settlements = 3
+
+b_ermatingen = castle
+b_salenstein = castle
+b_berlingen = city
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

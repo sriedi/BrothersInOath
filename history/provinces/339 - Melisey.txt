@@ -1,0 +1,19 @@
+# c_melisey
+
+# County Title
+title = c_melisey
+
+# Settlements
+max_settlements = 5
+
+b_melisey = castle
+b_st_bresson = temple
+b_breuchotte = castle
+b_raddon = castle
+b_st_valbert = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

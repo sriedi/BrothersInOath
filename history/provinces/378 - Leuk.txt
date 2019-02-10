@@ -1,0 +1,21 @@
+# c_leuk
+
+# County Title
+title = c_leuk
+
+# Settlements
+max_settlements = 7
+
+b_zen_ruffinen = castle
+b_leuk = city
+b_viztum = castle
+b_werra = castle
+b_st_josefsheim = temple
+b_agarn = castle
+b_ringacker = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,141 @@
+republic_governments = {
+
+guild_republic_government = {
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			TRADE_POST
+			CITY
+			CASTLE
+			FAMILY_PALACE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CASTLE
+		}
+		accepts_liege_governments = { # Accepts other republics, feudals or Common Assemblies
+			republic_government
+			feudal_government
+			commonassembly_government
+		}
+		free_revoke_on_governments_religion = {
+			tribal_government
+		}
+		frame_suffix = "_merchantrepublic"
+		title_prefix = "city_"
+		potential = {
+			NAND = {
+				
+				controls_religion = yes
+				NOT = { religion_group = muslim }
+				NOT = { religion = norse_pagan_reformed }
+			}
+			is_female = no
+			OR = {
+				AND = {
+					is_patrician = yes
+					OR = {
+						liege_before_war = {
+							NOT = { character = PREV }
+							is_merchant_republic = yes
+							NOT = {
+								liege_before_war = {
+									NOT = { character = PREV }
+									is_merchant_republic = yes
+								}
+							}
+						}
+						has_game_started = no
+					}
+				}
+				AND = {
+					OR = {
+						AND = {
+							has_game_started = yes
+							is_merchant_republic = yes
+						}
+					}
+					higher_real_tier_than = count
+					any_demesne_province = {
+						always = yes
+					}
+					NOT = {
+						liege_before_war = {
+							NOT = { character = PREV }
+							is_merchant_republic = yes
+						}
+					}
+				}
+			}
+		}
+		
+		color = { 250 0 0 }
+		
+		merchant_republic = yes
+		
+		ignore_in_vassal_limit_calculation = {
+		  feudal_government
+		  commonassembly_government
+		}
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+		uses_bride_price = yes
+		can_build_tribal = no
+		commander_limit = 5
+		capital_move_delay = 600
+	}
+
+}
+
+feudal_governments = {
+
+	commonassembly_government ={
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			CASTLE 
+			CITY
+			FORT
+			HOSPITAL
+		}
+		potential = {
+			NAND = {
+				controls_religion = yes
+				}
+			is_female = no
+			OR = {
+					culture = middle_alemannic
+					culture = high_alemannic
+				}	
+		}
+		accepts_liege_governments = { # Accepts other republics or Common Assemblies
+			republic_government
+			commonassembly_government
+		}
+		color = { 250 250 0 }
+		frame_suffix = "_republic"
+		title_prefix = "commonassebly_"
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = yes
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+		uses_bride_price = yes
+		can_build_tribal = no
+		commander_limit = 10
+		capital_move_delay = 600
+		vassal_call_to_arms = {
+			feudal_government
+			merchant_republic_government
+			theocracy_government
+			commonassembly_government
+		}
+	}
+	
+}

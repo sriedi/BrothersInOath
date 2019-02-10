@@ -1,0 +1,16 @@
+# c_goeschenen
+
+# County Title
+title = c_goeschenen
+
+# Settlements
+max_settlements = 2
+
+b_langflue = castle
+b_goeschenen = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

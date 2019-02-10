@@ -1,0 +1,21 @@
+# c_lure
+
+# County Title
+title = c_lure
+
+# Settlements
+max_settlements = 7
+
+b_adelans = castle
+b_lure = city
+b_ailloncourt = castle
+b_roye = temple
+b_lyoffans = castle
+#b_clairegoutte = temple
+#b_vouhenans = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

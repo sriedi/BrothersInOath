@@ -1,0 +1,18 @@
+# c_stanzach
+
+# County Title
+title = c_stanzach
+
+# Settlements
+max_settlements = 4
+
+b_stanzach = castle
+b_elmen = castle
+b_forchach = temple
+#b_weissenbach = castle
+
+# Misc
+culture = tirolian
+religion = catholic
+
+#History

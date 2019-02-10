@@ -1,0 +1,17 @@
+# c_martina
+
+# County Title
+title = c_martina
+
+# Settlements
+max_settlements = 3
+
+b_tschanueff = castle
+b_martina = temple
+#b_martina_2 = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

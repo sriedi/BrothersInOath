@@ -1,0 +1,19 @@
+# c_naefels
+
+# County Title
+title = c_naefels
+
+# Settlements
+max_settlements = 5
+
+b_mollis = castle
+b_st_hillarius = temple
+b_naefels = city
+#b_naefels_2 = castle
+#b_naefels_3 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

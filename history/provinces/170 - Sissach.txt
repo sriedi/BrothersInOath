@@ -1,0 +1,21 @@
+# c_sissach
+
+# County Title
+title = c_sissach
+
+# Settlements
+max_settlements = 7
+
+b_sissach = castle
+b_gelterkirchen = city
+b_himmelrain = castle
+b_st_jakob_3 = temple
+b_bischofstein = castle
+b_farnsburg = castle
+b_homburg_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_engen
+
+# County Title
+title = c_engen
+
+# Settlements
+max_settlements = 7
+
+b_tengen = castle
+b_engen = city
+b_hohenhewen = castle
+b_neuhewen = castle
+b_blumberg = temple
+#b_engen_2 = temple
+#b_engen_3 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

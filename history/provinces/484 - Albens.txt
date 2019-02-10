@@ -1,0 +1,21 @@
+# c_albens
+
+# County Title
+title = c_albens
+
+# Settlements
+max_settlements = 7
+
+b_albens = castle
+b_st_germain_2 = temple
+b_st_felix = temple
+b_alby = castle
+b_viuz = castle
+#b_quintal = temple
+#b_le_treige = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

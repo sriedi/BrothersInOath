@@ -1,0 +1,17 @@
+# c_elm
+
+# County Title
+title = c_elm
+
+# Settlements
+max_settlements = 3
+
+b_matt = castle
+b_elm = castle
+#b_elm_2 = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

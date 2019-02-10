@@ -1,0 +1,21 @@
+# c_herblingen
+
+# County Title
+title = c_herblingen
+
+# Settlements
+max_settlements = 7
+
+b_stetten_2 = castle
+b_herblingen = city
+b_lohn_2 = temple
+b_laengebaerg = castle
+#b_herblingen_2 = city
+#b_herblingen_3 = temple
+#b_herblingen_4 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

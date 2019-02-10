@@ -1,0 +1,20 @@
+# c_oensingen
+
+# County Title
+title = c_oensingen
+
+# Settlements
+max_settlements = 6
+
+b_bechburg = castle
+b_erlisburg = castle
+b_oensingen = city
+b_wolfwil = temple
+#b_oensingen_2 = city
+#b_oensingen_3 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

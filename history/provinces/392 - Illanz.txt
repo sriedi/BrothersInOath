@@ -1,0 +1,19 @@
+# c_illanz
+
+# County Title
+title = c_illanz
+
+# Settlements
+max_settlements = 5
+
+b_luvis = castle
+b_grueneck = castle
+b_castrisch = castle
+#b_illanz = castle
+#b_illanz_2 = city
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

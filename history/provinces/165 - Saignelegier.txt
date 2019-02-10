@@ -1,0 +1,18 @@
+# c_saignelegier
+
+# County Title
+title = c_saignelegier
+
+# Settlements
+max_settlements = 4
+
+b_montfaucon = castle
+b_saignelegier = city
+b_st_brais = temple
+#b_saignelegier_2 = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

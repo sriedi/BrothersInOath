@@ -1,0 +1,19 @@
+# c_brienz
+
+# County Title
+title = c_brienz
+
+# Settlements
+max_settlements = 5
+
+b_fluhberg = castle
+b_brienz = city
+b_schwanden_2 = temple
+b_wychelmatten = castle
+#b_ballenberg = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

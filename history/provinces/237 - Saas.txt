@@ -1,0 +1,19 @@
+# c_saas
+
+# County Title
+title = c_saas
+
+# Settlements
+max_settlements = 5
+
+b_saas_balen = castle
+b_saas_grund = city
+b_saas_fee = temple
+b_saas_almagell = castle
+b_eistein = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

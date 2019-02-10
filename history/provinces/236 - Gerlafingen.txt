@@ -1,0 +1,21 @@
+# c_gerlafingen
+
+# County Title
+title = c_gerlafingen
+
+# Settlements
+max_settlements = 7
+
+b_halten = castle
+b_geralfingen = city
+b_bleichenberg = temple
+b_biberist = city
+b_kriegstetten = castle
+#b_oberdorf = temple
+#b_recherswil = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

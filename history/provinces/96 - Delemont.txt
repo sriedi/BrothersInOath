@@ -1,0 +1,20 @@
+# c_delemont
+
+# County Title
+title = c_delemont
+
+# Settlements
+max_settlements = 6
+
+b_raimontpierre = castle
+b_delemont = city
+b_loewenburg = castle
+b_saugern = castle
+#b_delemont_2 = city
+#b_delemont_3 = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

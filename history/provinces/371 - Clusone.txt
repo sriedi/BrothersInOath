@@ -1,0 +1,19 @@
+# c_clusone
+
+# County Title
+title = c_clusone
+
+# Settlements
+max_settlements = 5
+
+b_clusone = castle
+b_ponte_nossa = temple
+b_vertova = castle
+b_gandino = temple
+#b_schilpario = city
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

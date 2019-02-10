@@ -1,0 +1,21 @@
+# c_montbeliard
+
+# County Title
+title = c_montbeliard
+
+# Settlements
+max_settlements = 7
+
+b_montbeliard = castle
+b_audicourt = city
+b_st_suzanne = temple
+b_charmont = castle
+b_fesches = castle
+b_st_maurice_6 = temple
+#b_dung = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

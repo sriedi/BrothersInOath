@@ -1,0 +1,21 @@
+# c_eglisau
+
+# County Title
+title = c_eglisau
+
+# Settlements
+max_settlements = 7
+
+b_eglisau = castle
+b_eglisau_2 = city
+b_buchberg = temple
+b_ruedlingen = castle
+b_rafz = city
+#b_eglisau_3 = temple
+#b_eglisau_4 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

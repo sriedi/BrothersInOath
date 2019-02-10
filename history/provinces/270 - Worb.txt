@@ -1,0 +1,21 @@
+# c_worb
+
+# County Title
+title = c_worb
+
+# Settlements
+max_settlements = 7
+
+b_worb = castle
+b_muri_4 = city
+b_guemlingen = castle
+#b_schlosswil = castle
+#b_vechigen = city
+#b_stetteln = temple
+#b_lindental = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,17 @@
+# c_buochs
+
+# County Title
+title = c_buochs
+
+# Settlements
+max_settlements = 3
+
+b_buochs = castle
+b_ennetbuergen = city
+b_buergerstock = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

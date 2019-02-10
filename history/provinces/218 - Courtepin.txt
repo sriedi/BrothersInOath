@@ -1,0 +1,21 @@
+# c_courtepin
+
+# County Title
+title = c_courtepin
+
+# Settlements
+max_settlements = 7
+
+b_barbereche = castle
+b_courtepin = city
+b_vivy = castle
+b_courtion = temple
+b_st_etienne = temple
+#b_la_barretta = temple
+#b_pensier = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

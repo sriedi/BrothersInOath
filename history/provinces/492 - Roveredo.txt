@@ -1,0 +1,18 @@
+# c_roveredo
+
+# County Title
+title = c_roveredo
+
+# Settlements
+max_settlements = 4
+
+b_torre_palas = castle
+b_san_vittore = temple
+b_roveredo = city
+#b_roveredo_2 = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+terrain = mountain
+#History

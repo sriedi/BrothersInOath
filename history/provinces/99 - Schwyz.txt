@@ -1,0 +1,19 @@
+# c_schwyz
+
+# County Title
+title = c_schwyz
+
+# Settlements
+max_settlements = 5
+
+b_brunnen = castle
+b_schwyz = city
+b_seewen = temple
+#b_schwyz_2 = castle
+#b_schwyz_3 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

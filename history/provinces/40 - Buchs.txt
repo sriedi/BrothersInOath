@@ -1,0 +1,18 @@
+# c_buchs
+
+# County Title
+title = c_buchs
+
+# Settlements
+max_settlements = 4
+
+b_werdenberg = castle
+b_buchs = city
+b_hohensax = castle
+#b_buchs_2 = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+
+#History

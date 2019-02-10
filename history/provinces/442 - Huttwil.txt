@@ -1,0 +1,18 @@
+# c_huttwil
+
+# County Title
+title = c_huttwil
+
+# Settlements
+max_settlements = 4
+
+b_rohrbach = castle
+b_huttwil = city
+#b_blatteberg = temple
+#b_auswil = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

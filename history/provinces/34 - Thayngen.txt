@@ -1,0 +1,18 @@
+# c_thayngen
+
+# County Title
+title = c_thayngen
+
+# Settlements
+max_settlements = 4
+
+b_thayngen = castle
+b_thayngen_2 = temple
+#b_doerflingen = temple
+#b_lohn = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

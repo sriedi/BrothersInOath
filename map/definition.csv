@@ -1,0 +1,549 @@
+province;red;green;blue;x;x
+1;204;224;206;Edolo;x
+2;131;188;139;Buldenz;x
+3;0;88;9;Steckborn;x
+4;145;80;155;La Cluzaz;x
+5;149;64;159;Zernez;x
+6;77;104;65;Greifensee;x
+7;88;208;74;Gossau;x
+8;61;144;46;Wassen;x
+9;108;124;123;Saulx;x
+10;62;180;38;Pampigny;x
+11;223;104;199;Monthey;x
+12;125;168;98;Laufen;x
+13;68;100;100;Morobbia;x
+14;121;132;92;Taminatal;x
+15;161;76;136;Tirano;x
+16;162;168;136;Orbe;x
+17;100;208;78;Kloten;x
+18;152;144;178;Teufen;x
+19;206;88;226;Sargans;x
+20;134;232;171;Maggiore;x
+21;255;8;210;Glanzenberg;x
+22;173;124;156;Waedenswil;x
+23;106;152;94;Interlaken;x
+24;80;172;101;Urnaesch;x
+25;131;108;189;Rhine;x
+26;62;156;0;Warth;x
+27;255;240;188;Signau;x
+28;164;168;226;Bischofszell;x
+29;166;216;239;Ins;x
+30;115;56;63;Rochejean;x
+31;198;92;137;Avry;x
+32;115;200;39;St. Germain;x
+33;226;184;181;Kandertal;x
+34;36;232;115;Thayngen;x
+35;88;188;0;Stilfs;x
+36;219;220;130;Saxon;x
+37;246;232;175;Lake Lucern;x
+38;175;220;246;Kuessnacht;x
+39;103;220;56;Egg;x
+40;128;100;228;Buchs;x
+41;209;228;181;Martina;x
+42;56;64;93;Zollighofen;x
+43;134;124;225;Cossonay;x
+44;63;144;86;Gland;x
+45;148;144;255;Rhine Bow;x
+46;58;144;86;Kerzers;x
+47;195;92;178;Rioz;x
+48;254;224;139;Iberg;x
+49;76;136;58;Jussey;x
+50;240;168;137;Muensterlingen;x
+51;222;44;164;Ischgl;x
+52;54;176;74;Zogo;x
+53;129;192;0;Ravensburg;x
+54;46;180;172;Sondalo;x
+55;244;76;119;Morat;x
+56;235;104;109;Weesen;x
+57;139;116;0;Immerstadt;x
+58;229;172;105;Lake Sihl;x
+59;140;148;0;Ermatingen;x
+60;217;200;87;Villmergen;x
+61;233;108;102;Castellard;x
+62;156;108;12;Bonneville;x
+63;242;172;98;Luessel;x
+64;179;160;34;Simmental;x
+65;204;192;93;Wynigen;x
+66;82;80;198;Bons;x
+67;40;72;189;Lake Arbon;x
+68;181;168;32;Muestair;x
+69;242;132;100;Visp;x
+70;191;76;41;Aarau;x
+71;211;196;74;Rougemont;x
+72;163;124;63;Buochs;x
+73;178;92;44;Chateauvieux;x
+74;209;204;79;Davos;x
+75;235;180;75;Burgdorf;x
+76;200;192;106;Naefels;x
+77;33;244;133;Brescia;x
+78;189;152;24;Argera;x
+79;234;240;79;Waldshut;x
+80;89;68;255;Balderschwang;x
+81;187;212;17;Wittelsheim;x
+82;214;188;123;Lake Bregenz;x
+83;174;52;0;Dielsdorf;x
+84;202;188;123;Martigny;x
+85;105;160;221;Erincourt;x
+86;121;168;193;Basel;x
+87;193;136;121;Pratteln;x
+88;50;160;143;Muster;x
+89;221;220;99;Suze;x
+90;137;108;77;Aubonne;x
+91;202;108;12;Conflans;x
+92;241;188;55;Reute;x
+93;139;232;76;Kriens;x
+94;35;168;228;Bonaduz;x
+95;91;168;151;Bremgarten;x
+96;120;204;181;Delemont;x
+97;239;104;62;Porrentruy;x
+98;147;152;64;Sancey-le-Grand;x
+99;160;128;120;Schwyz;x
+100;209;160;52;St. Dennis;x
+101;140;204;106;Rheinfelden;x
+102;53;100;220;Lutry;x
+103;70;152;175;Waengital;x
+104;0;204;234;East Lake Leman;x
+105;190;68;84;Schwanden;x
+106;121;160;149;East Lake Neuchatel;x
+107;13;104;255;West Lake Leman;x
+108;227;76;17;Alpnach;x
+109;107;244;152;Aigle;x
+110;22;208;226;Lake Lachen;x
+111;255;160;11;Locarno;x
+112;167;0;94;Ardon;x
+113;254;156;2;Rhine #2;x
+114;166;180;88;Rigny;x
+115;190;64;64;Bern;x
+116;255;0;0;Alpes;x
+117;255;192;0;Frauenfeld;x
+118;0;0;255;Upper Lake Constance;x
+119;152;93;152;Central Lake Constance;x
+120;168;117;172;Brig;x
+121;128;181;133;Limpachtal;x
+122;238;81;232;Laufenburg;x
+123;132;161;136;Lucens;x
+124;51;97;39;Annemasse;x
+125;204;185;236;Brenno;x
+126;114;181;80;Lindau;x
+127;123;25;88;Gais;x
+128;74;133;110;Echallens;x
+129;86;157;113;Montbeliard;x
+130;80;105;125;Sempach;x
+131;145;85;191;Morez;x
+132;120;181;87;Vanzone;x
+133;11;161;36;Schluchsee;x
+134;233;113;211;Rumilly;x
+135;114;157;72;Rorschach;x
+136;166;209;157;Mid Lake Leman;x
+137;190;141;130;Kempten;x
+138;138;37;181;Zug;x
+139;140;97;204;Herblingen;x
+140;67;97;0;Schaffhausen;x
+141;237;145;168;Faverney;x
+142;157;133;213;Schopfheim;x
+143;53;157;121;Birseck;x
+144;35;149;110;Tafers;x
+145;202;197;135;Regensdorf;x
+146;207;29;157;Vals;x
+147;114;241;38;Konstanz;x
+148;204;33;154;Lecco;x
+149;137;117;210;Schaenis;x
+150;214;189;136;Lake Lario;x
+151;229;173;186;Glarus;x
+152;196;53;164;Engen;x
+153;254;109;156;Rhine #3;x
+154;62;85;93;Bueren;x
+155;230;197;133;Wyne;x
+156;10;117;110;Rhine #4;x
+157;0;217;100;Knonau;x
+158;28;73;123;Mals;x
+159;160;121;200;La Cure;x
+160;90;133;51;Faverges;x
+161;21;165;120;Einsideln;x
+162;42;85;68;Biere;x
+163;71;97;40;Schwarzsee;x
+164;182;61;193;Faido;x
+165;152;189;24;Saignelegier;x
+166;209;197;80;Balzers;x
+167;170;113;40;Lake Biel;x
+168;186;73;57;St. Gervais;x
+169;24;21;156;Hohenrain;x
+170;11;161;142;Sissach;x
+171;255;205;119;Lake Hallwil;x
+172;107;225;226;Gersau;x
+173;52;145;185;Simplon;x
+174;186;157;52;Grindelwald;x
+175;163;125;48;Thun;x
+176;210;173;70;Rhine #5;x
+177;149;77;0;Lungern;x
+178;51;221;170;Lake Lungern;x
+179;242;181;104;Waldstatt;x
+180;121;129;226;Upper Lake;x
+181;183;89;42;Pfaeffikon;x
+182;240;141;111;Baceno;x
+183;85;121;202;Sattel;x
+184;157;25;61;Stockach;x
+185;175;169;12;Lure;x
+186;205;65;105;Albula;x
+187;232;97;79;Cham;x
+188;53;205;146;Bellinzona;x
+189;255;249;88;Como;x
+190;38;181;143;Erstfeld;x
+191;92;197;246;Neuchatel;x
+192;112;157;218;Sion;x
+193;181;145;25;Romont;x
+194;198;153;106;Altkirch;x
+195;106;145;198;Muehlhausen;x
+196;174;41;0;Belfort;x
+197;56;65;151;Elm;x
+198;21;181;164;Viznau;x
+199;229;161;87;Gattinara;x
+200;192;217;117;Aarberg;x
+201;3;193;182;Chur;x
+202;141;137;59;Taninges;x
+203;20;117;162;Delley;x
+204;35;81;149;Bellegarde;x
+205;55;105;128;Cluses;x
+206;58;137;141;Zollikon;x
+207;91;221;236;Altdorf;x
+208;235;237;82;Estavayer;x
+209;132;153;68;Oron;x
+210;143;65;78;Abondance;x
+211;164;181;101;Neunkirch;x
+212;69;89;135;Utzenstorf;x
+213;182;185;114;Realp;x
+214;121;213;189;Chiavenna;x
+215;57;197;255;Hauenstein;x
+216;115;173;187;Salins;x
+217;111;193;166;Winterthur;x
+218;255;161;51;Courtepin;x
+219;224;65;46;Goeschenen;x
+220;255;169;46;Habsburg;x
+221;21;21;198;St. Pierre;x
+222;21;121;198;Valpelline;x
+223;150;157;66;Varese;x
+224;181;189;97;Allensbach;x
+225;20;165;207;Banges;x
+226;103;69;187;Kessbronn;x
+227;0;221;221;Airolo;x
+228;31;73;192;Luino;x
+229;81;129;177;Schwarzenburg;x
+230;17;109;240;Engelberg;x
+231;79;153;173;Lindenberg;x
+232;203;121;40;Chambery;x
+233;239;209;12;Nyon;x
+234;209;141;53;Solothurn;x
+235;151;229;115;Zuerich;x
+236;36;137;194;Gerlafingen;x
+237;97;69;134;Saas;x
+238;232;93;0;Andelfingen;x
+239;32;205;200;Lower Valley Rhine;x
+240;71;189;174;Schwellbrunn;x
+241;166;173;79;Arosa;x
+242;167;201;75;Sedrun;x
+243;42;93;196;Celigny;x
+244;76;93;163;Etuz;x
+245;78;149;161;St. Cergune;x
+246;130;177;118;Wehr;x
+247;121;193;141;Morbegno;x
+248;113;169;135;Wiesendangen;x
+249;85;105;172;Gruyeres;x
+250;59;209;192;Jestetten;x
+251;82;213;172;Besancon;x
+252;211;134;210;St. Moritz;x
+253;206;14;199;Shilquell;x
+254;119;238;125;Unterseen;x
+255;104;194;102;Hauterive;x
+256;129;190;142;Gstaad;x
+257;59;106;43;Champagnole;x
+258;179;118;162;Mariastein;x
+259;143;130;155;Scuol;x
+260;143;106;153;Eglisau;x
+261;68;114;92;Annecy;x
+262;91;174;64;Muensingen;x
+263;63;182;35;Lake Thun;x
+264;82;106;77;Montgesoye;x
+265;155;174;132;Muri;x
+266;169;30;182;Lower Rhine;x
+267;166;178;134;Langenthal;x
+268;206;158;239;Le Russey;x
+269;85;70;126;Surpierre;x
+270;156;206;177;Worb;x
+271;135;66;170;Omegna;x
+272;76;230;99;Villersexel;x
+273;140;182;191;Altstaetten;x
+274;139;190;178;Wildhaus;x
+275;58;166;0;Vernier;x
+276;220;98;224;Guebwiller;x
+277;142;34;179;Rhine #6;x
+278;135;126;184;Horgen;x
+279;244;22;203;Romanshorn;x
+280;209;250;145;Schoeftland;x
+281;105;198;43;Evian;x
+282;188;190;255;Entlebuch;x
+283;102;118;37;Meilen;x
+284;81;162;27;Gallarate;x
+285;41;158;99;Uznach;x
+286;82;138;25;Levier;x
+287;144;222;192;La Sarraz;x
+288;80;166;0;Stein;x
+289;4;130;87;Domodossola;x
+290;107;98;56;Oberguenzburg;x
+291;161;234;245;Darfo;x
+292;146;102;197;Rapperswil;x
+293;164;254;254;Amriswil;x
+294;32;110;126;Thalwil;x
+295;45;138;115;Milano;x
+296;203;66;148;Gex;x
+297;134;102;230;Lake Locarno;x
+298;166;130;199;Wangen;x
+299;53;182;81;St. Sulpice;x
+300;255;214;155;Rhine Delta;x
+301;26;126;127;Bassecourt;x
+302;228;222;130;Lake Brienz;x
+303;100;2;2;Borgomanero;x
+304;203;94;163;Ronchamp;x
+305;72;150;34;Beckenried;x
+306;48;90;90;Lech;x
+307;164;122;200;Saentis;x
+308;231;230;137;Lake Baldegg;x
+309;200;202;166;Lake Iseo;x
+310;107;50;26;Marktoberdorf;x
+311;6;146;115;Baden;x
+312;192;134;182;Aare River;x
+313;95;194;37;St. Anton;x
+314;36;162;95;Bad Zurzach;x
+315;37;158;88;Maggia;x
+316;0;114;126;Uberlingen;x
+317;128;234;255;Landenberg;x
+318;239;234;111;Ceneri;x
+319;78;42;204;Seelisberg;x
+320;122;150;255;Porlezza;x
+321;168;194;46;Payerne;x
+322;145;106;23;Kuessaburg;x
+323;40;78;175;Moutier;x
+324;156;110;23;Raron;x
+325;229;142;104;Maloja;x
+326;114;94;255;Livigno;x
+327;93;158;204;Sumiswald;x
+328;102;134;247;Appenzell;x
+329;169;114;58;Wittenwil;x
+330;181;94;33;Versoix;x
+331;10;146;159;Zuoz;x
+332;114;194;235;Reichenau;x
+333;243;162;104;Uzwil;x
+334;221;134;64;Willisau;x
+335;244;194;107;St. Maurice;x
+336;45;154;178;Buelach;x
+337;21;106;138;Bivio;x
+338;145;174;48;Gaienhofen;x
+339;107;182;201;Melisey;x
+340;167;86;0;Vandoevres;x
+341;214;142;113;Bravuogn;x
+342;3;142;169;Sins;x
+343;98;206;200;Lake Aegeri;x
+344;198;106;106;Bad Krozingen;x
+345;239;102;66;Chiasso;x
+346;215;194;120;Central Lake Neuchatel;x
+347;203;54;100;Centovalli;x
+348;135;154;53;Henggart;x
+349;21;158;167;San Bernhardino;x
+350;111;50;221;Leutkirch;x
+351;108;202;223;Lake Sarnen;x
+352;117;198;198;Thusis;x
+353;55;190;131;Beaufort;x
+354;206;98;123;Lake Damm;x
+355;0;170;185;Lake Gersau;x
+356;115;238;201;Onex;x
+357;37;114;158;Bavona;x
+358;97;194;221;Heiden;x
+359;145;58;47;Lelex;x
+360;187;194;5;Le Locle;x
+361;79;238;240;Sarnen;x
+362;138;170;75;Mesocco;x
+363;172;90;110;Koeniz;x
+364;106;162;172;Lake Verbania;x
+365;194;94;5;Colombier;x
+366;77;250;138;Lake Brunnen;x
+367;193;166;6;Buchhorn;x
+368;159;162;84;Mariano;x
+369;66;138;143;Verzasca;x
+370;209;214;0;Upper Valley Rhine;x
+371;33;78;244;Clusone;x
+372;140;78;84;Herisau;x
+373;131;90;90;Montfort;x
+374;76;102;150;Confracourt;x
+375;255;114;37;Olten;x
+376;246;114;45;Montferrand;x
+377;165;202;123;Geneve;x
+378;174;218;112;Leuk;x
+379;167;218;71;Vallee de Joux;x
+380;206;54;46;Lake Pfaeffikon;x
+381;178;22;80;Weissenstein;x
+382;132;62;103;Calanca;x
+383;227;134;0;Gonten;x
+384;228;182;0;Stans;x
+385;146;174;116;Muotatal;x
+386;243;178;27;Kyburg;x
+387;161;166;74;Rougemont_2;x
+388;194;46;46;Avenches;x
+389;77;174;161;Balsthal;x
+390;167;110;86;Spiez;x
+391;108;142;157;Brienz;x
+392;156;122;109;Illanz;x
+393;109;166;159;Bergamo;x
+394;84;162;167;Todtnau;x
+395;49;170;194;Lake Walen;x
+396;110;78;155;Morges;x
+397;245;138;0;Stuehlingen;x
+398;182;106;65;Gaggiolo;x
+399;66;66;186;Sierre;x
+400;140;154;118;Menthon;x
+401;212;62;41;Wenignen;x
+402;232;62;22;Arbon;x
+403;255;142;0;Landeck;x
+404;23;99;23;Lugano;x
+405;99;143;97;Frangy;x
+406;188;255;190;Escholzmatt;x
+407;166;255;174;Val de Travers;x
+408;196;143;204;Lenzburg;x
+409;72;235;64;Lake Viznau;x
+410;147;255;152;Nesslau;x
+411;13;111;0;Verbania;x
+412;96;131;109;Avers;x
+413;115;75;125;Pontarlier;x
+414;182;135;185;Loerrach;x
+415;95;199;79;Walenstadt;x
+416;135;91;149;Dornbirn;x
+417;180;103;160;Morzine;x
+418;202;251;210;West Lake Neuchatel;x
+419;115;159;111;Frasne;x
+420;141;199;144;Cross Lake;x
+421;131;115;163;Campo;x
+422;33;139;0;Saint-Croix;x
+423;233;135;200;Lake Tuggen;x
+424;98;175;64;Aosta;x
+425;130;191;161;Lake Ceresio;x
+426;20;207;60;St. Bernard;x
+427;115;103;69;St. Claude;x
+428;104;139;80;Rhine #7;x
+429;71;127;123;Vesoul;x
+430;230;119;218;St.Gallen;x
+431;148;67;169;Vaucluse;x
+432;178;247;143;Ageri;x
+433;125;55;61;Stanzach;x
+434;201;255;138;Lake Uri;x
+435;140;223;201;Neuenstadt;x
+436;202;55;140;Flumet;x
+437;255;255;185;Etroubles;x
+438;200;227;128;Riggisberg;x
+439;155;171;211;Praettigau;x
+440;255;247;181;Yverdon;x
+441;236;239;166;Lake Murten;x
+442;146;95;198;Huttwil;x
+443;62;195;106;Goms;x
+444;86;27;0;Fiesch;x
+445;194;91;149;Randenberg;x
+446;165;207;255;Lake Como;x
+447;195;215;164;Riehen;x
+448;198;63;174;Reiden;x
+449;86;139;60;Lieu-Croissant;x
+450;250;219;145;Zofingen;x
+451;250;167;145;Sursee;x
+452;85;187;62;Lake Zug;x
+453;173;143;195;Truns;x
+454;98;127;13;Biel;x
+455;255;211;141;Emmen;x
+456;0;215;116;Frickingen;x
+457;99;115;22;Breitlandenberg;x
+458;53;99;67;Lausanne;x
+459;120;131;0;St. Niklaus;x
+460;231;139;103;Luxeuil;x
+461;30;103;157;Klausenpass;x
+462;74;167;207;Pfungen;x
+463;104;59;237;Singen;x
+464;4;75;130;Lake Orta;x
+465;117;231;242;Moudon;x
+466;76;235;203;Cossato;x
+467;218;11;80;Rhine #8;x
+468;106;167;224;Feldegg;x
+469;116;151;255;Oberhofen;x
+470;126;207;240;St. Ursainne;x
+471;3;83;140;Gethod;x
+472;108;255;253;Lake Alpnach;x
+473;89;195;200;Wollishofen;x
+474;95;203;201;Lake Arona;x
+475;27;103;130;Vallorbe;x
+476;154;135;0;Laupen;x
+477;79;167;212;Intyamon;x
+478;195;207;88;Sondrio;x
+479;0;167;157;Dixence;x
+480;150;215;54;Fischingen;x
+481;108;171;204;Meersburg;x
+482;255;127;95;Sonthofen;x
+483;78;139;234;Poschiavo;x
+484;99;135;197;Albens;x
+485;201;99;111;Vevey;x
+486;166;175;0;Faellanden;x
+487;45;67;133;Lake Kussnacht;x
+488;96;131;201;Lake Lecco;x
+489;28;227;183;Schongau;x
+490;213;67;120;Glodau;x
+491;244;191;89;Legnano;x
+492;237;203;66;Roveredo;x
+493;71;227;247;Lake Annecy;x
+494;87;207;229;Varallo;x
+495;29;255;174;Oberegg;x
+496;116;199;194;Navisence;x
+497;255;75;72;Weinfelden;x
+498;147;135;41;Chaudefontaine;x
+499;45;119;150;Moltrasio;x
+500;148;71;40;Montfaucon;x
+501;56;143;132;Schaffhausen Rhine;x
+502;214;179;107;Thones;x
+503;137;187;55;St.Fiden;x
+504;0;179;191;Muellheim;x
+505;224;171;35;Meiringen;x
+506;180;203;119;Luzern;x
+507;133;163;65;Elgg;x
+508;201;119;12;Jegenstorf;x
+509;0;107;198;Zermatt;x
+510;24;219;222;Schlieren;x
+511;175;183;104;Melchtal;x
+512;176;71;120;Amsteg;x
+513;115;131;186;Cicon;x
+514;0;143;202;Grandson;x
+515;70;83;136;Coppet;x
+516;206;79;0;Bonstetten;x
+517;94;131;145;Rhine #9;x
+518;255;255;46;Lake Greifen;x
+519;244;155;38;Vaduz;x
+520;21;183;198;Chatillon;x
+521;64;139;148;Eggiwil;x
+522;31;59;202;Le Thillot;x
+523;195;115;22;Lenk;x
+524;108;143;186;Grenchen;x
+525;152;163;79;Linthtal;x
+526;39;115;255;Lake Lugano;x
+527;68;127;157;Boege;x
+528;221;159;4;Bregenz;x
+529;143;167;84;Hueningen;x
+530;211;255;8;St. Margreten;x
+531;172;87;112;Lake Zuerich;x
+532;152;115;68;Oberstdorf;x
+533;229;235;59;Brgosesia;x
+534;87;131;181;Scopello;x
+535;45;187;196;Fribourg;x
+536;234;255;0;Uetliberg;x
+537;115;79;158;Epeugney;x
+538;255;235;18;Oensingen;x
+539;222;219;51;Lake Sempach;x
+540;199;99;41;Cruseilles;x
+541;232;219;26;Diessenhofen;x
+542;107;155;159;Staefa;x
+543;59;171;206;Lake Saint-Point;x
+544;103;59;158;Freienbach;x
+545;208;131;46;Gotthard;x
+546;0;139;255;Rhine Drain;x
+547;0;255;255;Lower Lake Constance;x
+548;168;171;90;Kienberg;x

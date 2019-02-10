@@ -1,0 +1,21 @@
+# c_dielsdorf
+
+# County Title
+title = c_dielsdorf
+
+# Settlements
+max_settlements = 7
+
+b_suenikon = castle
+b_dielsdorf = city
+b_glatt = castle
+#b_laengern = castle
+#b_dielsdorf_2 = city
+#b_dielsdorf_3 = temple
+#b_dielsdorf_4 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

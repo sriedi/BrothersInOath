@@ -1,0 +1,19 @@
+# c_bonstetten
+
+# County Title
+title = c_bonstetten
+
+# Settlements
+max_settlements = 5
+
+b_bonstetten = castle
+b_stallikon = temple
+#b_wettswil = temple
+#b_sellenbueren = castle
+#b_schachen = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_luxeuil
+
+# County Title
+title = c_luxeuil
+
+# Settlements
+max_settlements = 7
+
+b_froideconche = castle
+b_luxeuil = city
+b_st_sauveur = temple
+b_st_valber = temple
+b_st_marie_2 = temple
+#b_breuches = temple
+#b_fontaine = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

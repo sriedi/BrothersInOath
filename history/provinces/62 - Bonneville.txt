@@ -1,0 +1,21 @@
+# c_bonneville
+
+# County Title
+title = c_bonneville
+
+# Settlements
+max_settlements = 7
+
+b_la_roche_2 = castle
+b_bonneville = city
+b_st_laurent_2 = temple
+b_st_sixt = temple
+b_brizon = castle
+b_marignier = castle
+#b_thyez = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

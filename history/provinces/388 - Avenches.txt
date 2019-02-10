@@ -1,0 +1,21 @@
+# c_avenches
+
+# County Title
+title = c_avenches
+
+# Settlements
+max_settlements = 7
+
+b_avanches = castle
+b_avanches_2 = city
+b_nant = castle
+b_salavaux = temple
+b_cudrefin = temple
+#b_villarepos = temple
+#b_vallamand = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

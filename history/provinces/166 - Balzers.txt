@@ -1,0 +1,20 @@
+# c_balzers
+
+# County Title
+title = c_balzers
+
+# Settlements
+max_settlements = 6
+
+b_gutenberg = castle
+b_balzers = city
+b_triesen = temple
+b_triesenberg = castle
+#b_chrup = city
+#b_garnis = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+
+#History

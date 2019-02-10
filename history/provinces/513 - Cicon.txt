@@ -1,0 +1,20 @@
+# c_cicon
+
+# County Title
+title = c_cicon
+
+# Settlements
+max_settlements = 6
+
+b_cicon = castle
+b_morteau_2 = city
+b_le_fins = temple
+b_montlebon = castle
+#b_villers_2 = city
+#b_combe = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

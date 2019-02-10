@@ -1,0 +1,21 @@
+# c_thun
+
+# County Title
+title = c_thun
+
+# Settlements
+max_settlements = 7
+
+b_thun = castle
+b_steffisburg = temple
+b_thun_2 = city
+b_thierachern = castle
+b_uetendorf = castle
+#b_seftigen = temple
+#b_huenibach = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

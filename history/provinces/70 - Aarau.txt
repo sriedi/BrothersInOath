@@ -1,0 +1,21 @@
+# c_aarau
+
+# County Title
+title = c_aarau
+
+# Settlements
+max_settlements = 7
+
+b_kuengstein = castle
+b_aarau = city
+b_rombach = city
+b_rohr = castle
+b_st_ursula = temple
+b_suhr = castle
+b_thalheim = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,17 @@
+# c_vals
+
+# County Title
+title = c_vals
+
+# Settlements
+max_settlements = 3
+
+b_surcasti = castle
+b_vella = city
+b_vals = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

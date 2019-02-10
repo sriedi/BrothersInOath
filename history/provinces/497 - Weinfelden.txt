@@ -1,0 +1,20 @@
+# c_weinfelden
+
+# County Title
+title = c_weinfelden
+
+# Settlements
+max_settlements = 6
+
+b_bussnang = castle
+b_weinfelden = city
+b_buergeln_2 = castle
+b_weinfelden_2 = temple
+#b_weinfelden_3 = city
+#b_weinfelden_4 = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

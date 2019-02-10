@@ -1,0 +1,19 @@
+# c_meiringen
+
+# County Title
+title = c_meiringen
+
+# Settlements
+max_settlements = 5
+
+b_meiringen = castle
+b_meiringen_2 = city
+b_innertkirchen = temple
+#b_meiringen_3 = castle
+#b_meiringen_4 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

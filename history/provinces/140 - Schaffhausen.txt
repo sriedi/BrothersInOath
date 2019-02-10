@@ -1,0 +1,21 @@
+# c_schaffhausen
+
+# County Title
+title = c_schaffhausen
+
+# Settlements
+max_settlements = 7
+
+b_schaffhausen = city
+b_neuhausen = city
+b_beringen = castle
+b_st_niklausen = temple
+#b_schaffhausen_2 = city
+#b_schaffhausen_3 = temple
+#b_schaffhausen_4 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

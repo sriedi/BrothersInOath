@@ -1,0 +1,21 @@
+# c_birseck
+
+# County Title
+title = c_birseck
+
+# Settlements
+max_settlements = 7
+
+b_birseck = castle
+b_reichenstein = castle
+b_arlesheim = city
+b_domeck = castle
+b_dornach = city
+b_muenchenstein = temple
+#b_birseck_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

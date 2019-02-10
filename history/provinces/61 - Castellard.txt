@@ -1,0 +1,20 @@
+# c_castellard
+
+# County Title
+title = c_castellard
+
+# Settlements
+max_settlements = 6
+
+b_castellard = castle
+b_lescheraines = castle
+#b_bellcombe = temple
+#b_mont = castle
+#b_galpigy = city
+#b_la_chappelle = temple
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

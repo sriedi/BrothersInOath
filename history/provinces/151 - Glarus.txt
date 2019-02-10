@@ -1,0 +1,20 @@
+# c_glarus
+
+# County Title
+title = c_glarus
+
+# Settlements
+max_settlements = 6
+
+b_mitloedi = castle
+b_glarus = city
+b_nestal = temple
+b_ennenda = temple
+#b_glarus_2 = city
+#b_glarus_3 = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

@@ -1,0 +1,21 @@
+# c_luino
+
+# County Title
+title = c_luino
+
+# Settlements
+max_settlements = 7
+
+b_bedero = castle
+b_luino = city
+b_monte_verene = temple
+b_sarigo = temple
+b_nasca = castle
+b_cuveglio = castle
+b_laveno = city
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

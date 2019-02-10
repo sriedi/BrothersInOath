@@ -1,0 +1,18 @@
+# c_wynigen
+
+# County Title
+title = c_wynigen
+
+# Settlements
+max_settlements = 4
+
+b_grimmestein = castle
+b_wyningen = city
+b_st_niklaus = temple
+#b_wynigen = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

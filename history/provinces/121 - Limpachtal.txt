@@ -1,0 +1,20 @@
+# c_limpachtal
+
+# County Title
+title = c_limpachtal
+
+# Settlements
+max_settlements = 6
+
+b_buchegg = castle
+b_balm = temple
+b_aetingen = castle
+b_balmegg = castle
+#b_lueterswil = city
+#b_hessigkofen = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

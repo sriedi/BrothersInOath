@@ -1,0 +1,20 @@
+# c_chur
+
+# County Title
+title = c_chur
+
+# Settlements
+max_settlements = 6
+
+b_chur = temple
+b_landquart = city
+b_chur_2 = city
+b_bernegg = castle
+#b_chur_3 = city
+#b_chur_4 = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+
+#History

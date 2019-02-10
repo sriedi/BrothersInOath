@@ -1,0 +1,21 @@
+# c_kloten
+
+# County Title
+title = c_kloten
+
+# Settlements
+max_settlements = 7
+
+b_balsberg = castle
+b_kloten = city
+b_bassersdorf = temple
+#b_kloten_2 = castle
+#b_kloten_3 = city
+#b_kloten_4 = temple
+#b_kloten_5 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

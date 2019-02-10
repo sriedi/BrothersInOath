@@ -1,0 +1,16 @@
+# c_gotthard
+
+# County Title
+title = c_gotthard
+
+# Settlements
+max_settlements = 2
+
+b_hospental = castle
+b_andermatt = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

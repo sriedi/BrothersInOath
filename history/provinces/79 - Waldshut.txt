@@ -1,0 +1,20 @@
+# c_waldshut
+
+# County Title
+title = c_waldshut
+
+# Settlements
+max_settlements = 6
+
+b_homburg = castle
+b_waldshut = city
+b_lauchringen = city
+b_kandelburg = castle
+b_weilheim = temple
+b_gurtweil = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

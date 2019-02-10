@@ -1,0 +1,21 @@
+# c_verzasca
+
+# County Title
+title = c_verzasca
+
+# Settlements
+max_settlements = 7
+
+b_contra = castle
+b_san_bartolomeo = temple
+b_corippo = castle
+#b_songono = castle
+#b_frasco = city
+#b_brione = temple
+#b_lavertezzo = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

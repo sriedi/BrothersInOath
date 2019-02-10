@@ -1,0 +1,20 @@
+# c_interlaken
+
+# County Title
+title = c_interlaken
+
+# Settlements
+max_settlements = 6
+
+b_interlaken = temple
+b_wilderswil = city
+b_unspunnen = castle
+b_weissenau = castle
+b_lauterbrunnen = temple
+#b_interlaken_2 = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

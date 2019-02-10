@@ -1,0 +1,21 @@
+# c_luessel
+
+# County Title
+title = c_luessel
+
+# Settlements
+max_settlements = 7
+
+b_baennifels = castle
+b_neuenstein = castle
+b_beinwil_2 = temple
+b_breitenbach = castle
+b_neu_thierstein = castle
+b_stuermenchopf = castle
+#b_fehren = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

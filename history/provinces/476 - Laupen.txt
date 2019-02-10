@@ -1,0 +1,21 @@
+# c_laupen
+
+# County Title
+title = c_laupen
+
+# Settlements
+max_settlements = 7
+
+b_laupen = castle
+b_guemmenen = castle
+b_boesingen = temple
+b_st_beatus = temple
+#b_muehleberg = city
+#b_neuenegg = temple
+#b_flamatt = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

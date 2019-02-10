@@ -1,0 +1,19 @@
+# c_wenignen
+
+# County Title
+title = c_wenignen
+
+# Settlements
+max_settlements = 5
+
+b_waldhausen = castle
+b_weningen = city
+b_laengern_2 = castle
+#b_fisisbach = castle
+#b_weiach = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

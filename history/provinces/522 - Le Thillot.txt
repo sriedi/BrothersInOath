@@ -1,0 +1,20 @@
+# c_le_thillot
+
+# County Title
+title = c_le_thillot
+
+# Settlements
+max_settlements = 6
+
+b_le_thillot = castle
+b_st_maurice_5 = temple
+b_ramonchamp = city
+b_bussang = temple
+b_rupt = castle
+b_st_laurent_3 = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

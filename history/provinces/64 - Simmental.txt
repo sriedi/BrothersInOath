@@ -1,0 +1,21 @@
+# c_simmental
+
+# County Title
+title = c_simmental
+
+# Settlements
+max_settlements = 7
+
+b_weissenburg = castle
+b_simmenegg = castle
+b_eichstalden = castle
+b_blankenburg = castle
+b_zweisimmen = city
+b_manneberg = castle
+b_daerstetten = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

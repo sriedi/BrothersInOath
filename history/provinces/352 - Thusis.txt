@@ -1,0 +1,19 @@
+# c_thusis
+
+# County Title
+title = c_thusis
+
+# Settlements
+max_settlements = 5
+
+b_hohenraetien_sils = castle
+b_fuerstenau = temple
+b_obertagstein_thusis = castle
+b_rietberg = castle
+#b_thusis = city
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

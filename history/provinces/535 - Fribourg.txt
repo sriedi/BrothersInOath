@@ -1,0 +1,21 @@
+# c_fribourg
+
+# County Title
+title = c_fribourg
+
+# Settlements
+max_settlements = 7
+
+b_fribourg = city
+b_marly = city
+b_givisiez = city
+b_st_nicolas = temple
+b_montorge = temple
+b_st_pierre = temple
+b_granges = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

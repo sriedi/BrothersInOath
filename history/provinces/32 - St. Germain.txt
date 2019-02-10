@@ -1,0 +1,19 @@
+# c_st_germain
+
+# County Title
+title = c_st_germain
+
+# Settlements
+max_settlements = 5
+
+b_st_germain_3 = temple
+b_vanchy = castle
+b_echallon = temple
+b_belleydoux = castle
+b_champfromier = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

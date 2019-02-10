@@ -1,0 +1,19 @@
+# c_chatillon
+
+# County Title
+title = c_chatillon
+
+# Settlements
+max_settlements = 5
+
+b_chatillon = castle
+b_st_vincent = temple
+#b_chambave = temple
+#b_st_denis_2 = castle
+#b_steirou = city
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

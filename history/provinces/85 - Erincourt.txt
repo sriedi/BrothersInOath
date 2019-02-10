@@ -1,0 +1,20 @@
+# c_erincourt
+
+# County Title
+title = c_erincourt
+
+# Settlements
+max_settlements = 6
+
+b_haute_boise = castle
+b_erincourt = city
+b_coisevaux = castle
+b_banvillars = castle
+#b_chagey = city
+#b_urcerey = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

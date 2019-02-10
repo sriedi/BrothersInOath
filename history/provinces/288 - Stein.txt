@@ -1,0 +1,20 @@
+# c_stein
+
+# County Title
+title = c_stein
+
+# Settlements
+max_settlements = 6
+
+b_hohenklingen = castle
+b_st_georgen = temple
+b_wagenhausen = temple
+b_stein = castle
+b_wolkenstein = castle
+b_st_otmar = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

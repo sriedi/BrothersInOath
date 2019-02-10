@@ -1,0 +1,18 @@
+# c_randenberg
+
+# County Title
+title = c_randenberg
+
+# Settlements
+max_settlements = 4
+
+b_randenburg = castle
+b_randenturm = castle
+b_schleitheim = city
+#b_randenberg = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

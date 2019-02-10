@@ -1,0 +1,21 @@
+# c_laufenburg
+
+# County Title
+title = c_laufenburg
+
+# Settlements
+max_settlements = 7
+
+b_homberg = castle
+b_laufenburg = castle
+b_frick = city
+b_horn = castle
+b_urgiz = castle
+b_st_paul = temple
+#b_stein_4 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_grandson
+
+# County Title
+title = c_grandson
+
+# Settlements
+max_settlements = 7
+
+b_grandson = castle
+b_bonvillars = city
+b_la_cour = castle
+b_giez = castle
+#b_grandson_2 = city
+#b_grandson_3 = temple
+#b_grandson_4 = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

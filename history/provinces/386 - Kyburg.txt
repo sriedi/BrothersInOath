@@ -1,0 +1,19 @@
+# c_kyburg
+
+# County Title
+title = c_kyburg
+
+# Settlements
+max_settlements = 5
+
+b_kyburg = castle
+b_effretikon = city
+b_illnau = temple
+b_rossberg = castle
+#b_kyburg_2 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+terrain = forest
+#History

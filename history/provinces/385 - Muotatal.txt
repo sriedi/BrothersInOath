@@ -1,0 +1,19 @@
+# c_muotatal
+
+# County Title
+title = c_muotatal
+
+# Settlements
+max_settlements = 5
+
+b_stoos = castle
+b_muotathal = city
+b_minorit = temple
+#b_muotatal = castle
+#b_muotatal_2 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

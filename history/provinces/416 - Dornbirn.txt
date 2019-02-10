@@ -1,0 +1,21 @@
+# c_dornbirn
+
+# County Title
+title = c_dornbirn
+
+# Settlements
+max_settlements = 7
+
+b_goetzis = castle
+b_dornbirn = city
+b_hohenems = temple
+b_mellau = castle
+b_reuthe = temple
+#b_bizau = temple
+#b_bezau = castle
+
+# Misc
+culture = bavarian
+religion = catholic
+
+#History

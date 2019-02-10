@@ -1,0 +1,21 @@
+# c_koeniz
+
+# County Title
+title = c_koeniz
+
+# Settlements
+max_settlements = 7
+
+b_koeniz = temple
+b_spiegel = castle
+b_gurten = castle
+b_wabern = city
+#b_schlieren_2 = city
+#b_gasel = temple
+#b_niederwangen = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

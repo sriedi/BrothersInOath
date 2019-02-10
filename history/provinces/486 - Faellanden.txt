@@ -1,0 +1,19 @@
+# c_faellanden
+
+# County Title
+title = c_faellanden
+
+# Settlements
+max_settlements = 5
+
+b_duebelstein = castle
+b_faellanden = city
+b_maur = castle
+#b_binz = castle
+#b_zumikon = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_gethod
+
+# County Title
+title = c_gethod
+
+# Settlements
+max_settlements = 6
+
+b_collex = castle
+b_genthod = city
+b_bossy = temple
+b_grand_champs = city
+b_les_fayards = castle
+b_richelien = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

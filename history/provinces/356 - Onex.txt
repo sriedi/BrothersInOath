@@ -1,0 +1,19 @@
+# c_onex
+
+# County Title
+title = c_onex
+
+# Settlements
+max_settlements = 5
+
+b_confignon = castle
+b_onex = city
+b_perly = city
+b_compesieres = temple
+b_charrot = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

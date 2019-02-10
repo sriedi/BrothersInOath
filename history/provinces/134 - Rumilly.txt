@@ -1,0 +1,21 @@
+# c_rumilly
+
+# County Title
+title = c_rumilly
+
+# Settlements
+max_settlements = 7
+
+b_boussy = castle
+b_rumilly = city
+b_st_marcel = temple
+b_montagny_2 = castle
+#b_bolye = city
+#b_st_marcel_2 = temple
+#b_sales = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

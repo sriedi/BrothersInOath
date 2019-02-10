@@ -1,0 +1,21 @@
+# c_moutier
+
+# County Title
+title = c_moutier
+
+# Settlements
+max_settlements = 7
+
+b_eschert = castle
+b_moutier = city
+b_tavannes = city
+b_pery = castle
+b_sornetan = castle
+#b_reconvilier = temple
+#b_tramelan = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

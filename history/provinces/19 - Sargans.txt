@@ -1,0 +1,18 @@
+# c_sargans
+
+# County Title
+title = c_sargans
+
+# Settlements
+max_settlements = 4
+
+b_mels = castle
+b_sargans = city
+#b_sargans_2 = temple
+#b_sargans_3 = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = hills
+#History

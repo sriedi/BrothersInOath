@@ -1,0 +1,17 @@
+# c_fischingen
+
+# County Title
+title = c_fischingen
+
+# Settlements
+max_settlements = 3
+
+b_fischingen = temple
+b_wil = city
+b_tannegg = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+terrain = hills
+#History

@@ -1,0 +1,17 @@
+# c_lungern
+
+# County Title
+title = c_lungern
+
+# Settlements
+max_settlements = 3
+
+b_rudenz = castle
+b_hunwil = castle
+b_giswil = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

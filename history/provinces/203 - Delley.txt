@@ -1,0 +1,21 @@
+# c_delley
+
+# County Title
+title = c_delley
+
+# Settlements
+max_settlements = 7
+
+b_delley = castle
+b_portalban = city
+b_st_aubin = temple
+b_carignan = temple
+#b_vallon = city
+#b_gletterens = temple
+#b_vernettes = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_lutry
+
+# County Title
+title = c_lutry
+
+# Settlements
+max_settlements = 7
+
+b_lutry = castle
+b_grandvaux = city
+b_st_martin_5 = temple
+b_cully = city
+b_st_saphorin = temple
+b_chexbres = castle
+b_chardonne = city
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

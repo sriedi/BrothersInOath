@@ -1,0 +1,18 @@
+# c_alpnach
+
+# County Title
+title = c_alpnach
+
+# Settlements
+max_settlements = 4
+
+b_alpnachstad = castle
+b_alpnach = city
+b_siebenreich = temple
+#b_alpnach_2 = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

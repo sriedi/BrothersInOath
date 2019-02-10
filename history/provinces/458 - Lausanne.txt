@@ -1,0 +1,21 @@
+# c_lausanne
+
+# County Title
+title = c_lausanne
+
+# Settlements
+max_settlements = 7
+
+b_lausanne = city
+b_st_marie = castle
+b_prilly = city
+b_pully = city
+b_vallon_2 = temple
+b_montriond = castle
+b_pully_2 = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

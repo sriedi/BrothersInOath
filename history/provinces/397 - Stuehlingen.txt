@@ -1,0 +1,21 @@
+# c_stuehlingen
+
+# County Title
+title = c_stuehlingen
+
+# Settlements
+max_settlements = 7
+
+b_hohenlupfen = castle
+b_stuehlingen = city
+b_bonndorf = temple
+b_bettmaringen = castle
+b_mauchen = castle
+#b_birkendorf = temple
+#b_schwaningen = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

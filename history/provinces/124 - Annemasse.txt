@@ -1,0 +1,21 @@
+# c_annemasse
+
+# County Title
+title = c_annemasse
+
+# Settlements
+max_settlements = 7
+
+b_charniaz = castle
+b_annemasse = city
+b_monnetier = castle
+b_morex = temple
+b_fillinges = temple
+b_peillonnex = castle
+b_nangy = city
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_jussey
+
+# County Title
+title = c_jussey
+
+# Settlements
+max_settlements = 7
+
+b_raincourt = castle
+b_jussey = city
+b_st_marcel_3 = temple
+b_montigny = castle
+b_voisey = city
+b_cendrecourt = castle
+b_guyonvelle = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

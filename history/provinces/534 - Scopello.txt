@@ -1,0 +1,18 @@
+# c_scopello
+
+# County Title
+title = c_scopello
+
+# Settlements
+max_settlements = 4
+
+b_scopello = castle
+b_campertogno = castle
+#b_mollina = temple
+#b_piode = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

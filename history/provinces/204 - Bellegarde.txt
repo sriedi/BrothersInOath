@@ -1,0 +1,18 @@
+# c_bellegarde
+
+# County Title
+title = c_bellegarde
+
+# Settlements
+max_settlements = 4
+
+b_bellgarde = castle
+b_charmey = castle
+b_les_levanches = temple
+b_la_vlsainte = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

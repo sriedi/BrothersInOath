@@ -1,0 +1,21 @@
+# c_schongau
+
+# County Title
+title = c_schongau
+
+# Settlements
+max_settlements = 7
+
+b_grueneberg = castle
+b_hitzkirch = castle
+b_hitzkirch_2 = temple
+b_heidegg = castle
+b_sarmensdorf = city
+b_seengen = city
+b_berstenberg = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

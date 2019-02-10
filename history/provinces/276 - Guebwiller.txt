@@ -1,0 +1,21 @@
+# c_guebwiller
+
+# County Title
+title = c_guebwiller
+
+# Settlements
+max_settlements = 7
+
+b_buhl = castle
+b_guebwiller = city
+b_ensisheim = temple
+b_bollwiller = castle
+#b_munchhouse = city
+#b_munster = temple
+#b_saint_croix_3 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,17 @@
+# c_urnaesch
+
+# County Title
+title = c_urnaesch
+
+# Settlements
+max_settlements = 3
+
+b_oberturm = castle
+b_urnaesch = city
+b_chronbach = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

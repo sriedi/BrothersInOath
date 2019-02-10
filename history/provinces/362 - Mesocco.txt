@@ -1,0 +1,16 @@
+# c_mesocco
+
+# County Title
+title = c_mesocco
+
+# Settlements
+max_settlements = 2
+
+b_mesocco = castle
+b_san_martino = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

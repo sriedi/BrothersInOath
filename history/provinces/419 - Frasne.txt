@@ -1,0 +1,21 @@
+# c_frasne
+
+# County Title
+title = c_frasne
+
+# Settlements
+max_settlements = 7
+
+b_laveron = castle
+b_frasne = city
+b_courviere = castle
+#b_boujailles = castle
+#b_bonnevaux_2 = city
+#b_st_colombe = temple
+#b_bulle_2 = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_emmen
+
+# County Title
+title = c_emmen
+
+# Settlements
+max_settlements = 6
+
+b_emmenbruecke = castle
+b_emmen = city
+b_buchrain = temple
+b_root = castle
+#b_ebikon = city
+#b_gisikon = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_confracourt
+
+# County Title
+title = c_confracourt
+
+# Settlements
+max_settlements = 7
+
+b_combeaufountaine = castle
+b_confracourt = city
+b_scey = castle
+#b_vauconcourt = castle
+#b_la_neuvelle = city
+#b_gourgeon = temple
+#b_arbecey = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

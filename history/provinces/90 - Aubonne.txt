@@ -1,0 +1,21 @@
+# c_aubonne
+
+# County Title
+title = c_aubonne
+
+# Settlements
+max_settlements = 7
+
+b_aubonne = castle
+b_allaman = castle
+b_rolle = city
+b_rolle_2 = castle
+b_fechy = temple
+b_st_martin_6 = temple
+b_st_prex = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

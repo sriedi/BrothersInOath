@@ -1,0 +1,21 @@
+# c_lieu_croissant
+
+# County Title
+title = c_lieu_croissant
+
+# Settlements
+max_settlements = 7
+
+b_lieu_croissant = castle
+b_lisle_2 = city
+b_creval = castle
+b_st_maurice_7 = temple
+b_mancenans = castle
+#b_etrappe = temple
+#b_longevelle = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_saxon
+
+# County Title
+title = c_saxon
+
+# Settlements
+max_settlements = 7
+
+b_saxon = castle
+b_bayart = castle
+b_fully = temple
+b_verdan = temple
+b_charrat = castle
+b_mazembroz = temple
+b_saillon = city
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

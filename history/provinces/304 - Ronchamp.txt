@@ -1,0 +1,20 @@
+# c_ronchamp
+
+# County Title
+title = c_ronchamp
+
+# Settlements
+max_settlements = 6
+
+b_ronchamp = castle
+b_champagney = city
+b_la_cote = temple
+b_plancher = castle
+b_st_barthelemy_2 = temple
+b_fresse = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

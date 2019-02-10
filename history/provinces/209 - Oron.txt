@@ -1,0 +1,20 @@
+# c_oron
+
+# County Title
+title = c_oron
+
+# Settlements
+max_settlements = 6
+
+b_oron = castle
+b_oron_2 = city
+b_st_martin_4 = temple
+b_rue = castle
+b_ursy = city
+b_chavannes = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_morobbia
+
+# County Title
+title = c_morobbia
+
+# Settlements
+max_settlements = 6
+
+b_camorino = castle
+b_pianezzo = castle
+b_san_antonio = temple
+b_carena = castle
+b_giubiasco = city
+b_san_giobbe = temple
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

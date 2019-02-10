@@ -1,0 +1,21 @@
+# c_evian
+
+# County Title
+title = c_evian
+
+# Settlements
+max_settlements = 7
+
+b_evian = castle
+b_thonon = city
+b_st_disdille = temple
+b_st_thomas = temple
+b_lugrin = castle
+b_publier = city
+b_st_paul_2 = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

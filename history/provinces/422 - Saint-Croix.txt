@@ -1,0 +1,19 @@
+# c_saint_croix
+
+# County Title
+title = c_saint_croix
+
+# Settlements
+max_settlements = 4
+
+b_baulmes = castle
+b_saint_croix = city
+b_saint_croix_2 = temple
+b_st_christophe = temple
+#b_la_vraconnaz = city
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

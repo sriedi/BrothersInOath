@@ -1,0 +1,16 @@
+# c_reute
+
+# County Title
+title = c_reute
+
+# Settlements
+max_settlements = 2
+
+b_eschenmoos = castle
+b_reute = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

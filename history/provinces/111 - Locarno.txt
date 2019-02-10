@@ -1,0 +1,21 @@
+# c_locarno
+
+# County Title
+title = c_locarno
+
+# Settlements
+max_settlements = 7
+
+b_locarno = city
+b_ascona = city
+b_madonna = temple
+b_locarno_2 = castle
+#b_balladrum = city
+#b_san_michele = temple
+#b_losone = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

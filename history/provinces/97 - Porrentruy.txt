@@ -1,0 +1,21 @@
+# c_porrentruy
+
+# County Title
+title = c_porrentruy
+
+# Settlements
+max_settlements = 6
+
+b_porrentury = castle
+b_boncourt = castle
+b_porrentury_2 = city
+b_st_pierre_2 = temple
+b_miencourt = castle
+#b_courgenay = temple
+#b_bure = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

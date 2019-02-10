@@ -1,0 +1,20 @@
+# c_waedenswil
+
+# County Title
+title = c_waedenswil
+
+# Settlements
+max_settlements = 6
+
+b_waedenswil = castle
+b_richterswil = city
+b_au = temple
+#b_waedenswil_2 = castle
+#b_waedenswil_3 = city
+#b_waedenswil_4 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

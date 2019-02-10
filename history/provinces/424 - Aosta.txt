@@ -1,0 +1,20 @@
+# c_aosta
+
+# County Title
+title = c_aosta
+
+# Settlements
+max_settlements = 6
+
+b_signayes = castle
+b_aosta = city
+b_st_christophe_3 = temple
+b_pollein = castle
+#b_brissogne = city
+#b_sorreley = temple
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

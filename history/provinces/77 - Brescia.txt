@@ -1,0 +1,21 @@
+# c_brescia
+
+# County Title
+title = c_brescia
+
+# Settlements
+max_settlements = 7
+
+b_gussago = castle
+b_brescia = city
+b_santa_eufemia = temple
+b_nave = castle
+b_sivano = castle
+b_rovalto = temple
+b_iseo = city
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_annecy
+
+# County Title
+title = c_annecy
+
+# Settlements
+max_settlements = 7
+
+b_cran_crevier = castle
+b_annecy = city
+b_st_martin_9 = temple
+b_argony = castle
+b_pringy = castle
+b_synod = city
+b_meythet = temple
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

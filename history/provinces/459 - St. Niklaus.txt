@@ -1,0 +1,20 @@
+# c_st_niklaus
+
+# County Title
+title = c_st_niklaus
+
+# Settlements
+max_settlements = 6
+
+b_herbingen = castle
+b_st_niklaus_2 = city
+b_st_niklaus_3 = temple
+b_mattsand = castle
+b_graechen = castle
+#b_bina = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

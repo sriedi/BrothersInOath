@@ -1,0 +1,20 @@
+# c_burgdorf
+
+# County Title
+title = c_burgdorf
+
+# Settlements
+max_settlements = 6
+
+b_burgdorf = castle
+b_burgdorf_2 = city
+b_heimiswil = temple
+b_zimmerberg = castle
+#b_burgdorf_3 = city
+#b_burgdorf_4 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_langenthal
+
+# County Title
+title = c_langenthal
+
+# Settlements
+max_settlements = 6
+
+b_thunstetten = castle
+b_langenthal = city
+b_herzogenbuchsee = temple
+b_aarwangen = castle
+#b_langenthal_2 = city
+#b_langenthal_3 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

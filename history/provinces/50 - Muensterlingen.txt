@@ -1,0 +1,20 @@
+# c_muensterlingen
+
+# County Title
+title = c_muensterlingen
+
+# Settlements
+max_settlements = 6
+
+b_muensterlingen = temple
+b_altnau = city
+b_bernrain = castle
+#b_muensterlingen_2 = castle
+#b_muensterlingen_3 = city
+#b_muensterlingen_4 = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

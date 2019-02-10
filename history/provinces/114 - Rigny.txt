@@ -1,0 +1,21 @@
+# c_rigny
+
+# County Title
+title = c_rigny
+
+# Settlements
+max_settlements = 7
+
+b_rigny = castle
+b_grandvelle = castle
+b_franse = castle
+b_fondremand = castle
+b_la_charite = temple
+#b_vaux = temple
+#b_villers_bouton = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_raron
+
+# County Title
+title = c_raron
+
+# Settlements
+max_settlements = 7
+
+b_raron = castle
+b_st_roman = temple
+b_gesteln = castle
+b_gampel = city
+#b_st_german_2 = city
+#b_st_anna_2 = temple
+#b_rotigoblatt = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

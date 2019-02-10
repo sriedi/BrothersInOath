@@ -1,0 +1,21 @@
+# c_hohenrain
+
+# County Title
+title = c_hohenrain
+
+# Settlements
+max_settlements = 7
+
+b_nuenegg = castle
+b_hochdorf = city
+b_hohenrain = temple
+b_eschenbach = temple
+b_baldegg = temple
+b_eschenbach_2 = castle
+#b_ottenhusen = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

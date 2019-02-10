@@ -1,0 +1,20 @@
+# c_andelfingen
+
+# County Title
+title = c_andelfingen
+
+# Settlements
+max_settlements = 6
+
+b_mueliberg = castle
+b_andelfingen = city
+b_marthalen = temple
+b_hummenberg = castle
+#b_andelfingen_2 = city
+#b_andelfingen_3 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

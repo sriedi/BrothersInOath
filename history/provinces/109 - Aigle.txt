@@ -1,0 +1,21 @@
+# c_aigle
+
+# County Title
+title = c_aigle
+
+# Settlements
+max_settlements = 7
+
+b_aigle = castle
+b_villneuve = city
+b_chillon = castle
+b_roche = castle
+b_aigle_2 = city
+b_st_triphon = temple
+b_bex = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

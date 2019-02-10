@@ -1,0 +1,20 @@
+# c_bavona
+
+# County Title
+title = c_bavona
+
+# Settlements
+max_settlements = 6
+
+b_cevio = castle
+b_rovana = temple
+b_san_bernardo = temple
+b_san_carlo_2 = temple
+b_fusio = castle
+#b_menziano = temple
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

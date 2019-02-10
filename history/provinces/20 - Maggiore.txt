@@ -1,0 +1,18 @@
+# c_maggiore
+
+# County Title
+title = c_maggiore
+
+# Settlements
+max_settlements = 4
+
+b_cannobio = castle
+b_maggiore = castle
+b_santa_maria_3 = temple
+#b_coimo = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

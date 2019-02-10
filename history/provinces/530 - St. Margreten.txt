@@ -1,0 +1,18 @@
+# c_st_margreten
+
+# County Title
+title = c_st_margreten
+
+# Settlements
+max_settlements = 4
+
+b_st_margreten = temple
+b_heldsberg = castle
+b_grimmerstein = castle
+#b_st_margreten_2 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

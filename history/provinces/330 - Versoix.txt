@@ -1,0 +1,19 @@
+# c_versoix
+
+# County Title
+title = c_versoix
+
+# Settlements
+max_settlements = 5
+
+b_versoix = castle
+b_argand = city
+b_montfleury = castle
+b_creve_coer = temple
+b_st_loup_2 = city
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

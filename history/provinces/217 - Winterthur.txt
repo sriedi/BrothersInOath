@@ -1,0 +1,20 @@
+# c_winterthur
+
+# County Title
+title = c_winterthur
+
+# Settlements
+max_settlements = 6
+
+b_wuelflingen = castle
+b_winterthur = city
+b_beerenberg = castle
+b_beerenberg_2 = temple
+#b_neuwisen = city
+#b_oberwinterthur = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_menthon
+
+# County Title
+title = c_menthon
+
+# Settlements
+max_settlements = 7
+
+b_methon = castle
+b_st_bernard_2 = temple
+b_tallories = castle
+b_veryer = castle
+#b_villard = city
+#b_alex = temple
+#b_le_pont_2 = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

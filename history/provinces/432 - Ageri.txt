@@ -1,0 +1,19 @@
+# c_ageri
+
+# County Title
+title = c_ageri
+
+# Settlements
+max_settlements = 5
+
+b_allenwinden = castle
+b_menzingen = temple
+b_gubel = temple
+#b_ageri = castle
+#b_ageri_2 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

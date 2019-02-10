@@ -1,0 +1,19 @@
+# c_willisau
+
+# County Title
+title = c_willisau
+
+# Settlements
+max_settlements = 5
+
+b_bergli = castle
+b_willisau = city
+b_st_peter = temple
+b_zell_2 = castle
+#b_willisau_2 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_horgen
+
+# County Title
+title = c_horgen
+
+# Settlements
+max_settlements = 6
+
+b_oberrieden = castle
+b_horgen = city
+#b_horgen_2 = temple
+#b_horgen_3 = castle
+#b_horgen_4 = city
+#b_horgen_5 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

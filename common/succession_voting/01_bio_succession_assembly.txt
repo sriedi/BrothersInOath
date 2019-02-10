@@ -1,0 +1,283 @@
+# The entry should be named in the same way that the elective succession law is named to define its voter's logic.
+# Root scope - Voter, the character voting in the election
+# From scope - Candidate, Character considered for the title
+# FromFrom scope - The title the nomination is for
+# FromFromFrom scope - The title owner's candidate
+# The voter will vote for the top score candidate calculated from this script.
+
+assembly_elective_voteing = {
+	elector_selection = {
+		days = -5		
+		additive_modifier = { #Landammann is always an Elector.
+			value = 30
+			FROMFROM = { 
+				holder_scope = { character = ROOT }
+			}
+		}
+		additive_modifier = { #Then the Councilors.
+			value = 6
+			OR = { 
+				has_job_title = job_chancellor
+				has_job_title = job_marshal
+				has_job_title = job_treasurer
+				has_job_title = job_spymaster
+				has_job_title = job_spiritual
+				has_minor_title = title_councilmember_king #Generic advisors
+				has_minor_title = title_councilmember_emperor
+			}
+		}
+		additive_modifier = { #And all Vassals of the Title above baron
+			value = 6
+			AND = {
+			vassal_of = FROMFROM
+			higher_tier_than = baron
+			}
+		}
+		additive_modifier = { #All males on court if there is a shortage of voters
+			value = 4
+			FROMFROM = {
+			holder_scope = {
+					any_courtier = {
+					AND = {
+						is_female = no
+						prisoner = no
+						is_incapable = no
+						}
+					}
+				}
+			}
+		}
+		additive_modifier = { #Bonus Points for Culture
+			value = 2
+			AND = {
+				is_female = no
+				culture = {
+					FROMFROM = holder_scope
+				}
+			}
+		}
+	}
+	elector_vote_strength = { 
+		days = 5 # 1 elector = 5 votes.
+		
+		additive_modifier = { 
+			value = 10
+			localisation_key = tooltip_landamman_elector_strenght
+			FROMFROM = { 
+				holder_scope = { character = ROOT }
+			}
+		}
+		
+		additive_modifier = {
+			value = -4
+			localisation_key = tooltip_assembly_lower_elector_strenght
+			lower_tier_than = count
+		}
+		additive_modifier = {
+			value = 7
+			localisation_key = tooltip_assembly_higher_elector_strenght
+			higher_real_tier_than = count
+		
+		}
+	}
+	
+	candidate_vote_score = {
+		days = 0
+			
+		additive_modifier = {#If the Candidate is on the council
+			value = 35
+			localisation_key = tooltip_assembly_councilor_candidate_value
+			FROM = {
+				is_voter = yes
+			}	
+		}
+		
+		additive_modifier = {#If the Candidate is nominated by the ammann
+			value = 50
+			localisation_key = tooltip_assembly_rulerselection_candidate_value
+			FROMFROMFROM = {
+				always = yes
+			}	
+		}
+		
+		additive_modifier = {
+		 value = 10
+		 localisation_key = tooltip_assembly_related_candidate_value
+		 FROM = {
+			dynasty = {
+				FROMFROM = holder_scope
+			}
+		 }
+		}
+		
+		additive_modifier = { 
+		value = 25
+		localisation_key = tooltip_feudal_elector_vote_prestige_positive
+			NOT = { 
+				character = FROM
+			}
+			FROM = { prestige = 400 }
+			FROM = { NOT = { prestige = 2000 } }
+		}
+		
+		additive_modifier = { 
+		value = 25
+		localisation_key = tooltip_assembly_wealth_candidate_value
+		NOT = { 
+			character = FROM
+		}
+		FROM = { wealth = 200 }
+		FROM = { NOT = { wealth = 4000 } }
+		}
+		
+##########################   Raw Opinion bonus towards Candidate   ##########################
+		additive_modifier = {
+			value = -150
+			localisation_key = tooltip_feudal_elector_vote_opinion_negative
+			NOT = { character = FROM } #But not if it's me.
+			is_rival = FROM
+		}
+		additive_modifier = {
+			value = -60
+			localisation_key = tooltip_feudal_elector_vote_opinion_negative
+			NOT = { character = FROM } #But not if it's me.
+			NOT = { is_rival = FROM } #Special case
+			NOT = {
+				opinion = {
+					who = FROM
+					value = -75 
+				}
+			}
+		}
+		additive_modifier = {
+			value = -45
+			localisation_key = tooltip_feudal_elector_vote_opinion_negative
+			NOT = { character = FROM } #But not if it's me.
+			NOT = { is_rival = FROM } #Special case
+			NOT = {
+				opinion = {
+					who = FROM
+					value = -50  
+				}
+			}
+			opinion = {
+				who = FROM
+				value = -75 
+			}
+		}
+		additive_modifier = {
+			value = -30
+			localisation_key = tooltip_feudal_elector_vote_opinion_negative
+			NOT = { character = FROM } #But not if it's me.
+			NOT = { is_rival = FROM } #Special case
+			NOT = {
+				opinion = {
+					who = FROM
+					value = -25
+				}
+			}
+			opinion = {
+				who = FROM
+				value = -50
+			}
+		}
+		additive_modifier = {
+			value = -15
+			localisation_key = tooltip_feudal_elector_vote_opinion_negative
+			NOT = { character = FROM } #But not if it's me.
+			NOT = { is_rival = FROM } #Special case
+			NOT = {
+				opinion = {
+					who = FROM
+					value = 0
+				}
+			}
+			opinion = {
+				who = FROM
+				value = -25 
+			}
+		}
+		additive_modifier = {
+			value = 15
+			localisation_key = tooltip_feudal_elector_vote_opinion_positive
+			NOT = { character = FROM } #But not if it's me.
+			NOT = { is_rival = FROM } #Special case
+			opinion = {
+				who = FROM
+				value = 0
+			}
+			NOT = {
+				opinion = {
+					who = FROM
+					value = 25
+				}
+			}
+		}
+		additive_modifier = {
+			value = 30
+			localisation_key = tooltip_feudal_elector_vote_opinion_positive
+			NOT = { character = FROM } #But not if it's me.
+			NOT = { is_rival = FROM } #Special case
+			opinion = {
+				who = FROM
+				value = 25
+			}
+			NOT = {
+				opinion = {
+					who = FROM
+					value = 50
+				}
+			}
+		}
+		additive_modifier = {
+			value = 45
+			localisation_key = tooltip_feudal_elector_vote_opinion_positive
+			NOT = { character = FROM } #But not if it's me.
+			NOT = { is_rival = FROM } #Special case
+			opinion = {
+				who = FROM
+				value = 50
+			}
+			NOT = {
+				opinion = {
+					who = FROM
+					value = 75 
+				}
+			}
+		}
+		additive_modifier = {
+			value = 65
+			localisation_key = tooltip_feudal_elector_vote_opinion_positive
+			NOT = { character = FROM } #But not if it's me.
+			NOT = { is_rival = FROM } #Special case
+			opinion = {
+				who = FROM
+				value = 75
+			}
+		}
+		
+			
+	}
+		
+	
+	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
+	candidate_trigger = { #Trigger to determine what characters are valid candidates that can be voted by electors.		
+		FROM ={
+			AND = {
+				vassal_of = ROOT
+				higher_tier_than = baron
+				}
+		}	
+		
+		FROM = {
+			AND = {
+				dynasty = {holder_scope = FORMFORM}
+				is_female = no
+				prisoner = no
+				is_incapable  = no
+				}
+		}
+	}
+	
+	
+}

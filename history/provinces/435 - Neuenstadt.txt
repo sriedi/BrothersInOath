@@ -1,0 +1,19 @@
+# c_neuenstadt
+
+# County Title
+title = c_neuenstadt
+
+# Settlements
+max_settlements = 5
+
+b_frauburg = castle
+b_neuenstadt = city
+b_twann = city
+b_ligerz = temple
+b_ligerz_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_jestetten
+
+# County Title
+title = c_jestetten
+
+# Settlements
+max_settlements = 7
+
+b_jestetten = castle
+b_rheinau = temple
+b_grisberg = castle
+b_schwandegg = castle
+#b_jestetten_2 = city
+#b_jestetten_3 = temple
+#b_jestetten_4 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

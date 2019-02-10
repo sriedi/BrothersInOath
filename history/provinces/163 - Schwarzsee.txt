@@ -1,0 +1,19 @@
+# c_schwarzsee
+
+# County Title
+title = c_schwarzsee
+
+# Settlements
+max_settlements = 5
+
+b_schwarzee = castle
+b_attenberg = temple
+#b_schwarzsee = temple
+#b_schwarzsee_2 = castle
+#b_schwarzsee_3 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

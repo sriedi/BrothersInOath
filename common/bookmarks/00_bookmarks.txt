@@ -1,0 +1,27 @@
+bm_landvogts = {
+	name = "BIO_BM_LANDVOGTS_ERA"
+	desc = "BIO_BM_LANDVOGTS_ERA_INFO"
+	date = 1280.4.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+	
+	selectable_character = {
+		id = 1 # Max Muster
+		age = 26
+		name = "Max Muster Testchar"
+		title = d_uri
+		title_name = d_uri
+		
+		character = {
+			name=Max
+			dynasty=752
+			religion=catholic
+			culture=high_alemannic
+			dna="0gabj0leab0"
+			properties="qc00fh000000000000"
+			
+		}
+	}
+}
+

@@ -1,0 +1,21 @@
+# c_buelach
+
+# County Title
+title = c_buelach
+
+# Settlements
+max_settlements = 7
+
+b_embrach = castle
+b_buelach = city
+b_rhinsberg = castle
+#b_glattfelden = castle
+#b_robas = city
+#b_toessegg = temple
+#b_teufenberg = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

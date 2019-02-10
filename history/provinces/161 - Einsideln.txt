@@ -1,0 +1,19 @@
+# c_einsideln
+
+# County Title
+title = c_einsideln
+
+# Settlements
+max_settlements = 5
+
+b_st_benedikt = temple
+b_einsideln = city
+b_willerzell = castle
+#b_einsideln_2 = castle
+#b_einsideln_3 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

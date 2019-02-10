@@ -1,0 +1,20 @@
+# c_visp
+
+# County Title
+title = c_visp
+
+# Settlements
+max_settlements = 6
+
+b_lalden = castle
+b_visp = city
+b_stalden = castle
+b_ausserberg = castle
+#b_vispermiene = city
+#b_blatschieder = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

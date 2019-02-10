@@ -1,0 +1,21 @@
+# c_colombier
+
+# County Title
+title = c_colombier
+
+# Settlements
+max_settlements = 7
+
+b_colombier = castle
+b_boudry = city
+b_boudry_2 = castle
+b_st_aubin_2 = temple
+b_gorgier = castle
+b_vaumarcus = castle
+#b_sauges = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

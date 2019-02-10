@@ -1,0 +1,21 @@
+# c_ins
+
+# County Title
+title = c_ins
+
+# Settlements
+max_settlements = 7
+
+b_hasenbrug = castle
+b_st_peterinsel = temple
+b_ins = city
+b_gampelen = temple
+b_landern = city
+b_luescherz = castle
+b_erlach = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

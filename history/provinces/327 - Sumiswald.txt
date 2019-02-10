@@ -1,0 +1,21 @@
+# c_sumiswald
+
+# County Title
+title = c_sumiswald
+
+# Settlements
+max_settlements = 7
+
+b_trachselwald = castle
+b_spittel = castle
+b_sumiswald = city
+b_luetzelflueh = temple
+b_wartenstein_2 = castle
+#b_sumiswald_2 = temple
+#b_sumiswald_3 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

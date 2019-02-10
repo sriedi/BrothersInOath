@@ -1,0 +1,17 @@
+# c_appenzell
+
+# County Title
+title = c_appenzell
+
+# Settlements
+max_settlements = 3
+
+b_clanx = castle
+b_steig = temple
+b_appenzell = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

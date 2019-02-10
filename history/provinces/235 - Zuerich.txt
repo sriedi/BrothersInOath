@@ -1,0 +1,21 @@
+# c_zuerich
+
+# County Title
+title = c_zuerich
+
+# Settlements
+max_settlements = 7
+
+b_zuerich = city
+b_fraumuenster = temple
+b_st_martin_2 = temple
+b_oerlikon = city
+b_wiedikon = city
+b_friesenberg = castle
+b_barfuesser = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

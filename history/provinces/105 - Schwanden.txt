@@ -1,0 +1,17 @@
+# c_schwanden
+
+# County Title
+title = c_schwanden
+
+# Settlements
+max_settlements = 3
+
+b_thon = castle
+b_schwanden = city
+b_benzingen = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

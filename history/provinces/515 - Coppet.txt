@@ -1,0 +1,19 @@
+# c_coppet
+
+# County Title
+title = c_coppet
+
+# Settlements
+max_settlements = 5
+
+b_tannay = castle
+b_coppet = city
+b_coppet_2 = castle
+b_commugny = temple
+b_founex = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

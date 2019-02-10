@@ -1,0 +1,16 @@
+# c_gais
+
+# County Title
+title = c_gais
+
+# Settlements
+max_settlements = 2
+
+b_stoss = castle
+b_gais = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

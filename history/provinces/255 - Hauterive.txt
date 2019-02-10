@@ -1,0 +1,21 @@
+# c_hauterive
+
+# County Title
+title = c_hauterive
+
+# Settlements
+max_settlements = 7
+
+b_hauterive = temple
+b_arconciel = castle
+b_ogoz = castle
+b_rossens = city
+b_farvagny = castle
+#b_treyvaux = temple
+#b_la_roche = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_meilen
+
+# County Title
+title = c_meilen
+
+# Settlements
+max_settlements = 6
+
+b_friedberg = castle
+b_meilen = city
+b_hohenegg = temple
+b_herrliberg = city
+#b_meilen_2 = city
+#b_meilen_3 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

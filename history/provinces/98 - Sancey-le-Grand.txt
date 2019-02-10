@@ -1,0 +1,19 @@
+# c_sancey_le_grand
+
+# County Title
+title = c_sancey_le_grand
+
+# Settlements
+max_settlements = 5
+
+b_sancey = castle
+b_froidevaux = castle
+b_bellherbe = temple
+b_st_maurice_8 = temple
+b_orgeans = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

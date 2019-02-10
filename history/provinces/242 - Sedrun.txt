@@ -1,0 +1,16 @@
+# c_sedrun
+
+# County Title
+title = c_sedrun
+
+# Settlements
+max_settlements = 2
+
+b_tujetsch = castle
+b_sedrun = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

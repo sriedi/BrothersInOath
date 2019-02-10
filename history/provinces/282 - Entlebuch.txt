@@ -1,0 +1,20 @@
+# c_entlebuch
+
+# County Title
+title = c_entlebuch
+
+# Settlements
+max_settlements = 6
+
+b_werthenstein = castle
+b_wohlhusen = city
+b_wohlhusen_2 = castle
+b_st_jost = temple
+b_entlebuch = temple
+#b_schwarzenberg = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

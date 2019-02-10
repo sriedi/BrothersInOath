@@ -1,0 +1,20 @@
+# c_lindenberg
+
+# County Title
+title = c_lindenberg
+
+# Settlements
+max_settlements = 6
+
+b_lindenberg = castle
+b_simmergerg = castle
+#b_schoenau = temple
+#b_roethenbach = castle
+#b_heimenkirch = city
+#b_oberreute = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_la_cure
+
+# County Title
+title = c_la_cure
+
+# Settlements
+max_settlements = 4
+
+b_la_barilette = castle
+b_la_cure = city
+b_les_rouges = castle
+b_crans_2 = temple
+b_guifrad = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

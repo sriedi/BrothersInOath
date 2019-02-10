@@ -1,0 +1,20 @@
+# c_echallens
+
+# County Title
+title = c_echallens
+
+# Settlements
+max_settlements = 6
+
+b_echallens = castle
+b_vuarrens = temple
+b_essertiens = castle
+b_echallens_2 = city
+#b_villars = city
+#b_vuarrens_2 = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_sins
+
+# County Title
+title = c_sins
+
+# Settlements
+max_settlements = 7
+
+b_horben = castle
+b_sins = city
+b_meienberg = castle
+b_beinwil = temple
+b_reussegg = castle
+#b_auw = temple
+#b_abtwil = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

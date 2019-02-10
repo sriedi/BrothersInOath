@@ -1,0 +1,17 @@
+# c_uzwil
+
+# County Title
+title = c_uzwil
+
+# Settlements
+max_settlements = 3
+
+b_gielen = castle
+b_uzwil = city
+b_flawil = city
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_montferrand
+
+# County Title
+title = c_montferrand
+
+# Settlements
+max_settlements = 5
+
+b_montferrand = castle
+b_thoraise = castle
+b_st_georges_2 = temple
+b_boussieres = castle
+b_senans = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

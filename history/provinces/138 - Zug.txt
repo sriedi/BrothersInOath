@@ -1,0 +1,21 @@
+# c_zug
+
+# County Title
+title = c_zug
+
+# Settlements
+max_settlements = 7
+
+b_wallburg = castle
+b_wildenburg_2 = castle
+b_baar = city
+b_zug = city
+b_baarburg = castle
+#b_zug_2 = temple
+#b_zug_3 = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

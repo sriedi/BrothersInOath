@@ -1,0 +1,17 @@
+# c_valpelline
+
+# County Title
+title = c_valpelline
+
+# Settlements
+max_settlements = 3
+
+b_valpelline = castle
+b_semojn = castle
+#b_thoules = temple
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

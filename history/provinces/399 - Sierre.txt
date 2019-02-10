@@ -1,0 +1,21 @@
+# c_sierre
+
+# County Title
+title = c_sierre
+
+# Settlements
+max_settlements = 7
+
+b_siders = castle
+b_sierre = city
+b_geronde = temple
+b_chalais = castle
+b_granges_2 = castle
+b_venthone = castle
+#b_vercorin = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,17 @@
+# c_zernez
+
+# County Title
+title = c_zernez
+
+# Settlements
+max_settlements = 3
+
+b_wildenberg = castle
+b_zernez = city
+b_la_motta = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

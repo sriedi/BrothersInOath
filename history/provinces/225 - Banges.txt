@@ -1,0 +1,20 @@
+# c_banges
+
+# County Title
+title = c_banges
+
+# Settlements
+max_settlements = 6
+
+b_verbier = castle
+b_entremont = castle
+b_sembrancher = city
+b_st_jean_2 = temple
+#b_st_christophe_2 = city
+#b_loutier = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_schlieren
+
+# County Title
+title = c_schlieren
+
+# Settlements
+max_settlements = 7
+
+b_altstetten = castle
+b_schlieren = city
+b_hoengg = temple
+b_lachern = castle
+b_frankental = temple
+#b_unterengstringen = temple
+#b_oberengstringen = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_villersexel
+
+# County Title
+title = c_villersexel
+
+# Settlements
+max_settlements = 5
+
+b_sechsweiler = castle
+b_villersexel = city
+b_st_sulpice_3 = temple
+b_moimay = castle
+b_gouhenans = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

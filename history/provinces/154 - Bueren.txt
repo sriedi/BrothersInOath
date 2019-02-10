@@ -1,0 +1,21 @@
+# c_bueren
+
+# County Title
+title = c_bueren
+
+# Settlements
+max_settlements = 7
+
+b_bueren = castle
+b_bueren_2 = city
+b_dotzigen = castle
+b_oberwil = temple
+b_schalenstein = castle
+b_teufelsburg = castle
+#b_bueren_3 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

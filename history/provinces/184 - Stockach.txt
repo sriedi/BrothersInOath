@@ -1,0 +1,20 @@
+# c_stockach
+
+# County Title
+title = c_stockach
+
+# Settlements
+max_settlements = 6
+
+b_nellenburg = castle
+b_stockach = city
+#b_stockach_2 = temple
+#b_stockach_3 = castle
+#b_stockach_4 = city
+#b_stockach_5 = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

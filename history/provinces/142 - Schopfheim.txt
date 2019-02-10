@@ -1,0 +1,21 @@
+# c_schopfheim
+
+# County Title
+title = c_schopfheim
+
+# Settlements
+max_settlements = 7
+
+b_hausen = castle
+b_schopfheim = city
+b_zell = temple
+b_wieslet = castle
+#b_kuemberg = city
+#b_hasel = temple
+#b_brodenloch = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

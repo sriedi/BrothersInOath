@@ -1,0 +1,20 @@
+# c_cluses
+
+# County Title
+title = c_cluses
+
+# Settlements
+max_settlements = 6
+
+b_cluses = castle
+b_marignier_2 = temple
+b_brizon_2 = castle
+b_colombiere = temple
+#b_vougy = city
+#b_magland = temple
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

@@ -1,0 +1,60 @@
+#HRE
+technology = {
+	titles = {
+		d_albula
+		d_allgaeu
+		d_andelfingen
+		d_appenzell
+		d_arbongau
+		d_basel
+		d_bern
+		d_bregenz
+		d_breisgau
+		d_chur_raetia
+		d_emmental
+		d_fuerstenberg
+		d_glarus
+		d_knonau
+		d_konstanz
+		d_kyburg
+		d_landenberg
+		d_luzern
+		d_moesa
+		d_montfort
+		d_niederbayern
+		d_niederschwaben
+		d_oberaargau
+		d_oberschwaben
+		d_oberwallis
+		d_rapperswil
+		d_regensberg
+		d_reuss
+		d_rintel
+		d_schaffhausen
+		d_schwyz
+		d_solothurn
+		d_st_gallen
+		d_surgau
+		d_surselva
+		d_thurgau
+		d_tirol
+		d_toggenburg
+		d_ufgau
+		d_unteraargau
+		d_unterwalden
+		d_engadin
+		d_uri
+		d_zuerich
+		d_zug
+	}
+	1260 = {
+		military = 1.5
+		economy = 1.0
+		culture = 1.5
+	}
+	1600 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

@@ -1,0 +1,19 @@
+# c_bassecourt
+
+# County Title
+title = c_bassecourt
+
+# Settlements
+max_settlements = 5
+
+b_glovilier = castle
+b_bassecourt = city
+b_st_german = temple
+b_russelin = castle
+#b_bassecourt_2 = city
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

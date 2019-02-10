@@ -1,0 +1,20 @@
+# c_mals
+
+# County Title
+title = c_mals
+
+# Settlements
+max_settlements = 6
+
+b_marienburg_3 = temple
+b_mals = castle
+b_st_valentin = temple
+b_graun = castle
+#b_churburg = city
+#b_burgers = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+
+#History

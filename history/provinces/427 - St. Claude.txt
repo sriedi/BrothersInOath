@@ -1,0 +1,21 @@
+# c_st_claude
+
+# County Title
+title = c_st_claude
+
+# Settlements
+max_settlements = 7
+
+b_st_claude_2 = temple
+b_le_verger = castle
+b_rochefort = temple
+b_le_martinet = castle
+b_montbrilland = city
+b_saint_hubert = temple
+b_saint_sauveur = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_meersburg
+
+# County Title
+title = c_meersburg
+
+# Settlements
+max_settlements = 5
+
+b_meersburg = castle
+b_hagnau = temple
+b_ittendorf = castle
+#b_meersburg_2 = castle
+#b_meersburg_3 = city
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

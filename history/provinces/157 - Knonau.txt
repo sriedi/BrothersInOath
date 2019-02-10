@@ -1,0 +1,19 @@
+# c_knonau
+
+# County Title
+title = c_knonau
+
+# Settlements
+max_settlements = 5
+
+b_knonau = castle
+b_mettmenstetten = city
+b_aeugstertal = temple
+#b_knonau_2 = castle
+#b_knonau_3 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

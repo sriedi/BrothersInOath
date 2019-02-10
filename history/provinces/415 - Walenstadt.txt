@@ -1,0 +1,17 @@
+# c_walenstadt
+
+# County Title
+title = c_walenstadt
+
+# Settlements
+max_settlements = 3
+
+b_graepplang = castle
+b_flums = city
+#b_walenstadt = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = hills
+#History

@@ -1,0 +1,21 @@
+# c_orbe
+
+# County Title
+title = c_orbe
+
+# Settlements
+max_settlements = 7
+
+b_orbe = castle
+b_orbe_2 = city
+b_st_martin_7 = temple
+b_suchy = city
+b_st_etienne_2 = temple
+#b_poliez = temple
+#b_assens = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

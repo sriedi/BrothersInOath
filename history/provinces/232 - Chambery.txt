@@ -1,0 +1,21 @@
+# c_chambery
+
+# County Title
+title = c_chambery
+
+# Settlements
+max_settlements = 7
+
+b_chambery = castle
+b_chambery_2 = city
+b_st_alban = temple
+b_st_jean_6 = temple
+b_tresserve = castle
+b_aix = city
+b_bourget = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

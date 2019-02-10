@@ -1,0 +1,18 @@
+# c_viznau
+
+# County Title
+title = c_viznau
+
+# Settlements
+max_settlements = 4
+
+b_viznau = castle
+b_weggis = castle
+b_rigi = temple
+#b_geppen = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

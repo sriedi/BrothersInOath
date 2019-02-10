@@ -1,0 +1,18 @@
+# c_intyamon
+
+# County Title
+title = c_intyamon
+
+# Settlements
+max_settlements = 4
+
+b_grandvillard = castle
+b_albeuve = city
+b_leve = temple
+b_lessoc = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

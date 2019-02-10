@@ -1,0 +1,17 @@
+# c_shilquell
+
+# County Title
+title = c_shilquell
+
+# Settlements
+max_settlements = 3
+
+b_stoecken = castle
+b_studen = temple
+#b_shilquell = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

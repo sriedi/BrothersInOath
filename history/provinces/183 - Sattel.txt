@@ -1,0 +1,16 @@
+# c_sattel
+
+# County Title
+title = c_sattel
+
+# Settlements
+max_settlements = 2
+
+b_sattel = castle
+b_rothenturm = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

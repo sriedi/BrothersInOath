@@ -1,0 +1,19 @@
+# c_argera
+
+# County Title
+title = c_argera
+
+# Settlements
+max_settlements = 5
+
+b_rechthalten = castle
+b_st_silvester = temple
+b_plaffeien = temple
+b_st_ursen = temple
+#b_tentlingen = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

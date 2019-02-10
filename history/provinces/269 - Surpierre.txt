@@ -1,0 +1,20 @@
+# c_surpierre
+
+# County Title
+title = c_surpierre
+
+# Settlements
+max_settlements = 6
+
+b_surpierre = castle
+b_vuissens = castle
+b_combremont = castle
+b_prevondavaux = temple
+#b_sassel = city
+#b_demoret = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

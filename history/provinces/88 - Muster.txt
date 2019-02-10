@@ -1,0 +1,17 @@
+# c_muster
+
+# County Title
+title = c_muster
+
+# Settlements
+max_settlements = 3
+
+b_son_martin = temple
+b_travaulta = castle
+#b_muster = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

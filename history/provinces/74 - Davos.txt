@@ -1,0 +1,20 @@
+# c_davos
+
+# County Title
+title = c_davos
+
+# Settlements
+max_settlements = 6
+
+b_monstein = castle
+b_davos = city
+b_klosters = temple
+b_serneus = castle
+#b_davos_2 = city
+#b_davos_3 = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

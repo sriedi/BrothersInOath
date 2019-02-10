@@ -1,0 +1,21 @@
+# c_pratteln
+
+# County Title
+title = c_pratteln
+
+# Settlements
+max_settlements = 7
+
+b_wartenberg = castle
+b_muttenz = temple
+b_pratteln = city
+b_auhard = castle
+b_pratteln_2 = castle
+b_burghalden = castle
+b_liestal = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_praettigau
+
+# County Title
+title = c_praettigau
+
+# Settlements
+max_settlements = 6
+
+b_wyneck = castle
+b_maienfeld = city
+b_malans = castle
+b_luzein = castle
+#b_praettigau = city
+#b_praettigau_2 = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_allensbach
+
+# County Title
+title = c_allensbach
+
+# Settlements
+max_settlements = 6
+
+b_allensbach = castle
+b_litzelstetten = city
+b_dettingen = temple
+#b_allensbach_2 = castle
+#b_allensbach_3 = city
+#b_allensbach_4 = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

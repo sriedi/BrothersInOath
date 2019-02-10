@@ -1,0 +1,19 @@
+# c_uznach
+
+# County Title
+title = c_uznach
+
+# Settlements
+max_settlements = 5
+
+b_uznaburg = castle
+b_uznach = city
+b_berg_sion = temple
+#b_uznach_2 = castle
+#b_uznach_3 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+terrain = hills
+#History

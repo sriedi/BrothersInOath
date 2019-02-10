@@ -1,0 +1,19 @@
+# c_arbon
+
+# County Title
+title = c_arbon
+
+# Settlements
+max_settlements = 5
+
+b_roggwil = castle
+b_arbon = city
+b_st_scholastika = temple
+#b_arbon_2 = castle
+#b_arbon_3 = city
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_rougemont
+
+# County Title
+title = c_rougemont
+
+# Settlements
+max_settlements = 5
+
+b_rougemont = castle
+b_chateau_doex = city
+b_rossiniere = castle
+#b_etivaz = castle
+#b_les_mosses = city
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

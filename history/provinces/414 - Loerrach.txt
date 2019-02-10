@@ -1,0 +1,21 @@
+# c_loerrach
+
+# County Title
+title = c_loerrach
+
+# Settlements
+max_settlements = 7
+
+b_maulburg = castle
+b_buergeln = castle
+b_loerrach = city
+b_muellheim = city
+b_steinen = temple
+b_ruemmingen = temple
+b_malsburg = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_kempten
+
+# County Title
+title = c_kempten
+
+# Settlements
+max_settlements = 7
+
+b_wiggensbach = castle
+b_kempten = city
+b_mariaberg = temple
+b_st_mang = temple
+b_durach = castle
+#b_waltenhofen = temple
+#b_heising = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

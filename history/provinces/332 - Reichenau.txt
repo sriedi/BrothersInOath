@@ -1,0 +1,16 @@
+# c_reichenau
+
+# County Title
+title = c_reichenau
+
+# Settlements
+max_settlements = 2
+
+b_reichenau = castle
+b_oberzell = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

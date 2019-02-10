@@ -1,0 +1,20 @@
+# c_kessbronn
+
+# County Title
+title = c_kessbronn
+
+# Settlements
+max_settlements = 6
+
+b_wasserburg = castle
+b_kessbronn = city
+b_st_georg = temple
+b_langenargen = castle
+b_bodolz = castle
+b_eriskirch = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

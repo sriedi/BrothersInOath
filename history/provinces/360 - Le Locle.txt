@@ -1,0 +1,20 @@
+# c_le_locle
+
+# County Title
+title = c_le_locle
+
+# Settlements
+max_settlements = 6
+
+b_jaluse = castle
+b_le_locle = city
+b_brenets = castle
+b_les_planchettes = temple
+#b_la_chaude_de_fonds = city
+#b_la_cibourg = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

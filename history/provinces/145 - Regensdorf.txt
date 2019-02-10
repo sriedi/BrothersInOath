@@ -1,0 +1,19 @@
+# c_regensdorf
+
+# County Title
+title = c_regensdorf
+
+# Settlements
+max_settlements = 5
+
+b_regensberg = castle
+b_regensdorf = city
+b_daellikon = temple
+#b_sand = castle
+#b_watt = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

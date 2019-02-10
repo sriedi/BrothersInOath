@@ -1,0 +1,21 @@
+# c_zollighofen
+
+# County Title
+title = c_zollighofen
+
+# Settlements
+max_settlements = 7
+
+b_reichenbach = castle
+b_zollighofen = city
+b_bremgarten_3 = castle
+b_ittingen_2 = temple
+b_muenchenbuchsee = temple
+#b_hofwil = temple
+#b_wiggiswil = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

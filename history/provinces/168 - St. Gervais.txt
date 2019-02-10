@@ -1,0 +1,21 @@
+# c_st_gervais
+
+# County Title
+title = c_st_gervais
+
+# Settlements
+max_settlements = 7
+
+b_st_gervais = temple
+b_passy = castle
+b_les_houches = castle
+b_sallanches = city
+b_chamonix = castle
+#b_la_lavancher = temple
+#b_servoz = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

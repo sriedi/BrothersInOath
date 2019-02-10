@@ -1,0 +1,20 @@
+# c_spiez
+
+# County Title
+title = c_spiez
+
+# Settlements
+max_settlements = 6
+
+b_wimmis = castle
+b_spiez = castle
+b_spiez_2 = city
+b_faulensee = temple
+#b_spiez_3 = city
+#b_spiez_4 = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

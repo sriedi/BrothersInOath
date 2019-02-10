@@ -1,0 +1,20 @@
+# c_brenno
+
+# County Title
+title = c_brenno
+
+# Settlements
+max_settlements = 6
+
+b_servalle = castle
+b_dongio = temple
+b_san_remigio = temple
+b_lottigana = castle
+b_castro = castle
+#b_valentino = temple
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

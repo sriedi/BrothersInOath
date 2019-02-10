@@ -1,0 +1,20 @@
+# c_conflans
+
+# County Title
+title = c_conflans
+
+# Settlements
+max_settlements = 6
+
+b_conflans = castle
+b_st_sigismond = temple
+b_gilly = castle
+b_tours = castle
+b_pallud = castle
+b_grigon = city
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

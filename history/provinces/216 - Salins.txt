@@ -1,0 +1,21 @@
+# c_salins
+
+# County Title
+title = c_salins
+
+# Settlements
+max_settlements = 7
+
+b_salins = castle
+b_arbois = city
+b_st_pierre_3 = temple
+b_pagnoz = castle
+b_champagny = castle
+#b_aresches = temple
+#b_dournon = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

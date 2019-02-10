@@ -1,0 +1,19 @@
+# c_singen
+
+# County Title
+title = c_singen
+
+# Settlements
+max_settlements = 5
+
+b_hohentwil = castle
+b_singen = city
+b_radolfzell = city
+b_ehringen = temple
+#b_singen_2 = city
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

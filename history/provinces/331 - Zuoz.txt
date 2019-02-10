@@ -1,0 +1,17 @@
+# c_zuoz
+
+# County Title
+title = c_zuoz
+
+# Settlements
+max_settlements = 3
+
+b_zouoz = castle
+b_s_chanf = castle
+#b_zuoz = temple
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

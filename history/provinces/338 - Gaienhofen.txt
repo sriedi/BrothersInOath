@@ -1,0 +1,19 @@
+# c_gaienhofen
+
+# County Title
+title = c_gaienhofen
+
+# Settlements
+max_settlements = 5
+
+b_gaienhofen = castle
+b_wangen = city
+#b_gaienhofen_2 = temple
+#b_gaienhofen_3 = castle
+#b_gaienhofen_4 = city
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

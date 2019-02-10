@@ -1,0 +1,21 @@
+# c_morges
+
+# County Title
+title = c_morges
+
+# Settlements
+max_settlements = 7
+
+b_morges = castle
+b_morges_2 = city
+b_st_louis = temple
+b_st_domingue = temple
+b_vufflens = castle
+b_monnaz = castle
+b_denens = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

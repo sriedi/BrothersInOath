@@ -1,0 +1,20 @@
+# c_iberg
+
+# County Title
+title = c_iberg
+
+# Settlements
+max_settlements = 6
+
+b_iberg = castle
+b_wattwil = temple
+b_ebnat = city
+b_ruedberg = castle
+#b_iberg_2 = city
+#b_iberg_3 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+terrain = hills
+#History

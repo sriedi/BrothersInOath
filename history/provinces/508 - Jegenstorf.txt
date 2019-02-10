@@ -1,0 +1,20 @@
+# c_jegenstorf
+
+# County Title
+title = c_jegenstorf
+
+# Settlements
+max_settlements = 6
+
+b_jegis = castle
+b_fraubrunnen = temple
+b_jegenstorf = city
+b_hindelbank = castle
+#b_moetschwil = city
+#b_kernenried = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

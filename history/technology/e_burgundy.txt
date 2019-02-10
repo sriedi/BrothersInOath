@@ -1,0 +1,41 @@
+#BURGUNDY
+technology = {
+	titles = {
+		d_aarburgund
+		d_ain
+		d_besancon
+		d_broye
+		d_chablais
+		d_fribourg
+		d_geneve
+		d_gruyeres
+		d_lure
+		d_montbeliard
+		d_montfaucon
+		d_montgesoye
+		d_morat
+		d_neuchatel
+		d_orbe
+		d_romont
+		d_salins
+		d_saone
+		d_savoy
+		d_sornegau
+		d_st_claude
+		d_st_grevais
+		d_sundgau
+		d_valais_bas
+		d_vaud
+		d_yverdon
+	}
+	1260 = {
+		military = 1.5
+		economy = 1.0
+		culture = 1.5
+	}
+	1500 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

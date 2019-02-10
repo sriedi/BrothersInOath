@@ -1,0 +1,11 @@
+government_flavor = {
+	name = gov_commonassembly_government
+	graphics = GFX_event_commonassembly_oath
+	priority = 1
+	trigger = {
+		OR = {
+			government = commonassembly_government
+		}
+
+	}
+}

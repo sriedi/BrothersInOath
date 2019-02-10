@@ -1,0 +1,20 @@
+# c_morzine
+
+# County Title
+title = c_morzine
+
+# Settlements
+max_settlements = 6
+
+b_morzine = castle
+b_montrinod = castle
+b_les_gets = temple
+b_st_jean_7 = temple
+#b_seytroux = city
+#b_morzine_2 = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

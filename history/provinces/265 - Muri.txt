@@ -1,0 +1,20 @@
+# c_muri
+
+# County Title
+title = c_muri
+
+# Settlements
+max_settlements = 6
+
+b_muri = temple
+b_boswil = castle
+b_hermetschwil = temple
+b_lunkhofen = castle
+#b_muri_2 = city
+#b_muri_3 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

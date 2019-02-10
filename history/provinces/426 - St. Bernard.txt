@@ -1,0 +1,19 @@
+# c_st_bernard
+
+# County Title
+title = c_st_bernard
+
+# Settlements
+max_settlements = 5
+
+b_allinges = castle
+b_st_bernard = temple
+b_orsieres = city
+b_st_laurent = temple
+b_praz = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

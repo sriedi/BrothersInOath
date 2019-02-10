@@ -1,0 +1,19 @@
+# c_altstaetten
+
+# County Title
+title = c_altstaetten
+
+# Settlements
+max_settlements = 5
+
+b_rebstein = castle
+b_altstaetten = city
+b_marbach = temple
+#b_neu_altstaetten = castle
+#b_heerbrugg = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

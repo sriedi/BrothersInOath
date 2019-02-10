@@ -1,0 +1,19 @@
+# c_lech
+
+# County Title
+title = c_lech
+
+# Settlements
+max_settlements = 5
+
+b_warth_3 = castle
+b_lech = city
+b_zuers = temple
+b_au_2 = city
+b_schoppernau = castle
+
+# Misc
+culture = bavarian
+religion = catholic
+
+#History

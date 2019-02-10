@@ -1,0 +1,19 @@
+# c_boege
+
+# County Title
+title = c_boege
+
+# Settlements
+max_settlements = 5
+
+b_boege = castle
+b_bethlehem = temple
+b_st_andre = temple
+b_villard_2 = castle
+b_burdignin = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

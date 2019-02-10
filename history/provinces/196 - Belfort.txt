@@ -1,0 +1,21 @@
+# c_belfort
+
+# County Title
+title = c_belfort
+
+# Settlements
+max_settlements = 7
+
+b_belfort_2 = castle
+b_belfort_3 = city
+b_danjoutin = temple
+b_roppe = castle
+b_demmey = temple
+b_moval = castle
+#b_andelnans = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

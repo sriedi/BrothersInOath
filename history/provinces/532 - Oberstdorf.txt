@@ -1,0 +1,19 @@
+# c_oberstdorf
+
+# County Title
+title = c_oberstdorf
+
+# Settlements
+max_settlements = 5
+
+b_fischen_2 = castle
+b_oberstdorf = city
+#b_schoellang = temple
+#b_st_loretto = castle
+#b_oytalhaus = city
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_neunkirch
+
+# County Title
+title = c_neunkirch
+
+# Settlements
+max_settlements = 6
+
+b_radegg = castle
+b_neunkirch = city
+b_wilchingen = temple
+#b_neunkirch_2 = castle
+#b_neunkirch_3 = city
+#b_neunkirch_4 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

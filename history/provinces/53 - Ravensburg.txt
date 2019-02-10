@@ -1,0 +1,21 @@
+# c_ravensburg
+
+# County Title
+title = c_ravensburg
+
+# Settlements
+max_settlements = 7
+
+b_veitsburg = castle
+b_ravensburg = city
+b_grosstobel = castle
+b_weingarten = temple
+b_wolpertswende = castle
+#b_ravensburg_2 = temple
+#b_ravensburg_3 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

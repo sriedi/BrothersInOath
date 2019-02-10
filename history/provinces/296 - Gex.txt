@@ -1,0 +1,20 @@
+# c_gex
+
+# County Title
+title = c_gex
+
+# Settlements
+max_settlements = 6
+
+b_gex = castle
+b_divonne = castle
+b_ornex = temple
+b_st_genis = temple
+b_thoiry = castle
+b_cessy = city
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

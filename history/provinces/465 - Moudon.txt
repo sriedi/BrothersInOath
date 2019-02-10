@@ -1,0 +1,21 @@
+# c_moudon
+
+# County Title
+title = c_moudon
+
+# Settlements
+max_settlements = 7
+
+b_broye = castle
+b_moudon = city
+b_carrouge = castle
+b_rossenges = temple
+b_chavannes_2 = temple
+b_mezieres_2 = city
+#b_ferlens = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

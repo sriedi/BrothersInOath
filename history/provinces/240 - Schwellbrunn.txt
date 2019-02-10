@@ -1,0 +1,17 @@
+# c_schwellbrunn
+
+# County Title
+title = c_schwellbrunn
+
+# Settlements
+max_settlements = 3
+
+b_geren = castle
+b_schwellbrunn = city
+#b_schwellbrunn_2 = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

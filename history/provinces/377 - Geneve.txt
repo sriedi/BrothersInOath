@@ -1,0 +1,21 @@
+# c_geneve
+
+# County Title
+title = c_geneve
+
+# Settlements
+max_settlements = 7
+
+b_geneve = city
+b_de_four = castle
+b_st_grevais = temple
+b_saconnex = castle
+b_grottes = city
+b_st_jean_4 = temple
+b_servette = city
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

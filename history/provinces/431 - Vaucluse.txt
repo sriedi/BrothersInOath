@@ -1,0 +1,19 @@
+# c_vaucluse
+
+# County Title
+title = c_vaucluse
+
+# Settlements
+max_settlements = 5
+
+b_vaucluse = castle
+b_pierrefontaine = city
+b_la_faye = castle
+b_drompel = castle
+b_plaimbois = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

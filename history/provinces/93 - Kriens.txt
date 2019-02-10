@@ -1,0 +1,19 @@
+# c_kriens
+
+# County Title
+title = c_kriens
+
+# Settlements
+max_settlements = 5
+
+b_schauensee = castle
+b_kriens = city
+b_horw = city
+b_dorni = temple
+#b_kriens_2 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

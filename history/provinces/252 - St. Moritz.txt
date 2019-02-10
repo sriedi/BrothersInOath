@@ -1,0 +1,19 @@
+# c_st_moritz
+
+# County Title
+title = c_st_moritz
+
+# Settlements
+max_settlements = 5
+
+b_crest_alta = castle
+b_samedam = castle
+b_st_moritz = city
+b_pontresina = temple
+#b_st_moritz_2 = city
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

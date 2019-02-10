@@ -1,0 +1,21 @@
+# c_lecco
+
+# County Title
+title = c_lecco
+
+# Settlements
+max_settlements = 7
+
+b_calolziocorte = castle
+b_lecco = city
+b_ballabio = castle
+b_valmadera = temple
+b_olginate = castle
+b_galbiate = temple
+#b_civate = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

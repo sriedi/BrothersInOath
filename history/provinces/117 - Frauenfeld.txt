@@ -1,0 +1,18 @@
+# c_frauenfeld
+
+# County Title
+title = c_frauenfeld
+
+# Settlements
+max_settlements = 4
+
+b_wellenberg = castle
+b_fauenfeld = city
+b_oberkirch = temple
+#b_frauenfeld = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

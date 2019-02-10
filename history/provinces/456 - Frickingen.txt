@@ -1,0 +1,21 @@
+# c_frickingen
+
+# County Title
+title = c_frickingen
+
+# Settlements
+max_settlements = 7
+
+b_hohenfels = castle
+b_frickingen = city
+b_heiligenberg = temple
+#b_frickingen_2 = castle
+#b_frickingen_3 = city
+#b_frickingen_4 = temple
+#b_frickingen_5 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

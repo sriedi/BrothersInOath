@@ -1,0 +1,20 @@
+# c_immerstadt
+
+# County Title
+title = c_immerstadt
+
+# Settlements
+max_settlements = 6
+
+b_buehl = castle
+b_immerstadt = city
+b_thalkirchdorf = temple
+b_weissach = castle
+#b_oberstaufen = city
+#b_steibis = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

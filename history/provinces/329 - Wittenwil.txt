@@ -1,0 +1,18 @@
+# c_wittenwil
+
+# County Title
+title = c_wittenwil
+
+# Settlements
+max_settlements = 4
+
+b_wittenwil = castle
+b_aadorf = city
+b_taenikon = temple
+#b_wittenwil_2 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

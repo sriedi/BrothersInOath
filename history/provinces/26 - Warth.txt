@@ -1,0 +1,18 @@
+# c_warth
+
+# County Title
+title = c_warth
+
+# Settlements
+max_settlements = 4
+
+b_huettwilen = castle
+b_ittingen = temple
+#b_warth = temple
+#b_warth_2 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

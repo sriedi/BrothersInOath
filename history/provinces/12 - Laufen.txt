@@ -1,0 +1,21 @@
+# c_laufen
+
+# County Title
+title = c_laufen
+
+# Settlements
+max_settlements = 7
+
+b_zwingen = castle
+b_laufen = city
+b_pfaeffingen = castle
+b_duggingen = temple
+b_engenstein = castle
+b_biederthal = castle
+#b_laufen_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_st_ursainne
+
+# County Title
+title = c_st_ursainne
+
+# Settlements
+max_settlements = 5
+
+b_chaibait = castle
+b_st_ursenne = city
+b_st_ursenne_2 = temple
+b_asuel = castle
+#b_st_ursainne = city
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

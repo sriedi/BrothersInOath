@@ -1,0 +1,17 @@
+# c_st_fiden
+
+# County Title
+title = c_st_fiden
+
+# Settlements
+max_settlements = 3
+
+b_st_fiden = temple
+b_neudorf = city
+#b_hohenstein = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

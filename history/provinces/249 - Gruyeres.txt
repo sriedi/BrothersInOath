@@ -1,0 +1,21 @@
+# c_gruyeres
+
+# County Title
+title = c_gruyeres
+
+# Settlements
+max_settlements = 7
+
+b_gruyeres = castle
+b_broc = castle
+b_bulle = city
+b_ballival = castle
+b_chaffa = castle
+b_echarles = temple
+b_st_ignace = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

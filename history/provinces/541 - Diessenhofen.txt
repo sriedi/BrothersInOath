@@ -1,0 +1,19 @@
+# c_diessenhofen
+
+# County Title
+title = c_diessenhofen
+
+# Settlements
+max_settlements = 5
+
+b_diessenhofen = castle
+b_diessenhofen_2 = city
+b_st_katharinental = temple
+#b_schlatt = castle
+#b_basadingen = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

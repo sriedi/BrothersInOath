@@ -1,0 +1,548 @@
+PROV1;Edolo;Edolo;Edolo;;;;;;;;;x
+PROV2;Buldenz;Buldenz;Buldenz;;;;;;;;;x
+PROV3;Steckborn;Steckborn;Steckborn;;;;;;;;;x
+PROV4;La Cluzaz;La Cluzaz;La Cluzaz;;;;;;;;;x
+PROV5;Zernez;Zernez;Zernez;;;;;;;;;x
+PROV6;Greifensee;Greifensee;Greifensee;;;;;;;;;x
+PROV7;Gossau;Gossau;Gossau;;;;;;;;;x
+PROV8;Wassen;Wassen;Wassen;;;;;;;;;x
+PROV9;Saulx;Saulx;Saulx;;;;;;;;;x
+PROV10;Pampigny;Pampigny;Pampigny;;;;;;;;;x
+PROV11;Monthey;Monthey;Monthey;;;;;;;;;x
+PROV12;Laufen;Laufen;Laufen;;;;;;;;;x
+PROV13;Morobbia;Morobbia;Morobbia;;;;;;;;;x
+PROV14;Taminatal;Taminatal;Taminatal;;;;;;;;;x
+PROV15;Tirano;Tirano;Tirano;;;;;;;;;x
+PROV16;Orbe;Orbe;Orbe;;;;;;;;;x
+PROV17;Kloten;Kloten;Kloten;;;;;;;;;x
+PROV18;Teufen;Teufen;Teufen;;;;;;;;;x
+PROV19;Sargans;Sargans;Sargans;;;;;;;;;x
+PROV20;Maggiore;Maggiore;Maggiore;;;;;;;;;x
+PROV21;Glanzenberg;Glanzenberg;Glanzenberg;;;;;;;;;x
+PROV22;Wädenswil;Wädenswil;Wädenswil;;;;;;;;;x
+PROV23;Interlaken;Interlaken;Interlaken;;;;;;;;;x
+PROV24;Urnäsch;Urnäsch;Urnäsch;;;;;;;;;x
+PROV25;Rhine;Rhine;Rhine;;;;;;;;;x
+PROV26;Warth;Warth;Warth;;;;;;;;;x
+PROV27;Signau;Signau;Signau;;;;;;;;;x
+PROV28;Bischofszell;Bischofszell;Bischofszell;;;;;;;;;x
+PROV29;Ins;Ins;Ins;;;;;;;;;x
+PROV30;Rochejean;Rochejean;Rochejean;;;;;;;;;x
+PROV31;Avry;Avry;Avry;;;;;;;;;x
+PROV32;St. Germain;St. Germain;St. Germain;;;;;;;;;x
+PROV33;Kandertal;Kandertal;Kandertal;;;;;;;;;x
+PROV34;Thayngen;Thayngen;Thayngen;;;;;;;;;x
+PROV35;Stilfs;Stilfs;Stilfs;;;;;;;;;x
+PROV36;Saxon;Saxon;Saxon;;;;;;;;;x
+PROV37;Lake Lucern;Lake Lucern;Lake Lucern;;;;;;;;;x
+PROV38;Küssnacht;Küssnacht;Küssnacht;;;;;;;;;x
+PROV39;Egg;Egg;Egg;;;;;;;;;x
+PROV40;Buchs;Buchs;Buchs;;;;;;;;;x
+PROV41;Martina;Martina;Martina;;;;;;;;;x
+PROV42;Zollighofen;Zollighofen;Zollighofen;;;;;;;;;x
+PROV43;Cossonay;Cossonay;Cossonay;;;;;;;;;x
+PROV44;Gland;Gland;Gland;;;;;;;;;x
+PROV45;Rhine Bow;Rhine Bow;Rhine Bow;;;;;;;;;x
+PROV46;Kerzers;Kerzers;Kerzers;;;;;;;;;x
+PROV47;Rioz;Rioz;Rioz;;;;;;;;;x
+PROV48;Iberg;Iberg;Iberg;;;;;;;;;x
+PROV49;Jussey;Jussey;Jussey;;;;;;;;;x
+PROV50;Münsterlingen;Münsterlingen;Münsterlingen;;;;;;;;;x
+PROV51;Ischgl;Ischgl;Ischgl;;;;;;;;;x
+PROV52;Zogo;Zogo;Zogo;;;;;;;;;x
+PROV53;Ravensburg;Ravensburg;Ravensburg;;;;;;;;;x
+PROV54;Sondalo;Sondalo;Sondalo;;;;;;;;;x
+PROV55;Morat;Morat;Morat;;;;;;;;;x
+PROV56;Weesen;Weesen;Weesen;;;;;;;;;x
+PROV57;Immerstadt;Immerstadt;Immerstadt;;;;;;;;;x
+PROV58;Lake Sihl;Lake Sihl;Lake Sihl;;;;;;;;;x
+PROV59;Ermatingen;Ermatingen;Ermatingen;;;;;;;;;x
+PROV60;Villmergen;Villmergen;Villmergen;;;;;;;;;x
+PROV61;Castellard;Castellard;Castellard;;;;;;;;;x
+PROV62;Bonneville;Bonneville;Bonneville;;;;;;;;;x
+PROV63;Lüssel;Lüssel;Lüssel;;;;;;;;;x
+PROV64;Simmental;Simmental;Simmental;;;;;;;;;x
+PROV65;Wynigen;Wynigen;Wynigen;;;;;;;;;x
+PROV66;Bons;Bons;Bons;;;;;;;;;x
+PROV67;Lake Arbon;Lake Arbon;Lake Arbon;;;;;;;;;x
+PROV68;Müstair;Müstair;Müstair;;;;;;;;;x
+PROV69;Visp;Visp;Visp;;;;;;;;;x
+PROV70;Aarau;Aarau;Aarau;;;;;;;;;x
+PROV71;Rougemont;Rougemont;Rougemont;;;;;;;;;x
+PROV72;Buochs;Buochs;Buochs;;;;;;;;;x
+PROV73;Châteauvieux;Châteauvieux;Châteauvieux;;;;;;;;;x
+PROV74;Davos;Davos;Davos;;;;;;;;;x
+PROV75;Burgdorf;Burgdorf;Burgdorf;;;;;;;;;x
+PROV76;Näfels;Näfels;Näfels;;;;;;;;;x
+PROV77;Brescia;Brescia;Brescia;;;;;;;;;x
+PROV78;Argera;Argera;Argera;;;;;;;;;x
+PROV79;Waldshut;Waldshut;Waldshut;;;;;;;;;x
+PROV80;Balderschwang;Balderschwang;Balderschwang;;;;;;;;;x
+PROV81;Wittelsheim;Wittelsheim;Wittelsheim;;;;;;;;;x
+PROV82;Lake Bregenz;Lake Bregenz;Lake Bregenz;;;;;;;;;x
+PROV83;Dielsdorf;Dielsdorf;Dielsdorf;;;;;;;;;x
+PROV84;Martigny;Martigny;Martigny;;;;;;;;;x
+PROV85;Erincourt;Erincourt;Erincourt;;;;;;;;;x
+PROV86;Basel;Basel;Basel;;;;;;;;;x
+PROV87;Pratteln;Pratteln;Pratteln;;;;;;;;;x
+PROV88;Mustér;Mustér;Mustér;;;;;;;;;x
+PROV89;Suze;Suze;Suze;;;;;;;;;x
+PROV90;Aubonne;Aubonne;Aubonne;;;;;;;;;x
+PROV91;Conflans;Conflans;Conflans;;;;;;;;;x
+PROV92;Reute;Reute;Reute;;;;;;;;;x
+PROV93;Kriens;Kriens;Kriens;;;;;;;;;x
+PROV94;Bonaduz;Bonaduz;Bonaduz;;;;;;;;;x
+PROV95;Bremgarten;Bremgarten;Bremgarten;;;;;;;;;x
+PROV96;Delémont;Delémont;Delémont;;;;;;;;;x
+PROV97;Porrentruy;Porrentruy;Porrentruy;;;;;;;;;x
+PROV98;Sancey-le-Grand;Sancey-le-Grand;Sancey-le-Grand;;;;;;;;;x
+PROV99;Schwyz;Schwyz;Schwyz;;;;;;;;;x
+PROV100;St. Dennis;St. Dennis;St. Dennis;;;;;;;;;x
+PROV101;Rheinfelden;Rheinfelden;Rheinfelden;;;;;;;;;x
+PROV102;Lutry;Lutry;Lutry;;;;;;;;;x
+PROV103;Wängital;Wängital;Wängital;;;;;;;;;x
+PROV104;East Lake Leman;East Lake Leman;East Lake Leman;;;;;;;;;x
+PROV105;Schwanden;Schwanden;Schwanden;;;;;;;;;x
+PROV106;East Lake Neuchatêl;East Lake Neuchatêl;East Lake Neuchatêl;;;;;;;;;x
+PROV107;West Lake Leman;West Lake Leman;West Lake Leman;;;;;;;;;x
+PROV108;Alpnach;Alpnach;Alpnach;;;;;;;;;x
+PROV109;Aigle;Aigle;Aigle;;;;;;;;;x
+PROV110;Lake Lachen;Lake Lachen;Lake Lachen;;;;;;;;;x
+PROV111;Locarno;Locarno;Locarno;;;;;;;;;x
+PROV112;Ardon;Ardon;Ardon;;;;;;;;;x
+PROV113;Rhine;Rhine;Rhine;;;;;;;;;x
+PROV114;Rigny;Rigny;Rigny;;;;;;;;;x
+PROV115;Bern;Bern;Bern;;;;;;;;;x
+PROV116;Alpes;Alpes;Alpes;;;;;;;;;x
+PROV117;Frauenfeld;Frauenfeld;Frauenfeld;;;;;;;;;x
+PROV118;Upper Lake Constance;Upper Lake Constance;Upper Lake Constance;;;;;;;;;x
+PROV119;Central Lake Constance;Central Lake Constance;Central Lake Constance;;;;;;;;;x
+PROV120;Brig;Brig;Brig;;;;;;;;;x
+PROV121;Limpachtal;Limpachtal;Limpachtal;;;;;;;;;x
+PROV122;Laufenburg;Laufenburg;Laufenburg;;;;;;;;;x
+PROV123;Lucens;Lucens;Lucens;;;;;;;;;x
+PROV124;Annemasse;Annemasse;Annemasse;;;;;;;;;x
+PROV125;Brenno;Brenno;Brenno;;;;;;;;;x
+PROV126;Lindau;Lindau;Lindau;;;;;;;;;x
+PROV127;Gais;Gais;Gais;;;;;;;;;x
+PROV128;Echallens;Echallens;Echallens;;;;;;;;;x
+PROV129;Montbéliard;Montbéliard;Montbéliard;;;;;;;;;x
+PROV130;Sempach;Sempach;Sempach;;;;;;;;;x
+PROV131;Morez;Morez;Morez;;;;;;;;;x
+PROV132;Vanzone;Vanzone;Vanzone;;;;;;;;;x
+PROV133;Schluchsee;Schluchsee;Schluchsee;;;;;;;;;x
+PROV134;Rumilly;Rumilly;Rumilly;;;;;;;;;x
+PROV135;Rorschach;Rorschach;Rorschach;;;;;;;;;x
+PROV136;Mid Lake Leman;Mid Lake Leman;Mid Lake Leman;;;;;;;;;x
+PROV137;Kempten;Kempten;Kempten;;;;;;;;;x
+PROV138;Zug;Zug;Zug;;;;;;;;;x
+PROV139;Herblingen;Herblingen;Herblingen;;;;;;;;;x
+PROV140;Schaffhausen;Schaffhausen;Schaffhausen;;;;;;;;;x
+PROV141;Faverney;Faverney;Faverney;;;;;;;;;x
+PROV142;Schopfheim;Schopfheim;Schopfheim;;;;;;;;;x
+PROV143;Birseck;Birseck;Birseck;;;;;;;;;x
+PROV144;Tafers;Tafers;Tafers;;;;;;;;;x
+PROV145;Regensdorf;Regensdorf;Regensdorf;;;;;;;;;x
+PROV146;Vals;Vals;Vals;;;;;;;;;x
+PROV147;Konstanz;Konstanz;Konstanz;;;;;;;;;x
+PROV148;Lecco;Lecco;Lecco;;;;;;;;;x
+PROV149;Schänis;Schänis;Schänis;;;;;;;;;x
+PROV150;Lake Lario;Lake Lario;Lake Lario;;;;;;;;;x
+PROV151;Glarus;Glarus;Glarus;;;;;;;;;x
+PROV152;Engen;Engen;Engen;;;;;;;;;x
+PROV153;Rhine;Rhine;Rhine;;;;;;;;;x
+PROV154;Büren;Büren;Büren;;;;;;;;;x
+PROV155;Wyne;Wyne;Wyne;;;;;;;;;x
+PROV156;Rhine;Rhine;Rhine;;;;;;;;;x
+PROV157;Knonau;Knonau;Knonau;;;;;;;;;x
+PROV158;Mals;Mals;Mals;;;;;;;;;x
+PROV159;La Cure;La Cure;La Cure;;;;;;;;;x
+PROV160;Faverges;Faverges;Faverges;;;;;;;;;x
+PROV161;Einsideln;Einsideln;Einsideln;;;;;;;;;x
+PROV162;Bière;Bière;Bière;;;;;;;;;x
+PROV163;Schwarzsee;Schwarzsee;Schwarzsee;;;;;;;;;x
+PROV164;Faido;Faido;Faido;;;;;;;;;x
+PROV165;Saignelégier;Saignelégier;Saignelégier;;;;;;;;;x
+PROV166;Balzers;Balzers;Balzers;;;;;;;;;x
+PROV167;Lake Biel;Lake Biel;Lake Biel;;;;;;;;;x
+PROV168;St. Gervais;St. Gervais;St. Gervais;;;;;;;;;x
+PROV169;Hohenrain;Hohenrain;Hohenrain;;;;;;;;;x
+PROV170;Sissach;Sissach;Sissach;;;;;;;;;x
+PROV171;Lake Hallwil;Lake Hallwil;Lake Hallwil;;;;;;;;;x
+PROV172;Gersau;Gersau;Gersau;;;;;;;;;x
+PROV173;Simplon;Simplon;Simplon;;;;;;;;;x
+PROV174;Grindelwald;Grindelwald;Grindelwald;;;;;;;;;x
+PROV175;Thun;Thun;Thun;;;;;;;;;x
+PROV176;Rhine;Rhine;Rhine;;;;;;;;;x
+PROV177;Lungern;Lungern;Lungern;;;;;;;;;x
+PROV178;Lake Lungern;Lake Lungern;Lake Lungern;;;;;;;;;x
+PROV179;Waldstatt;Waldstatt;Waldstatt;;;;;;;;;x
+PROV180;Upper Lake;Upper Lake;Upper Lake;;;;;;;;;x
+PROV181;Pfäffikon;Pfäffikon;Pfäffikon;;;;;;;;;x
+PROV182;Baceno;Baceno;Baceno;;;;;;;;;x
+PROV183;Sattel;Sattel;Sattel;;;;;;;;;x
+PROV184;Stockach;Stockach;Stockach;;;;;;;;;x
+PROV185;Lure;Lure;Lure;;;;;;;;;x
+PROV186;Albula;Albula;Albula;;;;;;;;;x
+PROV187;Cham;Cham;Cham;;;;;;;;;x
+PROV188;Bellinzona;Bellinzona;Bellinzona;;;;;;;;;x
+PROV189;Como;Como;Como;;;;;;;;;x
+PROV190;Erstfeld;Erstfeld;Erstfeld;;;;;;;;;x
+PROV191;Neuchâtel;Neuchâtel;Neuchâtel;;;;;;;;;x
+PROV192;Sion;Sion;Sion;;;;;;;;;x
+PROV193;Romont;Romont;Romont;;;;;;;;;x
+PROV194;Altkirch;Altkirch;Altkirch;;;;;;;;;x
+PROV195;Mühlhausen;Mühlhausen;Mühlhausen;;;;;;;;;x
+PROV196;Belfort;Belfort;Belfort;;;;;;;;;x
+PROV197;Elm;Elm;Elm;;;;;;;;;x
+PROV198;Viznau;Viznau;Viznau;;;;;;;;;x
+PROV199;Gattinara;Gattinara;Gattinara;;;;;;;;;x
+PROV200;Aarberg;Aarberg;Aarberg;;;;;;;;;x
+PROV201;Chur;Chur;Chur;;;;;;;;;x
+PROV202;Taninges;Taninges;Taninges;;;;;;;;;x
+PROV203;Delley;Delley;Delley;;;;;;;;;x
+PROV204;Bellegarde;Bellegarde;Bellegarde;;;;;;;;;x
+PROV205;Cluses;Cluses;Cluses;;;;;;;;;x
+PROV206;Zollikon;Zollikon;Zollikon;;;;;;;;;x
+PROV207;Altdorf;Altdorf;Altdorf;;;;;;;;;x
+PROV208;Estavayer;Estavayer;Estavayer;;;;;;;;;x
+PROV209;Oron;Oron;Oron;;;;;;;;;x
+PROV210;Abondance;Abondance;Abondance;;;;;;;;;x
+PROV211;Neunkirch;Neunkirch;Neunkirch;;;;;;;;;x
+PROV212;Utzenstorf;Utzenstorf;Utzenstorf;;;;;;;;;x
+PROV213;Realp;Realp;Realp;;;;;;;;;x
+PROV214;Chiavenna;Chiavenna;Chiavenna;;;;;;;;;x
+PROV215;Hauenstein;Hauenstein;Hauenstein;;;;;;;;;x
+PROV216;Salins;Salins;Salins;;;;;;;;;x
+PROV217;Winterthur;Winterthur;Winterthur;;;;;;;;;x
+PROV218;Courtepin;Courtepin;Courtepin;;;;;;;;;x
+PROV219;Göschenen;Göschenen;Göschenen;;;;;;;;;x
+PROV220;Habsburg;Habsburg;Habsburg;;;;;;;;;x
+PROV221;St. Pierre;St. Pierre;St. Pierre;;;;;;;;;x
+PROV222;Valpelline;Valpelline;Valpelline;;;;;;;;;x
+PROV223;Varese;Varese;Varese;;;;;;;;;x
+PROV224;Allensbach;Allensbach;Allensbach;;;;;;;;;x
+PROV225;Banges;Banges;Banges;;;;;;;;;x
+PROV226;Kessbronn;Kessbronn;Kessbronn;;;;;;;;;x
+PROV227;Airolo;Airolo;Airolo;;;;;;;;;x
+PROV228;Luino;Luino;Luino;;;;;;;;;x
+PROV229;Schwarzenburg;Schwarzenburg;Schwarzenburg;;;;;;;;;x
+PROV230;Engelberg;Engelberg;Engelberg;;;;;;;;;x
+PROV231;Lindenberg;Lindenberg;Lindenberg;;;;;;;;;x
+PROV232;Chambéry;Chambéry;Chambéry;;;;;;;;;x
+PROV233;Nyon;Nyon;Nyon;;;;;;;;;x
+PROV234;Solothurn;Solothurn;Solothurn;;;;;;;;;x
+PROV235;Zürich;Zürich;Zürich;;;;;;;;;x
+PROV236;Gerlafingen;Gerlafingen;Gerlafingen;;;;;;;;;x
+PROV237;Saas;Saas;Saas;;;;;;;;;x
+PROV238;Andelfingen;Andelfingen;Andelfingen;;;;;;;;;x
+PROV239;Lower Valley Rhine;Lower Valley Rhine;Lower Valley Rhine;;;;;;;;;x
+PROV240;Schwellbrunn;Schwellbrunn;Schwellbrunn;;;;;;;;;x
+PROV241;Arosa;Arosa;Arosa;;;;;;;;;x
+PROV242;Sedrun;Sedrun;Sedrun;;;;;;;;;x
+PROV243;Céligny;Céligny;Céligny;;;;;;;;;x
+PROV244;Etuz;Etuz;Etuz;;;;;;;;;x
+PROV245;St. Cergune;St. Cergune;St. Cergune;;;;;;;;;x
+PROV246;Wehr;Wehr;Wehr;;;;;;;;;x
+PROV247;Morbegno;Morbegno;Morbegno;;;;;;;;;x
+PROV248;Wiesendangen;Wiesendangen;Wiesendangen;;;;;;;;;x
+PROV249;Gruyères;Gruyères;Gruyères;;;;;;;;;x
+PROV250;Jestetten;Jestetten;Jestetten;;;;;;;;;x
+PROV251;Besancon;Besancon;Besancon;;;;;;;;;x
+PROV252;St. Moritz;St. Moritz;St. Moritz;;;;;;;;;x
+PROV253;Shilquell;Shilquell;Shilquell;;;;;;;;;x
+PROV254;Unterseen;Unterseen;Unterseen;;;;;;;;;x
+PROV255;Hauterive;Hauterive;Hauterive;;;;;;;;;x
+PROV256;Gstaad;Gstaad;Gstaad;;;;;;;;;x
+PROV257;Champagnole;Champagnole;Champagnole;;;;;;;;;x
+PROV258;Mariastein;Mariastein;Mariastein;;;;;;;;;x
+PROV259;Scuol;Scuol;Scuol;;;;;;;;;x
+PROV260;Eglisau;Eglisau;Eglisau;;;;;;;;;x
+PROV261;Annecy;Annecy;Annecy;;;;;;;;;x
+PROV262;Münsingen;Münsingen;Münsingen;;;;;;;;;x
+PROV263;Lake Thun;Lake Thun;Lake Thun;;;;;;;;;x
+PROV264;Montgesoye;Montgesoye;Montgesoye;;;;;;;;;x
+PROV265;Muri;Muri;Muri;;;;;;;;;x
+PROV266;Lower Rhine;Lower Rhine;Lower Rhine;;;;;;;;;x
+PROV267;Langenthal;Langenthal;Langenthal;;;;;;;;;x
+PROV268;Le Russey;Le Russey;Le Russey;;;;;;;;;x
+PROV269;Surpierre;Surpierre;Surpierre;;;;;;;;;x
+PROV270;Worb;Worb;Worb;;;;;;;;;x
+PROV271;Omegna;Omegna;Omegna;;;;;;;;;x
+PROV272;Villersexel;Villersexel;Villersexel;;;;;;;;;x
+PROV273;Altstätten;Altstätten;Altstätten;;;;;;;;;x
+PROV274;Wildhaus;Wildhaus;Wildhaus;;;;;;;;;x
+PROV275;Vernier;Vernier;Vernier;;;;;;;;;x
+PROV276;Guebwiller;Guebwiller;Guebwiller;;;;;;;;;x
+PROV277;Rhine;Rhine;Rhine;;;;;;;;;x
+PROV278;Horgen;Horgen;Horgen;;;;;;;;;x
+PROV279;Romanshorn;Romanshorn;Romanshorn;;;;;;;;;x
+PROV280;Schöftland;Schöftland;Schöftland;;;;;;;;;x
+PROV281;Evian;Evian;Evian;;;;;;;;;x
+PROV282;Entlebuch;Entlebuch;Entlebuch;;;;;;;;;x
+PROV283;Meilen;Meilen;Meilen;;;;;;;;;x
+PROV284;Gallarate;Gallarate;Gallarate;;;;;;;;;x
+PROV285;Uznach;Uznach;Uznach;;;;;;;;;x
+PROV286;Levier;Levier;Levier;;;;;;;;;x
+PROV287;La Sarraz;La Sarraz;La Sarraz;;;;;;;;;x
+PROV288;Stein;Stein;Stein;;;;;;;;;x
+PROV289;Domodossola;Domodossola;Domodossola;;;;;;;;;x
+PROV290;Obergünzburg;Obergünzburg;Obergünzburg;;;;;;;;;x
+PROV291;Darfo;Darfo;Darfo;;;;;;;;;x
+PROV292;Rapperswil;Rapperswil;Rapperswil;;;;;;;;;x
+PROV293;Amriswil;Amriswil;Amriswil;;;;;;;;;x
+PROV294;Thalwil;Thalwil;Thalwil;;;;;;;;;x
+PROV295;Milano;Milano;Milano;;;;;;;;;x
+PROV296;Gex;Gex;Gex;;;;;;;;;x
+PROV297;Lake Locarno;Lake Locarno;Lake Locarno;;;;;;;;;x
+PROV298;Wangen;Wangen;Wangen;;;;;;;;;x
+PROV299;St. Sulpice;St. Sulpice;St. Sulpice;;;;;;;;;x
+PROV300;Rhine Delta;Rhine Delta;Rhine Delta;;;;;;;;;x
+PROV301;Bassecourt;Bassecourt;Bassecourt;;;;;;;;;x
+PROV302;Lake Brienz;Lake Brienz;Lake Brienz;;;;;;;;;x
+PROV303;Borgomanero;Borgomanero;Borgomanero;;;;;;;;;x
+PROV304;Ronchamp;Ronchamp;Ronchamp;;;;;;;;;x
+PROV305;Beckenried;Beckenried;Beckenried;;;;;;;;;x
+PROV306;Lech;Lech;Lech;;;;;;;;;x
+PROV307;Säntis;Säntis;Säntis;;;;;;;;;x
+PROV308;Lake Baldegg;Lake Baldegg;Lake Baldegg;;;;;;;;;x
+PROV309;Lake Iseo;Lake Iseo;Lake Iseo;;;;;;;;;x
+PROV310;Marktoberdorf;Marktoberdorf;Marktoberdorf;;;;;;;;;x
+PROV311;Baden;Baden;Baden;;;;;;;;;x
+PROV312;Aare River;Aare River;Aare River;;;;;;;;;x
+PROV313;St. Anton;St. Anton;St. Anton;;;;;;;;;x
+PROV314;Bad Zurzach;Bad Zurzach;Bad Zurzach;;;;;;;;;x
+PROV315;Maggia;Maggia;Maggia;;;;;;;;;x
+PROV316;Überlingen;Überlingen;Überlingen;;;;;;;;;x
+PROV317;Landenberg;Landenberg;Landenberg;;;;;;;;;x
+PROV318;Ceneri;Ceneri;Ceneri;;;;;;;;;x
+PROV319;Seelisberg;Seelisberg;Seelisberg;;;;;;;;;x
+PROV320;Porlezza;Porlezza;Porlezza;;;;;;;;;x
+PROV321;Payerne;Payerne;Payerne;;;;;;;;;x
+PROV322;Küssaburg;Küssaburg;Küssaburg;;;;;;;;;x
+PROV323;Moutier;Moutier;Moutier;;;;;;;;;x
+PROV324;Raron;Raron;Raron;;;;;;;;;x
+PROV325;Maloja;Maloja;Maloja;;;;;;;;;x
+PROV326;Livigno;Livigno;Livigno;;;;;;;;;x
+PROV327;Sumiswald;Sumiswald;Sumiswald;;;;;;;;;x
+PROV328;Appenzell;Appenzell;Appenzell;;;;;;;;;x
+PROV329;Wittenwil;Wittenwil;Wittenwil;;;;;;;;;x
+PROV330;Versoix;Versoix;Versoix;;;;;;;;;x
+PROV331;Zuoz;Zuoz;Zuoz;;;;;;;;;x
+PROV332;Reichenau;Reichenau;Reichenau;;;;;;;;;x
+PROV333;Uzwil;Uzwil;Uzwil;;;;;;;;;x
+PROV334;Willisau;Willisau;Willisau;;;;;;;;;x
+PROV335;St. Maurice;St. Maurice;St. Maurice;;;;;;;;;x
+PROV336;Bülach;Bülach;Bülach;;;;;;;;;x
+PROV337;Bivio;Bivio;Bivio;;;;;;;;;x
+PROV338;Gaienhofen;Gaienhofen;Gaienhofen;;;;;;;;;x
+PROV339;Mélisey;Mélisey;Mélisey;;;;;;;;;x
+PROV340;Vandoevres;Vandoevres;Vandoevres;;;;;;;;;x
+PROV341;Bravuogn;Bravuogn;Bravuogn;;;;;;;;;x
+PROV342;Sins;Sins;Sins;;;;;;;;;x
+PROV343;Lake Aegeri;Lake Aegeri;Lake Aegeri;;;;;;;;;x
+PROV344;Bad Krozingen;Bad Krozingen;Bad Krozingen;;;;;;;;;x
+PROV345;Chiasso;Chiasso;Chiasso;;;;;;;;;x
+PROV346;Central Lake Neuchatêl;Central Lake Neuchatêl;Central Lake Neuchatêl;;;;;;;;;x
+PROV347;Centovalli;Centovalli;Centovalli;;;;;;;;;x
+PROV348;Henggart;Henggart;Henggart;;;;;;;;;x
+PROV349;San Bernhardino;San Bernhardino;San Bernhardino;;;;;;;;;x
+PROV350;Leutkirch;Leutkirch;Leutkirch;;;;;;;;;x
+PROV351;Lake Sarnen;Lake Sarnen;Lake Sarnen;;;;;;;;;x
+PROV352;Thusis;Thusis;Thusis;;;;;;;;;x
+PROV353;Beaufort;Beaufort;Beaufort;;;;;;;;;x
+PROV354;Lake Damm;Lake Damm;Lake Damm;;;;;;;;;x
+PROV355;Lake Gersau;Lake Gersau;Lake Gersau;;;;;;;;;x
+PROV356;Onex;Onex;Onex;;;;;;;;;x
+PROV357;Bavona;Bavona;Bavona;;;;;;;;;x
+PROV358;Heiden;Heiden;Heiden;;;;;;;;;x
+PROV359;Lélex;Lélex;Lélex;;;;;;;;;x
+PROV360;Le Locle;Le Locle;Le Locle;;;;;;;;;x
+PROV361;Sarnen;Sarnen;Sarnen;;;;;;;;;x
+PROV362;Mesocco;Mesocco;Mesocco;;;;;;;;;x
+PROV363;Köniz;Köniz;Köniz;;;;;;;;;x
+PROV364;Lake Verbania;Lake Verbania;Lake Verbania;;;;;;;;;x
+PROV365;Colombier;Colombier;Colombier;;;;;;;;;x
+PROV366;Lake Brunnen;Lake Brunnen;Lake Brunnen;;;;;;;;;x
+PROV367;Buchhorn;Buchhorn;Buchhorn;;;;;;;;;x
+PROV368;Mariano;Mariano;Mariano;;;;;;;;;x
+PROV369;Verzasca;Verzasca;Verzasca;;;;;;;;;x
+PROV370;Upper Valley Rhine;Upper Valley Rhine;Upper Valley Rhine;;;;;;;;;x
+PROV371;Clusone;Clusone;Clusone;;;;;;;;;x
+PROV372;Herisau;Herisau;Herisau;;;;;;;;;x
+PROV373;Montfort;Montfort;Montfort;;;;;;;;;x
+PROV374;Confracourt;Confracourt;Confracourt;;;;;;;;;x
+PROV375;Olten;Olten;Olten;;;;;;;;;x
+PROV376;Montferrand;Montferrand;Montferrand;;;;;;;;;x
+PROV377;Genève;Genève;Genève;;;;;;;;;x
+PROV378;Leuk;Leuk;Leuk;;;;;;;;;x
+PROV379;Vallée de Joux;Vallée de Joux;Vallée de Joux;;;;;;;;;x
+PROV380;Lake Pfäffikon;Lake Pfäffikon;Lake Pfäffikon;;;;;;;;;x
+PROV381;Weissenstein;Weissenstein;Weissenstein;;;;;;;;;x
+PROV382;Calanca;Calanca;Calanca;;;;;;;;;x
+PROV383;Gonten;Gonten;Gonten;;;;;;;;;x
+PROV384;Stans;Stans;Stans;;;;;;;;;x
+PROV385;Muotatal;Muotatal;Muotatal;;;;;;;;;x
+PROV386;Kyburg;Kyburg;Kyburg;;;;;;;;;x
+PROV387;Rougemont;Rougemont;Rougemont;;;;;;;;;x
+PROV388;Avenches;Avenches;Avenches;;;;;;;;;x
+PROV389;Balsthal;Balsthal;Balsthal;;;;;;;;;x
+PROV390;Spiez;Spiez;Spiez;;;;;;;;;x
+PROV391;Brienz;Brienz;Brienz;;;;;;;;;x
+PROV392;Illanz;Illanz;Illanz;;;;;;;;;x
+PROV393;Bergamo;Bergamo;Bergamo;;;;;;;;;x
+PROV394;Todtnau;Todtnau;Todtnau;;;;;;;;;x
+PROV395;Lake Walen;Lake Walen;Lake Walen;;;;;;;;;x
+PROV396;Morges;Morges;Morges;;;;;;;;;x
+PROV397;Stühlingen;Stühlingen;Stühlingen;;;;;;;;;x
+PROV398;Gaggiolo;Gaggiolo;Gaggiolo;;;;;;;;;x
+PROV399;Sierre;Sierre;Sierre;;;;;;;;;x
+PROV400;Menthon;Menthon;Menthon;;;;;;;;;x
+PROV401;Wenignen;Wenignen;Wenignen;;;;;;;;;x
+PROV402;Arbon;Arbon;Arbon;;;;;;;;;x
+PROV403;Landeck;Landeck;Landeck;;;;;;;;;x
+PROV404;Lugano;Lugano;Lugano;;;;;;;;;x
+PROV405;Frangy;Frangy;Frangy;;;;;;;;;x
+PROV406;Escholzmatt;Escholzmatt;Escholzmatt;;;;;;;;;x
+PROV407;Val de Travers;Val de Travers;Val de Travers;;;;;;;;;x
+PROV408;Lenzburg;Lenzburg;Lenzburg;;;;;;;;;x
+PROV409;Lake Viznau;Lake Viznau;Lake Viznau;;;;;;;;;x
+PROV410;Nesslau;Nesslau;Nesslau;;;;;;;;;x
+PROV411;Verbania;Verbania;Verbania;;;;;;;;;x
+PROV412;Avers;Avers;Avers;;;;;;;;;x
+PROV413;Pontarlier;Pontarlier;Pontarlier;;;;;;;;;x
+PROV414;Lörrach;Lörrach;Lörrach;;;;;;;;;x
+PROV415;Walenstadt;Walenstadt;Walenstadt;;;;;;;;;x
+PROV416;Dornbirn;Dornbirn;Dornbirn;;;;;;;;;x
+PROV417;Morzine;Morzine;Morzine;;;;;;;;;x
+PROV418;West Lake Neuchatêl;West Lake Neuchatêl;West Lake Neuchatêl;;;;;;;;;x
+PROV419;Frasne;Frasne;Frasne;;;;;;;;;x
+PROV420;Cross Lake;Cross Lake;Cross Lake;;;;;;;;;x
+PROV421;Campo;Campo;Campo;;;;;;;;;x
+PROV422;Saint-Croix;Saint-Croix;Saint-Croix;;;;;;;;;x
+PROV423;Lake Tuggen;Lake Tuggen;Lake Tuggen;;;;;;;;;x
+PROV424;Aosta;Aosta;Aosta;;;;;;;;;x
+PROV425;Lake Ceresio;Lake Ceresio;Lake Ceresio;;;;;;;;;x
+PROV426;St. Bernard;St. Bernard;St. Bernard;;;;;;;;;x
+PROV427;St. Claude;St. Claude;St. Claude;;;;;;;;;x
+PROV428;Rhine;Rhine;Rhine;;;;;;;;;x
+PROV429;Vesoul;Vesoul;Vesoul;;;;;;;;;x
+PROV430;St.Gallen;St.Gallen;St.Gallen;;;;;;;;;x
+PROV431;Vaucluse;Vaucluse;Vaucluse;;;;;;;;;x
+PROV432;Ägeri;Ägeri;Ägeri;;;;;;;;;x
+PROV433;Stanzach;Stanzach;Stanzach;;;;;;;;;x
+PROV434;Lake Uri;Lake Uri;Lake Uri;;;;;;;;;x
+PROV435;Neuenstadt;Neuenstadt;Neuenstadt;;;;;;;;;x
+PROV436;Flumet;Flumet;Flumet;;;;;;;;;x
+PROV437;Etroubles;Etroubles;Etroubles;;;;;;;;;x
+PROV438;Riggisberg;Riggisberg;Riggisberg;;;;;;;;;x
+PROV439;Prättigau;Prättigau;Prättigau;;;;;;;;;x
+PROV440;Yverdon;Yverdon;Yverdon;;;;;;;;;x
+PROV441;Lake Murten;Lake Murten;Lake Murten;;;;;;;;;x
+PROV442;Huttwil;Huttwil;Huttwil;;;;;;;;;x
+PROV443;Goms;Goms;Goms;;;;;;;;;x
+PROV444;Fiesch;Fiesch;Fiesch;;;;;;;;;x
+PROV445;Randenberg;Randenberg;Randenberg;;;;;;;;;x
+PROV446;Lake Como;Lake Como;Lake Como;;;;;;;;;x
+PROV447;Riehen;Riehen;Riehen;;;;;;;;;x
+PROV448;Reiden;Reiden;Reiden;;;;;;;;;x
+PROV449;Lieu-Croissant;Lieu-Croissant;Lieu-Croissant;;;;;;;;;x
+PROV450;Zofingen;Zofingen;Zofingen;;;;;;;;;x
+PROV451;Sursee;Sursee;Sursee;;;;;;;;;x
+PROV452;Lake Zug;Lake Zug;Lake Zug;;;;;;;;;x
+PROV453;Truns;Truns;Truns;;;;;;;;;x
+PROV454;Biel;Biel;Biel;;;;;;;;;x
+PROV455;Emmen;Emmen;Emmen;;;;;;;;;x
+PROV456;Frickingen;Frickingen;Frickingen;;;;;;;;;x
+PROV457;Breitlandenberg;Breitlandenberg;Breitlandenberg;;;;;;;;;x
+PROV458;Lausanne;Lausanne;Lausanne;;;;;;;;;x
+PROV459;St. Niklaus;St. Niklaus;St. Niklaus;;;;;;;;;x
+PROV460;Luxeuil;Luxeuil;Luxeuil;;;;;;;;;x
+PROV461;Klausenpass;Klausenpass;Klausenpass;;;;;;;;;x
+PROV462;Pfungen;Pfungen;Pfungen;;;;;;;;;x
+PROV463;Singen;Singen;Singen;;;;;;;;;x
+PROV464;Lake Orta;Lake Orta;Lake Orta;;;;;;;;;x
+PROV465;Moudon;Moudon;Moudon;;;;;;;;;x
+PROV466;Cossato;Cossato;Cossato;;;;;;;;;x
+PROV467;Rhine;Rhine;Rhine;;;;;;;;;x
+PROV468;Feldegg;Feldegg;Feldegg;;;;;;;;;x
+PROV469;Oberhofen;Oberhofen;Oberhofen;;;;;;;;;x
+PROV470;St. Ursainne;St. Ursainne;St. Ursainne;;;;;;;;;x
+PROV471;Gethod;Gethod;Gethod;;;;;;;;;x
+PROV472;Lake Alpnach;Lake Alpnach;Lake Alpnach;;;;;;;;;x
+PROV473;Wollishofen;Wollishofen;Wollishofen;;;;;;;;;x
+PROV474;Lake Arona;Lake Arona;Lake Arona;;;;;;;;;x
+PROV475;Vallorbe;Vallorbe;Vallorbe;;;;;;;;;x
+PROV476;Laupen;Laupen;Laupen;;;;;;;;;x
+PROV477;Intyamon;Intyamon;Intyamon;;;;;;;;;x
+PROV478;Sondrio;Sondrio;Sondrio;;;;;;;;;x
+PROV479;Dixence;Dixence;Dixence;;;;;;;;;x
+PROV480;Fischingen;Fischingen;Fischingen;;;;;;;;;x
+PROV481;Meersburg;Meersburg;Meersburg;;;;;;;;;x
+PROV482;Sonthofen;Sonthofen;Sonthofen;;;;;;;;;x
+PROV483;Poschiavo;Poschiavo;Poschiavo;;;;;;;;;x
+PROV484;Albens;Albens;Albens;;;;;;;;;x
+PROV485;Vevey;Vevey;Vevey;;;;;;;;;x
+PROV486;Fällanden;Fällanden;Fällanden;;;;;;;;;x
+PROV487;Lake Kussnacht;Lake Kussnacht;Lake Kussnacht;;;;;;;;;x
+PROV488;Lake Lecco;Lake Lecco;Lake Lecco;;;;;;;;;x
+PROV489;Schongau;Schongau;Schongau;;;;;;;;;x
+PROV490;Glodau;Glodau;Glodau;;;;;;;;;x
+PROV491;Legnano;Legnano;Legnano;;;;;;;;;x
+PROV492;Roveredo;Roveredo;Roveredo;;;;;;;;;x
+PROV493;Lake Annecy;Lake Annecy;Lake Annecy;;;;;;;;;x
+PROV494;Varallo;Varallo;Varallo;;;;;;;;;x
+PROV495;Oberegg;Oberegg;Oberegg;;;;;;;;;x
+PROV496;Navisence;Navisence;Navisence;;;;;;;;;x
+PROV497;Weinfelden;Weinfelden;Weinfelden;;;;;;;;;x
+PROV498;Chaudefontaine;Chaudefontaine;Chaudefontaine;;;;;;;;;x
+PROV499;Moltrasio;Moltrasio;Moltrasio;;;;;;;;;x
+PROV500;Montfaucon;Montfaucon;Montfaucon;;;;;;;;;x
+PROV501;Schaffhausen Rhine;Schaffhausen Rhine;Schaffhausen Rhine;;;;;;;;;x
+PROV502;Thônes;Thônes;Thônes;;;;;;;;;x
+PROV503;St.Fiden;St.Fiden;St.Fiden;;;;;;;;;x
+PROV504;Müllheim;Müllheim;Müllheim;;;;;;;;;x
+PROV505;Meiringen;Meiringen;Meiringen;;;;;;;;;x
+PROV506;Luzern;Luzern;Luzern;;;;;;;;;x
+PROV507;Elgg;Elgg;Elgg;;;;;;;;;x
+PROV508;Jegenstorf;Jegenstorf;Jegenstorf;;;;;;;;;x
+PROV509;Zermatt;Zermatt;Zermatt;;;;;;;;;x
+PROV510;Schlieren;Schlieren;Schlieren;;;;;;;;;x
+PROV511;Melchtal;Melchtal;Melchtal;;;;;;;;;x
+PROV512;Amsteg;Amsteg;Amsteg;;;;;;;;;x
+PROV513;Cicon;Cicon;Cicon;;;;;;;;;x
+PROV514;Grandson;Grandson;Grandson;;;;;;;;;x
+PROV515;Coppet;Coppet;Coppet;;;;;;;;;x
+PROV516;Bonstetten;Bonstetten;Bonstetten;;;;;;;;;x
+PROV517;Rhine;Rhine;Rhine;;;;;;;;;x
+PROV518;Lake Greifen;Lake Greifen;Lake Greifen;;;;;;;;;x
+PROV519;Vaduz;Vaduz;Vaduz;;;;;;;;;x
+PROV520;Chatillon;Chatillon;Chatillon;;;;;;;;;x
+PROV521;Eggiwil;Eggiwil;Eggiwil;;;;;;;;;x
+PROV522;Le Thillot;Le Thillot;Le Thillot;;;;;;;;;x
+PROV523;Lenk;Lenk;Lenk;;;;;;;;;x
+PROV524;Grenchen;Grenchen;Grenchen;;;;;;;;;x
+PROV525;Linthtal;Linthtal;Linthtal;;;;;;;;;x
+PROV526;Lake Lugano;Lake Lugano;Lake Lugano;;;;;;;;;x
+PROV527;Boëge;Boëge;Boëge;;;;;;;;;x
+PROV528;Bregenz;Bregenz;Bregenz;;;;;;;;;x
+PROV529;Hüningen;Hüningen;Hüningen;;;;;;;;;x
+PROV530;St. Margreten;St. Margreten;St. Margreten;;;;;;;;;x
+PROV531;Lake Zürich;Lake Zürich;Lake Zürich;;;;;;;;;x
+PROV532;Oberstdorf;Oberstdorf;Oberstdorf;;;;;;;;;x
+PROV533;Brgosesia;Brgosesia;Brgosesia;;;;;;;;;x
+PROV534;Scopello;Scopello;Scopello;;;;;;;;;x
+PROV535;Fribourg;Fribourg;Fribourg;;;;;;;;;x
+PROV536;Uetliberg;Uetliberg;Uetliberg;;;;;;;;;x
+PROV537;Épeugney;Épeugney;Épeugney;;;;;;;;;x
+PROV538;Oensingen;Oensingen;Oensingen;;;;;;;;;x
+PROV539;Lake Sempach;Lake Sempach;Lake Sempach;;;;;;;;;x
+PROV540;Cruseilles;Cruseilles;Cruseilles;;;;;;;;;x
+PROV541;Diessenhofen;Diessenhofen;Diessenhofen;;;;;;;;;x
+PROV542;Stäfa;Stäfa;Stäfa;;;;;;;;;x
+PROV543;Lake Saint-Point;Lake Saint-Point;Lake Saint-Point;;;;;;;;;x
+PROV544;Freienbach;Freienbach;Freienbach;;;;;;;;;x
+PROV545;Gotthard;Gotthard;Gotthard;;;;;;;;;x
+PROV546;Rhine Drain;Rhine Drain;Rhine Drain;;;;;;;;;x
+PROV547;Lower Lake Constance;Lower Lake Constance;Lower Lake Constance;;;;;;;;;x
+PROV548;Kienberg;Kienberg;Kienberg;;;;;;;;;x

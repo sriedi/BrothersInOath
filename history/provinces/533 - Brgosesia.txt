@@ -1,0 +1,19 @@
+# c_brgosesia
+
+# County Title
+title = c_brgosesia
+
+# Settlements
+max_settlements = 5
+
+b_borgosesia = castle
+b_borgosesia_2 = city
+b_serrvalle = temple
+b_quarona = temple
+b_zuccaro = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

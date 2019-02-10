@@ -1,0 +1,21 @@
+# c_faverney
+
+# County Title
+title = c_faverney
+
+# Settlements
+max_settlements = 7
+
+b_faverney = castle
+b_buffignecourt = city
+b_baulay = temple
+b_breurey = castle
+#b_purgerot = city
+#b_mercey = temple
+#b_mersuay = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

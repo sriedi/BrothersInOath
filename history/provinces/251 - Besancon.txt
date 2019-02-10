@@ -1,0 +1,21 @@
+# c_besancon
+
+# County Title
+title = c_besancon
+
+# Settlements
+max_settlements = 1
+
+b_besancon = city
+b_velotte = castle
+b_bregille = castle
+b_la_viotte = city
+b_st_claude = temple
+b_rosemont = castle
+b_bregille_2 = city
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

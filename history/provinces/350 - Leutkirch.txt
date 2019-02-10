@@ -1,0 +1,21 @@
+# c_leutkirch
+
+# County Title
+title = c_leutkirch
+
+# Settlements
+max_settlements = 7
+
+b_kisslegg = castle
+b_leutkirch = city
+b_wolfegg = castle
+b_amach = temple
+b_sankt_anna = temple
+b_herrot = castle
+b_arnach = city
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

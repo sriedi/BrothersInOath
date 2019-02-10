@@ -1,0 +1,20 @@
+# c_zofingen
+
+# County Title
+title = c_zofingen
+
+# Settlements
+max_settlements = 6
+
+b_bottenstein = castle
+b_zofingen = city
+b_zofingen_2 = temple
+#b_muehlenthal = castle
+#b_bottenwil = city
+#b_hochwacht_2 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,29 @@
+c_chur = { # 201
+ holy_site = catholic
+ holy_site = orthodox
+}
+
+c_solothurn = { # 234
+ holy_site = catholic
+ holy_site = orthodox
+}
+
+c_melchtal = { # 511
+ holy_site = catholic
+ holy_site = orthodox
+}
+
+c_einsideln = { # 161
+ holy_site = catholic
+ holy_site = orthodox
+}
+
+c_st_germain = { # 32
+ holy_site = catholic
+ holy_site = orthodox
+}
+
+c_gaggiolo = { # 398
+ holy_site = catholic
+ holy_site = orthodox
+}

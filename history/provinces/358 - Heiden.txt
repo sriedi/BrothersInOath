@@ -1,0 +1,18 @@
+# c_heiden
+
+# County Title
+title = c_heiden
+
+# Settlements
+max_settlements = 4
+
+b_trogen = castle
+b_bleichi = temple
+#b_heiden = temple
+#b_heiden_2 = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

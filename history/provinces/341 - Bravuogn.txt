@@ -1,0 +1,16 @@
+# c_bravuogn
+
+# County Title
+title = c_bravuogn
+
+# Settlements
+max_settlements = 2
+
+b_greifenstein = castle
+b_bravuogn = city
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

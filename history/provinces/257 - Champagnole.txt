@@ -1,0 +1,21 @@
+# c_champagnole
+
+# County Title
+title = c_champagnole
+
+# Settlements
+max_settlements = 7
+
+b_sirod = castle
+b_champagnole = city
+b_syam = castle
+b_nozeroy = temple
+b_st_germain_5 = temple
+b_ardon_2 = castle
+#b_gillois = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_goms
+
+# County Title
+title = c_goms
+
+# Settlements
+max_settlements = 7
+
+b_gluringen = castle
+b_muenster = temple
+b_ulrichen = castle
+b_oberwald = castle
+#b_blitzingen = city
+#b_reckingen = temple
+#b_geschinen = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

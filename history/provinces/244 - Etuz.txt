@@ -1,0 +1,20 @@
+# c_etuz
+
+# County Title
+title = c_etuz
+
+# Settlements
+max_settlements = 6
+
+b_etuz = castle
+b_montboillon = castle
+b_marnay = city
+b_moncley = castle
+b_boulot = castle
+b_st_maurice_4 = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

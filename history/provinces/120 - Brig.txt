@@ -1,0 +1,21 @@
+# c_brig
+
+# County Title
+title = c_brig
+
+# Settlements
+max_settlements = 7
+
+b_brig = castle
+b_brig_2 = city
+b_naters = city
+b_glis = castle
+b_st_ursula_2 = temple
+b_glis_2 = temple
+b_gamsen = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

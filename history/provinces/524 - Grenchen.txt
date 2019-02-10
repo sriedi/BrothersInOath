@@ -1,0 +1,21 @@
+# c_grenchen
+
+# County Title
+title = c_grenchen
+
+# Settlements
+max_settlements = 7
+
+b_bettlach = castle
+b_grenchen = city
+b_allerheiligen = temple
+b_altreu = castle
+b_selzach = city
+#b_grenchen_2 = temple
+#b_grenchen_3 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_airolo
+
+# County Title
+title = c_airolo
+
+# Settlements
+max_settlements = 5
+
+b_stalvedro = castle
+b_airolo = city
+b_san_carlo = temple
+b_bedretto = castle
+#b_valle = city
+#b_fontana = temple
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

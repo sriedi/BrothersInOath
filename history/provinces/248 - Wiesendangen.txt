@@ -1,0 +1,21 @@
+# c_wiesendangen
+
+# County Title
+title = c_wiesendangen
+
+# Settlements
+max_settlements = 7
+
+b_wasserburg_2 = castle
+b_weisendangen = city
+b_moersberg = castle
+b_kirchdinhard = temple
+#b_hettlingen_2 = city
+#b_seuzach = temple
+#b_rickenbach_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

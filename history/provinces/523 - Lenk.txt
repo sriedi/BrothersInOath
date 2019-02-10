@@ -1,0 +1,19 @@
+# c_lenk
+
+# County Title
+title = c_lenk
+
+# Settlements
+max_settlements = 5
+
+b_burguebel = castle
+b_lenk = temple
+b_st_stephan = temple
+#b_lenk_2 = castle
+#b_lenk_3 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

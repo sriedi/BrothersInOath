@@ -1,0 +1,16 @@
+# c_gersau
+
+# County Title
+title = c_gersau
+
+# Settlements
+max_settlements = 2
+
+b_gersau = castle
+b_gersau_2 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

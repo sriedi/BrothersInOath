@@ -1,0 +1,20 @@
+# c_stans
+
+# County Title
+title = c_stans
+
+# Settlements
+max_settlements = 6
+
+b_stansstad = castle
+b_stans = city
+b_ennetmos = castle
+b_st_klara = temple
+#b_wolfenschiessen = city
+#b_fueringen = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

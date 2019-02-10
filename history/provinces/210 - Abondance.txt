@@ -1,0 +1,21 @@
+# c_abondance
+
+# County Title
+title = c_abondance
+
+# Settlements
+max_settlements = 7
+
+b_meillerie = castle
+b_abondance = temple
+b_richebourg = castle
+b_conche = castle
+b_la_ravine = temple
+b_chapelle_abondance = temple
+b_bonnevaux = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

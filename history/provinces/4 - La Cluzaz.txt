@@ -1,0 +1,21 @@
+# c_la_cluzaz
+
+# County Title
+title = c_la_cluzaz
+
+# Settlements
+max_settlements = 7
+
+b_le_reposoir = temple
+b_st_jean_5 = temple
+#b_borgrand = temple
+#b_entremont_2 = castle
+#b_villneuve_2 = city
+#b_la_clusaz = temple
+#b_la_cluzaz = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

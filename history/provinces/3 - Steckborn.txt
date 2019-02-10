@@ -1,0 +1,18 @@
+# c_steckborn
+
+# County Title
+title = c_steckborn
+
+# Settlements
+max_settlements = 4
+
+b_mammern = castle
+b_steckborn = city
+b_feldbach = temple
+#b_steckborn_2 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

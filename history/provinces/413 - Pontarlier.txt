@@ -1,0 +1,21 @@
+# c_pontarlier
+
+# County Title
+title = c_pontarlier
+
+# Settlements
+max_settlements = 7
+
+b_frambourg = castle
+b_pontarlier = city
+b_doubs = temple
+b_oye = temple
+b_dommartin = castle
+b_arcon = temple
+b_les_etraches = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

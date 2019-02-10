@@ -1,0 +1,21 @@
+# c_yverdon
+
+# County Title
+title = c_yverdon
+
+# Settlements
+max_settlements = 7
+
+b_yverdon = castle
+b_yverdon_les_bais = city
+b_st_georges = temple
+b_chamblon = castle
+b_pomy = city
+b_ursins = temple
+b_yverdon_2 = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

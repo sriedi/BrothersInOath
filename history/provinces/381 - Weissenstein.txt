@@ -1,0 +1,19 @@
+# c_weissenstein
+
+# County Title
+title = c_weissenstein
+
+# Settlements
+max_settlements = 5
+
+b_balmfluh = castle
+b_flumenthal = temple
+b_hornegg = castle
+#b_welschenrohr = castle
+#b_schattenberg = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

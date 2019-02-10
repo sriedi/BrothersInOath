@@ -1,0 +1,21 @@
+# c_vaduz
+
+# County Title
+title = c_vaduz
+
+# Settlements
+max_settlements = 7
+
+b_schalun = castle
+b_vaduz = castle
+b_schaan = temple
+#b_planken = castle
+#b_eschen = city
+#b_mauren = temple
+#b_gamprin = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+
+#History

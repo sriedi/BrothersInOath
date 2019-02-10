@@ -1,0 +1,20 @@
+# c_romont
+
+# County Title
+title = c_romont
+
+# Settlements
+max_settlements = 6
+
+b_romont = castle
+b_romont_2 = city
+b_glaney = temple
+b_mezieres = castle
+b_orsonnes = castle
+#b_massonnes = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

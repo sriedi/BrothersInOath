@@ -1,0 +1,18 @@
+# c_unterseen
+
+# County Title
+title = c_unterseen
+
+# Settlements
+max_settlements = 4
+
+b_unterseen = castle
+b_unterseen_2 = city
+b_ralligen = castle
+b_beatenberg = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

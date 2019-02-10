@@ -1,0 +1,20 @@
+# c_uberlingen
+
+# County Title
+title = c_uberlingen
+
+# Settlements
+max_settlements = 6
+
+b_uberlingen = castle
+b_owingen = city
+#b_uberlingen_2 = temple
+#b_uberlingen_3 = castle
+#b_uberlingen_4 = city
+#b_uberlingen_5 = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

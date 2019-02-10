@@ -1,0 +1,19 @@
+# c_kienberg
+
+# County Title
+title = c_kienberg
+
+# Settlements
+max_settlements = 5
+
+b_kienberg = castle
+b_kienberg_2 = city
+b_chilch = temple
+#b_kienberg_3 = castle
+#b_kienberg_4 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

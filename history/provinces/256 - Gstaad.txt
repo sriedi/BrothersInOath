@@ -1,0 +1,19 @@
+# c_gstaad
+
+# County Title
+title = c_gstaad
+
+# Settlements
+max_settlements = 5
+
+b_gstaad = castle
+b_saanen = temple
+#b_schoenried = temple
+#b_saanenmoerser = castle
+#b_oesch = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,45 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+guild_republic_government;Guildrepublic;;Zunftrepublik;;;;;;;;;;;x
+guild_republic_government_desc;In a Guildrepublic the local craftsmen guild wield a strong influence over the state. The guilds organise the society and structure prices. Displeasing the guilds is a very bad idea.;;In einer Zunftrepublik üben die Handwerks-Zünfte grossen Einfluss auf den Staat aus. Sie organisieren die ganze Gesellschaft und bestimmen Preise. Sich mit den Zünften anzulegen ist eine sehr schlechte Idee. ;;;;;;;;;;;x
+commonassembly_government;Common Assembly;;Landsgemeinde;;;;;;;;;;;x
+commonassembly_government_desc;The government is organized around a common assembly held at least ervery two years. The assembly elects leaders and can shift laws. Leaders of a common assembly are elected among the land-owing male citizens. ;;Die Regierung organisiert sich um eine Versammlung die mindestens alle zwei Jahre stattfindet. Die Versammlung bestimmt Gesetze und Wählt seine Anführer. Die Anführer einer Landsgemeinde werden aus den Landbesitzenden Bürgern gewählt.;;;;;;;;;;;x
+gov_commonassembly_government;Rule by Common Assembly ;;Landsgemeinde Herrschaft;;;;;;;;;;;x
+commonassebly_count;Obmann;;Obmann;;;;;;;;;;;x
+commonassebly_duke;Ammann;;Ammann;;;;;;;;;;;x
+commonassebly_king;Landammann;;Landammann;;;;;;;;;;;x
+commonassebly_emperor;Reichsammann;;Reichsammann;;;;;;;;;;;x
+commonassebly_county;Comune;;Gemeinde;;;;;;;;;;;x
+commonassebly_duchy;Assembly;;Herrschaft;;;;;;;;;;;x
+commonassebly_kingdom;Confederation;;Bund;;;;;;;;;;;x
+commonassebly_empire;Grand Old Confederation;;Grosser Alter Bund;;;;;;;;;;;x
+commonassebly_county_of;Comune of;;Gemeinde von;;;;;;;;;;;x
+commonassebly_duchy_of;Assembly of;;Herrschaft;;;;;;;;;;;x
+commonassebly_kingdom_of;Confederation of;;Bund;;;;;;;;;;;x
+commonassebly_empire_of;Grand Old Confederation of;;Grosser Alter Bund;;;;;;;;;;;x
+succ_assembly_elective_name;Election by Common Assembly;;Wahl durch Landsgemeinde;;;;;;;;;;;x
+succ_assembly_elective_desc;A assembly consisting of vasalls, courtiers and councilors elect the heir among themselfs. It it is very popular with the pesants. ;;Eine Versammlung aus Vasallen, Höflingen und Berater wählen an einer Landsgemeinde den Erben unter sich. Das gemeine Volk bevorzugt diese Nachfolgeregelung.;;;;;;;;;;;x
+succ_assembly_elective;Election by Common Assembly;;Landsgemeinde-Wahl;;;;;;;;;;;x
+tooltip_landamman_elector_strenght;Tiebreaking Vote;;Entscheidende Stimme;;;;;;;;;;;x
+tooltip_assembly_lower_elector_strenght;Lower Class Voter;;Niederer Stand;;;;;;;;;;;x
+tooltip_assembly_higher_elector_strenght;Higher Class Voter;;Oberer Stand;;;;;;;;;;;x
+tooltip_assembly_councilor_candidate_value;Canditate has executive expirience;;Kandidat hat Regierungserfahrung;;;;;;;;;;;x
+tooltip_assembly_rulerselection_candidate_value;Nominated by current ruler;;Wurde vom Herrscher nominiert;;;;;;;;;;;x
+tooltip_assembly_wealth_candidate_value;Wealthy;;Reichtum;;;;;;;;;;;x
+tooltip_assembly_related_candidate_value;Ruling Dynasty;;Herrschende Dynastie;;;;;;;;;;;x
+assembly_elective_voteing;Common Assembly Vote;;Wahl durch Landsgemeinde;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x

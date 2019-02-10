@@ -1,0 +1,21 @@
+# c_lindau
+
+# County Title
+title = c_lindau
+
+# Settlements
+max_settlements = 7
+
+b_lindau = city
+b_aeschach = castle
+b_muenchhof = temple
+b_reutin = city
+b_wannental = castle
+b_senftenau = castle
+b_schwesterberg = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

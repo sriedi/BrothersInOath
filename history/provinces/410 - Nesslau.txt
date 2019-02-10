@@ -1,0 +1,19 @@
+# c_nesslau
+
+# County Title
+title = c_nesslau
+
+# Settlements
+max_settlements = 5
+
+b_neu_st_johann = temple
+b_nesslau = city
+b_stein_2 = castle
+#b_nesslau_2 = castle
+#b_nesslau_3 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+terrain = hills
+#History

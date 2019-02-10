@@ -1,0 +1,19 @@
+# c_maloja
+
+# County Title
+title = c_maloja
+
+# Settlements
+max_settlements = 5
+
+b_castelmur = castle
+b_bondo = city
+b_san_pietro = castle
+b_san_cassiano = temple
+#b_maloja = city
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

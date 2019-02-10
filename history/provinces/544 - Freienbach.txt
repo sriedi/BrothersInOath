@@ -1,0 +1,20 @@
+# c_freienbach
+
+# County Title
+title = c_freienbach
+
+# Settlements
+max_settlements = 6
+
+b_feuisisberg = castle
+b_freienbach = city
+b_ufenau = temple
+#b_freienbach_2 = castle
+#b_freienbach_3 = city
+#b_freienbach_4 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

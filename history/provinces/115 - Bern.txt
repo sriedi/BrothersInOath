@@ -1,0 +1,21 @@
+# c_bern
+
+# County Title
+title = c_bern
+
+# Settlements
+max_settlements = 7
+
+b_bern = city
+b_buempliz = city
+b_ostermundigen = city
+b_reuental = temple
+b_felsenau = castle
+b_elfenau = castle
+b_frauenkappeln = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

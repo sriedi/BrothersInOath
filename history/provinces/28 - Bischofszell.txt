@@ -1,0 +1,18 @@
+# c_bischofszell
+
+# County Title
+title = c_bischofszell
+
+# Settlements
+max_settlements = 4
+
+b_bischofszell = castle
+b_st_pelagius = temple
+#b_bischofszell_2 = temple
+#b_bischofszell_3 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

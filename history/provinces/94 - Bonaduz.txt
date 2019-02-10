@@ -1,0 +1,17 @@
+# c_bonaduz
+
+# County Title
+title = c_bonaduz
+
+# Settlements
+max_settlements = 3
+
+b_trin = castle
+b_parcazi = temple
+b_flims = city
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

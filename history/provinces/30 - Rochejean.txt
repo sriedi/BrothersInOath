@@ -1,0 +1,21 @@
+# c_rochejean
+
+# County Title
+title = c_rochejean
+
+# Settlements
+max_settlements = 7
+
+b_malbuisson = castle
+b_rochejean = city
+b_labergement = temple
+b_st_antoine = temple
+b_st_point_du_lac = temple
+b_chaon = castle
+b_les_grangettes = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

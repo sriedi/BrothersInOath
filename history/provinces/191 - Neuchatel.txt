@@ -1,0 +1,21 @@
+# c_neuchatel
+
+# County Title
+title = c_neuchatel
+
+# Settlements
+max_settlements = 7
+
+b_neuchatel = castle
+b_neuchatel_2 = city
+b_st_blaise = temple
+b_fontaine_andre = temple
+b_souaillon = castle
+b_jeanjaquet = castle
+b_cornaux = city
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

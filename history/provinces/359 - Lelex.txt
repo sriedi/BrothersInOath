@@ -1,0 +1,19 @@
+# c_lelex
+
+# County Title
+title = c_lelex
+
+# Settlements
+max_settlements = 5
+
+b_lelex = castle
+b_bellegarde = city
+b_ecluse = castle
+#b_la_mulaz = castle
+#b_monnetier_2 = city
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

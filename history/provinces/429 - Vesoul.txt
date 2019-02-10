@@ -1,0 +1,21 @@
+# c_vesoul
+
+# County Title
+title = c_vesoul
+
+# Settlements
+max_settlements = 7
+
+b_colomberjon = castle
+b_vesoul = city
+b_navenne = castle
+b_chariez = castle
+b_echenoz = temple
+#b_frontey = temple
+#b_quinecy = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

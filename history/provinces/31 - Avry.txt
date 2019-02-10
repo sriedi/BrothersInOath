@@ -1,0 +1,20 @@
+# c_avry
+
+# County Title
+title = c_avry
+
+# Settlements
+max_settlements = 6
+
+b_montagny = castle
+b_grolley = castle
+b_domdidier = castle
+b_les_monts = temple
+b_courtaman = city
+#b_avry = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,18 @@
+# c_flumet
+
+# County Title
+title = c_flumet
+
+# Settlements
+max_settlements = 4
+
+b_flumet = castle
+b_ugine = city
+b_st_nicholas = temple
+b_crest_2 = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

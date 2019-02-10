@@ -1,0 +1,18 @@
+# c_balderschwang
+
+# County Title
+title = c_balderschwang
+
+# Settlements
+max_settlements = 4
+
+b_balderschwang = castle
+#b_riedberg = city
+#b_fischen = temple
+#b_bolsterlang = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

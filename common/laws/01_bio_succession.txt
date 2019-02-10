@@ -1,0 +1,35 @@
+succession_laws = {
+	succ_assembly_elective = {
+			global_revolt_risk = -1
+			vassal_opinion = 20
+			short_reign_length = 0
+			
+			potential = {
+				holder_scope = {
+					government = commonassembly_government
+						OR = {
+								culture = middle_alemannic
+								culture = high_alemannic
+							}	
+					}
+				}
+
+			allow = {
+				holder_scope = {
+					government = commonassembly_government
+					}
+				}
+			
+			effect = {
+				succession = {
+					base_type = feudal_elective 
+					voting_rules = assembly_elective_voteing #Definded in common/succession_voting/
+				}
+				elective_voting_rules = assembly_elective_voteing
+			}
+				
+			revoke_allowed = {
+				always = no
+			}			
+		}
+}

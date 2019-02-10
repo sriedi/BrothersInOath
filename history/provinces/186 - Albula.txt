@@ -1,0 +1,17 @@
+# c_albula
+
+# County Title
+title = c_albula
+
+# Settlements
+max_settlements = 3
+
+b_belfort = castle
+b_casti = city
+b_salouf = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History

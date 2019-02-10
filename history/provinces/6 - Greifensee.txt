@@ -1,0 +1,19 @@
+# c_greifensee
+
+# County Title
+title = c_greifensee
+
+# Settlements
+max_settlements = 5
+
+b_greifensee = castle
+b_volketswil = city
+b_uster = castle
+#b_schwerzenbach = castle
+#b_naenikon = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

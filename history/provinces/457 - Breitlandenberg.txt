@@ -1,0 +1,18 @@
+# c_breitlandenberg
+
+# County Title
+title = c_breitlandenberg
+
+# Settlements
+max_settlements = 4
+
+b_breitlandenberg = castle
+b_balterswil = city
+b_wila = temple
+#b_breitlandenberg_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+terrain = forest
+#History

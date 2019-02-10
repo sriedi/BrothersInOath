@@ -1,0 +1,19 @@
+# c_rioz
+
+# County Title
+title = c_rioz
+
+# Settlements
+max_settlements = 5
+
+b_vaivre = castle
+b_rioz = castle
+b_loulans = castle
+b_montbozon = city
+b_fontenois = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

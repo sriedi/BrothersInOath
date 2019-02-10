@@ -1,0 +1,20 @@
+# c_landeck
+
+# County Title
+title = c_landeck
+
+# Settlements
+max_settlements = 6
+
+b_pfunds = castle
+b_ladis = castle
+b_landeck = city
+b_landeck_2 = castle
+b_grins = temple
+b_zams = castle
+
+# Misc
+culture = tirolian
+religion = catholic
+
+#History

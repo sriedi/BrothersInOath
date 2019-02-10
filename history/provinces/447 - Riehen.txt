@@ -1,0 +1,21 @@
+# c_riehen
+
+# County Title
+title = c_riehen
+
+# Settlements
+max_settlements = 7
+
+b_wettstein = castle
+b_kleinbasel = city
+b_st_margarethental = temple
+b_riehen = city
+#b_bettingen = city
+#b_kleinhuenigen = temple
+#b_riehen_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

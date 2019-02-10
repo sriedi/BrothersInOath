@@ -1,0 +1,19 @@
+# c_chiasso
+
+# County Title
+title = c_chiasso
+
+# Settlements
+max_settlements = 5
+
+b_san_pietro_3 = castle
+b_san_pietro_4 = temple
+b_sango = castle
+#b_san_martino_2 = castle
+#b_sotto = city
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

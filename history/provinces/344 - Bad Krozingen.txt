@@ -1,0 +1,21 @@
+# c_bad_krozingen
+
+# County Title
+title = c_bad_krozingen
+
+# Settlements
+max_settlements = 7
+
+b_sulzburg = castle
+b_eschbach = castle
+b_bad_krozingen = city
+b_ehrkirchen = temple
+b_staufen = castle
+b_tunsel = castle
+#b_dottingen = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

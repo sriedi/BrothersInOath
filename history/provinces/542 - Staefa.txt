@@ -1,0 +1,19 @@
+# c_staefa
+
+# County Title
+title = c_staefa
+
+# Settlements
+max_settlements = 5
+
+b_uelikon = castle
+b_staefa = city
+b_oetwil = castle
+#b_staefa_2 = castle
+#b_staefa_3 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_varallo
+
+# County Title
+title = c_varallo
+
+# Settlements
+max_settlements = 7
+
+b_varallo = temple
+b_civiasco = castle
+b_varallo_2 = city
+b_vocca = castle
+#b_isola = city
+#b_balmuccia = temple
+#b_scopa = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

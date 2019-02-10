@@ -1,0 +1,21 @@
+# c_faido
+
+# County Title
+title = c_faido
+
+# Settlements
+max_settlements = 7
+
+b_giornico = castle
+b_san_pellegrino = temple
+b_chiggiogna = temple
+b_faido = temple
+b_faido_2 = city
+b_mascengo = castle
+b_quinro = castle
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

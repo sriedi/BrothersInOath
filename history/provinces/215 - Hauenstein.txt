@@ -1,0 +1,21 @@
+# c_hauenstein
+
+# County Title
+title = c_hauenstein
+
+# Settlements
+max_settlements = 7
+
+b_waldenburg = castle
+b_waldenburg_2 = city
+b_gerstelfluh = castle
+b_schoenthal = temple
+b_spitzburg = castle
+b_raenggen = castle
+#b_hauenstein = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

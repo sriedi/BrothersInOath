@@ -1,0 +1,21 @@
+# c_levier
+
+# County Title
+title = c_levier
+
+# Settlements
+max_settlements = 7
+
+b_nans = castle
+b_levier = city
+b_st_anne = temple
+b_labergement_2 = castle
+#b_eternoz = city
+#b_saraz = temple
+#b_crouzet = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

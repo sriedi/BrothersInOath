@@ -1,0 +1,18 @@
+# c_faverges
+
+# County Title
+title = c_faverges
+
+# Settlements
+max_settlements = 4
+
+b_faverges = castle
+b_soussard = temple
+b_st_ferreol = temple
+b_chevaline = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

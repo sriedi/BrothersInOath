@@ -1,0 +1,20 @@
+# c_thalwil
+
+# County Title
+title = c_thalwil
+
+# Settlements
+max_settlements = 6
+
+b_thalwil = castle
+b_thalwil_2 = city
+b_gattikon = temple
+b_entzberg = castle
+#b_thalwil_3 = city
+#b_thalwil_4 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

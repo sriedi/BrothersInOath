@@ -1,0 +1,19 @@
+# c_marktoberdorf
+
+# County Title
+title = c_marktoberdorf
+
+# Settlements
+max_settlements = 5
+
+b_hatten = castle
+b_marktoberdorf = city
+b_schwenden = castle
+b_bertoldshofen = temple
+b_giesenried = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

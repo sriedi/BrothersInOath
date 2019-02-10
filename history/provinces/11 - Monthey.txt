@@ -1,0 +1,20 @@
+# c_monthey
+
+# County Title
+title = c_monthey
+
+# Settlements
+max_settlements = 6
+
+b_monthey = castle
+b_monthey_2 = city
+b_vionnaz = castle
+b_vouvry = temple
+#b_port_valais = city
+#b_bouveret = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

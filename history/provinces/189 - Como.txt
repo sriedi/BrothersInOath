@@ -1,0 +1,21 @@
+# c_como
+
+# County Title
+title = c_como
+
+# Settlements
+max_settlements = 7
+
+b_camerlata = castle
+b_como = city
+b_sant_agostino = temple
+b_albavilla = city
+b_erba = castle
+b_castelmarte = castle
+b_mazzonio = temple
+
+# Misc
+culture = romano_lombard
+religion = catholic
+
+#History

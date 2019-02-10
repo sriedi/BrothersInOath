@@ -1,0 +1,21 @@
+# c_montfort
+
+# County Title
+title = c_montfort
+
+# Settlements
+max_settlements = 7
+
+b_montfort = castle
+b_schattenburg = castle
+b_feldkirch = temple
+b_maria_gruen = temple
+b_rankweil = city
+#b_roethis = temple
+#b_sulz = castle
+
+# Misc
+culture = raetoromanish
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_pampigny
+
+# County Title
+title = c_pampigny
+
+# Settlements
+max_settlements = 5
+
+b_severy = castle
+b_pampigny = city
+b_montricher = temple
+b_mollens = castle
+#b_cottens = city
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

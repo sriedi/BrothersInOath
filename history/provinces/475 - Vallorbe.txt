@@ -1,0 +1,19 @@
+# c_vallorbe
+
+# County Title
+title = c_vallorbe
+
+# Settlements
+max_settlements = 5
+
+b_les_clees = castle
+b_romainmotier = temple
+b_vallorbe = city
+b_ballaigues = castle
+b_le_pont = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

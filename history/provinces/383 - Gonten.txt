@@ -1,0 +1,17 @@
+# c_gonten
+
+# County Title
+title = c_gonten
+
+# Settlements
+max_settlements = 3
+
+b_haseln = castle
+b_st_jakob = temple
+#b_gonten = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

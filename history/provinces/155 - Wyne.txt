@@ -1,0 +1,19 @@
+# c_wyne
+
+# County Title
+title = c_wyne
+
+# Settlements
+max_settlements = 5
+
+b_beromuenster = castle
+b_st_michael = temple
+b_gormund = temple
+b_rickenbach = temple
+#b_wyne = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

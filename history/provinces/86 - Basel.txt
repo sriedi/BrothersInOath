@@ -1,0 +1,21 @@
+# c_basel
+
+# County Title
+title = c_basel
+
+# Settlements
+max_settlements = 7
+
+b_basel = city
+b_binningen = castle
+b_binningen_2 = city
+b_allschwil = city
+b_st_johann = temple
+b_st_jakob_2 = temple
+b_bottmingen = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

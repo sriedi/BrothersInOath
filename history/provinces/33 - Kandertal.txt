@@ -1,0 +1,19 @@
+# c_kandertal
+
+# County Title
+title = c_kandertal
+
+# Settlements
+max_settlements = 5
+
+b_felsenburg = castle
+b_frutigen = city
+b_tellenburg = castle
+#b_kandertal = castle
+#b_kandertal_2 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

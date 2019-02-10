@@ -1,0 +1,20 @@
+# c_dixence
+
+# County Title
+title = c_dixence
+
+# Settlements
+max_settlements = 6
+
+b_heremence = castle
+b_st_quentin = temple
+b_suen = city
+#b_la_forclaz = castle
+#b_mache = city
+#b_st_martin_8 = temple
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

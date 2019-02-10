@@ -1,0 +1,20 @@
+# c_schaenis
+
+# County Title
+title = c_schaenis
+
+# Settlements
+max_settlements = 6
+
+b_heiligen_kreuz = temple
+b_windegg = castle
+b_kaltbrunn = city
+b_oberurnen = castle
+#b_schaenis = city
+#b_schaenis_2 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

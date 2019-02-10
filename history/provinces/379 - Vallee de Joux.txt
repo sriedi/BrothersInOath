@@ -1,0 +1,18 @@
+# c_vallee_de_joux
+
+# County Title
+title = c_vallee_de_joux
+
+# Settlements
+max_settlements = 4
+
+b_le_sentier = castle
+b_le_brassus = city
+b_le_lieu = temple
+b_labbaye = temple
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

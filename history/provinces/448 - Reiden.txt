@@ -1,0 +1,20 @@
+# c_reiden
+
+# County Title
+title = c_reiden
+
+# Settlements
+max_settlements = 6
+
+b_marienburg = castle
+b_marienburg_2 = temple
+b_reiden = temple
+b_dagmarsellen = city
+b_altishofen = castle
+#b_reiden_2 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

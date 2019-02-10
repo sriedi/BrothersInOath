@@ -1,0 +1,20 @@
+# c_todtnau
+
+# County Title
+title = c_todtnau
+
+# Settlements
+max_settlements = 6
+
+b_todtnau = castle
+b_gschwend = temple
+b_schoenau_2 = city
+b_aitern = castle
+#b_hau = city
+#b_utzenfeld = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

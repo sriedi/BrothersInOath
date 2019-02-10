@@ -1,0 +1,21 @@
+# c_morat
+
+# County Title
+title = c_morat
+
+# Settlements
+max_settlements = 7
+
+b_morat = castle
+b_morat_2 = city
+b_muntelier = city
+b_muenchenwiler = castle
+b_ermelsburg = castle
+b_cressier = temple
+b_gurwolf = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

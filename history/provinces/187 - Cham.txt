@@ -1,0 +1,20 @@
+# c_cham
+
+# County Title
+title = c_cham
+
+# Settlements
+max_settlements = 6
+
+b_huenenburg = castle
+b_cham = city
+b_st_wolfgang = temple
+b_buonas = castle
+#b_cham_2 = city
+#b_cham_3 = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

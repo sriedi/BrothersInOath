@@ -1,0 +1,18 @@
+# c_oberhofen
+
+# County Title
+title = c_oberhofen
+
+# Settlements
+max_settlements = 4
+
+b_oberhofen = castle
+b_huenegg = castle
+b_heiligenschwendi = temple
+#b_oberhofen_2 = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

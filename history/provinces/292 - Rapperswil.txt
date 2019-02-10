@@ -1,0 +1,19 @@
+# c_rapperswil
+
+# County Title
+title = c_rapperswil
+
+# Settlements
+max_settlements = 5
+
+b_rapperswil = castle
+b_jona = city
+b_bubikon = castle
+b_wurmsbach = temple
+#b_rapperswil_2 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

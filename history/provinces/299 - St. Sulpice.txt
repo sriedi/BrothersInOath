@@ -1,0 +1,19 @@
+# c_st_sulpice
+
+# County Title
+title = c_st_sulpice
+
+# Settlements
+max_settlements = 5
+
+b_le_motty = castle
+b_st_sulpice_2 = temple
+b_lonay = city
+b_echandens = castle
+b_denges = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

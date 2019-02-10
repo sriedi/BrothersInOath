@@ -1,0 +1,16 @@
+# c_teufen
+
+# County Title
+title = c_teufen
+
+# Settlements
+max_settlements = 2
+
+b_teufen = castle
+b_speicher = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

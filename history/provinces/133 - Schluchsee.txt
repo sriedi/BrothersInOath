@@ -1,0 +1,21 @@
+# c_schluchsee
+
+# County Title
+title = c_schluchsee
+
+# Settlements
+max_settlements = 7
+
+b_st_blasien = temple
+b_hoechenschwand = castle
+b_grafenhausen = city
+b_noeggenschwiel = castle
+b_brunnadern = temple
+b_dachsberg = castle
+b_brenden = temple
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

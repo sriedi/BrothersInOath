@@ -1,0 +1,13 @@
+1 = { #debug char
+    name=Max
+    dynasty=752
+  
+    religion=catholic
+    culture=high_alemannic
+    dna="0gabj0leab0"
+	properties="qc00fh000000000000"
+	
+	
+    1247.01.15 = { birth=yes }
+    1287.09.09 = { death=yes }
+}

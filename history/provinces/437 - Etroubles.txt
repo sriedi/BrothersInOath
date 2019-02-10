@@ -1,0 +1,17 @@
+# c_etroubles
+
+# County Title
+title = c_etroubles
+
+# Settlements
+max_settlements = 3
+
+b_etroubles = castle
+b_st_rhemy = temple
+b_st_oyen = temple
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

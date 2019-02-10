@@ -1,0 +1,21 @@
+# c_ardon
+
+# County Title
+title = c_ardon
+
+# Settlements
+max_settlements = 7
+
+b_ardon = castle
+b_riddes = city
+b_st_pierre_de_clages = temple
+b_chamonson = castle
+#b_leytron = city
+#b_nendaz = temple
+#b_condemines = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

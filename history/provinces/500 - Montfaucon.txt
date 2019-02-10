@@ -1,0 +1,21 @@
+# c_montfaucon
+
+# County Title
+title = c_montfaucon
+
+# Settlements
+max_settlements = 7
+
+b_montfaucon_2 = castle
+b_grace_dieu = temple
+b_cotebrune = castle
+b_st_juan = temple
+#b_magy = city
+#b_chaux_2 = temple
+#b_bremondans = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

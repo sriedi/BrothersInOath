@@ -1,0 +1,17 @@
+# c_feldegg
+
+# County Title
+title = c_feldegg
+
+# Settlements
+max_settlements = 1
+
+b_feldegg = castle
+b_kirchberg = city
+b_iddaburg = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

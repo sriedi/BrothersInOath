@@ -1,0 +1,21 @@
+# c_frangy
+
+# County Title
+title = c_frangy
+
+# Settlements
+max_settlements = 7
+
+b_chaumont = castle
+b_frangy = city
+b_cercier = temple
+b_challonges = castle
+b_minzier = castle
+#b_marlioz = temple
+#b_contamine = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_suze
+
+# County Title
+title = c_suze
+
+# Settlements
+max_settlements = 5
+
+b_erguel = castle
+b_sonvilier = city
+b_st_imier = temple
+b_villeret = castle
+#b_suze = city
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

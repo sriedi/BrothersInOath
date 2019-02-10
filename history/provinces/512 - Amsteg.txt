@@ -1,0 +1,18 @@
+# c_amsteg
+
+# County Title
+title = c_amsteg
+
+# Settlements
+max_settlements = 4
+
+b_meierturm = castle
+b_amsteg = city
+b_silenen = temple
+#b_zwing_uri = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

@@ -1,0 +1,21 @@
+# c_payerne
+
+# County Title
+title = c_payerne
+
+# Settlements
+max_settlements = 7
+
+b_payerne = temple
+b_payerne_2 = castle
+b_grandcour = castle
+b_chevroux = castle
+b_ressudens = temple
+#b_perrin = temple
+#b_villarey = castle
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

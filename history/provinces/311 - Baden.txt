@@ -1,0 +1,21 @@
+# c_baden
+
+# County Title
+title = c_baden
+
+# Settlements
+max_settlements = 7
+
+b_stein_3 = castle
+b_baden = city
+b_endingen = city
+b_siggental = castle
+b_kreuzliberg = castle
+#b_baden_2 = temple
+#b_baden_3 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_aarberg
+
+# County Title
+title = c_aarberg
+
+# Settlements
+max_settlements = 7
+
+b_aarberg = castle
+b_aarberg_2 = city
+b_lyss = temple
+b_freinisberg = temple
+b_schuefen = castle
+b_grossaffoltern = castle
+#b_aarberg_3 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_wollishofen
+
+# County Title
+title = c_wollishofen
+
+# Settlements
+max_settlements = 6
+
+b_wollishofen = castle
+b_moenchhof = temple
+b_adliswil = city
+#b_wollishofen_2 = castle
+#b_wollishofen_3 = city
+#b_wollishofen_4 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

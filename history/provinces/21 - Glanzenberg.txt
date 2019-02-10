@@ -1,0 +1,19 @@
+# c_glanzenberg
+
+# County Title
+title = c_glanzenberg
+
+# Settlements
+max_settlements = 5
+
+b_glanzenberg = castle
+b_fahr = temple
+b_dietikon = city
+b_kindhausen = castle
+#b_glanzenberg_2 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

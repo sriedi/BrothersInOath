@@ -1,0 +1,19 @@
+# c_gland
+
+# County Title
+title = c_gland
+
+# Settlements
+max_settlements = 5
+
+b_dully = castle
+b_bursins = temple
+b_la_rosay = castle
+b_vinzel = castle
+b_begnins = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

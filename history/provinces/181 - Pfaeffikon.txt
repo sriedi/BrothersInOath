@@ -1,0 +1,19 @@
+# c_pfaeffikon
+
+# County Title
+title = c_pfaeffikon
+
+# Settlements
+max_settlements = 5
+
+b_heidenberg = castle
+b_wetzikon = castle
+b_pfaeffikon = city
+b_kempten_2 = temple
+#b_pfaeffikon_2 = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

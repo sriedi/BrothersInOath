@@ -1,0 +1,18 @@
+# c_amriswil
+
+# County Title
+title = c_amriswil
+
+# Settlements
+max_settlements = 4
+
+b_hagenwil = castle
+b_amriswil = city
+b_eppishausen = castle
+#b_amriswil_2 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

@@ -1,0 +1,17 @@
+# c_wassen
+
+# County Title
+title = c_wassen
+
+# Settlements
+max_settlements = 3
+
+b_gurtnellen = castle
+b_wassen = temple
+#b_wassen_2 = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

@@ -1,0 +1,21 @@
+# c_sursee
+
+# County Title
+title = c_sursee
+
+# Settlements
+max_settlements = 7
+
+b_mauensee = castle
+b_sursee = city
+b_wyher = castle
+b_buttisholz = castle
+b_nottwil = temple
+#b_sursee_2 = temple
+#b_sursee_3 = castle
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

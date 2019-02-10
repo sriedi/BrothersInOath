@@ -1,0 +1,21 @@
+# c_kerzers
+
+# County Title
+title = c_kerzers
+
+# Settlements
+max_settlements = 7
+
+b_jerisberg = castle
+b_kerzers = city
+b_loewenberg = castle
+#b_ferenbalm = castle
+#b_gempenbach = city
+#b_wallenbuch = temple
+#b_buechslen = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

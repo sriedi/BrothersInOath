@@ -1,0 +1,19 @@
+# c_pfungen
+
+# County Title
+title = c_pfungen
+
+# Settlements
+max_settlements = 5
+
+b_neftenbach = castle
+b_pfungen = city
+#b_aesch = temple
+#b_himmelrich = castle
+#b_riet = city
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

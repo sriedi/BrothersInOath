@@ -1,0 +1,19 @@
+# c_beaufort
+
+# County Title
+title = c_beaufort
+
+# Settlements
+max_settlements = 5
+
+b_hauteluce = castle
+b_beaufort = city
+b_les_crenix = temple
+#b_queige = castle
+#b_les_carres = city
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

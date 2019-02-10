@@ -1,0 +1,19 @@
+# c_thones
+
+# County Title
+title = c_thones
+
+# Settlements
+max_settlements = 5
+
+b_thones = castle
+b_lorette = temple
+b_les_villards = temple
+b_joux = castle
+b_les_clefs = castle
+
+# Misc
+culture = savoyian
+religion = catholic
+
+#History

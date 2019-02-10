@@ -1,0 +1,17 @@
+# c_linthtal
+
+# County Title
+title = c_linthtal
+
+# Settlements
+max_settlements = 3
+
+b_braunwald = castle
+b_rueti = castle
+b_luechsingen = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = mountain
+#History

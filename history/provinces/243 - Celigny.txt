@@ -1,0 +1,20 @@
+# c_celigny
+
+# County Title
+title = c_celigny
+
+# Settlements
+max_settlements = 6
+
+b_garengo = castle
+b_celigny = city
+b_bossey = castle
+b_crans = castle
+b_crassier = temple
+b_charlemont = temple
+
+# Misc
+culture = lower_burgundian
+religion = catholic
+
+#History

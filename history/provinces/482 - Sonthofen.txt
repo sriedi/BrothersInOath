@@ -1,0 +1,21 @@
+# c_sonthofen
+
+# County Title
+title = c_sonthofen
+
+# Settlements
+max_settlements = 7
+
+b_falkenstein = castle
+b_starz = castle
+b_sonthofen = city
+b_agathazell = temple
+b_nesselwang = castle
+b_edelsberg = castle
+b_eisenberg = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

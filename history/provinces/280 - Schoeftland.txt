@@ -1,0 +1,21 @@
+# c_schoeftland
+
+# County Title
+title = c_schoeftland
+
+# Settlements
+max_settlements = 7
+
+b_rued = castle
+b_hochwacht = castle
+b_teufenthal = castle
+b_schoeftland = city
+b_reinach = city
+b_kulm = temple
+#b_schoeftland_2 = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

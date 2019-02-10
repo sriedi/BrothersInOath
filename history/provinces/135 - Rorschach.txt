@@ -1,0 +1,18 @@
+# c_rorschach
+
+# County Title
+title = c_rorschach
+
+# Settlements
+max_settlements = 4
+
+b_sulzburg_2 = castle
+b_rorschach = city
+b_mariaberg_2 = temple
+#b_rorschach_2 = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

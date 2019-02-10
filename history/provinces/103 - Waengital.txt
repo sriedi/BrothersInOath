@@ -1,0 +1,20 @@
+# c_waengital
+
+# County Title
+title = c_waengital
+
+# Settlements
+max_settlements = 6
+
+b_reichenburg = castle
+b_lachen = city
+b_st_johannisburg = temple
+b_abnet = castle
+#b_waengital = city
+#b_waengital_2 = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

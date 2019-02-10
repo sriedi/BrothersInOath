@@ -1,0 +1,21 @@
+# c_hueningen
+
+# County Title
+title = c_hueningen
+
+# Settlements
+max_settlements = 7
+
+b_hueningen = castle
+b_rasenau = temple
+b_boltzheim = castle
+b_siernetz = castle
+#b_kembs = city
+#b_geispitzen = temple
+#b_uffheim = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

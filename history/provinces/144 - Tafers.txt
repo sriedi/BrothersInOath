@@ -1,0 +1,20 @@
+# c_tafers
+
+# County Title
+title = c_tafers
+
+# Settlements
+max_settlements = 6
+
+b_maggenberg = castle
+b_tafers = city
+b_duedingen = temple
+b_ubersdorf = castle
+b_schmitten = temple
+#b_heitiwil = temple
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

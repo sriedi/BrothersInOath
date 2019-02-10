@@ -1,0 +1,21 @@
+# c_olten
+
+# County Title
+title = c_olten
+
+# Settlements
+max_settlements = 7
+
+b_aarburg = castle
+b_wartburg = castle
+b_olten = city
+b_oftrigen = temple
+b_daeniken = city
+#b_goesgen = temple
+#b_kappel = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

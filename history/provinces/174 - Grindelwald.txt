@@ -1,0 +1,17 @@
+# c_grindelwald
+
+# County Title
+title = c_grindelwald
+
+# Settlements
+max_settlements = 3
+
+b_grindelwald = castle
+b_truffersbrunnen = temple
+#b_grindelwald_2 = temple
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

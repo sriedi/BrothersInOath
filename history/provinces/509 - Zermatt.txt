@@ -1,0 +1,19 @@
+# c_zermatt
+
+# County Title
+title = c_zermatt
+
+# Settlements
+max_settlements = 5
+
+b_taesch = castle
+b_zermatt = city
+b_zer_baennu = castle
+#b_bodmen = castle
+#b_herbrigg = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

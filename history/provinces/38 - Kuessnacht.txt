@@ -1,0 +1,18 @@
+# c_kuessnacht
+
+# County Title
+title = c_kuessnacht
+
+# Settlements
+max_settlements = 4
+
+b_seematt = castle
+b_immersee = city
+b_st_martin = temple
+b_kuessnacht = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

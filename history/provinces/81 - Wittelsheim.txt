@@ -1,0 +1,21 @@
+# c_wittelsheim
+
+# County Title
+title = c_wittelsheim
+
+# Settlements
+max_settlements = 6
+
+b_thann = castle
+b_wittelsheim = city
+b_st_amarin = temple
+b_guewenheim = castle
+#b_willer = city
+#b_moosch = temple
+#b_malmerspach = castle
+
+# Misc
+culture = low_alemannic
+religion = catholic
+
+#History

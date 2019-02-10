@@ -1,0 +1,21 @@
+# c_utzenstorf
+
+# County Title
+title = c_utzenstorf
+
+# Settlements
+max_settlements = 7
+
+b_landshut = castle
+b_buergelhubel = castle
+b_koppingen = temple
+b_altwyden = castle
+#b_eyfeld = city
+#b_maettmei = temple
+#b_tubemoos = castle
+
+# Misc
+culture = middle_alemannic
+religion = catholic
+
+#History

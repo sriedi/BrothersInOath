@@ -1,0 +1,21 @@
+# c_bregenz
+
+# County Title
+title = c_bregenz
+
+# Settlements
+max_settlements = 1
+
+b_wolfurt = castle
+b_bregenz = city
+b_kennelbach = temple
+b_schwarzach = castle
+b_hittisau = castle
+b_bolgenach = temple
+#b_lagenegg = castle
+
+# Misc
+culture = bavarian
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_luzern
+
+# County Title
+title = c_luzern
+
+# Settlements
+max_settlements = 7
+
+b_luzern = city
+b_littau = city
+b_st_anna = temple
+b_seeburg = castle
+b_wuerzenbach = castle
+b_st_maria = temple
+b_guetsch = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+
+#History

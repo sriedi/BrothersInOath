@@ -1,0 +1,19 @@
+# c_altdorf
+
+# County Title
+title = c_altdorf
+
+# Settlements
+max_settlements = 5
+
+b_wattingwil = castle
+b_altdorf = city
+b_flueele = city
+b_st_lazarus = temple
+#b_altdorf_2 = city
+
+# Misc
+culture = high_alemannic
+religion = catholic
+terrain = hills
+#History

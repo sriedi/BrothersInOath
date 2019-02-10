@@ -1,0 +1,21 @@
+# c_cossonay
+
+# County Title
+title = c_cossonay
+
+# Settlements
+max_settlements = 7
+
+b_cossonay = castle
+b_cossonay_2 = city
+b_bioley = castle
+b_st_barthelemy = temple
+b_mex = castle
+b_la_pale = castle
+b_bottens = castle
+
+# Misc
+culture = upper_burgundian
+religion = catholic
+
+#History

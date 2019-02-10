@@ -1,0 +1,16 @@
+# c_san_bernhardino
+
+# County Title
+title = c_san_bernhardino
+
+# Settlements
+max_settlements = 2
+
+b_gualdo = castle
+#b_san_bernhardino = city
+
+# Misc
+culture = raetoromanish
+religion = catholic
+terrain = mountain
+#History
