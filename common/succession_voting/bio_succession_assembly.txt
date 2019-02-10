@@ -15,23 +15,23 @@ assembly_elective_voteing = {
 			}
 		}
 		additive_modifier = { #Then the Councilors.
-			value = 6
-			OR = { 
-				has_job_title = job_chancellor
-				has_job_title = job_marshal
-				has_job_title = job_treasurer
-				has_job_title = job_spymaster
-				has_job_title = job_spiritual
-				has_minor_title = title_councilmember_king #Generic advisors
-				has_minor_title = title_councilmember_emperor
+			value = 5
+			FROMFROM = { 
+				OR = { 
+					has_job_title = job_chancellor
+					has_job_title = job_marshal
+					has_job_title = job_treasurer
+					has_job_title = job_spymaster
+					has_job_title = job_spiritual
+					has_minor_title = title_councilmember_king #Generic advisors
+					has_minor_title = title_councilmember_emperor
+				}
 			}
 		}
 		additive_modifier = { #And all Vassals of the Title above baron
 			value = 6
-			AND = {
 			vassal_of = FROMFROM
-			higher_tier_than = baron
-			}
+			higher_real_tier_than = BARON
 		}
 		additive_modifier = { #All males on court if there is a shortage of voters
 			value = 4
@@ -42,18 +42,18 @@ assembly_elective_voteing = {
 						is_female = no
 						prisoner = no
 						is_incapable = no
+						is_landed = no
 						}
 					}
 				}
 			}
 		}
-		additive_modifier = { #Bonus Points for Culture
-			value = 2
+		additive_modifier = { #Bonus Points for Culture with your courtiers
+			value = 1
 			AND = {
 				is_female = no
-				culture = {
-					FROMFROM = holder_scope
-				}
+				culture = FROMFROM
+				is_landed = no
 			}
 		}
 	}
@@ -71,12 +71,12 @@ assembly_elective_voteing = {
 		additive_modifier = {
 			value = -4
 			localisation_key = tooltip_assembly_lower_elector_strenght
-			lower_tier_than = count
+			lower_real_tier_than = COUNT
 		}
 		additive_modifier = {
 			value = 7
 			localisation_key = tooltip_assembly_higher_elector_strenght
-			higher_real_tier_than = count
+			higher_real_tier_than = COUNT
 		
 		}
 	}
@@ -98,16 +98,6 @@ assembly_elective_voteing = {
 			FROMFROMFROM = {
 				always = yes
 			}	
-		}
-		
-		additive_modifier = {
-		 value = 10
-		 localisation_key = tooltip_assembly_related_candidate_value
-		 FROM = {
-			dynasty = {
-				FROMFROM = holder_scope
-			}
-		 }
 		}
 		
 		additive_modifier = { 
@@ -259,25 +249,39 @@ assembly_elective_voteing = {
 			
 	}
 		
-	
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = { #Trigger to determine what characters are valid candidates that can be voted by electors.		
-		FROM ={
-			AND = {
-				vassal_of = ROOT
-				higher_tier_than = baron
+		OR = {
+			FROM ={
+				OR = {
+					AND = {
+					vassal_of = ROOT
+					higher_tier_than = BARON
+					}					
+					ROOT = {
+						lower_real_tier_than = DUKE
+						AND = {
+						is_female = no
+						prisoner = no
+						is_incapable  = no
+						}
+					}
+				
+					
 				}
-		}	
-		
-		FROM = {
-			AND = {
-				dynasty = {holder_scope = FORMFORM}
-				is_female = no
-				prisoner = no
-				is_incapable  = no
-				}
+			}
+			
+			FROM = {
+				AND = {
+					is_female = no
+					prisoner = no
+					is_incapable  = no
+						ROOT = { 
+							dynasty = FROM
+						}
+					}
+			}
 		}
 	}
-	
 	
 }
