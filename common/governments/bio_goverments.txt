@@ -96,7 +96,7 @@ guild_republic_government = {
 feudal_governments = {
 
 	commonassembly_government ={
-		preferred_holdings = { CITY }
+		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
 			CASTLE 
 			CITY
@@ -104,14 +104,14 @@ feudal_governments = {
 			HOSPITAL
 		}
 		potential = {
-			NAND = {
-				controls_religion = yes
-				}
+		AND {
+			controls_religion = no
 			is_female = no
 			OR = {
 					culture = middle_alemannic
 					culture = high_alemannic
-				}	
+				}
+			}				
 		}
 		accepts_liege_governments = { # Accepts other republics or Common Assemblies
 			republic_government

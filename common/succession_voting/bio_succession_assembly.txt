@@ -15,23 +15,31 @@ assembly_elective_voteing = {
 			}
 		}
 		additive_modifier = { #Then the Councilors.
-			value = 5
-			FROMFROM = { 
-				OR = { 
-					has_job_title = job_chancellor
-					has_job_title = job_marshal
-					has_job_title = job_treasurer
-					has_job_title = job_spymaster
-					has_job_title = job_spiritual
-					has_minor_title = title_councilmember_king #Generic advisors
-					has_minor_title = title_councilmember_emperor
-				}
+			value = 10
+			OR = { 
+				has_job_title = job_chancellor
+				has_job_title = job_marshal
+				has_job_title = job_treasurer
+				has_job_title = job_spymaster
+				has_job_title = job_spiritual
+				has_minor_title = title_councilmember_king #Generic advisors
+				has_minor_title = title_councilmember_emperor
 			}
 		}
 		additive_modifier = { #And all Vassals of the Title above baron
-			value = 6
+			value = 10
 			vassal_of = FROMFROM
 			higher_real_tier_than = BARON
+		}
+		additive_modifier = { #And all Vassals of the Title if count
+			value = 7
+			FROMFROM = {
+			AND = {
+				vassal_of = FROMFROM
+				holder_scope = { lower_real_tier_than = DUKE }				
+				}
+			}
+			
 		}
 		additive_modifier = { #All males on court if there is a shortage of voters
 			value = 4
@@ -43,13 +51,16 @@ assembly_elective_voteing = {
 						prisoner = no
 						is_incapable = no
 						is_landed = no
+						NOT = {
+							has_minor_title = title_commander
+						}
 						}
 					}
 				}
 			}
 		}
 		additive_modifier = { #Bonus Points for Culture with your courtiers
-			value = 1
+			value = 2
 			AND = {
 				is_female = no
 				culture = FROMFROM
@@ -250,21 +261,44 @@ assembly_elective_voteing = {
 	}
 		
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
-	candidate_trigger = { #Trigger to determine what characters are valid candidates that can be voted by electors.		
+	candidate_trigger = { #Trigger to determine what characters are valid candidates that can be voted by electors.	
+		NOT = { character = FROM } #Not the current ruler.
 		OR = {
 			FROM ={
 				OR = {
 					AND = {
 					vassal_of = ROOT
 					higher_tier_than = BARON
-					}					
-					ROOT = {
-						lower_real_tier_than = DUKE
-						AND = {
-						is_female = no
-						prisoner = no
-						is_incapable  = no
+					}
+					AND = {
+						ROOT = {
+						any_courtier = {
+							OR = {
+								has_minor_title = title_commander
+								is_voter = yes
+							}
+							is_female = no
+							prisoner = no
+							is_incapable  = no
+							is_republic = no
+							is_merchant_republic = no
+							is_theocracy = no
+							culture = ROOT
+							religion = ROOT
+							NOR = {
+								any_heir_title = {
+									is_republic = yes
+								}
+								any_heir_title = {
+									is_merchant_republic = yes
+								}
+								any_heir_title = {
+									is_theocracy = yes
+								}
+							}
+							}
 						}
+						
 					}
 				
 					

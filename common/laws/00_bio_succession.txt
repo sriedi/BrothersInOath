@@ -7,16 +7,20 @@ succession_laws = {
 			potential = {
 				holder_scope = {
 					government = commonassembly_government
-						OR = {
-								culture = middle_alemannic
-								culture = high_alemannic
-							}	
+					OR = {
+							culture = middle_alemannic
+							culture = high_alemannic
+						}	
 					}
 				}
 
 			allow = {
 				holder_scope = {
 					government = commonassembly_government
+					OR = {
+							culture = middle_alemannic
+							culture = high_alemannic
+						}
 					}
 				}
 			
