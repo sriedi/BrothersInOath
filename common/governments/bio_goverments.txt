@@ -104,14 +104,14 @@ feudal_governments = {
 			HOSPITAL
 		}
 		potential = {
-		AND {
-			controls_religion = no
-			is_female = no
+			NAND = {
+				controls_religion = yes
+				is_female = yes
+				}
 			OR = {
 					culture = middle_alemannic
 					culture = high_alemannic
-				}
-			}				
+				}	
 		}
 		accepts_liege_governments = { # Accepts other republics or Common Assemblies
 			republic_government
