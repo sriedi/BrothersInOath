@@ -1,0 +1,71 @@
+
+#Common Assembly Election Events 
+
+#Trigger on a 4 Year Pulse
+namespace = bio
+character_event = {
+
+	id = bio.100
+	desc = EVTDESCbio.100
+	picture = GFX_evt_battle
+	
+	only_rulers = true
+	trigger = {
+		AND = {
+			government = commonassembly_government
+			month = 5
+		}
+		NOT = {
+			has_title_flag = recent_commonassembly
+			
+		}
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = EVTOPAbio.100
+		set_variable = { which = supportforruler value = num_of_vassals }
+		any_vassal = {
+			character_event = { 
+				id = bio.101
+			}
+		}
+	}
+	option = {
+		name = EVTOPBbio.100
+			any_vassal = {
+				opinion = {
+					who = ROOT
+					modifier = opinion_evil_tyrant
+					months = 12
+				}
+			}
+	}
+}
+
+#Leader Vote Common Assembly
+character_event = {
+	id = bio.101
+	desc = EVTDESCbio.101
+	picture = GFX_evt_battle
+	
+	is_triggered_only = yes
+	
+	opinion = {
+		name = EVENTOPAbio.101
+	}
+	opinion = {
+		name = EVENTOPBbio.101
+		
+		FROM = {
+			substract_variable = {which = supportforruler value = 1}
+		}
+	}
+
+}
+
+	#Event for all Vassalls
+	#Add +1 to the Variable Vote
+	#If the Variable is higher than the half of the Voteing Vassalls hold new election Abdicate to current heir on the primary title

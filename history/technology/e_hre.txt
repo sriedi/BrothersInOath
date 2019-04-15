@@ -48,9 +48,9 @@ technology = {
 		d_zug
 	}
 	1260 = {
-		military = 1.5
-		economy = 1.0
-		culture = 1.5
+		military = 2.5
+		economy = 2.0 
+		culture = 2.5
 	}
 	1600 = {
 		military = 5.0
