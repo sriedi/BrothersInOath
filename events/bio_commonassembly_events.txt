@@ -11,14 +11,22 @@ character_event = {
 	
 	only_rulers = true
 	trigger = {
-		AND = {
-			government = commonassembly_government
-			month = 5
-		}
-		NOT = {
-			has_title_flag = recent_commonassembly
-			
-		}
+			AND = {
+				government = commonassembly_government
+				month = 5
+				#primary_title = {
+					#had_title_flag = { flag = recent_commonassembly days = 630 }
+				#}
+				 
+			  NOT = {
+				has_character_flag = holding_commonassembly
+					primary_title = {
+					has_title_flag = skiped_commonassembly
+					has_title_flag = recent_commonassembly
+					}
+				month = 8
+				}
+			}
 	}
 	mean_time_to_happen = {
 		days = 10
@@ -27,14 +35,22 @@ character_event = {
 	option = {
 		name = EVTOPAbio.100
 		set_variable = { which = supportforruler value = num_of_vassals }
+		primary_title = {
+			remove_title_flag = recent_commonassembly
+		}
+		set_variable = { which = currentsupport value = 0 }
+		set_variable = { which = votescast value = 0 }
+		export_to_variable = {which = totalelectors value = num_of_vassals }
+		export_to_variable = {which = supportneeded value = num_of_vassals }
+		divide_variable = { which = supportneeded value = 2}
+		set_character_flag = holding_commonassembly
 		any_vassal = {
-			character_event = { 
-				id = bio.101
-			}
+			character_event = {id = bio.101}
 		}
 	}
 	option = {
 		name = EVTOPBbio.100
+			set_title_flag = skiped_commonassembly
 			any_vassal = {
 				opinion = {
 					who = ROOT
@@ -53,19 +69,93 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	opinion = {
+	option = {
 		name = EVENTOPAbio.101
-	}
-	opinion = {
-		name = EVENTOPBbio.101
-		
 		FROM = {
-			substract_variable = {which = supportforruler value = 1}
+			letter_event = { id = bio.102 }
+		}
+		ai_chance = {
+			factor = 16
+			modifier = {
+				factor = 20
+				opinion = { who = from value =  25 }
+			}
+			modifier = {
+				factor = 25
+				opinion = { who = from value =  50 }
+			}
+			modifier = {
+				factor = 35
+				opinion = { who = from value =  75 }
+			}
+		}
+		
+	}
+	option = {
+		name = EVENTOPBbio.101
+		FROM = {
+			letter_event = { id = bio.103 }
+		}
+		ai_chance = {
+		factor = 6
+			modifier = {
+				factor = 15
+				opinion = { who = from value =  -25 }
+			}
+			modifier = {
+				factor = 20
+				opinion = { who = from value =  -50 }
+			}
+			modifier = {
+				factor = 30
+				opinion = { who = from value =  -75 }
+			}
+			modifier = {
+				factor = 15
+				FROM = {
+					trait = lunatic
+				}
+			}
+			modifier = {
+				factor = 30
+				FROM = {
+					OR = {
+						trait = incapable
+						trait = imbecile
+					}
+				}
+			}
+		
 		}
 	}
 
 }
+letter_event = {
+    id = bio.102
+    desc = EVTDESCbio.102
+	
+    #[I support our [Title] and here by vote for [pronoun] reelection as the [Title] of [Root Primary Title]]
+    
+    is_triggered_only = yes
+    
+    option = {
+        desc = EVTOPTAbio.102
+        #[I'm very greatful for your Support]
+        change_variable = {which = currentsupport value = 1}
+        change_variable = {which = votescast value = 1}
+    }
 
-	#Event for all Vassalls
-	#Add +1 to the Variable Vote
-	#If the Variable is higher than the half of the Voteing Vassalls hold new election Abdicate to current heir on the primary title
+}
+letter_event = {
+    id = bio.103
+    desc = EVTDESC.bio103
+    #[I will not support a second term for our current [Title]]
+	
+    is_triggered_only = yes
+    
+	option = {
+		desc = EVTOPTAbio.103
+		#[So be it.]
+        change_variable = {which = votescast value = 1}
+    }
+}

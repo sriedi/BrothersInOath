@@ -8,6 +8,7 @@
 	law = succ_assembly_elective
 }
 
-1270.1.1={
+1271.1.1={
 	holder = 1
+	set_title_flag = recent_commonassembly
 }
