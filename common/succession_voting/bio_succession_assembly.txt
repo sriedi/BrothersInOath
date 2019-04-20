@@ -269,6 +269,8 @@ assembly_elective_voteing = {
 					AND = {
 					vassal_of = ROOT
 					higher_tier_than = BARON
+					is_female = no
+					age > 16
 					}
 					AND = {
 						ROOT = {
@@ -279,6 +281,7 @@ assembly_elective_voteing = {
 							}
 							is_female = no
 							prisoner = no
+							age > 16
 							is_incapable  = no
 							is_republic = no
 							is_merchant_republic = no

@@ -3,157 +3,157 @@
 
 #High Allemanic Dynasties
 
-9001={ 
-name="Andermatten" 
-culture="high_alemannic"
-religion= "catholic"
+9001 = { 
+name = "Andermatten" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9002={ 
-name="Almendinger" 
-culture="high_alemannic"
-religion= "catholic"
+9002 = { 
+name = "Almendinger" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9003={ 
-name="Aufdenblatten" 
-culture="high_alemannic"
-religion= "catholic"
+9003 = { 
+name = "Aufdenblatten" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9004={ 
-name="Armangauer" 
-culture="high_alemannic"
-religion= "catholic"
+9004 = { 
+name = "Armangauer" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9005={ 
-name="Aufdeneggen" 
-culture="high_alemannic"
-religion= "catholic"
+9005 = { 
+name = "Aufdeneggen" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9006={ 
-name="Amrein" 
-culture="high_alemannic"
-religion= "catholic"
+9006 = { 
+name = "Amrein" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9007={ 
-name="Amos" 
-culture="high_alemannic"
-religion= "catholic"
+9007 = { 
+name = "Amos" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9008={ 
-name="Amrein" 
-culture="high_alemannic"
-religion= "catholic"
+9008 = { 
+name = "Amrein" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9009={ 
-name="Amstalden" 
-culture="high_alemannic"
-religion= "catholic"
+9009 = { 
+name = "Amstalden" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9010={ 
-name="Abgottspon" 
-culture="high_alemannic"
-religion= "catholic"
+9010 = { 
+name = "Abgottspon" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
-9011={ 
-name="Bammatter" 
-culture="high_alemannic"
-religion= "catholic"
- }
- 
-9012={ 
-name="Bass" 
-culture="high_alemannic"
-religion= "catholic"
+9011 = { 
+name = "Bammatter" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9013={ 
-name="Binder" 
-culture="high_alemannic"
-religion= "catholic"
+9012 = { 
+name = "Bass" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9014={ 
-name="Barman" 
-culture="high_alemannic"
-religion= "catholic"
+9013 = { 
+name = "Binder" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9015={ 
-name="Bitz" 
-culture="high_alemannic"
-religion= "catholic"
+9014 = { 
+name = "Barman" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9016={ 
-name="Brenner" 
-culture="high_alemannic"
-religion= "catholic"
+9015 = { 
+name = "Bitz" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9017={ 
-name="Brun" 
-culture="high_alemannic"
-religion= "catholic"
+9016 = { 
+name = "Brenner" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9018={ 
-name="Bohnet" 
-culture="high_alemannic"
-religion= "catholic"
+9017 = { 
+name = "Brun" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9019={ 
-name="Berren" 
-culture="high_alemannic"
-religion= "catholic"
+9018 = { 
+name = "Bohnet" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9020={ 
-name="Blatter" 
-culture="high_alemannic"
-religion= "catholic"
+9019 = { 
+name = "Berren" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9021={ 
-name="Britsch" 
-culture="high_alemannic"
-religion= "catholic"
+9020 = { 
+name = "Blatter" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9022={ 
-name="Dellberg" 
-culture="high_alemannic"
-religion= "catholic"
+9021 = { 
+name = "Britsch" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9023={ 
-name="Domig" 
-culture="high_alemannic"
-religion= "catholic"
+9022 = { 
+name = "Dellberg" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9024={ 
-name="Dönni" 
-culture="high_alemannic"
-religion= "catholic"
+9023 = { 
+name = "Domig" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9025={ 
-name="Dörig" 
-culture="high_alemannic"
-religion= "catholic"
+9024 = { 
+name = "Dönni" 
+culture = "high_alemannic"
+religion =  "catholic"
  }
  
-9026={ 
-name="Feller" 
-culture="high_alemannic"
-religion= "catholic"
+9025  =  { 
+name = "Dörig" 
+culture = "high_alemannic"
+religion =  "catholic"
+ }
+ 
+9026  =  { 
+name = "Feller" 
+culture = "high_alemannic"
+religion =  "catholic"
  }

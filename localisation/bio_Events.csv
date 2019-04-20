@@ -2,10 +2,27 @@
 EVTDESCbio.100;The time for a common assembly has come ;;Die Landsgemeinde steht vor der Tür.;;;;;;;;;;;x
 EVTOPAbio.100;Call all the commoners together.;;Versammelt die Stände;;;;;;;;;;;x
 EVTOPBbio.100;Now is a really bad time.;;Jetzt ist gerade ganz schlecht.;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
+EVTOPATTbio.100;The Vassals will gather in the capital to cast votes about the current [This.GetTitle];;Die Vasallen versammeln sich, um den [This.GetTitle] zu wählen.;;;;;;;;;;;x
+EVTOPBTTbio.100;Your vassals will be angry for you breaking common law.;;Eure Vasallen werden ausser sich sein, weil ihr gemeines Recht brecht.;;;;;;;;;;;x
+totalelectors;Number of Electors;;Stimmberechtigte;;;;;;;;;;;x
+votescast;cast votes;;abgegebene Stimmen;;;;;;;;;;;x
+currentsupport;votes;;Stimmen;;;;;;;;;;;x
+EVTDESCbio.101;The [From.GetTitle] has called for a Common Assembly to be held in [From.Capital.GetName]. You can cast a vote about the election of the [From.GetTitle]. How do you want to vote.;;Der [From.GetTitle] hat die Landsgemeinde in  [From.Capital.GetName] einberufen. Ihr könnt eure Stimme über die Wahl des [From.GetTitle] abgeben.;;;;;;;;;;;x
+EVENTOPAbio.101;[From.GetFullName] did a good job. I support [From.GetHerHim] for reelection.;;[From.GetFullName] hat gute Arbeit geleistet. Ich unterstütze [From.GetHerHim] für die Wiederwahl.;;;;;;;;;;;x
+EVENTOPBbio.101;I want a change of leadership in the [GetFullBaseName];;Ich will einen neuen [From.GetTitle].;;;;;;;;;;;x
+EVENTOPBTTbio.101;A new  [From.GetTitle] will be elected from the election pool.;;Es wird ein neuer [From.GetTitle] aus dem Kollegium der Landsgemeinde gewählt.;;;;;;;;;;;x
+EVENTOPATTbio.101;You support your current ruler.;;Ihr unterstützt den momentanen Herrscher.;;;;;;;;;;;x
+EVTDESCbio.102;I support our [This.GetTitle] and vote for [This.GetHersHis] reelection. ;;Ich unterstütze unseren [This.GetTitle] und Stimme für [This.GetHersHis] Wiederwahl. ;;;;;;;;;;;x
+EVTOPTAbio.102;I‘m very greatful for your trust.;;Ich danke für euer Vertrauen.;;;;;;;;;;;x
+EVTDESCbio.103;I will not support [This.GetFullName] for another term.;;Ich werde [This.GetFullName] nicht für eine weitere Amtszeit wählen.;;;;;;;;;;;x
+EVTOPTAbio.103;So be it.;;So sei es denn.;;;;;;;;;;;x
+EVTDESCbio.104;With [This.currentsupport.GetValue] [This.currentsupport.GetName] [This.GetFullName] is reelected.;;Mit [This.currentsupport.GetValue] [This.currentsupport.GetName] von [This.totalelectors.GetValue] wurde [This.GetFullName] wiedergewählt.;;;;;;;;;;;x
+EVTOPTAbio.104;I thank the Common Assembly for its support.;;Ich danke der Landsgemeinde für ihr vertrauen.;;;;;;;;;;;x
+EVTDESCbio.105;With only [This.currentsupport.GetValue] [This.currentsupport.GetName] of [This.totalelectors.GetValue] [This.GetFullName] is not reelected.;;Mit nur [This.currentsupport.GetValue] [This.currentsupport.GetName] von [This.totalelectors.GetValue] Wurde [This.GetFullName] nicht wiedergewählt.;;;;;;;;;;;x
+EVTOPTAbio.105;Well that‘s how things go.;;Dann ist‘s halt so.;;;;;;;;;;;x
+EVTDESCbio.106;[From.GetFullName] was reelected as [From.GetTitle] with [From.currentsupport.GetValue] of  [This.totalelectors.GetValue] [This.currentsupport.GetName];;[From.GetFullName] wurde mit [From.currentsupport.GetValue] von [From.totalelectors.GetValue] [From.currentsupport.GetName] wieder zum [From.GetTitle] gewählt.;;;;;;;;;;;x
+EVTOPTAbio.106;So nothing changes.;;Also ändert sich nichts.;;;;;;;;;;;x
+EVTDESCbio.107;[From.GetFullName] was not reelected as [From.GetTitle] with [From.currentsupport.GetValue] of [From.totalelectors.GetValue] [This.currentsupport.GetName];;[From.GetFullName] wurde mit [From.currentsupport.GetValue] von  [From.totalelectors.GetValue] [From.currentsupport.GetName] als [From.GetTitle] abgewählt.;;;;;;;;;;;x
+EVTOPTAbio.107;Intresting.;;Interessante Entwicklung.;;;;;;;;;;;x
+EVTDESCbio.108;The time for a common assembly is approaching. In the next spring the law demands one to be held.;;Der Zeitpunkt für eine neue Landsgemeinde kommt näher. Im nächsten Frühling verlangt das Gesetz, dass die Stände zusammen treten.;;;;;;;;;;;x
+EVTOPTAbio.108;I should make preperations.;;Ich sollte die Vorbereitungen dafür treffen.;;;;;;;;;;;x
