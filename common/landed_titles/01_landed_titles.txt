@@ -1,13 +1,4850 @@
 ###### AUTO GENERATED CONTENT (c) CKTools v19 ######
 
+k_bayern = {
+color={ 137 68 71 }
+color2={ 255 255 255 }
 
+capital = 290 # c_oberguenzburg
+culture = bavarian
+
+	d_niederbayern = {
+	color={ 117 88 61 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 290 } }
+		}
+	}
+	capital = 290 # c_oberguenzburg
+		c_oberguenzburg = { # 290
+			color={ 107 98 56 }
+			color2={ 255 255 255 }
+			
+			b_oberguenzburg = {
+			}
+			b_kaufbeuren = {
+			}
+			b_rettenbach = {
+			}
+			b_schongau = {
+			}
+			b_landsberg = {
+			}
+			b_buchole = {
+			}
+			b_mindelheim = {
+			}
+		}
+	}
+}
+k_alemannia = {
+color={ 116 132 182 }
+color2={ 255 255 255 }
+
+capital = 292 # c_rapperswil
+culture = middle_alemannic
+	d_rapperswil = {
+		color={ 136 112 192 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 22 province_id = 103 province_id = 292 province_id = 544 } }
+			}
+		}
+		capital = 292 # c_rapperswil
+		
+		c_rapperswil = { # 292
+			color={ 146 102 197 }
+			color2={ 255 255 255 }
+			
+			b_rapperswil = {
+			}
+			b_jona = {
+			}
+			b_bubikon = {
+			}
+			b_wurmsbach = {
+			}
+			b_rapperswil_2 = {
+			}
+		}
+		c_freienbach = { # 544
+			color={ 103 59 158 }
+			color2={ 255 255 255 }
+			
+			b_feuisisberg = {
+			}
+			b_freienbach = {
+			}
+			b_ufenau = {
+			}
+			b_freienbach_2 = {
+			}
+			b_freienbach_3 = {
+			}
+			b_freienbach_4 = {
+			}
+		}
+		c_waedenswil = { # 22
+			color={ 173 124 156 }
+			color2={ 255 255 255 }
+			
+			b_waedenswil = {
+			}
+			b_richterswil = {
+			}
+			b_au = {
+			}
+			b_waedenswil_2 = {
+			}
+			b_waedenswil_3 = {
+			}
+			b_waedenswil_4 = {
+			}
+		}
+		c_waengital = { # 103
+			color={ 70 152 175 }
+			color2={ 255 255 255 }
+			
+			b_reichenburg = {
+			}
+			b_lachen = {
+			}
+			b_st_johannisburg = {
+			}
+			b_abnet = {
+			}
+			b_waengital = {
+			}
+			b_waengital_2 = {
+			}
+		}
+	}
+	d_andelfingen = {
+		color={ 242 83 5 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 238 province_id = 250 province_id = 348 province_id = 462 province_id = 541 } }
+			}
+		}
+		capital = 238 # c_andelfingen
+		
+		c_andelfingen = { # 238
+			color={ 232 93 0 }
+			color2={ 255 255 255 }
+			
+			b_mueliberg = {
+			}
+			b_andelfingen = {
+			}
+			b_marthalen = {
+			}
+			b_hummenberg = {
+			}
+			b_andelfingen_2 = {
+			}
+			b_andelfingen_3 = {
+			}
+		}
+		c_diessenhofen = { # 541
+			color={ 232 219 26 }
+			color2={ 255 255 255 }
+			
+			b_diessenhofen = {
+			}
+			b_diessenhofen_2 = {
+			}
+			b_st_katharinental = {
+			}
+			b_schlatt = {
+			}
+			b_basadingen = {
+			}
+		}
+		c_henggart = { # 348
+			color={ 135 154 53 }
+			color2={ 255 255 255 }
+			
+			b_henggart = {
+			}
+			b_daegerlen = {
+			}
+			b_hettlingen = {
+			}
+			b_henggart_2 = {
+			}
+			b_henggart_3 = {
+			}
+			b_henggart_4 = {
+			}
+		}
+		c_jestetten = { # 250
+			color={ 59 209 192 }
+			color2={ 255 255 255 }
+			
+			b_jestetten = {
+			}
+			b_rheinau = {
+			}
+			b_grisberg = {
+			}
+			b_schwandegg = {
+			}
+			b_jestetten_2 = {
+			}
+			b_jestetten_3 = {
+			}
+			b_jestetten_4 = {
+			}
+		}
+		c_pfungen = { # 462
+			color={ 74 167 207 }
+			color2={ 255 255 255 }
+			
+			b_neftenbach = {
+			}
+			b_pfungen = {
+			}
+			b_aesch = {
+			}
+			b_himmelrich = {
+			}
+			b_riet = {
+			}
+		}
+	}
+	d_basel = {
+		color={ 111 178 188 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 12 province_id = 86 province_id = 87 province_id = 143 province_id = 170 province_id = 215 province_id = 258 province_id = 447 } }
+			}
+		}
+		capital = 86 # c_basel
+		frankish=Bâle
+		
+		c_basel = { # 86
+			color={ 121 168 193 }
+			color2={ 255 255 255 }
+			frankish=Bâle
+			
+			b_basel = {
+			}
+			b_binningen = {
+			}
+			b_binningen_2 = {
+			}
+			b_allschwil = {
+			}
+			b_st_johann = {
+			}
+			b_st_jakob_2 = {
+			}
+			b_bottmingen = {
+			}
+		}
+		c_birseck = { # 143
+			color={ 53 157 121 }
+			color2={ 255 255 255 }
+			
+			b_birseck = {
+			}
+			b_reichenstein = {
+			}
+			b_arlesheim = {
+			}
+			b_domeck = {
+			}
+			b_dornach = {
+			}
+			b_muenchenstein = {
+			}
+			b_birseck_2 = {
+			}
+		}
+		c_hauenstein = { # 215
+			color={ 57 197 255 }
+			color2={ 255 255 255 }
+			
+			b_waldenburg = {
+			}
+			b_waldenburg_2 = {
+			}
+			b_gerstelfluh = {
+			}
+			b_schoenthal = {
+			}
+			b_spitzburg = {
+			}
+			b_raenggen = {
+			}
+			b_hauenstein = {
+			}
+		}
+		c_laufen = { # 12
+			color={ 125 168 98 }
+			color2={ 255 255 255 }
+			
+			b_zwingen = {
+			}
+			b_laufen = {
+			}
+			b_pfaeffingen = {
+			}
+			b_duggingen = {
+			}
+			b_engenstein = {
+			}
+			b_biederthal = {
+			}
+			b_laufen_2 = {
+			}
+		}
+		c_mariastein = { # 258
+			color={ 179 118 162 }
+			color2={ 255 255 255 }
+			
+			b_mariastein = {
+			}
+			b_fuerstenstein = {
+			}
+			b_rotenberg = {
+			}
+			b_hofstetten_2 = {
+			}
+			b_sternenberg = {
+			}
+			b_mariastein_2 = {
+			}
+		}
+		c_pratteln = { # 87
+			color={ 193 136 121 }
+			color2={ 255 255 255 }
+			
+			b_wartenberg = {
+			}
+			b_muttenz = {
+			}
+			b_pratteln = {
+			}
+			b_auhard = {
+			}
+			b_pratteln_2 = {
+			}
+			b_burghalden = {
+			}
+			b_liestal = {
+			}
+		}
+		c_riehen = { # 447
+			color={ 195 215 164 }
+			color2={ 255 255 255 }
+			
+			b_wettstein = {
+			}
+			b_kleinbasel = {
+			}
+			b_st_margarethental = {
+			}
+			b_riehen = {
+			}
+			b_bettingen = {
+			}
+			b_kleinhuenigen = {
+			}
+			b_riehen_2 = {
+			}
+		}
+		c_sissach = { # 170
+			color={ 11 161 142 }
+			color2={ 255 255 255 }
+			
+			b_sissach = {
+			}
+			b_gelterkirchen = {
+			}
+			b_himmelrain = {
+			}
+			b_st_jakob_3 = {
+			}
+			b_bischofstein = {
+			}
+			b_farnsburg = {
+			}
+			b_homburg_2 = {
+			}
+		}
+	}
+	d_bern = {
+		color={ 200 54 69 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 42 province_id = 115 province_id = 262 province_id = 270 province_id = 363 province_id = 476 } }
+			}
+		}
+		capital = 115 # c_bern
+		
+		c_bern = { # 115
+			color={ 190 64 64 }
+			color2={ 255 255 255 }
+			
+			b_bern = {
+			}
+			b_buempliz = {
+			}
+			b_ostermundigen = {
+			}
+			b_reuental = {
+			}
+			b_felsenau = {
+			}
+			b_elfenau = {
+			}
+			b_frauenkappeln = {
+			}
+		}
+		c_koeniz = { # 363
+			color={ 172 90 110 }
+			color2={ 255 255 255 }
+			
+			b_koeniz = {
+			}
+			b_spiegel = {
+			}
+			b_gurten = {
+			}
+			b_wabern = {
+			}
+			b_schlieren_2 = {
+			}
+			b_gasel = {
+			}
+			b_niederwangen = {
+			}
+		}
+		c_laupen = { # 476
+			color={ 154 135 0 }
+			color2={ 255 255 255 }
+			
+			b_laupen = {
+			}
+			b_guemmenen = {
+			}
+			b_boesingen = {
+			}
+			b_st_beatus = {
+			}
+			b_muehleberg = {
+			}
+			b_neuenegg = {
+			}
+			b_flamatt = {
+			}
+		}
+		c_muensingen = { # 262
+			color={ 91 174 64 }
+			color2={ 255 255 255 }
+			
+			b_uttingen = {
+			}
+			b_huenignen = {
+			}
+			b_muensingen = {
+			}
+			b_kiesen = {
+			}
+			b_oberdiessbach = {
+			}
+			b_muensingen_2 = {
+			}
+			b_muensingen_3 = {
+			}
+		}
+		c_worb = { # 270
+			color={ 156 206 177 }
+			color2={ 255 255 255 }
+			
+			b_worb = {
+			}
+			b_muri_4 = {
+			}
+			b_guemlingen = {
+			}
+			b_schlosswil = {
+			}
+			b_vechigen = {
+			}
+			b_stetteln = {
+			}
+			b_lindental = {
+			}
+		}
+		c_zollighofen = { # 42
+			color={ 56 64 93 }
+			color2={ 255 255 255 }
+			
+			b_reichenbach = {
+			}
+			b_zollighofen = {
+			}
+			b_bremgarten_3 = {
+			}
+			b_ittingen_2 = {
+			}
+			b_muenchenbuchsee = {
+			}
+			b_hofwil = {
+			}
+			b_wiggiswil = {
+			}
+		}
+	}
+	d_emmental = {
+		color={ 225 190 70 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 27 province_id = 75 province_id = 327 province_id = 521 } }
+			}
+		}
+		capital = 75 # c_burgdorf
+		
+		c_burgdorf = { # 75
+			color={ 235 180 75 }
+			color2={ 255 255 255 }
+			
+			b_burgdorf = {
+			}
+			b_burgdorf_2 = {
+			}
+			b_heimiswil = {
+			}
+			b_zimmerberg = {
+			}
+			b_burgdorf_3 = {
+			}
+			b_burgdorf_4 = {
+			}
+		}
+		c_eggiwil = { # 521
+			color={ 64 139 148 }
+			color2={ 255 255 255 }
+			
+			b_senggen = {
+			}
+			b_horben_2 = {
+			}
+			b_wuerzbrunnen = {
+			}
+			b_eggiwil = {
+			}
+			b_eggiwil_2 = {
+			}
+		}
+		c_signau = { # 27
+			color={ 255 240 188 }
+			color2={ 255 255 255 }
+			
+			b_signau = {
+			}
+			b_langnau = {
+			}
+			b_trub = {
+			}
+			b_grauenstein = {
+			}
+			b_spitzenberg = {
+			}
+			b_signau_2 = {
+			}
+			b_signau_3 = {
+			}
+		}
+		c_sumiswald = { # 327
+			color={ 93 158 204 }
+			color2={ 255 255 255 }
+			
+			b_trachselwald = {
+			}
+			b_spittel = {
+			}
+			b_sumiswald = {
+			}
+			b_luetzelflueh = {
+			}
+			b_wartenstein_2 = {
+			}
+			b_sumiswald_2 = {
+			}
+			b_sumiswald_3 = {
+			}
+		}
+	}
+	d_glarus = {
+		color={ 225 114 104 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 56 province_id = 76 province_id = 105 province_id = 149 province_id = 151 province_id = 197 province_id = 525 } }
+			}
+		}
+		capital = 56 # c_weesen
+		
+		c_weesen = { # 56
+			color={ 235 104 109 }
+			color2={ 255 255 255 }
+			
+			b_oberwindeck = {
+			}
+			b_weesen = {
+			}
+			b_gmael = {
+			}
+			b_niederurnen = {
+			}
+			b_weesen_2 = {
+			}
+		}
+		c_elm = { # 197
+			color={ 56 65 151 }
+			color2={ 255 255 255 }
+			
+			b_matt = {
+			}
+			b_elm = {
+			}
+			b_elm_2 = {
+			}
+		}
+		c_glarus = { # 151
+			color={ 229 173 186 }
+			color2={ 255 255 255 }
+			
+			b_mitloedi = {
+			}
+			b_glarus = {
+			}
+			b_nestal = {
+			}
+			b_ennenda = {
+			}
+			b_glarus_2 = {
+			}
+			b_glarus_3 = {
+			}
+		}
+		c_linthtal = { # 525
+			color={ 152 163 79 }
+			color2={ 255 255 255 }
+			
+			b_braunwald = {
+			}
+			b_rueti = {
+			}
+			b_luechsingen = {
+			}
+		}
+		c_naefels = { # 76
+			color={ 200 192 106 }
+			color2={ 255 255 255 }
+			
+			b_mollis = {
+			}
+			b_st_hillarius = {
+			}
+			b_naefels = {
+			}
+			b_naefels_2 = {
+			}
+			b_naefels_3 = {
+			}
+		}
+		c_schaenis = { # 149
+			color={ 137 117 210 }
+			color2={ 255 255 255 }
+			
+			b_heiligen_kreuz = {
+			}
+			b_windegg = {
+			}
+			b_kaltbrunn = {
+			}
+			b_oberurnen = {
+			}
+			b_schaenis = {
+			}
+			b_schaenis_2 = {
+			}
+		}
+		c_schwanden = { # 105
+			color={ 190 68 84 }
+			color2={ 255 255 255 }
+			
+			b_thon = {
+			}
+			b_schwanden = {
+			}
+			b_benzingen = {
+			}
+		}
+	}
+	d_knonau = {
+		color={ 10 207 105 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 157 province_id = 516 province_id = 536 } }
+			}
+		}
+		capital = 157 # c_knonau
+		
+		c_knonau = { # 157
+			color={ 0 217 100 }
+			color2={ 255 255 255 }
+			
+			b_knonau = {
+			}
+			b_mettmenstetten = {
+			}
+			b_aeugstertal = {
+			}
+			b_knonau_2 = {
+			}
+			b_knonau_3 = {
+			}
+		}
+		c_bonstetten = { # 516
+			color={ 206 79 0 }
+			color2={ 255 255 255 }
+			
+			b_bonstetten = {
+			}
+			b_stallikon = {
+			}
+			b_wettswil = {
+			}
+			b_sellenbueren = {
+			}
+			b_schachen = {
+			}
+		}
+		c_uetliberg = { # 536
+			color={ 234 255 0 }
+			color2={ 255 255 255 }
+			
+			b_uetliburg = {
+			}
+			b_birmensdorf = {
+			}
+			b_urdorf = {
+			}
+			b_uitikon = {
+			}
+			b_aesch_2 = {
+			}
+			b_sellenbueren_2 = {
+			}
+			b_wettswil_2 = {
+			}
+		}
+	}
+	d_kyburg = {
+		color={ 87 94 70 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 6 province_id = 39 province_id = 181 province_id = 217 province_id = 386 } }
+			}
+		}
+		capital = 368 # c_kyburg
+		
+		c_greifensee = { # 6
+			color={ 77 104 65 }
+			color2={ 255 255 255 }
+			
+			b_greifensee = {
+			}
+			b_volketswil = {
+			}
+			b_uster = {
+			}
+			b_schwerzenbach = {
+			}
+			b_naenikon = {
+			}
+		}
+		c_egg = { # 39
+			color={ 103 220 56 }
+			color2={ 255 255 255 }
+			
+			b_grueningen = {
+			}
+			b_egg = {
+			}
+			b_moenchaltdorf = {
+			}
+			b_gossau_2 = {
+			}
+			b_gruet = {
+			}
+		}
+		c_kyburg = { # 386
+			color={ 243 178 27 }
+			color2={ 255 255 255 }
+			
+			b_kyburg = {
+			}
+			b_effretikon = {
+			}
+			b_illnau = {
+			}
+			b_rossberg = {
+			}
+			b_kyburg_2 = {
+			}
+		}
+		c_pfaeffikon = { # 181
+			color={ 183 89 42 }
+			color2={ 255 255 255 }
+			
+			b_heidenberg = {
+			}
+			b_wetzikon = {
+			}
+			b_pfaeffikon = {
+			}
+			b_kempten_2 = {
+			}
+			b_pfaeffikon_2 = {
+			}
+		}
+		c_winterthur = { # 217
+			color={ 111 193 166 }
+			color2={ 255 255 255 }
+			
+			b_wuelflingen = {
+			}
+			b_winterthur = {
+			}
+			b_beerenberg = {
+			}
+			b_beerenberg_2 = {
+			}
+			b_neuwisen = {
+			}
+			b_oberwinterthur = {
+			}
+		}
+	}
+	d_landenberg = {
+		color={ 103 179 130 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 248 province_id = 317 province_id = 457 province_id = 507 } }
+			}
+		}
+		capital = 248 # c_wiesendangen
+		
+		c_wiesendangen = { # 248
+			color={ 113 169 135 }
+			color2={ 255 255 255 }
+			
+			b_wasserburg_2 = {
+			}
+			b_weisendangen = {
+			}
+			b_moersberg = {
+			}
+			b_kirchdinhard = {
+			}
+			b_hettlingen_2 = {
+			}
+			b_seuzach = {
+			}
+			b_rickenbach_2 = {
+			}
+		}
+		c_breitlandenberg = { # 457
+			color={ 99 115 22 }
+			color2={ 255 255 255 }
+			
+			b_breitlandenberg = {
+			}
+			b_balterswil = {
+			}
+			b_wila = {
+			}
+			b_breitlandenberg_2 = {
+			}
+		}
+		c_elgg = { # 507
+			color={ 133 163 65 }
+			color2={ 255 255 255 }
+			
+			b_elgg = {
+			}
+			b_elgg_2 = {
+			}
+			b_schauenberg = {
+			}
+			b_hofstetten = {
+			}
+			b_sennhof = {
+			}
+			b_hohbuehl = {
+			}
+		}
+		c_landenberg = { # 317
+			color={ 128 234 255 }
+			color2={ 255 255 255 }
+			
+			b_landenberg = {
+			}
+			b_hohen_landenberg = {
+			}
+			b_landenberg_2 = {
+			}
+			b_landenberg_3 = {
+			}
+		}
+	}
+	d_luzern = {
+		color={ 170 213 114 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 93 province_id = 130 province_id = 198 province_id = 455 province_id = 506 } }
+			}
+		}
+		capital = 506 # c_luzern
+		
+		c_luzern = { # 506
+			color={ 180 203 119 }
+			color2={ 255 255 255 }
+			
+			b_luzern = {
+			}
+			b_littau = {
+			}
+			b_st_anna = {
+			}
+			b_seeburg = {
+			}
+			b_wuerzenbach = {
+			}
+			b_st_maria = {
+			}
+			b_guetsch = {
+			}
+		}
+		c_emmen = { # 455
+			color={ 255 211 141 }
+			color2={ 255 255 255 }
+			
+			b_emmenbruecke = {
+			}
+			b_emmen = {
+			}
+			b_buchrain = {
+			}
+			b_root = {
+			}
+			b_ebikon = {
+			}
+			b_gisikon = {
+			}
+		}
+		c_kriens = { # 93
+			color={ 139 232 76 }
+			color2={ 255 255 255 }
+			
+			b_schauensee = {
+			}
+			b_kriens = {
+			}
+			b_horw = {
+			}
+			b_dorni = {
+			}
+			b_kriens_2 = {
+			}
+		}
+		c_sempach = { # 130
+			color={ 80 105 125 }
+			color2={ 255 255 255 }
+			
+			b_rothenbrug = {
+			}
+			b_sepmach = {
+			}
+			b_rain = {
+			}
+			b_neuenkirch = {
+			}
+			b_russwil = {
+			}
+		}
+		c_viznau = { # 198
+			color={ 21 181 164 }
+			color2={ 255 255 255 }
+			
+			b_viznau = {
+			}
+			b_weggis = {
+			}
+			b_rigi = {
+			}
+			b_geppen = {
+			}
+		}
+	}
+	d_oberaargau = {
+		color={ 245 124 32 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 65 province_id = 267 province_id = 375 province_id = 442 province_id = 448 province_id = 450 province_id = 538 } }
+			}
+		}
+		capital = 375 # c_olten
+		
+		c_olten = { # 375
+			color={ 255 114 37 }
+			color2={ 255 255 255 }
+			
+			b_aarburg = {
+			}
+			b_wartburg = {
+			}
+			b_olten = {
+			}
+			b_oftrigen = {
+			}
+			b_daeniken = {
+			}
+			b_goesgen = {
+			}
+			b_kappel = {
+			}
+		}
+		c_huttwil = { # 442
+			color={ 146 95 198 }
+			color2={ 255 255 255 }
+			
+			b_rohrbach = {
+			}
+			b_huttwil = {
+			}
+			b_blatteberg = {
+			}
+			b_auswil = {
+			}
+		}
+		c_langenthal = { # 267
+			color={ 166 178 134 }
+			color2={ 255 255 255 }
+			
+			b_thunstetten = {
+			}
+			b_langenthal = {
+			}
+			b_herzogenbuchsee = {
+			}
+			b_aarwangen = {
+			}
+			b_langenthal_2 = {
+			}
+			b_langenthal_3 = {
+			}
+		}
+		c_oensingen = { # 538
+			color={ 255 235 18 }
+			color2={ 255 255 255 }
+			
+			b_bechburg = {
+			}
+			b_erlisburg = {
+			}
+			b_oensingen = {
+			}
+			b_wolfwil = {
+			}
+			b_oensingen_2 = {
+			}
+			b_oensingen_3 = {
+			}
+		}
+		c_reiden = { # 448
+			color={ 198 63 174 }
+			color2={ 255 255 255 }
+			
+			b_marienburg = {
+			}
+			b_marienburg_2 = {
+			}
+			b_reiden = {
+			}
+			b_dagmarsellen = {
+			}
+			b_altishofen = {
+			}
+			b_reiden_2 = {
+			}
+		}
+		c_wynigen = { # 65
+			color={ 204 192 93 }
+			color2={ 255 255 255 }
+			
+			b_grimmestein = {
+			}
+			b_wyningen = {
+			}
+			b_st_niklaus = {
+			}
+			b_wynigen = {
+			}
+		}
+		c_zofingen = { # 450
+			color={ 250 219 145 }
+			color2={ 255 255 255 }
+			
+			b_bottenstein = {
+			}
+			b_zofingen = {
+			}
+			b_zofingen_2 = {
+			}
+			b_muehlenthal = {
+			}
+			b_bottenwil = {
+			}
+			b_hochwacht_2 = {
+			}
+		}
+	}
+	d_oberwallis = {
+		color={ 164 228 107 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 69 province_id = 120 province_id = 173 province_id = 237 province_id = 324 province_id = 378 province_id = 443 province_id = 444 province_id = 459 province_id = 509 } }
+			}
+		}
+		capital = 378 # c_leuk
+		
+		c_leuk = { # 378
+			color={ 174 218 112 }
+			color2={ 255 255 255 }
+			frankish=Loère
+			
+			b_zen_ruffinen = {
+			}
+			b_leuk = {
+			}
+			b_viztum = {
+			}
+			b_werra = {
+			}
+			b_st_josefsheim = {
+			}
+			b_agarn = {
+			}
+			b_ringacker = {
+			}
+		}
+		c_brig = { # 120
+			color={ 168 117 172 }
+			color2={ 255 255 255 }
+			
+			b_brig = {
+			}
+			b_brig_2 = {
+			}
+			b_naters = {
+			}
+			b_glis = {
+			}
+			b_st_ursula_2 = {
+			}
+			b_glis_2 = {
+			}
+			b_gamsen = {
+			}
+		}
+		c_fiesch = { # 444
+			color={ 86 27 0 }
+			color2={ 255 255 255 }
+			
+			b_fiesch = {
+			}
+			b_ernen = {
+			}
+			b_binn = {
+			}
+			b_heiligkreuz = {
+			}
+		}
+		c_goms = { # 443
+			color={ 62 195 106 }
+			color2={ 255 255 255 }
+			
+			b_gluringen = {
+			}
+			b_muenster = {
+			}
+			b_ulrichen = {
+			}
+			b_oberwald = {
+			}
+			b_blitzingen = {
+			}
+			b_reckingen = {
+			}
+			b_geschinen = {
+			}
+		}
+		c_raron = { # 324
+			color={ 156 110 23 }
+			color2={ 255 255 255 }
+			
+			b_raron = {
+			}
+			b_st_roman = {
+			}
+			b_gesteln = {
+			}
+			b_gampel = {
+			}
+			b_st_german_2 = {
+			}
+			b_st_anna_2 = {
+			}
+			b_rotigoblatt = {
+			}
+		}
+		c_saas = { # 237
+			color={ 97 69 134 }
+			color2={ 255 255 255 }
+			
+			b_saas_balen = {
+			}
+			b_saas_grund = {
+			}
+			b_saas_fee = {
+			}
+			b_saas_almagell = {
+			}
+			b_eistein = {
+			}
+		}
+		c_simplon = { # 173
+			color={ 52 145 185 }
+			color2={ 255 255 255 }
+			
+			b_gondo = {
+			}
+			b_simplon = {
+			}
+			b_gabi = {
+			}
+			b_zwischenbergen = {
+			}
+		}
+		c_st_niklaus = { # 459
+			color={ 120 131 0 }
+			color2={ 255 255 255 }
+			
+			b_herbingen = {
+			}
+			b_st_niklaus_2 = {
+			}
+			b_st_niklaus_3 = {
+			}
+			b_mattsand = {
+			}
+			b_graechen = {
+			}
+			b_bina = {
+			}
+		}
+		c_visp = { # 69
+			color={ 242 132 100 }
+			color2={ 255 255 255 }
+			
+			b_lalden = {
+			}
+			b_visp = {
+			}
+			b_stalden = {
+			}
+			b_ausserberg = {
+			}
+			b_vispermiene = {
+			}
+			b_blatschieder = {
+			}
+		}
+		c_zermatt = { # 509
+			color={ 0 107 198 }
+			color2={ 255 255 255 }
+			
+			b_taesch = {
+			}
+			b_zermatt = {
+			}
+			b_zer_baennu = {
+			}
+			b_bodmen = {
+			}
+			b_herbrigg = {
+			}
+		}
+	}
+	d_regensberg = {
+		color={ 192 207 130 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 17 province_id = 21 province_id = 83 province_id = 145 province_id = 260 province_id = 336 province_id = 401 } }
+			}
+		}
+		capital = 145 # c_regensdorf
+		
+		c_regensdorf = { # 145
+			color={ 202 197 135 }
+			color2={ 255 255 255 }
+			
+			b_regensberg = {
+			}
+			b_regensdorf = {
+			}
+			b_daellikon = {
+			}
+			b_sand = {
+			}
+			b_watt = {
+			}
+		}
+		c_buelach = { # 336
+			color={ 45 154 178 }
+			color2={ 255 255 255 }
+			
+			b_embrach = {
+			}
+			b_buelach = {
+			}
+			b_rhinsberg = {
+			}
+			b_glattfelden = {
+			}
+			b_robas = {
+			}
+			b_toessegg = {
+			}
+			b_teufenberg = {
+			}
+		}
+		c_dielsdorf = { # 83
+			color={ 174 52 0 }
+			color2={ 255 255 255 }
+			
+			b_suenikon = {
+			}
+			b_dielsdorf = {
+			}
+			b_glatt = {
+			}
+			b_laengern = {
+			}
+			b_dielsdorf_2 = {
+			}
+			b_dielsdorf_3 = {
+			}
+			b_dielsdorf_4 = {
+			}
+		}
+		c_eglisau = { # 260
+			color={ 143 106 153 }
+			color2={ 255 255 255 }
+			
+			b_eglisau = {
+			}
+			b_eglisau_2 = {
+			}
+			b_buchberg = {
+			}
+			b_ruedlingen = {
+			}
+			b_rafz = {
+			}
+			b_eglisau_3 = {
+			}
+			b_eglisau_4 = {
+			}
+		}
+		c_glanzenberg = { # 21
+			color={ 255 8 210 }
+			color2={ 255 255 255 }
+			
+			b_glanzenberg = {
+			}
+			b_fahr = {
+			}
+			b_dietikon = {
+			}
+			b_kindhausen = {
+			}
+			b_glanzenberg_2 = {
+			}
+		}
+		c_kloten = { # 17
+			color={ 100 208 78 }
+			color2={ 255 255 255 }
+			
+			b_balsberg = {
+			}
+			b_kloten = {
+			}
+			b_bassersdorf = {
+			}
+			b_kloten_2 = {
+			}
+			b_kloten_3 = {
+			}
+			b_kloten_4 = {
+			}
+			b_kloten_5 = {
+			}
+		}
+		c_wenignen = { # 401
+			color={ 212 62 41 }
+			color2={ 255 255 255 }
+			
+			b_waldhausen = {
+			}
+			b_weningen = {
+			}
+			b_laengern_2 = {
+			}
+			b_fisisbach = {
+			}
+			b_weiach = {
+			}
+		}
+	}
+	d_reuss = {
+		color={ 13 132 174 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 60 province_id = 265 province_id = 342 province_id = 408 province_id = 489 } }
+			}
+		}
+		capital = 342 # c_sins
+		
+		c_sins = { # 342
+			color={ 3 142 169 }
+			color2={ 255 255 255 }
+			
+			b_horben = {
+			}
+			b_sins = {
+			}
+			b_meienberg = {
+			}
+			b_beinwil = {
+			}
+			b_reussegg = {
+			}
+			b_auw = {
+			}
+			b_abtwil = {
+			}
+		}
+		c_lenzburg = { # 408
+			color={ 196 143 204 }
+			color2={ 255 255 255 }
+			
+			b_lenzburg = {
+			}
+			b_hallwyl = {
+			}
+			b_lenzburg_2 = {
+			}
+			b_staufenberg = {
+			}
+			b_schafisheim = {
+			}
+			b_lenzburg_3 = {
+			}
+			b_lenzburg_4 = {
+			}
+		}
+		c_muri = { # 265
+			color={ 155 174 132 }
+			color2={ 255 255 255 }
+			
+			b_muri = {
+			}
+			b_boswil = {
+			}
+			b_hermetschwil = {
+			}
+			b_lunkhofen = {
+			}
+			b_muri_2 = {
+			}
+			b_muri_3 = {
+			}
+		}
+		c_schongau = { # 489
+			color={ 28 227 183 }
+			color2={ 255 255 255 }
+			
+			b_grueneberg = {
+			}
+			b_hitzkirch = {
+			}
+			b_hitzkirch_2 = {
+			}
+			b_heidegg = {
+			}
+			b_sarmensdorf = {
+			}
+			b_seengen = {
+			}
+			b_berstenberg = {
+			}
+		}
+		c_villmergen = { # 60
+			color={ 217 200 87 }
+			color2={ 255 255 255 }
+			
+			b_heidenhuebek = {
+			}
+			b_villmergen = {
+			}
+			b_wohlen = {
+			}
+			b_st_leonhard_2 = {
+			}
+			b_hessel = {
+			}
+			b_waltenschwil = {
+			}
+			b_buettikon = {
+			}
+		}
+	}
+	d_schaffhausen = {
+		color={ 77 87 5 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 34 province_id = 139 province_id = 140 province_id = 211 province_id = 445 } }
+			}
+		}
+		capital = 140 # c_schaffhausen
+		
+		c_schaffhausen = { # 140
+			color={ 67 97 0 }
+			color2={ 255 255 255 }
+			
+			b_schaffhausen = {
+			}
+			b_neuhausen = {
+			}
+			b_beringen = {
+			}
+			b_st_niklausen = {
+			}
+			b_schaffhausen_2 = {
+			}
+			b_schaffhausen_3 = {
+			}
+			b_schaffhausen_4 = {
+			}
+		}
+		c_herblingen = { # 139
+			color={ 140 97 204 }
+			color2={ 255 255 255 }
+			
+			b_stetten_2 = {
+			}
+			b_herblingen = {
+			}
+			b_lohn_2 = {
+			}
+			b_laengebaerg = {
+			}
+			b_herblingen_2 = {
+			}
+			b_herblingen_3 = {
+			}
+			b_herblingen_4 = {
+			}
+		}
+		c_neunkirch = { # 211
+			color={ 164 181 101 }
+			color2={ 255 255 255 }
+			
+			b_radegg = {
+			}
+			b_neunkirch = {
+			}
+			b_wilchingen = {
+			}
+			b_neunkirch_2 = {
+			}
+			b_neunkirch_3 = {
+			}
+			b_neunkirch_4 = {
+			}
+		}
+		c_randenberg = { # 445
+			color={ 194 91 149 }
+			color2={ 255 255 255 }
+			
+			b_randenburg = {
+			}
+			b_randenturm = {
+			}
+			b_schleitheim = {
+			}
+			b_randenberg = {
+			}
+		}
+		c_thayngen = { # 34
+			color={ 36 232 115 }
+			color2={ 255 255 255 }
+			
+			b_thayngen = {
+			}
+			b_thayngen_2 = {
+			}
+			b_doerflingen = {
+			}
+			b_lohn = {
+			}
+		}
+	}
+	d_schwyz = {
+		color={ 165 230 241 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 38 province_id = 99 province_id = 161 province_id = 172 province_id = 183 province_id = 253 province_id = 385 province_id = 490 } }
+			}
+		}
+		capital = 38 # c_kuessnacht
+		
+		c_kuessnacht = { # 38
+			color={ 175 220 246 }
+			color2={ 255 255 255 }
+			
+			b_seematt = {
+			}
+			b_immersee = {
+			}
+			b_st_martin = {
+			}
+			b_kuessnacht = {
+			}
+		}
+		c_einsideln = { # 161
+			color={ 21 165 120 }
+			color2={ 255 255 255 }
+			
+			b_st_benedikt = {
+			}
+			b_einsideln = {
+			}
+			b_willerzell = {
+			}
+			b_einsideln_2 = {
+			}
+			b_einsideln_3 = {
+			}
+		}
+		c_gersau = { # 172
+			color={ 107 225 226 }
+			color2={ 255 255 255 }
+			
+			b_gersau = {
+			}
+			b_gersau_2 = {
+			}
+		}
+		c_glodau = { # 490
+			color={ 213 67 120 }
+			color2={ 255 255 255 }
+			
+			b_steinerberg = {
+			}
+			b_goldau = {
+			}
+			b_arth = {
+			}
+			b_glodau = {
+			}
+		}
+		c_muotatal = { # 385
+			color={ 146 174 116 }
+			color2={ 255 255 255 }
+			
+			b_stoos = {
+			}
+			b_muotathal = {
+			}
+			b_minorit = {
+			}
+			b_muotatal = {
+			}
+			b_muotatal_2 = {
+			}
+		}
+		c_sattel = { # 183
+			color={ 85 121 202 }
+			color2={ 255 255 255 }
+			
+			b_sattel = {
+			}
+			b_rothenturm = {
+			}
+		}
+		c_schwyz = { # 99
+			color={ 160 128 120 }
+			color2={ 255 255 255 }
+			
+			b_brunnen = {
+			}
+			b_schwyz = {
+			}
+			b_seewen = {
+			}
+			b_schwyz_2 = {
+			}
+			b_schwyz_3 = {
+			}
+		}
+		c_shilquell = { # 253
+			color={ 206 14 199 }
+			color2={ 255 255 255 }
+			
+			b_stoecken = {
+			}
+			b_studen = {
+			}
+			b_shilquell = {
+			}
+		}
+	}
+	d_solothurn = {
+		color={ 199 151 48 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 63 province_id = 234 province_id = 236 province_id = 381 province_id = 389 province_id = 524 } }
+			}
+		}
+		capital = 234 # c_solothurn
+		
+		c_solothurn = { # 234
+			color={ 209 141 53 }
+			color2={ 255 255 255 }
+			
+			b_solothurn = {
+			}
+			b_zuchwil = {
+			}
+			b_bellach = {
+			}
+			b_st_josef = {
+			}
+			b_visitation = {
+			}
+			b_st_katharinen = {
+			}
+			b_waldegg = {
+			}
+		}
+		c_balsthal = { # 389
+			color={ 77 174 161 }
+			color2={ 255 255 255 }
+			
+			b_falkestein = {
+			}
+			b_klus = {
+			}
+			b_balsthal = {
+			}
+			b_st_wolfgang_2 = {
+			}
+			b_farisberg = {
+			}
+			b_hoenggen = {
+			}
+		}
+		c_gerlafingen = { # 236
+			color={ 36 137 194 }
+			color2={ 255 255 255 }
+			
+			b_halten = {
+			}
+			b_geralfingen = {
+			}
+			b_bleichenberg = {
+			}
+			b_biberist = {
+			}
+			b_kriegstetten = {
+			}
+			b_oberdorf = {
+			}
+			b_recherswil = {
+			}
+		}
+		c_grenchen = { # 524
+			color={ 108 143 186 }
+			color2={ 255 255 255 }
+			
+			b_bettlach = {
+			}
+			b_grenchen = {
+			}
+			b_allerheiligen = {
+			}
+			b_altreu = {
+			}
+			b_selzach = {
+			}
+			b_grenchen_2 = {
+			}
+			b_grenchen_3 = {
+			}
+		}
+		c_luessel = { # 63
+			color={ 242 172 98 }
+			color2={ 255 255 255 }
+			
+			b_baennifels = {
+			}
+			b_neuenstein = {
+			}
+			b_beinwil_2 = {
+			}
+			b_breitenbach = {
+			}
+			b_neu_thierstein = {
+			}
+			b_stuermenchopf = {
+			}
+			b_fehren = {
+			}
+		}
+		c_weissenstein = { # 381
+			color={ 178 22 80 }
+			color2={ 255 255 255 }
+			
+			b_balmfluh = {
+			}
+			b_flumenthal = {
+			}
+			b_hornegg = {
+			}
+			b_welschenrohr = {
+			}
+			b_schattenberg = {
+			}
+		}
+	}
+	d_surgau = {
+		color={ 240 177 140 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 155 province_id = 169 province_id = 282 province_id = 334 province_id = 406 province_id = 451 } }
+			}
+		}
+		capital = 451 # c_sursee
+		
+		c_sursee = { # 451
+			color={ 250 167 145 }
+			color2={ 255 255 255 }
+			
+			b_mauensee = {
+			}
+			b_sursee = {
+			}
+			b_wyher = {
+			}
+			b_buttisholz = {
+			}
+			b_nottwil = {
+			}
+			b_sursee_2 = {
+			}
+			b_sursee_3 = {
+			}
+		}
+		c_entlebuch = { # 282
+			color={ 188 190 255 }
+			color2={ 255 255 255 }
+			
+			b_werthenstein = {
+			}
+			b_wohlhusen = {
+			}
+			b_wohlhusen_2 = {
+			}
+			b_st_jost = {
+			}
+			b_entlebuch = {
+			}
+			b_schwarzenberg = {
+			}
+		}
+		c_escholzmatt = { # 406
+			color={ 188 255 190 }
+			color2={ 255 255 255 }
+			
+			b_escholzmatt = {
+			}
+			b_schuepfheim = {
+			}
+			b_heiligenkreuz = {
+			}
+			b_marbach_2 = {
+			}
+		}
+		c_hohenrain = { # 169
+			color={ 24 21 156 }
+			color2={ 255 255 255 }
+			
+			b_nuenegg = {
+			}
+			b_hochdorf = {
+			}
+			b_hohenrain = {
+			}
+			b_eschenbach = {
+			}
+			b_baldegg = {
+			}
+			b_eschenbach_2 = {
+			}
+			b_ottenhusen = {
+			}
+		}
+		c_willisau = { # 334
+			color={ 221 134 64 }
+			color2={ 255 255 255 }
+			
+			b_bergli = {
+			}
+			b_willisau = {
+			}
+			b_st_peter = {
+			}
+			b_zell_2 = {
+			}
+			b_willisau_2 = {
+			}
+		}
+		c_wyne = { # 155
+			color={ 230 197 133 }
+			color2={ 255 255 255 }
+			
+			b_beromuenster = {
+			}
+			b_st_michael = {
+			}
+			b_gormund = {
+			}
+			b_rickenbach = {
+			}
+			b_wyne = {
+			}
+		}
+	}
+	d_toggenburg = {
+		color={ 244 234 134 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 48 province_id = 274 province_id = 285 province_id = 410 } }
+			}
+		}
+		capital = 48 # c_iberg
+		
+		c_iberg = { # 48
+			color={ 254 224 139 }
+			color2={ 255 255 255 }
+			
+			b_iberg = {
+			}
+			b_wattwil = {
+			}
+			b_ebnat = {
+			}
+			b_ruedberg = {
+			}
+			b_iberg_2 = {
+			}
+			b_iberg_3 = {
+			}
+		}
+		c_nesslau = { # 410
+			color={ 147 255 152 }
+			color2={ 255 255 255 }
+			
+			b_neu_st_johann = {
+			}
+			b_nesslau = {
+			}
+			b_stein_2 = {
+			}
+			b_nesslau_2 = {
+			}
+			b_nesslau_3 = {
+			}
+		}
+		c_uznach = { # 285
+			color={ 41 158 99 }
+			color2={ 255 255 255 }
+			
+			b_uznaburg = {
+			}
+			b_uznach = {
+			}
+			b_berg_sion = {
+			}
+			b_uznach_2 = {
+			}
+			b_uznach_3 = {
+			}
+		}
+		c_wildhaus = { # 274
+			color={ 139 190 178 }
+			color2={ 255 255 255 }
+			
+			b_wildenburg = {
+			}
+			b_wildhaus = {
+			}
+			b_alt_st_johann = {
+			}
+			b_wildhaus_2 = {
+			}
+		}
+	}
+	d_ufgau = {
+		color={ 173 115 53 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 23 province_id = 33 province_id = 64 province_id = 163 province_id = 174 province_id = 175 province_id = 229 province_id = 254 province_id = 256 province_id = 390 province_id = 391 province_id = 438 province_id = 469 province_id = 505 province_id = 523 } }
+			}
+		}
+		capital = 175 # c_thun
+		
+		c_thun = { # 175
+			color={ 163 125 48 }
+			color2={ 255 255 255 }
+			
+			b_thun = {
+			}
+			b_steffisburg = {
+			}
+			b_thun_2 = {
+			}
+			b_thierachern = {
+			}
+			b_uetendorf = {
+			}
+			b_seftigen = {
+			}
+			b_huenibach = {
+			}
+		}
+		c_brienz = { # 391
+			color={ 108 142 157 }
+			color2={ 255 255 255 }
+			
+			b_fluhberg = {
+			}
+			b_brienz = {
+			}
+			b_schwanden_2 = {
+			}
+			b_wychelmatten = {
+			}
+			b_ballenberg = {
+			}
+		}
+		c_grindelwald = { # 174
+			color={ 186 157 52 }
+			color2={ 255 255 255 }
+			
+			b_grindelwald = {
+			}
+			b_truffersbrunnen = {
+			}
+			b_grindelwald_2 = {
+			}
+		}
+		c_gstaad = { # 256
+			color={ 129 190 142 }
+			color2={ 255 255 255 }
+			
+			b_gstaad = {
+			}
+			b_saanen = {
+			}
+			b_schoenried = {
+			}
+			b_saanenmoerser = {
+			}
+			b_oesch = {
+			}
+		}
+		c_interlaken = { # 23
+			color={ 106 152 94 }
+			color2={ 255 255 255 }
+			
+			b_interlaken = {
+			}
+			b_wilderswil = {
+			}
+			b_unspunnen = {
+			}
+			b_weissenau = {
+			}
+			b_lauterbrunnen = {
+			}
+			b_interlaken_2 = {
+			}
+		}
+		c_kandertal = { # 33
+			color={ 226 184 181 }
+			color2={ 255 255 255 }
+			
+			b_felsenburg = {
+			}
+			b_frutigen = {
+			}
+			b_tellenburg = {
+			}
+			b_kandertal = {
+			}
+			b_kandertal_2 = {
+			}
+		}
+		c_lenk = { # 523
+			color={ 195 115 22 }
+			color2={ 255 255 255 }
+			
+			b_burguebel = {
+			}
+			b_lenk = {
+			}
+			b_st_stephan = {
+			}
+			b_lenk_2 = {
+			}
+			b_lenk_3 = {
+			}
+		}
+		c_meiringen = { # 505
+			color={ 224 171 35 }
+			color2={ 255 255 255 }
+			
+			b_meiringen = {
+			}
+			b_meiringen_2 = {
+			}
+			b_innertkirchen = {
+			}
+			b_meiringen_3 = {
+			}
+			b_meiringen_4 = {
+			}
+		}
+		c_oberhofen = { # 469
+			color={ 116 151 255 }
+			color2={ 255 255 255 }
+			
+			b_oberhofen = {
+			}
+			b_huenegg = {
+			}
+			b_heiligenschwendi = {
+			}
+			b_oberhofen_2 = {
+			}
+		}
+		c_riggisberg = { # 438
+			color={ 200 227 128 }
+			color2={ 255 255 255 }
+			
+			b_burgistein = {
+			}
+			b_riggisberg = {
+			}
+			b_rueeggisberg = {
+			}
+			b_wattenwil = {
+			}
+			b_riggisberg_2 = {
+			}
+			b_riggisberg_3 = {
+			}
+		}
+		c_schwarzenburg = { # 229
+			color={ 81 129 177 }
+			color2={ 255 255 255 }
+			
+			b_schwarzenburg = {
+			}
+			b_pfaffeien = {
+			}
+			b_alterswil = {
+			}
+			b_grasburg = {
+			}
+			b_schwarzenburg_2 = {
+			}
+			b_schwarzenburg_3 = {
+			}
+			b_schwarzenburg_4 = {
+			}
+		}
+		c_schwarzsee = { # 163
+			color={ 71 97 40 }
+			color2={ 255 255 255 }
+			
+			b_schwarzee = {
+			}
+			b_attenberg = {
+			}
+			b_schwarzsee = {
+			}
+			b_schwarzsee_2 = {
+			}
+			b_schwarzsee_3 = {
+			}
+		}
+		c_simmental = { # 64
+			color={ 179 160 34 }
+			color2={ 255 255 255 }
+			
+			b_weissenburg = {
+			}
+			b_simmenegg = {
+			}
+			b_eichstalden = {
+			}
+			b_blankenburg = {
+			}
+			b_zweisimmen = {
+			}
+			b_manneberg = {
+			}
+			b_daerstetten = {
+			}
+		}
+		c_spiez = { # 390
+			color={ 167 110 86 }
+			color2={ 255 255 255 }
+			
+			b_wimmis = {
+			}
+			b_spiez = {
+			}
+			b_spiez_2 = {
+			}
+			b_faulensee = {
+			}
+			b_spiez_3 = {
+			}
+			b_spiez_4 = {
+			}
+		}
+		c_unterseen = { # 254
+			color={ 119 238 125 }
+			color2={ 255 255 255 }
+			
+			b_unterseen = {
+			}
+			b_unterseen_2 = {
+			}
+			b_ralligen = {
+			}
+			b_beatenberg = {
+			}
+		}
+	}
+	d_unteraargau = {
+		color={ 245 179 41 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 70 province_id = 95 province_id = 101 province_id = 122 province_id = 220 province_id = 280 province_id = 311 province_id = 314 province_id = 548 } }
+			}
+		}
+		capital = 220 # c_habsburg
+		
+		c_habsburg = { # 220
+			color={ 255 169 46 }
+			color2={ 255 255 255 }
+			
+			b_habsburg = {
+			}
+			b_wildegg = {
+			}
+			b_windisch = {
+			}
+			b_villigen = {
+			}
+			b_besserstein = {
+			}
+			b_freudenau = {
+			}
+			b_siggenthal = {
+			}
+		}
+		c_aarau = { # 70
+			color={ 191 76 41 }
+			color2={ 255 255 255 }
+			
+			b_kuengstein = {
+			}
+			b_aarau = {
+			}
+			b_rombach = {
+			}
+			b_rohr = {
+			}
+			b_st_ursula = {
+			}
+			b_suhr = {
+			}
+			b_thalheim = {
+			}
+		}
+		c_bad_zurzach = { # 314
+			color={ 36 162 95 }
+			color2={ 255 255 255 }
+			
+			b_klingmau = {
+			}
+			b_tegerfelden = {
+			}
+			b_baldingen = {
+			}
+			b_bad_zurzach = {
+			}
+			b_st_verena = {
+			}
+			b_bad_zurzach_2 = {
+			}
+		}
+		c_baden = { # 311
+			color={ 6 146 115 }
+			color2={ 255 255 255 }
+			
+			b_stein_3 = {
+			}
+			b_baden = {
+			}
+			b_endingen = {
+			}
+			b_siggental = {
+			}
+			b_kreuzliberg = {
+			}
+			b_baden_2 = {
+			}
+			b_baden_3 = {
+			}
+		}
+		c_bremgarten = { # 95
+			color={ 91 168 151 }
+			color2={ 255 255 255 }
+			
+			b_bremgarten = {
+			}
+			b_bremgarten_2 = {
+			}
+			b_bellikon = {
+			}
+			b_stetten_3 = {
+			}
+			b_busslingen = {
+			}
+			b_kuenten = {
+			}
+			b_rohrdorf = {
+			}
+		}
+		c_kienberg = { # 548
+			color={ 168 171 90 }
+			color2={ 255 255 255 }
+			
+			b_kienberg = {
+			}
+			b_kienberg_2 = {
+			}
+			b_chilch = {
+			}
+			b_kienberg_3 = {
+			}
+			b_kienberg_4 = {
+			}
+		}
+		c_laufenburg = { # 122
+			color={ 238 81 232 }
+			color2={ 255 255 255 }
+			
+			b_homberg = {
+			}
+			b_laufenburg = {
+			}
+			b_frick = {
+			}
+			b_horn = {
+			}
+			b_urgiz = {
+			}
+			b_st_paul = {
+			}
+			b_stein_4 = {
+			}
+		}
+		c_rheinfelden = { # 101
+			color={ 140 204 106 }
+			color2={ 255 255 255 }
+			
+			b_riburg = {
+			}
+			b_reinfelden = {
+			}
+			b_st_martin_3 = {
+			}
+			b_augst = {
+			}
+			b_rheinfelden = {
+			}
+			b_rheinfelden_2 = {
+			}
+		}
+		c_schoeftland = { # 280
+			color={ 209 250 145 }
+			color2={ 255 255 255 }
+			
+			b_rued = {
+			}
+			b_hochwacht = {
+			}
+			b_teufenthal = {
+			}
+			b_schoeftland = {
+			}
+			b_reinach = {
+			}
+			b_kulm = {
+			}
+			b_schoeftland_2 = {
+			}
+		}
+	}
+	d_unterwalden = {
+		color={ 218 192 251 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 72 province_id = 108 province_id = 177 province_id = 230 province_id = 305 province_id = 361 province_id = 384 province_id = 511 } }
+			}
+		}
+		capital = 384 # c_stans
+		
+		c_stans = { # 384
+			color={ 228 182 0 }
+			color2={ 255 255 255 }
+			
+			b_stansstad = {
+			}
+			b_stans = {
+			}
+			b_ennetmos = {
+			}
+			b_st_klara = {
+			}
+			b_wolfenschiessen = {
+			}
+			b_fueringen = {
+			}
+		}
+		c_alpnach = { # 108
+			color={ 227 76 17 }
+			color2={ 255 255 255 }
+			
+			b_alpnachstad = {
+			}
+			b_alpnach = {
+			}
+			b_siebenreich = {
+			}
+			b_alpnach_2 = {
+			}
+		}
+		c_beckenried = { # 305
+			color={ 72 150 34 }
+			color2={ 255 255 255 }
+			
+			b_isenringen = {
+			}
+			b_emmetten = {
+			}
+			b_beckenried = {
+			}
+		}
+		c_buochs = { # 72
+			color={ 163 124 63 }
+			color2={ 255 255 255 }
+			
+			b_buochs = {
+			}
+			b_ennetbuergen = {
+			}
+			b_buergerstock = {
+			}
+		}
+		c_engelberg = { # 230
+			color={ 17 109 240 }
+			color2={ 255 255 255 }
+			
+			b_engelberg = {
+			}
+			b_engelberg_2 = {
+			}
+			b_grafenort = {
+			}
+		}
+		c_lungern = { # 177
+			color={ 149 77 0 }
+			color2={ 255 255 255 }
+			
+			b_rudenz = {
+			}
+			b_hunwil = {
+			}
+			b_giswil = {
+			}
+		}
+		c_melchtal = { # 511
+			color={ 175 183 104 }
+			color2={ 255 255 255 }
+			
+			b_fluehe = {
+			}
+			b_melchtal = {
+			}
+			b_sachseln = {
+			}
+			b_melchtal_2 = {
+			}
+			b_melchtal_3 = {
+			}
+		}
+		c_sarnen = { # 361
+			color={ 79 238 240 }
+			color2={ 255 255 255 }
+			
+			b_sarnen = {
+			}
+			b_sarnen_2 = {
+			}
+			b_kerns = {
+			}
+			b_sarnen_3 = {
+			}
+		}
+	}
+	d_uri = {
+		color={ 71 134 51 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 8 province_id = 190 province_id = 207 province_id = 213 province_id = 219 province_id = 319 province_id = 461 province_id = 512 province_id = 545 } }
+			}
+		}
+		capital = 8 # c_wassen
+		
+		c_wassen = { # 8
+			color={ 61 144 46 }
+			color2={ 255 255 255 }
+			
+			b_gurtnellen = {
+			}
+			b_wassen = {
+			}
+			b_wassen_2 = {
+			}
+		}
+		c_altdorf = { # 207
+			color={ 91 221 236 }
+			color2={ 255 255 255 }
+			
+			b_wattingwil = {
+			}
+			b_altdorf = {
+			}
+			b_flueele = {
+			}
+			b_st_lazarus = {
+			}
+			b_altdorf_2 = {
+			}
+		}
+		c_amsteg = { # 512
+			color={ 176 71 120 }
+			color2={ 255 255 255 }
+			
+			b_meierturm = {
+			}
+			b_amsteg = {
+			}
+			b_silenen = {
+			}
+			b_zwing_uri = {
+			}
+		}
+		c_erstfeld = { # 190
+			color={ 38 181 143 }
+			color2={ 255 255 255 }
+			
+			b_attinghausen = {
+			}
+			b_erstfeld = {
+			}
+			b_niederhofen = {
+			}
+			b_erstfeld_2 = {
+			}
+			b_erstfeld_3 = {
+			}
+		}
+		c_goeschenen = { # 219
+			color={ 224 65 46 }
+			color2={ 255 255 255 }
+			
+			b_langflue = {
+			}
+			b_goeschenen = {
+			}
+		}
+		c_gotthard = { # 545
+			color={ 208 131 46 }
+			color2={ 255 255 255 }
+			
+			b_hospental = {
+			}
+			b_andermatt = {
+			}
+		}
+		c_klausenpass = { # 461
+			color={ 30 103 157 }
+			color2={ 255 255 255 }
+			
+			b_unterschaechen = {
+			}
+			b_klausenpass = {
+			}
+			b_klausenpass_2 = {
+			}
+		}
+		c_realp = { # 213
+			color={ 182 185 114 }
+			color2={ 255 255 255 }
+			
+			b_realp = {
+			}
+			b_realp_2 = {
+			}
+		}
+		c_seelisberg = { # 319
+			color={ 78 42 204 }
+			color2={ 255 255 255 }
+			
+			b_seelisberg = {
+			}
+			b_isenthal = {
+			}
+			b_seelisberg_2 = {
+			}
+			b_seelisberg_3 = {
+			}
+		}
+	}
+	d_zuerich = {
+		color={ 141 239 110 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 206 province_id = 235 province_id = 278 province_id = 283 province_id = 294 province_id = 473 province_id = 486 province_id = 510 province_id = 542 } }
+			}
+		}
+		capital = 235 # c_zuerich
+		
+		c_zuerich = { # 235
+			color={ 151 229 115 }
+			color2={ 255 255 255 }
+			
+			b_zuerich = {
+			}
+			b_fraumuenster = {
+			}
+			b_st_martin_2 = {
+			}
+			b_oerlikon = {
+			}
+			b_wiedikon = {
+			}
+			b_friesenberg = {
+			}
+			b_barfuesser = {
+			}
+		}
+		c_faellanden = { # 486
+			color={ 166 175 0 }
+			color2={ 255 255 255 }
+			
+			b_duebelstein = {
+			}
+			b_faellanden = {
+			}
+			b_maur = {
+			}
+			b_binz = {
+			}
+			b_zumikon = {
+			}
+		}
+		c_horgen = { # 278
+			color={ 135 126 184 }
+			color2={ 255 255 255 }
+			
+			b_oberrieden = {
+			}
+			b_horgen = {
+			}
+			b_horgen_2 = {
+			}
+			b_horgen_3 = {
+			}
+			b_horgen_4 = {
+			}
+			b_horgen_5 = {
+			}
+		}
+		c_meilen = { # 283
+			color={ 102 118 37 }
+			color2={ 255 255 255 }
+			
+			b_friedberg = {
+			}
+			b_meilen = {
+			}
+			b_hohenegg = {
+			}
+			b_herrliberg = {
+			}
+			b_meilen_2 = {
+			}
+			b_meilen_3 = {
+			}
+		}
+		c_schlieren = { # 510
+			color={ 24 219 222 }
+			color2={ 255 255 255 }
+			
+			b_altstetten = {
+			}
+			b_schlieren = {
+			}
+			b_hoengg = {
+			}
+			b_lachern = {
+			}
+			b_frankental = {
+			}
+			b_unterengstringen = {
+			}
+			b_oberengstringen = {
+			}
+		}
+		c_staefa = { # 542
+			color={ 107 155 159 }
+			color2={ 255 255 255 }
+			
+			b_uelikon = {
+			}
+			b_staefa = {
+			}
+			b_oetwil = {
+			}
+			b_staefa_2 = {
+			}
+			b_staefa_3 = {
+			}
+		}
+		c_thalwil = { # 294
+			color={ 32 110 126 }
+			color2={ 255 255 255 }
+			
+			b_thalwil = {
+			}
+			b_thalwil_2 = {
+			}
+			b_gattikon = {
+			}
+			b_entzberg = {
+			}
+			b_thalwil_3 = {
+			}
+			b_thalwil_4 = {
+			}
+		}
+		c_wollishofen = { # 473
+			color={ 89 195 200 }
+			color2={ 255 255 255 }
+			
+			b_wollishofen = {
+			}
+			b_moenchhof = {
+			}
+			b_adliswil = {
+			}
+			b_wollishofen_2 = {
+			}
+			b_wollishofen_3 = {
+			}
+			b_wollishofen_4 = {
+			}
+		}
+		c_zollikon = { # 206
+			color={ 58 137 141 }
+			color2={ 255 255 255 }
+			
+			b_riesbach = {
+			}
+			b_zollikon = {
+			}
+			b_hirslanden = {
+			}
+			b_wulp = {
+			}
+		}
+	}
+	d_zug = {
+		color={ 148 27 186 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 138 province_id = 187 province_id = 432 } }
+			}
+		}
+		capital = 138 # c_zug
+		
+		c_zug = { # 138
+			color={ 138 37 181 }
+			color2={ 255 255 255 }
+			
+			b_wallburg = {
+			}
+			b_wildenburg_2 = {
+			}
+			b_baar = {
+			}
+			b_zug = {
+			}
+			b_baarburg = {
+			}
+			b_zug_2 = {
+			}
+			b_zug_3 = {
+			}
+		}
+		c_ageri = { # 432
+			color={ 178 247 143 }
+			color2={ 255 255 255 }
+			
+			b_allenwinden = {
+			}
+			b_menzingen = {
+			}
+			b_gubel = {
+			}
+			b_ageri = {
+			}
+			b_ageri_2 = {
+			}
+		}
+		c_cham = { # 187
+			color={ 232 97 79 }
+			color2={ 255 255 255 }
+			
+			b_huenenburg = {
+			}
+			b_cham = {
+			}
+			b_st_wolfgang = {
+			}
+			b_buonas = {
+			}
+			b_cham_2 = {
+			}
+			b_cham_3 = {
+			}
+		}
+	}
+}
+k_baden = {
+color={ 127 163 198 }
+color2={ 255 255 255 }
+
+capital = 142 # c_schopfheim
+culture = low_alemannic
+	d_breisgau = {
+		color={ 147 143 208 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 142 province_id = 246 province_id = 344 province_id = 414 } }
+			}
+		}
+		capital = 142 # c_schopfheim
+		
+		c_schopfheim = { # 142
+			color={ 157 133 213 }
+			color2={ 255 255 255 }
+			
+			b_hausen = {
+			}
+			b_schopfheim = {
+			}
+			b_zell = {
+			}
+			b_wieslet = {
+			}
+			b_kuemberg = {
+			}
+			b_hasel = {
+			}
+			b_brodenloch = {
+			}
+		}
+		c_bad_krozingen = { # 344
+			color={ 198 106 106 }
+			color2={ 255 255 255 }
+			
+			b_sulzburg = {
+			}
+			b_eschbach = {
+			}
+			b_bad_krozingen = {
+			}
+			b_ehrkirchen = {
+			}
+			b_staufen = {
+			}
+			b_tunsel = {
+			}
+			b_dottingen = {
+			}
+		}
+		c_loerrach = { # 414
+			color={ 182 135 185 }
+			color2={ 255 255 255 }
+			
+			b_maulburg = {
+			}
+			b_buergeln = {
+			}
+			b_loerrach = {
+			}
+			b_muellheim = {
+			}
+			b_steinen = {
+			}
+			b_ruemmingen = {
+			}
+			b_malsburg = {
+			}
+		}
+		c_wehr = { # 246
+			color={ 130 177 118 }
+			color2={ 255 255 255 }
+			
+			b_wehr = {
+			}
+			b_bad_saeckingen = {
+			}
+			b_wallbach = {
+			}
+			b_rippolingen = {
+			}
+			b_haroplingen = {
+			}
+			b_duttenberg = {
+			}
+			b_wehr_2 = {
+			}
+		}
+	}
+	d_fuerstenberg = {
+		color={ 224 250 74 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 79 province_id = 133 province_id = 322 province_id = 394 province_id = 397 } }
+			}
+		}
+		capital = 79 # c_waldshut
+		
+		c_waldshut = { # 79
+			color={ 234 240 79 }
+			color2={ 255 255 255 }
+			
+			b_homburg = {
+			}
+			b_waldshut = {
+			}
+			b_lauchringen = {
+			}
+			b_kandelburg = {
+			}
+			b_weilheim = {
+			}
+			b_gurtweil = {
+			}
+		}
+		c_kuessaburg = { # 322
+			color={ 145 106 23 }
+			color2={ 255 255 255 }
+			
+			b_kuessaburg = {
+			}
+			b_hohentengen = {
+			}
+			b_stetten = {
+			}
+			b_griessen = {
+			}
+			b_krummhof = {
+			}
+			b_dangstetten = {
+			}
+		}
+		c_schluchsee = { # 133
+			color={ 11 161 36 }
+			color2={ 255 255 255 }
+			
+			b_st_blasien = {
+			}
+			b_hoechenschwand = {
+			}
+			b_grafenhausen = {
+			}
+			b_noeggenschwiel = {
+			}
+			b_brunnadern = {
+			}
+			b_dachsberg = {
+			}
+			b_brenden = {
+			}
+		}
+		c_stuehlingen = { # 397
+			color={ 245 138 0 }
+			color2={ 255 255 255 }
+			
+			b_hohenlupfen = {
+			}
+			b_stuehlingen = {
+			}
+			b_bonndorf = {
+			}
+			b_bettmaringen = {
+			}
+			b_mauchen = {
+			}
+			b_birkendorf = {
+			}
+			b_schwaningen = {
+			}
+		}
+		c_todtnau = { # 394
+			color={ 84 162 167 }
+			color2={ 255 255 255 }
+			
+			b_todtnau = {
+			}
+			b_gschwend = {
+			}
+			b_schoenau_2 = {
+			}
+			b_aitern = {
+			}
+			b_hau = {
+			}
+			b_utzenfeld = {
+			}
+		}
+	}
+}
+k_osterreich = {
+color={ 225 172 241 }
+color2={ 255 255 255 }
+
+capital = 403 # c_landeck
+culture = tirolian
+	d_tirol = {
+		color={ 245 152 251 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 35 province_id = 51 province_id = 158 province_id = 403 province_id = 433 } }
+			}
+		}
+		capital = 403 # c_landeck
+		
+		c_landeck = { # 403
+			color={ 255 142 0 }
+			color2={ 255 255 255 }
+			
+			b_pfunds = {
+			}
+			b_ladis = {
+			}
+			b_landeck = {
+			}
+			b_landeck_2 = {
+			}
+			b_grins = {
+			}
+			b_zams = {
+			}
+		}
+		c_ischgl = { # 51
+			color={ 222 44 164 }
+			color2={ 255 255 255 }
+			
+			b_mathon = {
+			}
+			b_ischgl = {
+			}
+			b_versahl = {
+			}
+			b_ebene = {
+			}
+		}
+		c_mals = { # 158
+			color={ 28 73 123 }
+			color2={ 255 255 255 }
+			
+			b_marienburg_3 = {
+			}
+			b_mals = {
+			}
+			b_st_valentin = {
+			}
+			b_graun = {
+			}
+			b_churburg = {
+			}
+			b_burgers = {
+			}
+		}
+		c_stanzach = { # 433
+			color={ 125 55 61 }
+			color2={ 255 255 255 }
+			
+			b_stanzach = {
+			}
+			b_elmen = {
+			}
+			b_forchach = {
+			}
+			b_weissenbach = {
+			}
+		}
+		c_stilfs = { # 35
+			color={ 88 188 0 }
+			color2={ 255 255 255 }
+			
+			b_stilfs = {
+			}
+			b_laas = {
+			}
+			b_erys = {
+			}
+			b_schlanders = {
+			}
+			b_latsch = {
+			}
+		}
+	}
+	d_bregenz = {
+		color={ 58 80 95 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 306 province_id = 416 province_id = 528 } }
+			}
+		}
+		capital = 306 # c_lech
+		
+		c_lech = { # 306
+			color={ 48 90 90 }
+			color2={ 255 255 255 }
+			
+			b_warth_3 = {
+			}
+			b_lech = {
+			}
+			b_zuers = {
+			}
+			b_au_2 = {
+			}
+			b_schoppernau = {
+			}
+		}
+		c_bregenz = { # 528
+			color={ 221 159 4 }
+			color2={ 255 255 255 }
+			
+			b_wolfurt = {
+			}
+			b_bregenz = {
+			}
+			b_kennelbach = {
+			}
+			b_schwarzach = {
+			}
+			b_hittisau = {
+			}
+			b_bolgenach = {
+			}
+			b_lagenegg = {
+			}
+		}
+		c_dornbirn = { # 416
+			color={ 135 91 149 }
+			color2={ 255 255 255 }
+			
+			b_goetzis = {
+			}
+			b_dornbirn = {
+			}
+			b_hohenems = {
+			}
+			b_mellau = {
+			}
+			b_reuthe = {
+			}
+			b_bizau = {
+			}
+			b_bezau = {
+			}
+		}
+	}
+	d_montfort = {
+		color={ 121 198 134 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 2 province_id = 166 province_id = 313 province_id = 373 province_id = 519 } }
+			}
+		}
+		capital = 2 # c_buldenz
+		
+		c_buldenz = { # 2
+			color={ 131 188 139 }
+			color2={ 255 255 255 }
+			
+			b_rosenegg = {
+			}
+			b_buldenz = {
+			}
+			b_st_peter_2 = {
+			}
+			b_braz = {
+			}
+			b_dalaas = {
+			}
+			b_gratz = {
+			}
+			b_danoefen = {
+			}
+		}
+		c_balzers = { # 166
+			color={ 209 197 80 }
+			color2={ 255 255 255 }
+			
+			b_gutenberg = {
+			}
+			b_balzers = {
+			}
+			b_triesen = {
+			}
+			b_triesenberg = {
+			}
+			b_chrup = {
+			}
+			b_garnis = {
+			}
+		}
+		c_montfort = { # 373
+			color={ 131 90 90 }
+			color2={ 255 255 255 }
+			
+			b_montfort = {
+			}
+			b_schattenburg = {
+			}
+			b_feldkirch = {
+			}
+			b_maria_gruen = {
+			}
+			b_rankweil = {
+			}
+			b_roethis = {
+			}
+			b_sulz = {
+			}
+		}
+		c_st_anton = { # 313
+			color={ 95 194 37 }
+			color2={ 255 255 255 }
+			
+			b_st_anton_2 = {
+			}
+			b_st_christoph = {
+			}
+			b_gand = {
+			}
+			b_pettneu = {
+			}
+		}
+		c_vaduz = { # 519
+			color={ 244 155 38 }
+			color2={ 255 255 255 }
+			
+			b_schalun = {
+			}
+			b_vaduz = {
+			}
+			b_schaan = {
+			}
+			b_planken = {
+			}
+			b_eschen = {
+			}
+			b_mauren = {
+			}
+			b_gamprin = {
+			}
+		}
+	}
+}
+k_raetia = {
+color={ 33 163 197 }
+color2={ 255 255 255 }
+
+capital = 201 # c_chur
+culture = raetoromanish
+	d_chur_raetia = {
+		color={ 13 183 187 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 94 province_id = 201 province_id = 241 province_id = 352 province_id = 439 } }
+			}
+		}
+		capital = 201 # c_chur
+		
+		c_chur = { # 201
+			color={ 3 193 182 }
+			color2={ 255 255 255 }
+			raetoromanish=Curia
+			
+			b_chur = {
+			}
+			b_landquart = {
+			}
+			b_chur_2 = {
+			}
+			b_bernegg = {
+			}
+			b_chur_3 = {
+			}
+			b_chur_4 = {
+			}
+		}
+		c_arosa = { # 241
+			color={ 166 173 79 }
+			color2={ 255 255 255 }
+			
+			b_arosa = {
+			}
+			b_piest = {
+			}
+		}
+		c_bonaduz = { # 94
+			color={ 35 168 228 }
+			color2={ 255 255 255 }
+			raetoromanish=Panaduz
+			
+			b_trin = {
+			}
+			b_parcazi = {
+			}
+			b_flims = {
+			}
+		}
+		c_praettigau = { # 439
+			color={ 155 171 211 }
+			color2={ 255 255 255 }
+			raetoromanish=Partenz
+			
+			b_wyneck = {
+			}
+			b_maienfeld = {
+			}
+			b_malans = {
+			}
+			b_luzein = {
+			}
+			b_praettigau = {
+			}
+			b_praettigau_2 = {
+			}
+		}
+		c_thusis = { # 352
+			color={ 117 198 198 }
+			color2={ 255 255 255 }
+			raetoromanish=Tusáun
+			
+			b_hohenraetien_sils = {
+			}
+			b_fuerstenau = {
+			}
+			b_obertagstein_thusis = {
+			}
+			b_rietberg = {
+			}
+			b_thusis = {
+			}
+		}
+	}
+	d_albula = {
+		color={ 199 214 74 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 74 province_id = 186 province_id = 337 province_id = 341 province_id = 412 } }
+			}
+		}
+		capital = 74 # c_davos
+		
+		c_davos = { # 74
+			color={ 209 204 79 }
+			color2={ 255 255 255 }
+			
+			b_monstein = {
+			}
+			b_davos = {
+			}
+			b_klosters = {
+			}
+			b_serneus = {
+			}
+			b_davos_2 = {
+			}
+			b_davos_3 = {
+			}
+		}
+		c_albula = { # 186
+			color={ 205 65 105 }
+			color2={ 255 255 255 }
+			
+			b_belfort = {
+			}
+			b_casti = {
+			}
+			b_salouf = {
+			}
+		}
+		c_avers = { # 412
+			color={ 96 131 109 }
+			color2={ 255 255 255 }
+			
+			b_andeer = {
+			}
+			b_son_antonius = {
+			}
+			b_ziran = {
+			}
+			b_avers = {
+			}
+			b_avers_2 = {
+			}
+		}
+		c_bivio = { # 337
+			color={ 21 106 138 }
+			color2={ 255 255 255 }
+			german=Stalla
+			tirolian=Stalla
+			low_alemannic=Stalla
+			bavarian=Stalla
+			middle_alemannic=Stalla
+			high_alemannic=Stalla
+			
+			b_spuglatsch = {
+			}
+			b_riom = {
+			}
+			b_savognin = {
+			}
+			b_bivio = {
+			}
+			b_marmels = {
+			}
+		}
+		c_bravuogn = { # 341
+			color={ 214 142 113 }
+			color2={ 255 255 255 }
+			german=Bergün
+			tirolian=Bergün
+			low_alemannic=Bergün
+			bavarian=Bergün
+			middle_alemannic=Bergün
+			high_alemannic=Bergün
+			
+			b_greifenstein = {
+			}
+			b_bravuogn = {
+			}
+		}
+	}
+	d_appenzell = {
+		color={ 92 144 242 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 18 province_id = 24 province_id = 92 province_id = 127 province_id = 179 province_id = 240 province_id = 307 province_id = 328 province_id = 358 province_id = 372 province_id = 383 province_id = 495 } }
+			}
+		}
+		capital = 328 # c_appenzell
+		
+		c_appenzell = { # 328
+			color={ 102 134 247 }
+			color2={ 255 255 255 }
+			
+			b_clanx = {
+			}
+			b_steig = {
+			}
+			b_appenzell = {
+			}
+		}
+		c_gais = { # 127
+			color={ 123 25 88 }
+			color2={ 255 255 255 }
+			
+			b_stoss = {
+			}
+			b_gais = {
+			}
+		}
+		c_gonten = { # 383
+			color={ 227 134 0 }
+			color2={ 255 255 255 }
+			
+			b_haseln = {
+			}
+			b_st_jakob = {
+			}
+			b_gonten = {
+			}
+		}
+		c_heiden = { # 358
+			color={ 97 194 221 }
+			color2={ 255 255 255 }
+			
+			b_trogen = {
+			}
+			b_bleichi = {
+			}
+			b_heiden = {
+			}
+			b_heiden_2 = {
+			}
+		}
+		c_herisau = { # 372
+			color={ 140 78 84 }
+			color2={ 255 255 255 }
+			
+			b_ramsenburg = {
+			}
+			b_herisau = {
+			}
+		}
+		c_oberegg = { # 495
+			color={ 29 255 174 }
+			color2={ 255 255 255 }
+			
+			b_oberegg = {
+			}
+			b_st_anton = {
+			}
+		}
+		c_reute = { # 92
+			color={ 241 188 55 }
+			color2={ 255 255 255 }
+			
+			b_eschenmoos = {
+			}
+			b_reute = {
+			}
+		}
+		c_saentis = { # 307
+			color={ 164 122 200 }
+			color2={ 255 255 255 }
+			
+			b_weissbad = {
+			}
+			b_wildkirchli = {
+			}
+		}
+		c_schwellbrunn = { # 240
+			color={ 71 189 174 }
+			color2={ 255 255 255 }
+			
+			b_geren = {
+			}
+			b_schwellbrunn = {
+			}
+			b_schwellbrunn_2 = {
+			}
+		}
+		c_teufen = { # 18
+			color={ 152 144 178 }
+			color2={ 255 255 255 }
+			
+			b_teufen = {
+			}
+			b_speicher = {
+			}
+		}
+		c_urnaesch = { # 24
+			color={ 80 172 101 }
+			color2={ 255 255 255 }
+			
+			b_oberturm = {
+			}
+			b_urnaesch = {
+			}
+			b_chronbach = {
+			}
+		}
+		c_waldstatt = { # 179
+			color={ 242 181 104 }
+			color2={ 255 255 255 }
+			
+			b_geisshalden = {
+			}
+			b_waldstatt = {
+			}
+		}
+	}
+	d_engadin = {
+		color={ 159 54 164 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 5 province_id = 41 province_id = 68 province_id = 259 } }
+			}
+		}
+		capital = 252 # c_st_moritz
+		
+		c_st_moritz = { # 252
+			color={ 211 134 210 }
+			color2={ 255 255 255 }
+			raetoromanish="Son Moretzen"
+			
+			b_crest_alta = {
+			}
+			b_samedam = {
+			}
+			b_st_moritz = {
+			}
+			b_pontresina = {
+			}
+			b_st_moritz_2 = {
+			}
+		}
+		c_zernez = { # 5
+			color={ 149 64 159 }
+			color2={ 255 255 255 }
+			
+			b_wildenberg = {
+			}
+			b_zernez = {
+			}
+			b_la_motta = {
+			}
+		}
+		c_martina = { # 41
+			color={ 209 228 181 }
+			color2={ 255 255 255 }
+			
+			b_tschanueff = {
+			}
+			b_martina = {
+			}
+			b_martina_2 = {
+			}
+		}
+		c_muestair = { # 68
+			color={ 181 168 32 }
+			color2={ 255 255 255 }
+			german=Münster
+			tirolian=Münster
+			low_alemannic=Münster
+			bavarian=Münster
+			middle_alemannic=Münster
+			high_alemannic=Münster
+			
+			b_balcun = {
+			}
+			b_muestair = {
+			}
+			b_son_jon = {
+			}
+		}
+		c_scuol = { # 259
+			color={ 143 130 155 }
+			color2={ 255 255 255 }
+			german=Schuls
+			tirolian=Schuls
+			low_alemannic=Schuls
+			bavarian=Schuls
+			middle_alemannic=Schuls
+			high_alemannic=Schuls
+			
+			b_tarasp = {
+			}
+			b_scuol = {
+			}
+			b_san_peder = {
+			}
+			b_scuol_2 = {
+			}
+		}
+		
+		c_maloja = { # 325
+			color={ 229 142 104 }
+			color2={ 255 255 255 }
+			
+			b_castelmur = {
+			}
+			b_bondo = {
+			}
+			b_san_pietro = {
+			}
+			b_san_cassiano = {
+			}
+			b_maloja = {
+			}
+		}
+		c_zuoz = { # 331
+			color={ 10 146 159 }
+			color2={ 255 255 255 }
+			
+			b_zouoz = {
+			}
+			b_s_chanf = {
+			}
+			b_zuoz = {
+			}
+		}
+	}
+	d_moesa = {
+		color={ 31 148 172 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 349 province_id = 362 province_id = 382 province_id = 492 } }
+			}
+		}
+		capital = 349 # c_san_bernhardino
+		
+		c_san_bernhardino = { # 349
+			color={ 21 158 167 }
+			color2={ 255 255 255 }
+			raetoromanish="Son Bernhardino"
+			
+			b_gualdo = {
+			}
+			b_san_bernhardino = {
+			}
+		}
+		c_calanca = { # 382
+			color={ 132 62 103 }
+			color2={ 255 255 255 }
+			
+			b_calanca = {
+			}
+			b_son_domenica = {
+			}
+			b_santa_maria_calanca = {
+			}
+		}
+		c_mesocco = { # 362
+			color={ 138 170 75 }
+			color2={ 255 255 255 }
+			
+			b_mesocco = {
+			}
+			b_san_martino = {
+			}
+		}
+		c_roveredo = { # 492
+			color={ 237 203 66 }
+			color2={ 255 255 255 }
+			
+			b_torre_palas = {
+			}
+			b_san_vittore = {
+			}
+			b_roveredo = {
+			}
+			b_roveredo_2 = {
+			}
+		}
+	}
+	d_rintel = {
+		color={ 131 122 97 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 14 province_id = 19 province_id = 40 province_id = 273 province_id = 415 } }
+			}
+		}
+		capital = 14 # c_taminatal
+		
+		c_taminatal = { # 14
+			color={ 121 132 92 }
+			color2={ 255 255 255 }
+			
+			b_wartenstein = {
+			}
+			b_bad_ragaz = {
+			}
+			b_st_leonhard = {
+			}
+			b_taminatal = {
+			}
+			b_taminatal_2 = {
+			}
+		}
+		c_altstaetten = { # 273
+			color={ 140 182 191 }
+			color2={ 255 255 255 }
+			
+			b_rebstein = {
+			}
+			b_altstaetten = {
+			}
+			b_marbach = {
+			}
+			b_neu_altstaetten = {
+			}
+			b_heerbrugg = {
+			}
+		}
+		c_buchs = { # 40
+			color={ 128 100 228 }
+			color2={ 255 255 255 }
+			raetoromanish="de Pogio"
+			
+			b_werdenberg = {
+			}
+			b_buchs = {
+			}
+			b_hohensax = {
+			}
+			b_buchs_2 = {
+			}
+		}
+		c_sargans = { # 19
+			color={ 206 88 226 }
+			color2={ 255 255 255 }
+			
+			b_mels = {
+			}
+			b_sargans = {
+			}
+			b_sargans_2 = {
+			}
+			b_sargans_3 = {
+			}
+		}
+		c_walenstadt = { # 415
+			color={ 95 199 79 }
+			color2={ 255 255 255 }
+			raetoromanish=Ripa
+			
+			b_graepplang = {
+			}
+			b_flums = {
+			}
+			b_walenstadt = {
+			}
+		}
+	}
+	d_st_gallen = {
+		color={ 98 198 79 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 7 province_id = 333 province_id = 430 province_id = 503 } }
+			}
+		}
+		capital = 7 # c_gossau
+		
+		c_gossau = { # 7
+			color={ 88 208 74 }
+			color2={ 255 255 255 }
+			
+			b_oberberg = {
+			}
+			b_gossau = {
+			}
+			b_helfenberg = {
+			}
+		}
+		c_st_fiden = { # 503
+			color={ 137 187 55 }
+			color2={ 255 255 255 }
+			
+			b_st_fiden = {
+			}
+			b_neudorf = {
+			}
+			b_hohenstein = {
+			}
+		}
+		c_st_gallen = { # 430
+			color={ 230 119 218 }
+			color2={ 255 255 255 }
+			
+			b_st_otmar_2 = {
+			}
+			b_st_gallen = {
+			}
+			b_wittenbach = {
+			}
+			b_dottenwil = {
+			}
+		}
+		c_uzwil = { # 333
+			color={ 243 162 104 }
+			color2={ 255 255 255 }
+			
+			b_gielen = {
+			}
+			b_uzwil = {
+			}
+			b_flawil = {
+			}
+		}
+	}
+	d_surselva = {
+		color={ 60 150 148 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 88 province_id = 146 province_id = 242 province_id = 392 province_id = 453 } }
+			}
+		}
+		capital = 88 # c_muster
+		
+		c_muster = { # 88
+			color={ 50 160 143 }
+			color2={ 255 255 255 }
+			german=Disentis
+			tirolian=Disentis
+			low_alemannic=Disentis
+			bavarian=Disentis
+			middle_alemannic=Disentis
+			high_alemannic=Disentis
+			
+			b_son_martin = {
+			}
+			b_travaulta = {
+			}
+			b_muster = {
+			}
+		}
+		c_illanz = { # 392
+			color={ 156 122 109 }
+			color2={ 255 255 255 }
+			
+			b_luvis = {
+			}
+			b_grueneck = {
+			}
+			b_castrisch = {
+			}
+			b_illanz = {
+			}
+			b_illanz_2 = {
+			}
+		}
+		c_sedrun = { # 242
+			color={ 167 201 75 }
+			color2={ 255 255 255 }
+			
+			b_tujetsch = {
+			}
+			b_sedrun = {
+			}
+		}
+		c_truns = { # 453
+			color={ 173 143 195 }
+			color2={ 255 255 255 }
+			
+			b_saxenstein = {
+			}
+			b_riggenberg = {
+			}
+			b_truns = {
+			}
+			b_truns_2 = {
+			}
+		}
+		c_vals = { # 146
+			color={ 207 29 157 }
+			color2={ 255 255 255 }
+			raetoromanish=Val
+			
+			b_surcasti = {
+			}
+			b_vella = {
+			}
+			b_vals = {
+			}
+		}
+	}
+
+}
+k_schwaben = {
+color={ 159 162 15 }
+color2={ 255 255 255 }
+
+capital = 53 # c_ravensburg
+culture = low_alemannic
+
+d_niederschwaben = {
+	color={ 139 182 5 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 53 province_id = 152 province_id = 184 province_id = 288 province_id = 316 province_id = 456 province_id = 463 province_id = 481 } }
+		}
+	}
+	capital = 53 # c_ravensburg
+	
+	c_ravensburg = { # 53
+		color={ 129 192 0 }
+		color2={ 255 255 255 }
+		
+		b_veitsburg = {
+		}
+		b_ravensburg = {
+		}
+		b_grosstobel = {
+		}
+		b_weingarten = {
+		}
+		b_wolpertswende = {
+		}
+		b_ravensburg_2 = {
+		}
+		b_ravensburg_3 = {
+		}
+	}
+	c_engen = { # 152
+		color={ 196 53 164 }
+		color2={ 255 255 255 }
+		
+		b_tengen = {
+		}
+		b_engen = {
+		}
+		b_hohenhewen = {
+		}
+		b_neuhewen = {
+		}
+		b_blumberg = {
+		}
+		b_engen_2 = {
+		}
+		b_engen_3 = {
+		}
+	}
+	c_frickingen = { # 456
+		color={ 0 215 116 }
+		color2={ 255 255 255 }
+		
+		b_hohenfels = {
+		}
+		b_frickingen = {
+		}
+		b_heiligenberg = {
+		}
+		b_frickingen_2 = {
+		}
+		b_frickingen_3 = {
+		}
+		b_frickingen_4 = {
+		}
+		b_frickingen_5 = {
+		}
+	}
+	c_meersburg = { # 481
+		color={ 108 171 204 }
+		color2={ 255 255 255 }
+		
+		b_meersburg = {
+		}
+		b_hagnau = {
+		}
+		b_ittendorf = {
+		}
+		b_meersburg_2 = {
+		}
+		b_meersburg_3 = {
+		}
+	}
+	c_singen = { # 463
+		color={ 104 59 237 }
+		color2={ 255 255 255 }
+		
+		b_hohentwil = {
+		}
+		b_singen = {
+		}
+		b_radolfzell = {
+		}
+		b_ehringen = {
+		}
+		b_singen_2 = {
+		}
+	}
+	c_stein = { # 288
+		color={ 80 166 0 }
+		color2={ 255 255 255 }
+		
+		b_hohenklingen = {
+		}
+		b_st_georgen = {
+		}
+		b_wagenhausen = {
+		}
+		b_stein = {
+		}
+		b_wolkenstein = {
+		}
+		b_st_otmar = {
+		}
+	}
+	c_stockach = { # 184
+		color={ 157 25 61 }
+		color2={ 255 255 255 }
+		
+		b_nellenburg = {
+		}
+		b_stockach = {
+		}
+		b_stockach_2 = {
+		}
+		b_stockach_3 = {
+		}
+		b_stockach_4 = {
+		}
+		b_stockach_5 = {
+		}
+	}
+	c_uberlingen = { # 316
+		color={ 0 114 126 }
+		color2={ 255 255 255 }
+		
+		b_uberlingen = {
+		}
+		b_owingen = {
+		}
+		b_uberlingen_2 = {
+		}
+		b_uberlingen_3 = {
+		}
+		b_uberlingen_4 = {
+		}
+		b_uberlingen_5 = {
+		}
+	}
+}
+d_allgaeu = {
+	color={ 245 137 90 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 57 province_id = 80 province_id = 137 province_id = 231 province_id = 310 province_id = 482 province_id = 532 } }
+		}
+	}
+	capital = 482 # c_sonthofen
+	
+	c_sonthofen = { # 482
+		color={ 255 127 95 }
+		color2={ 255 255 255 }
+		
+		b_falkenstein = {
+		}
+		b_starz = {
+		}
+		b_sonthofen = {
+		}
+		b_agathazell = {
+		}
+		b_nesselwang = {
+		}
+		b_edelsberg = {
+		}
+		b_eisenberg = {
+		}
+	}
+	c_balderschwang = { # 80
+		color={ 89 68 255 }
+		color2={ 255 255 255 }
+		
+		b_balderschwang = {
+		}
+		b_riedberg = {
+		}
+		b_fischen = {
+		}
+		b_bolsterlang = {
+		}
+	}
+	c_immerstadt = { # 57
+		color={ 139 116 0 }
+		color2={ 255 255 255 }
+		
+		b_buehl = {
+		}
+		b_immerstadt = {
+		}
+		b_thalkirchdorf = {
+		}
+		b_weissach = {
+		}
+		b_oberstaufen = {
+		}
+		b_steibis = {
+		}
+	}
+	c_kempten = { # 137
+		color={ 190 141 130 }
+		color2={ 255 255 255 }
+		
+		b_wiggensbach = {
+		}
+		b_kempten = {
+		}
+		b_mariaberg = {
+		}
+		b_st_mang = {
+		}
+		b_durach = {
+		}
+		b_waltenhofen = {
+		}
+		b_heising = {
+		}
+	}
+	c_lindenberg = { # 231
+		color={ 79 153 173 }
+		color2={ 255 255 255 }
+		
+		b_lindenberg = {
+		}
+		b_simmergerg = {
+		}
+		b_schoenau = {
+		}
+		b_roethenbach = {
+		}
+		b_heimenkirch = {
+		}
+		b_oberreute = {
+		}
+	}
+	c_marktoberdorf = { # 310
+		color={ 107 50 26 }
+		color2={ 255 255 255 }
+		
+		b_hatten = {
+		}
+		b_marktoberdorf = {
+		}
+		
+		b_bertoldshofen = {
+		}
+		b_giesenried = {
+		}
+	}
+	c_oberstdorf = { # 532
+		color={ 152 115 68 }
+		color2={ 255 255 255 }
+		
+		b_fischen_2 = {
+		}
+		b_oberstdorf = {
+		}
+		b_schoellang = {
+		}
+		b_st_loretto = {
+		}
+		b_oytalhaus = {
+		}
+	}
+}
+d_arbongau = {
+	color={ 242 52 27 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 135 province_id = 279 province_id = 293 province_id = 402 province_id = 530 } }
+		}
+	}
+	capital = 402 # c_arbon
+	
+	c_arbon = { # 402
+		color={ 232 62 22 }
+		color2={ 255 255 255 }
+		
+		b_roggwil = {
+		}
+		b_arbon = {
+		}
+		b_st_scholastika = {
+		}
+		b_arbon_2 = {
+		}
+		b_arbon_3 = {
+		}
+	}
+	c_amriswil = { # 293
+		color={ 164 254 254 }
+		color2={ 255 255 255 }
+		
+		b_hagenwil = {
+		}
+		b_amriswil = {
+		}
+		b_eppishausen = {
+		}
+		b_amriswil_2 = {
+		}
+	}
+	c_romanshorn = { # 279
+		color={ 244 22 203 }
+		color2={ 255 255 255 }
+		
+		b_romanshorn = {
+		}
+		b_salmsach = {
+		}
+		b_romanshorn_2 = {
+		}
+		b_romanshorn_3 = {
+		}
+	}
+	c_rorschach = { # 135
+		color={ 114 157 72 }
+		color2={ 255 255 255 }
+		
+		b_sulzburg_2 = {
+		}
+		b_rorschach = {
+		}
+		b_mariaberg_2 = {
+		}
+		b_rorschach_2 = {
+		}
+	}
+	c_st_margreten = { # 530
+		color={ 211 255 8 }
+		color2={ 255 255 255 }
+		
+		b_st_margreten = {
+		}
+		b_heldsberg = {
+		}
+		b_grimmerstein = {
+		}
+		b_st_margreten_2 = {
+		}
+	}
+}
+d_konstanz = {
+	color={ 150 138 5 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 59 province_id = 147 province_id = 224 province_id = 332 province_id = 338 } }
+		}
+	}
+	capital = 59 # c_ermatingen
+	
+	c_ermatingen = { # 59
+		color={ 140 148 0 }
+		color2={ 255 255 255 }
+		
+		b_ermatingen = {
+		}
+		b_salenstein = {
+		}
+		b_berlingen = {
+		}
+	}
+	c_allensbach = { # 224
+		color={ 181 189 97 }
+		color2={ 255 255 255 }
+		
+		b_allensbach = {
+		}
+		b_litzelstetten = {
+		}
+		b_dettingen = {
+		}
+		b_allensbach_2 = {
+		}
+		b_allensbach_3 = {
+		}
+		b_allensbach_4 = {
+		}
+	}
+	c_gaienhofen = { # 338
+		color={ 145 174 48 }
+		color2={ 255 255 255 }
+		
+		b_gaienhofen = {
+		}
+		b_wangen = {
+		}
+		b_gaienhofen_2 = {
+		}
+		b_gaienhofen_3 = {
+		}
+		b_gaienhofen_4 = {
+		}
+	}
+	c_konstanz = { # 147
+		color={ 114 241 38 }
+		color2={ 255 255 255 }
+		
+		b_konstanz = {
+		}
+		b_fuerstenberg = {
+		}
+		b_st_katharina = {
+		}
+		b_allmansdorf = {
+		}
+		b_petershausen = {
+		}
+		b_mainau = {
+		}
+	}
+	c_reichenau = { # 332
+		color={ 114 194 235 }
+		color2={ 255 255 255 }
+		
+		b_reichenau = {
+		}
+		b_oberzell = {
+		}
+	}
+}
+d_oberschwaben = {
+	color={ 124 171 85 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 126 province_id = 226 province_id = 298 province_id = 350 province_id = 367 } }
+		}
+	}
+	capital = 126 # c_lindau
+	
+	c_lindau = { # 126
+		color={ 114 181 80 }
+		color2={ 255 255 255 }
+		
+		b_lindau = {
+		}
+		b_aeschach = {
+		}
+		b_muenchhof = {
+		}
+		b_reutin = {
+		}
+		b_wannental = {
+		}
+		b_senftenau = {
+		}
+		b_schwesterberg = {
+		}
+	}
+	c_buchhorn = { # 367
+		color={ 193 166 6 }
+		color2={ 255 255 255 }
+		
+		b_buchhorn = {
+		}
+		b_st_georgen_2 = {
+		}
+		b_waggershausen = {
+		}
+		b_windhang = {
+		}
+		b_manzell = {
+		}
+		b_ittenhausen = {
+		}
+		b_ailingen = {
+		}
+	}
+	c_kessbronn = { # 226
+		color={ 103 69 187 }
+		color2={ 255 255 255 }
+		
+		b_wasserburg = {
+		}
+		b_kessbronn = {
+		}
+		b_st_georg = {
+		}
+		b_langenargen = {
+		}
+		b_bodolz = {
+		}
+		b_eriskirch = {
+		}
+	}
+	c_leutkirch = { # 350
+		color={ 111 50 221 }
+		color2={ 255 255 255 }
+		
+		b_kisslegg = {
+		}
+		b_leutkirch = {
+		}
+		b_wolfegg = {
+		}
+		b_amach = {
+		}
+		b_sankt_anna = {
+		}
+		b_herrot = {
+		}
+		b_arnach = {
+		}
+	}
+	c_wangen = { # 298
+		color={ 166 130 199 }
+		color2={ 255 255 255 }
+		
+		b_wangen_2 = {
+		}
+		b_wangen_3 = {
+		}
+		b_isny = {
+		}
+		b_trachtburg = {
+		}
+		b_argenbuehl = {
+		}
+		b_amtzell = {
+		}
+		b_eisenharz = {
+		}
+	}
+}
+d_thurgau = {
+	color={ 154 178 221 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 3 province_id = 26 province_id = 28 province_id = 50 province_id = 117 province_id = 329 province_id = 468 province_id = 480 province_id = 497 province_id = 504 } }
+		}
+	}
+	capital = 28 # c_bischofszell
+	
+	c_bischofszell = { # 28
+		color={ 164 168 226 }
+		color2={ 255 255 255 }
+		
+		b_bischofszell = {
+		}
+		b_st_pelagius = {
+		}
+		b_bischofszell_2 = {
+		}
+		b_bischofszell_3 = {
+		}
+	}
+	c_feldegg = { # 468
+		color={ 106 167 224 }
+		color2={ 255 255 255 }
+		
+		b_feldegg = {
+		}
+		b_kirchberg = {
+		}
+		b_iddaburg = {
+		}
+	}
+	c_fischingen = { # 480
+		color={ 150 215 54 }
+		color2={ 255 255 255 }
+		
+		b_fischingen = {
+		}
+		b_wil = {
+		}
+		b_tannegg = {
+		}
+	}
+	c_frauenfeld = { # 117
+		color={ 255 192 0 }
+		color2={ 255 255 255 }
+		
+		b_wellenberg = {
+		}
+		b_fauenfeld = {
+		}
+		b_oberkirch = {
+		}
+		b_frauenfeld = {
+		}
+	}
+	c_muellheim = { # 504
+		color={ 0 179 191 }
+		color2={ 255 255 255 }
+		
+		b_altenburg = {
+		}
+		b_muellheim_2 = {
+		}
+		b_wigoltingen = {
+		}
+		b_griesenberg = {
+		}
+		b_muellheim_3 = {
+		}
+	}
+	c_muensterlingen = { # 50
+		color={ 240 168 137 }
+		color2={ 255 255 255 }
+		
+		b_muensterlingen = {
+		}
+		b_altnau = {
+		}
+		b_bernrain = {
+		}
+		b_muensterlingen_2 = {
+		}
+		b_muensterlingen_3 = {
+		}
+		b_muensterlingen_4 = {
+		}
+	}
+	c_steckborn = { # 3
+		color={ 0 88 9 }
+		color2={ 255 255 255 }
+		
+		b_mammern = {
+		}
+		b_steckborn = {
+		}
+		b_feldbach = {
+		}
+		b_steckborn_2 = {
+		}
+	}
+	c_warth = { # 26
+		color={ 62 156 0 }
+		color2={ 255 255 255 }
+		
+		b_huettwilen = {
+		}
+		b_ittingen = {
+		}
+		b_warth = {
+		}
+		b_warth_2 = {
+		}
+	}
+	c_weinfelden = { # 497
+		color={ 255 75 72 }
+		color2={ 255 255 255 }
+		
+		b_bussnang = {
+		}
+		b_weinfelden = {
+		}
+		b_buergeln_2 = {
+		}
+		b_weinfelden_2 = {
+		}
+		b_weinfelden_3 = {
+		}
+		b_weinfelden_4 = {
+		}
+	}
+	c_wittenwil = { # 329
+		color={ 169 114 58 }
+		color2={ 255 255 255 }
+		
+		b_wittenwil = {
+		}
+		b_aadorf = {
+		}
+		b_taenikon = {
+		}
+		b_wittenwil_2 = {
+		}
+	}
+}
+}
+}
 
 e_burgundy = {
 	color={ 138 87 33 }
 	color2={ 255 255 20 }
 	
-	capital = 454 # c_biel
-	culture = middle_alemannic
+	capital = 251 # c_besancon
+	culture = lower_burgundian
 	
 	k_upper_burgundy = {
 		color={ 128 97 28 }
@@ -3239,4869 +8076,21 @@ e_burgundy = {
 		}
 	}
 }
-e_hre = {
-	
-	capital = 290 # c_oberguenzburg
-	culture = german
-	
-	k_bayern = {
-		color={ 137 68 71 }
-		color2={ 255 255 255 }
-		
-		capital = 290 # c_oberguenzburg
-		culture = bavarian
-		
-		d_niederbayern = {
-			color={ 117 88 61 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 290 } }
-				}
-			}
-			capital = 290 # c_oberguenzburg
-			
-			c_oberguenzburg = { # 290
-				color={ 107 98 56 }
-				color2={ 255 255 255 }
-				
-				b_oberguenzburg = {
-				}
-				b_kaufbeuren = {
-				}
-				b_rettenbach = {
-				}
-				b_schongau = {
-				}
-				b_landsberg = {
-				}
-				b_buchole = {
-				}
-				b_mindelheim = {
-				}
-			}
-		}
-	}
-	k_alemannia = {
-		color={ 116 132 182 }
-		color2={ 255 255 255 }
-		
-		capital = 292 # c_rapperswil
-		culture = middle_alemannic
-		
-		d_rapperswil = {
-			color={ 136 112 192 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 22 province_id = 103 province_id = 292 province_id = 544 } }
-				}
-			}
-			capital = 292 # c_rapperswil
-			
-			c_rapperswil = { # 292
-				color={ 146 102 197 }
-				color2={ 255 255 255 }
-				
-				b_rapperswil = {
-				}
-				b_jona = {
-				}
-				b_bubikon = {
-				}
-				b_wurmsbach = {
-				}
-				b_rapperswil_2 = {
-				}
-			}
-			c_freienbach = { # 544
-				color={ 103 59 158 }
-				color2={ 255 255 255 }
-				
-				b_feuisisberg = {
-				}
-				b_freienbach = {
-				}
-				b_ufenau = {
-				}
-				b_freienbach_2 = {
-				}
-				b_freienbach_3 = {
-				}
-				b_freienbach_4 = {
-				}
-			}
-			c_waedenswil = { # 22
-				color={ 173 124 156 }
-				color2={ 255 255 255 }
-				
-				b_waedenswil = {
-				}
-				b_richterswil = {
-				}
-				b_au = {
-				}
-				b_waedenswil_2 = {
-				}
-				b_waedenswil_3 = {
-				}
-				b_waedenswil_4 = {
-				}
-			}
-			c_waengital = { # 103
-				color={ 70 152 175 }
-				color2={ 255 255 255 }
-				
-				b_reichenburg = {
-				}
-				b_lachen = {
-				}
-				b_st_johannisburg = {
-				}
-				b_abnet = {
-				}
-				b_waengital = {
-				}
-				b_waengital_2 = {
-				}
-			}
-		}
-		d_andelfingen = {
-			color={ 242 83 5 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 238 province_id = 250 province_id = 348 province_id = 462 province_id = 541 } }
-				}
-			}
-			capital = 238 # c_andelfingen
-			
-			c_andelfingen = { # 238
-				color={ 232 93 0 }
-				color2={ 255 255 255 }
-				
-				b_mueliberg = {
-				}
-				b_andelfingen = {
-				}
-				b_marthalen = {
-				}
-				b_hummenberg = {
-				}
-				b_andelfingen_2 = {
-				}
-				b_andelfingen_3 = {
-				}
-			}
-			c_diessenhofen = { # 541
-				color={ 232 219 26 }
-				color2={ 255 255 255 }
-				
-				b_diessenhofen = {
-				}
-				b_diessenhofen_2 = {
-				}
-				b_st_katharinental = {
-				}
-				b_schlatt = {
-				}
-				b_basadingen = {
-				}
-			}
-			c_henggart = { # 348
-				color={ 135 154 53 }
-				color2={ 255 255 255 }
-				
-				b_henggart = {
-				}
-				b_daegerlen = {
-				}
-				b_hettlingen = {
-				}
-				b_henggart_2 = {
-				}
-				b_henggart_3 = {
-				}
-				b_henggart_4 = {
-				}
-			}
-			c_jestetten = { # 250
-				color={ 59 209 192 }
-				color2={ 255 255 255 }
-				
-				b_jestetten = {
-				}
-				b_rheinau = {
-				}
-				b_grisberg = {
-				}
-				b_schwandegg = {
-				}
-				b_jestetten_2 = {
-				}
-				b_jestetten_3 = {
-				}
-				b_jestetten_4 = {
-				}
-			}
-			c_pfungen = { # 462
-				color={ 74 167 207 }
-				color2={ 255 255 255 }
-				
-				b_neftenbach = {
-				}
-				b_pfungen = {
-				}
-				b_aesch = {
-				}
-				b_himmelrich = {
-				}
-				b_riet = {
-				}
-			}
-		}
-		d_basel = {
-			color={ 111 178 188 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 12 province_id = 86 province_id = 87 province_id = 143 province_id = 170 province_id = 215 province_id = 258 province_id = 447 } }
-				}
-			}
-			capital = 86 # c_basel
-			frankish=Bâle
-			
-			c_basel = { # 86
-				color={ 121 168 193 }
-				color2={ 255 255 255 }
-				frankish=Bâle
-				
-				b_basel = {
-				}
-				b_binningen = {
-				}
-				b_binningen_2 = {
-				}
-				b_allschwil = {
-				}
-				b_st_johann = {
-				}
-				b_st_jakob_2 = {
-				}
-				b_bottmingen = {
-				}
-			}
-			c_birseck = { # 143
-				color={ 53 157 121 }
-				color2={ 255 255 255 }
-				
-				b_birseck = {
-				}
-				b_reichenstein = {
-				}
-				b_arlesheim = {
-				}
-				b_domeck = {
-				}
-				b_dornach = {
-				}
-				b_muenchenstein = {
-				}
-				b_birseck_2 = {
-				}
-			}
-			c_hauenstein = { # 215
-				color={ 57 197 255 }
-				color2={ 255 255 255 }
-				
-				b_waldenburg = {
-				}
-				b_waldenburg_2 = {
-				}
-				b_gerstelfluh = {
-				}
-				b_schoenthal = {
-				}
-				b_spitzburg = {
-				}
-				b_raenggen = {
-				}
-				b_hauenstein = {
-				}
-			}
-			c_laufen = { # 12
-				color={ 125 168 98 }
-				color2={ 255 255 255 }
-				
-				b_zwingen = {
-				}
-				b_laufen = {
-				}
-				b_pfaeffingen = {
-				}
-				b_duggingen = {
-				}
-				b_engenstein = {
-				}
-				b_biederthal = {
-				}
-				b_laufen_2 = {
-				}
-			}
-			c_mariastein = { # 258
-				color={ 179 118 162 }
-				color2={ 255 255 255 }
-				
-				b_mariastein = {
-				}
-				b_fuerstenstein = {
-				}
-				b_rotenberg = {
-				}
-				b_hofstetten_2 = {
-				}
-				b_sternenberg = {
-				}
-				b_mariastein_2 = {
-				}
-			}
-			c_pratteln = { # 87
-				color={ 193 136 121 }
-				color2={ 255 255 255 }
-				
-				b_wartenberg = {
-				}
-				b_muttenz = {
-				}
-				b_pratteln = {
-				}
-				b_auhard = {
-				}
-				b_pratteln_2 = {
-				}
-				b_burghalden = {
-				}
-				b_liestal = {
-				}
-			}
-			c_riehen = { # 447
-				color={ 195 215 164 }
-				color2={ 255 255 255 }
-				
-				b_wettstein = {
-				}
-				b_kleinbasel = {
-				}
-				b_st_margarethental = {
-				}
-				b_riehen = {
-				}
-				b_bettingen = {
-				}
-				b_kleinhuenigen = {
-				}
-				b_riehen_2 = {
-				}
-			}
-			c_sissach = { # 170
-				color={ 11 161 142 }
-				color2={ 255 255 255 }
-				
-				b_sissach = {
-				}
-				b_gelterkirchen = {
-				}
-				b_himmelrain = {
-				}
-				b_st_jakob_3 = {
-				}
-				b_bischofstein = {
-				}
-				b_farnsburg = {
-				}
-				b_homburg_2 = {
-				}
-			}
-		}
-		d_bern = {
-			color={ 200 54 69 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 42 province_id = 115 province_id = 262 province_id = 270 province_id = 363 province_id = 476 } }
-				}
-			}
-			capital = 115 # c_bern
-			
-			c_bern = { # 115
-				color={ 190 64 64 }
-				color2={ 255 255 255 }
-				
-				b_bern = {
-				}
-				b_buempliz = {
-				}
-				b_ostermundigen = {
-				}
-				b_reuental = {
-				}
-				b_felsenau = {
-				}
-				b_elfenau = {
-				}
-				b_frauenkappeln = {
-				}
-			}
-			c_koeniz = { # 363
-				color={ 172 90 110 }
-				color2={ 255 255 255 }
-				
-				b_koeniz = {
-				}
-				b_spiegel = {
-				}
-				b_gurten = {
-				}
-				b_wabern = {
-				}
-				b_schlieren_2 = {
-				}
-				b_gasel = {
-				}
-				b_niederwangen = {
-				}
-			}
-			c_laupen = { # 476
-				color={ 154 135 0 }
-				color2={ 255 255 255 }
-				
-				b_laupen = {
-				}
-				b_guemmenen = {
-				}
-				b_boesingen = {
-				}
-				b_st_beatus = {
-				}
-				b_muehleberg = {
-				}
-				b_neuenegg = {
-				}
-				b_flamatt = {
-				}
-			}
-			c_muensingen = { # 262
-				color={ 91 174 64 }
-				color2={ 255 255 255 }
-				
-				b_uttingen = {
-				}
-				b_huenignen = {
-				}
-				b_muensingen = {
-				}
-				b_kiesen = {
-				}
-				b_oberdiessbach = {
-				}
-				b_muensingen_2 = {
-				}
-				b_muensingen_3 = {
-				}
-			}
-			c_worb = { # 270
-				color={ 156 206 177 }
-				color2={ 255 255 255 }
-				
-				b_worb = {
-				}
-				b_muri_4 = {
-				}
-				b_guemlingen = {
-				}
-				b_schlosswil = {
-				}
-				b_vechigen = {
-				}
-				b_stetteln = {
-				}
-				b_lindental = {
-				}
-			}
-			c_zollighofen = { # 42
-				color={ 56 64 93 }
-				color2={ 255 255 255 }
-				
-				b_reichenbach = {
-				}
-				b_zollighofen = {
-				}
-				b_bremgarten_3 = {
-				}
-				b_ittingen_2 = {
-				}
-				b_muenchenbuchsee = {
-				}
-				b_hofwil = {
-				}
-				b_wiggiswil = {
-				}
-			}
-		}
-		d_emmental = {
-			color={ 225 190 70 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 27 province_id = 75 province_id = 327 province_id = 521 } }
-				}
-			}
-			capital = 75 # c_burgdorf
-			
-			c_burgdorf = { # 75
-				color={ 235 180 75 }
-				color2={ 255 255 255 }
-				
-				b_burgdorf = {
-				}
-				b_burgdorf_2 = {
-				}
-				b_heimiswil = {
-				}
-				b_zimmerberg = {
-				}
-				b_burgdorf_3 = {
-				}
-				b_burgdorf_4 = {
-				}
-			}
-			c_eggiwil = { # 521
-				color={ 64 139 148 }
-				color2={ 255 255 255 }
-				
-				b_senggen = {
-				}
-				b_horben_2 = {
-				}
-				b_wuerzbrunnen = {
-				}
-				b_eggiwil = {
-				}
-				b_eggiwil_2 = {
-				}
-			}
-			c_signau = { # 27
-				color={ 255 240 188 }
-				color2={ 255 255 255 }
-				
-				b_signau = {
-				}
-				b_langnau = {
-				}
-				b_trub = {
-				}
-				b_grauenstein = {
-				}
-				b_spitzenberg = {
-				}
-				b_signau_2 = {
-				}
-				b_signau_3 = {
-				}
-			}
-			c_sumiswald = { # 327
-				color={ 93 158 204 }
-				color2={ 255 255 255 }
-				
-				b_trachselwald = {
-				}
-				b_spittel = {
-				}
-				b_sumiswald = {
-				}
-				b_luetzelflueh = {
-				}
-				b_wartenstein_2 = {
-				}
-				b_sumiswald_2 = {
-				}
-				b_sumiswald_3 = {
-				}
-			}
-		}
-		d_glarus = {
-			color={ 225 114 104 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 56 province_id = 76 province_id = 105 province_id = 149 province_id = 151 province_id = 197 province_id = 525 } }
-				}
-			}
-			capital = 56 # c_weesen
-			
-			c_weesen = { # 56
-				color={ 235 104 109 }
-				color2={ 255 255 255 }
-				
-				b_oberwindeck = {
-				}
-				b_weesen = {
-				}
-				b_gmael = {
-				}
-				b_niederurnen = {
-				}
-				b_weesen_2 = {
-				}
-			}
-			c_elm = { # 197
-				color={ 56 65 151 }
-				color2={ 255 255 255 }
-				
-				b_matt = {
-				}
-				b_elm = {
-				}
-				b_elm_2 = {
-				}
-			}
-			c_glarus = { # 151
-				color={ 229 173 186 }
-				color2={ 255 255 255 }
-				
-				b_mitloedi = {
-				}
-				b_glarus = {
-				}
-				b_nestal = {
-				}
-				b_ennenda = {
-				}
-				b_glarus_2 = {
-				}
-				b_glarus_3 = {
-				}
-			}
-			c_linthtal = { # 525
-				color={ 152 163 79 }
-				color2={ 255 255 255 }
-				
-				b_braunwald = {
-				}
-				b_rueti = {
-				}
-				b_luechsingen = {
-				}
-			}
-			c_naefels = { # 76
-				color={ 200 192 106 }
-				color2={ 255 255 255 }
-				
-				b_mollis = {
-				}
-				b_st_hillarius = {
-				}
-				b_naefels = {
-				}
-				b_naefels_2 = {
-				}
-				b_naefels_3 = {
-				}
-			}
-			c_schaenis = { # 149
-				color={ 137 117 210 }
-				color2={ 255 255 255 }
-				
-				b_heiligen_kreuz = {
-				}
-				b_windegg = {
-				}
-				b_kaltbrunn = {
-				}
-				b_oberurnen = {
-				}
-				b_schaenis = {
-				}
-				b_schaenis_2 = {
-				}
-			}
-			c_schwanden = { # 105
-				color={ 190 68 84 }
-				color2={ 255 255 255 }
-				
-				b_thon = {
-				}
-				b_schwanden = {
-				}
-				b_benzingen = {
-				}
-			}
-		}
-		d_knonau = {
-			color={ 10 207 105 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 157 province_id = 516 province_id = 536 } }
-				}
-			}
-			capital = 157 # c_knonau
-			
-			c_knonau = { # 157
-				color={ 0 217 100 }
-				color2={ 255 255 255 }
-				
-				b_knonau = {
-				}
-				b_mettmenstetten = {
-				}
-				b_aeugstertal = {
-				}
-				b_knonau_2 = {
-				}
-				b_knonau_3 = {
-				}
-			}
-			c_bonstetten = { # 516
-				color={ 206 79 0 }
-				color2={ 255 255 255 }
-				
-				b_bonstetten = {
-				}
-				b_stallikon = {
-				}
-				b_wettswil = {
-				}
-				b_sellenbueren = {
-				}
-				b_schachen = {
-				}
-			}
-			c_uetliberg = { # 536
-				color={ 234 255 0 }
-				color2={ 255 255 255 }
-				
-				b_uetliburg = {
-				}
-				b_birmensdorf = {
-				}
-				b_urdorf = {
-				}
-				b_uitikon = {
-				}
-				b_aesch_2 = {
-				}
-				b_sellenbueren_2 = {
-				}
-				b_wettswil_2 = {
-				}
-			}
-		}
-		d_kyburg = {
-			color={ 87 94 70 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 6 province_id = 39 province_id = 181 province_id = 217 province_id = 386 } }
-				}
-			}
-			capital = 6 # c_greifensee
-			
-			c_greifensee = { # 6
-				color={ 77 104 65 }
-				color2={ 255 255 255 }
-				
-				b_greifensee = {
-				}
-				b_volketswil = {
-				}
-				b_uster = {
-				}
-				b_schwerzenbach = {
-				}
-				b_naenikon = {
-				}
-			}
-			c_egg = { # 39
-				color={ 103 220 56 }
-				color2={ 255 255 255 }
-				
-				b_grueningen = {
-				}
-				b_egg = {
-				}
-				b_moenchaltdorf = {
-				}
-				b_gossau_2 = {
-				}
-				b_gruet = {
-				}
-			}
-			c_kyburg = { # 386
-				color={ 243 178 27 }
-				color2={ 255 255 255 }
-				
-				b_kyburg = {
-				}
-				b_effretikon = {
-				}
-				b_illnau = {
-				}
-				b_rossberg = {
-				}
-				b_kyburg_2 = {
-				}
-			}
-			c_pfaeffikon = { # 181
-				color={ 183 89 42 }
-				color2={ 255 255 255 }
-				
-				b_heidenberg = {
-				}
-				b_wetzikon = {
-				}
-				b_pfaeffikon = {
-				}
-				b_kempten_2 = {
-				}
-				b_pfaeffikon_2 = {
-				}
-			}
-			c_winterthur = { # 217
-				color={ 111 193 166 }
-				color2={ 255 255 255 }
-				
-				b_wuelflingen = {
-				}
-				b_winterthur = {
-				}
-				b_beerenberg = {
-				}
-				b_beerenberg_2 = {
-				}
-				b_neuwisen = {
-				}
-				b_oberwinterthur = {
-				}
-			}
-		}
-		d_landenberg = {
-			color={ 103 179 130 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 248 province_id = 317 province_id = 457 province_id = 507 } }
-				}
-			}
-			capital = 248 # c_wiesendangen
-			
-			c_wiesendangen = { # 248
-				color={ 113 169 135 }
-				color2={ 255 255 255 }
-				
-				b_wasserburg_2 = {
-				}
-				b_weisendangen = {
-				}
-				b_moersberg = {
-				}
-				b_kirchdinhard = {
-				}
-				b_hettlingen_2 = {
-				}
-				b_seuzach = {
-				}
-				b_rickenbach_2 = {
-				}
-			}
-			c_breitlandenberg = { # 457
-				color={ 99 115 22 }
-				color2={ 255 255 255 }
-				
-				b_breitlandenberg = {
-				}
-				b_balterswil = {
-				}
-				b_wila = {
-				}
-				b_breitlandenberg_2 = {
-				}
-			}
-			c_elgg = { # 507
-				color={ 133 163 65 }
-				color2={ 255 255 255 }
-				
-				b_elgg = {
-				}
-				b_elgg_2 = {
-				}
-				b_schauenberg = {
-				}
-				b_hofstetten = {
-				}
-				b_sennhof = {
-				}
-				b_hohbuehl = {
-				}
-			}
-			c_landenberg = { # 317
-				color={ 128 234 255 }
-				color2={ 255 255 255 }
-				
-				b_landenberg = {
-				}
-				b_hohen_landenberg = {
-				}
-				b_landenberg_2 = {
-				}
-				b_landenberg_3 = {
-				}
-			}
-		}
-		d_luzern = {
-			color={ 170 213 114 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 93 province_id = 130 province_id = 198 province_id = 455 province_id = 506 } }
-				}
-			}
-			capital = 506 # c_luzern
-			
-			c_luzern = { # 506
-				color={ 180 203 119 }
-				color2={ 255 255 255 }
-				
-				b_luzern = {
-				}
-				b_littau = {
-				}
-				b_st_anna = {
-				}
-				b_seeburg = {
-				}
-				b_wuerzenbach = {
-				}
-				b_st_maria = {
-				}
-				b_guetsch = {
-				}
-			}
-			c_emmen = { # 455
-				color={ 255 211 141 }
-				color2={ 255 255 255 }
-				
-				b_emmenbruecke = {
-				}
-				b_emmen = {
-				}
-				b_buchrain = {
-				}
-				b_root = {
-				}
-				b_ebikon = {
-				}
-				b_gisikon = {
-				}
-			}
-			c_kriens = { # 93
-				color={ 139 232 76 }
-				color2={ 255 255 255 }
-				
-				b_schauensee = {
-				}
-				b_kriens = {
-				}
-				b_horw = {
-				}
-				b_dorni = {
-				}
-				b_kriens_2 = {
-				}
-			}
-			c_sempach = { # 130
-				color={ 80 105 125 }
-				color2={ 255 255 255 }
-				
-				b_rothenbrug = {
-				}
-				b_sepmach = {
-				}
-				b_rain = {
-				}
-				b_neuenkirch = {
-				}
-				b_russwil = {
-				}
-			}
-			c_viznau = { # 198
-				color={ 21 181 164 }
-				color2={ 255 255 255 }
-				
-				b_viznau = {
-				}
-				b_weggis = {
-				}
-				b_rigi = {
-				}
-				b_geppen = {
-				}
-			}
-		}
-		d_oberaargau = {
-			color={ 245 124 32 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 65 province_id = 267 province_id = 375 province_id = 442 province_id = 448 province_id = 450 province_id = 538 } }
-				}
-			}
-			capital = 375 # c_olten
-			
-			c_olten = { # 375
-				color={ 255 114 37 }
-				color2={ 255 255 255 }
-				
-				b_aarburg = {
-				}
-				b_wartburg = {
-				}
-				b_olten = {
-				}
-				b_oftrigen = {
-				}
-				b_daeniken = {
-				}
-				b_goesgen = {
-				}
-				b_kappel = {
-				}
-			}
-			c_huttwil = { # 442
-				color={ 146 95 198 }
-				color2={ 255 255 255 }
-				
-				b_rohrbach = {
-				}
-				b_huttwil = {
-				}
-				b_blatteberg = {
-				}
-				b_auswil = {
-				}
-			}
-			c_langenthal = { # 267
-				color={ 166 178 134 }
-				color2={ 255 255 255 }
-				
-				b_thunstetten = {
-				}
-				b_langenthal = {
-				}
-				b_herzogenbuchsee = {
-				}
-				b_aarwangen = {
-				}
-				b_langenthal_2 = {
-				}
-				b_langenthal_3 = {
-				}
-			}
-			c_oensingen = { # 538
-				color={ 255 235 18 }
-				color2={ 255 255 255 }
-				
-				b_bechburg = {
-				}
-				b_erlisburg = {
-				}
-				b_oensingen = {
-				}
-				b_wolfwil = {
-				}
-				b_oensingen_2 = {
-				}
-				b_oensingen_3 = {
-				}
-			}
-			c_reiden = { # 448
-				color={ 198 63 174 }
-				color2={ 255 255 255 }
-				
-				b_marienburg = {
-				}
-				b_marienburg_2 = {
-				}
-				b_reiden = {
-				}
-				b_dagmarsellen = {
-				}
-				b_altishofen = {
-				}
-				b_reiden_2 = {
-				}
-			}
-			c_wynigen = { # 65
-				color={ 204 192 93 }
-				color2={ 255 255 255 }
-				
-				b_grimmestein = {
-				}
-				b_wyningen = {
-				}
-				b_st_niklaus = {
-				}
-				b_wynigen = {
-				}
-			}
-			c_zofingen = { # 450
-				color={ 250 219 145 }
-				color2={ 255 255 255 }
-				
-				b_bottenstein = {
-				}
-				b_zofingen = {
-				}
-				b_zofingen_2 = {
-				}
-				b_muehlenthal = {
-				}
-				b_bottenwil = {
-				}
-				b_hochwacht_2 = {
-				}
-			}
-		}
-		d_oberwallis = {
-			color={ 164 228 107 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 69 province_id = 120 province_id = 173 province_id = 237 province_id = 324 province_id = 378 province_id = 443 province_id = 444 province_id = 459 province_id = 509 } }
-				}
-			}
-			capital = 378 # c_leuk
-			
-			c_leuk = { # 378
-				color={ 174 218 112 }
-				color2={ 255 255 255 }
-				frankish=Loère
-				
-				b_zen_ruffinen = {
-				}
-				b_leuk = {
-				}
-				b_viztum = {
-				}
-				b_werra = {
-				}
-				b_st_josefsheim = {
-				}
-				b_agarn = {
-				}
-				b_ringacker = {
-				}
-			}
-			c_brig = { # 120
-				color={ 168 117 172 }
-				color2={ 255 255 255 }
-				
-				b_brig = {
-				}
-				b_brig_2 = {
-				}
-				b_naters = {
-				}
-				b_glis = {
-				}
-				b_st_ursula_2 = {
-				}
-				b_glis_2 = {
-				}
-				b_gamsen = {
-				}
-			}
-			c_fiesch = { # 444
-				color={ 86 27 0 }
-				color2={ 255 255 255 }
-				
-				b_fiesch = {
-				}
-				b_ernen = {
-				}
-				b_binn = {
-				}
-				b_heiligkreuz = {
-				}
-			}
-			c_goms = { # 443
-				color={ 62 195 106 }
-				color2={ 255 255 255 }
-				
-				b_gluringen = {
-				}
-				b_muenster = {
-				}
-				b_ulrichen = {
-				}
-				b_oberwald = {
-				}
-				b_blitzingen = {
-				}
-				b_reckingen = {
-				}
-				b_geschinen = {
-				}
-			}
-			c_raron = { # 324
-				color={ 156 110 23 }
-				color2={ 255 255 255 }
-				
-				b_raron = {
-				}
-				b_st_roman = {
-				}
-				b_gesteln = {
-				}
-				b_gampel = {
-				}
-				b_st_german_2 = {
-				}
-				b_st_anna_2 = {
-				}
-				b_rotigoblatt = {
-				}
-			}
-			c_saas = { # 237
-				color={ 97 69 134 }
-				color2={ 255 255 255 }
-				
-				b_saas_balen = {
-				}
-				b_saas_grund = {
-				}
-				b_saas_fee = {
-				}
-				b_saas_almagell = {
-				}
-				b_eistein = {
-				}
-			}
-			c_simplon = { # 173
-				color={ 52 145 185 }
-				color2={ 255 255 255 }
-				
-				b_gondo = {
-				}
-				b_simplon = {
-				}
-				b_gabi = {
-				}
-				b_zwischenbergen = {
-				}
-			}
-			c_st_niklaus = { # 459
-				color={ 120 131 0 }
-				color2={ 255 255 255 }
-				
-				b_herbingen = {
-				}
-				b_st_niklaus_2 = {
-				}
-				b_st_niklaus_3 = {
-				}
-				b_mattsand = {
-				}
-				b_graechen = {
-				}
-				b_bina = {
-				}
-			}
-			c_visp = { # 69
-				color={ 242 132 100 }
-				color2={ 255 255 255 }
-				
-				b_lalden = {
-				}
-				b_visp = {
-				}
-				b_stalden = {
-				}
-				b_ausserberg = {
-				}
-				b_vispermiene = {
-				}
-				b_blatschieder = {
-				}
-			}
-			c_zermatt = { # 509
-				color={ 0 107 198 }
-				color2={ 255 255 255 }
-				
-				b_taesch = {
-				}
-				b_zermatt = {
-				}
-				b_zer_baennu = {
-				}
-				b_bodmen = {
-				}
-				b_herbrigg = {
-				}
-			}
-		}
-		d_regensberg = {
-			color={ 192 207 130 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 17 province_id = 21 province_id = 83 province_id = 145 province_id = 260 province_id = 336 province_id = 401 } }
-				}
-			}
-			capital = 145 # c_regensdorf
-			
-			c_regensdorf = { # 145
-				color={ 202 197 135 }
-				color2={ 255 255 255 }
-				
-				b_regensberg = {
-				}
-				b_regensdorf = {
-				}
-				b_daellikon = {
-				}
-				b_sand = {
-				}
-				b_watt = {
-				}
-			}
-			c_buelach = { # 336
-				color={ 45 154 178 }
-				color2={ 255 255 255 }
-				
-				b_embrach = {
-				}
-				b_buelach = {
-				}
-				b_rhinsberg = {
-				}
-				b_glattfelden = {
-				}
-				b_robas = {
-				}
-				b_toessegg = {
-				}
-				b_teufenberg = {
-				}
-			}
-			c_dielsdorf = { # 83
-				color={ 174 52 0 }
-				color2={ 255 255 255 }
-				
-				b_suenikon = {
-				}
-				b_dielsdorf = {
-				}
-				b_glatt = {
-				}
-				b_laengern = {
-				}
-				b_dielsdorf_2 = {
-				}
-				b_dielsdorf_3 = {
-				}
-				b_dielsdorf_4 = {
-				}
-			}
-			c_eglisau = { # 260
-				color={ 143 106 153 }
-				color2={ 255 255 255 }
-				
-				b_eglisau = {
-				}
-				b_eglisau_2 = {
-				}
-				b_buchberg = {
-				}
-				b_ruedlingen = {
-				}
-				b_rafz = {
-				}
-				b_eglisau_3 = {
-				}
-				b_eglisau_4 = {
-				}
-			}
-			c_glanzenberg = { # 21
-				color={ 255 8 210 }
-				color2={ 255 255 255 }
-				
-				b_glanzenberg = {
-				}
-				b_fahr = {
-				}
-				b_dietikon = {
-				}
-				b_kindhausen = {
-				}
-				b_glanzenberg_2 = {
-				}
-			}
-			c_kloten = { # 17
-				color={ 100 208 78 }
-				color2={ 255 255 255 }
-				
-				b_balsberg = {
-				}
-				b_kloten = {
-				}
-				b_bassersdorf = {
-				}
-				b_kloten_2 = {
-				}
-				b_kloten_3 = {
-				}
-				b_kloten_4 = {
-				}
-				b_kloten_5 = {
-				}
-			}
-			c_wenignen = { # 401
-				color={ 212 62 41 }
-				color2={ 255 255 255 }
-				
-				b_waldhausen = {
-				}
-				b_weningen = {
-				}
-				b_laengern_2 = {
-				}
-				b_fisisbach = {
-				}
-				b_weiach = {
-				}
-			}
-		}
-		d_reuss = {
-			color={ 13 132 174 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 60 province_id = 265 province_id = 342 province_id = 408 province_id = 489 } }
-				}
-			}
-			capital = 342 # c_sins
-			
-			c_sins = { # 342
-				color={ 3 142 169 }
-				color2={ 255 255 255 }
-				
-				b_horben = {
-				}
-				b_sins = {
-				}
-				b_meienberg = {
-				}
-				b_beinwil = {
-				}
-				b_reussegg = {
-				}
-				b_auw = {
-				}
-				b_abtwil = {
-				}
-			}
-			c_lenzburg = { # 408
-				color={ 196 143 204 }
-				color2={ 255 255 255 }
-				
-				b_lenzburg = {
-				}
-				b_hallwyl = {
-				}
-				b_lenzburg_2 = {
-				}
-				b_staufenberg = {
-				}
-				b_schafisheim = {
-				}
-				b_lenzburg_3 = {
-				}
-				b_lenzburg_4 = {
-				}
-			}
-			c_muri = { # 265
-				color={ 155 174 132 }
-				color2={ 255 255 255 }
-				
-				b_muri = {
-				}
-				b_boswil = {
-				}
-				b_hermetschwil = {
-				}
-				b_lunkhofen = {
-				}
-				b_muri_2 = {
-				}
-				b_muri_3 = {
-				}
-			}
-			c_schongau = { # 489
-				color={ 28 227 183 }
-				color2={ 255 255 255 }
-				
-				b_grueneberg = {
-				}
-				b_hitzkirch = {
-				}
-				b_hitzkirch_2 = {
-				}
-				b_heidegg = {
-				}
-				b_sarmensdorf = {
-				}
-				b_seengen = {
-				}
-				b_berstenberg = {
-				}
-			}
-			c_villmergen = { # 60
-				color={ 217 200 87 }
-				color2={ 255 255 255 }
-				
-				b_heidenhuebek = {
-				}
-				b_villmergen = {
-				}
-				b_wohlen = {
-				}
-				b_st_leonhard_2 = {
-				}
-				b_hessel = {
-				}
-				b_waltenschwil = {
-				}
-				b_buettikon = {
-				}
-			}
-		}
-		d_schaffhausen = {
-			color={ 77 87 5 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 34 province_id = 139 province_id = 140 province_id = 211 province_id = 445 } }
-				}
-			}
-			capital = 140 # c_schaffhausen
-			
-			c_schaffhausen = { # 140
-				color={ 67 97 0 }
-				color2={ 255 255 255 }
-				
-				b_schaffhausen = {
-				}
-				b_neuhausen = {
-				}
-				b_beringen = {
-				}
-				b_st_niklausen = {
-				}
-				b_schaffhausen_2 = {
-				}
-				b_schaffhausen_3 = {
-				}
-				b_schaffhausen_4 = {
-				}
-			}
-			c_herblingen = { # 139
-				color={ 140 97 204 }
-				color2={ 255 255 255 }
-				
-				b_stetten_2 = {
-				}
-				b_herblingen = {
-				}
-				b_lohn_2 = {
-				}
-				b_laengebaerg = {
-				}
-				b_herblingen_2 = {
-				}
-				b_herblingen_3 = {
-				}
-				b_herblingen_4 = {
-				}
-			}
-			c_neunkirch = { # 211
-				color={ 164 181 101 }
-				color2={ 255 255 255 }
-				
-				b_radegg = {
-				}
-				b_neunkirch = {
-				}
-				b_wilchingen = {
-				}
-				b_neunkirch_2 = {
-				}
-				b_neunkirch_3 = {
-				}
-				b_neunkirch_4 = {
-				}
-			}
-			c_randenberg = { # 445
-				color={ 194 91 149 }
-				color2={ 255 255 255 }
-				
-				b_randenburg = {
-				}
-				b_randenturm = {
-				}
-				b_schleitheim = {
-				}
-				b_randenberg = {
-				}
-			}
-			c_thayngen = { # 34
-				color={ 36 232 115 }
-				color2={ 255 255 255 }
-				
-				b_thayngen = {
-				}
-				b_thayngen_2 = {
-				}
-				b_doerflingen = {
-				}
-				b_lohn = {
-				}
-			}
-		}
-		d_schwyz = {
-			color={ 165 230 241 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 38 province_id = 99 province_id = 161 province_id = 172 province_id = 183 province_id = 253 province_id = 385 province_id = 490 } }
-				}
-			}
-			capital = 38 # c_kuessnacht
-			
-			c_kuessnacht = { # 38
-				color={ 175 220 246 }
-				color2={ 255 255 255 }
-				
-				b_seematt = {
-				}
-				b_immersee = {
-				}
-				b_st_martin = {
-				}
-				b_kuessnacht = {
-				}
-			}
-			c_einsideln = { # 161
-				color={ 21 165 120 }
-				color2={ 255 255 255 }
-				
-				b_st_benedikt = {
-				}
-				b_einsideln = {
-				}
-				b_willerzell = {
-				}
-				b_einsideln_2 = {
-				}
-				b_einsideln_3 = {
-				}
-			}
-			c_gersau = { # 172
-				color={ 107 225 226 }
-				color2={ 255 255 255 }
-				
-				b_gersau = {
-				}
-				b_gersau_2 = {
-				}
-			}
-			c_glodau = { # 490
-				color={ 213 67 120 }
-				color2={ 255 255 255 }
-				
-				b_steinerberg = {
-				}
-				b_goldau = {
-				}
-				b_arth = {
-				}
-				b_glodau = {
-				}
-			}
-			c_muotatal = { # 385
-				color={ 146 174 116 }
-				color2={ 255 255 255 }
-				
-				b_stoos = {
-				}
-				b_muotathal = {
-				}
-				b_minorit = {
-				}
-				b_muotatal = {
-				}
-				b_muotatal_2 = {
-				}
-			}
-			c_sattel = { # 183
-				color={ 85 121 202 }
-				color2={ 255 255 255 }
-				
-				b_sattel = {
-				}
-				b_rothenturm = {
-				}
-			}
-			c_schwyz = { # 99
-				color={ 160 128 120 }
-				color2={ 255 255 255 }
-				
-				b_brunnen = {
-				}
-				b_schwyz = {
-				}
-				b_seewen = {
-				}
-				b_schwyz_2 = {
-				}
-				b_schwyz_3 = {
-				}
-			}
-			c_shilquell = { # 253
-				color={ 206 14 199 }
-				color2={ 255 255 255 }
-				
-				b_stoecken = {
-				}
-				b_studen = {
-				}
-				b_shilquell = {
-				}
-			}
-		}
-		d_solothurn = {
-			color={ 199 151 48 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 63 province_id = 234 province_id = 236 province_id = 381 province_id = 389 province_id = 524 } }
-				}
-			}
-			capital = 234 # c_solothurn
-			
-			c_solothurn = { # 234
-				color={ 209 141 53 }
-				color2={ 255 255 255 }
-				
-				b_solothurn = {
-				}
-				b_zuchwil = {
-				}
-				b_bellach = {
-				}
-				b_st_josef = {
-				}
-				b_visitation = {
-				}
-				b_st_katharinen = {
-				}
-				b_waldegg = {
-				}
-			}
-			c_balsthal = { # 389
-				color={ 77 174 161 }
-				color2={ 255 255 255 }
-				
-				b_falkestein = {
-				}
-				b_klus = {
-				}
-				b_balsthal = {
-				}
-				b_st_wolfgang_2 = {
-				}
-				b_farisberg = {
-				}
-				b_hoenggen = {
-				}
-			}
-			c_gerlafingen = { # 236
-				color={ 36 137 194 }
-				color2={ 255 255 255 }
-				
-				b_halten = {
-				}
-				b_geralfingen = {
-				}
-				b_bleichenberg = {
-				}
-				b_biberist = {
-				}
-				b_kriegstetten = {
-				}
-				b_oberdorf = {
-				}
-				b_recherswil = {
-				}
-			}
-			c_grenchen = { # 524
-				color={ 108 143 186 }
-				color2={ 255 255 255 }
-				
-				b_bettlach = {
-				}
-				b_grenchen = {
-				}
-				b_allerheiligen = {
-				}
-				b_altreu = {
-				}
-				b_selzach = {
-				}
-				b_grenchen_2 = {
-				}
-				b_grenchen_3 = {
-				}
-			}
-			c_luessel = { # 63
-				color={ 242 172 98 }
-				color2={ 255 255 255 }
-				
-				b_baennifels = {
-				}
-				b_neuenstein = {
-				}
-				b_beinwil_2 = {
-				}
-				b_breitenbach = {
-				}
-				b_neu_thierstein = {
-				}
-				b_stuermenchopf = {
-				}
-				b_fehren = {
-				}
-			}
-			c_weissenstein = { # 381
-				color={ 178 22 80 }
-				color2={ 255 255 255 }
-				
-				b_balmfluh = {
-				}
-				b_flumenthal = {
-				}
-				b_hornegg = {
-				}
-				b_welschenrohr = {
-				}
-				b_schattenberg = {
-				}
-			}
-		}
-		d_surgau = {
-			color={ 240 177 140 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 155 province_id = 169 province_id = 282 province_id = 334 province_id = 406 province_id = 451 } }
-				}
-			}
-			capital = 451 # c_sursee
-			
-			c_sursee = { # 451
-				color={ 250 167 145 }
-				color2={ 255 255 255 }
-				
-				b_mauensee = {
-				}
-				b_sursee = {
-				}
-				b_wyher = {
-				}
-				b_buttisholz = {
-				}
-				b_nottwil = {
-				}
-				b_sursee_2 = {
-				}
-				b_sursee_3 = {
-				}
-			}
-			c_entlebuch = { # 282
-				color={ 188 190 255 }
-				color2={ 255 255 255 }
-				
-				b_werthenstein = {
-				}
-				b_wohlhusen = {
-				}
-				b_wohlhusen_2 = {
-				}
-				b_st_jost = {
-				}
-				b_entlebuch = {
-				}
-				b_schwarzenberg = {
-				}
-			}
-			c_escholzmatt = { # 406
-				color={ 188 255 190 }
-				color2={ 255 255 255 }
-				
-				b_escholzmatt = {
-				}
-				b_schuepfheim = {
-				}
-				b_heiligenkreuz = {
-				}
-				b_marbach_2 = {
-				}
-			}
-			c_hohenrain = { # 169
-				color={ 24 21 156 }
-				color2={ 255 255 255 }
-				
-				b_nuenegg = {
-				}
-				b_hochdorf = {
-				}
-				b_hohenrain = {
-				}
-				b_eschenbach = {
-				}
-				b_baldegg = {
-				}
-				b_eschenbach_2 = {
-				}
-				b_ottenhusen = {
-				}
-			}
-			c_willisau = { # 334
-				color={ 221 134 64 }
-				color2={ 255 255 255 }
-				
-				b_bergli = {
-				}
-				b_willisau = {
-				}
-				b_st_peter = {
-				}
-				b_zell_2 = {
-				}
-				b_willisau_2 = {
-				}
-			}
-			c_wyne = { # 155
-				color={ 230 197 133 }
-				color2={ 255 255 255 }
-				
-				b_beromuenster = {
-				}
-				b_st_michael = {
-				}
-				b_gormund = {
-				}
-				b_rickenbach = {
-				}
-				b_wyne = {
-				}
-			}
-		}
-		d_toggenburg = {
-			color={ 244 234 134 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 48 province_id = 274 province_id = 285 province_id = 410 } }
-				}
-			}
-			capital = 48 # c_iberg
-			
-			c_iberg = { # 48
-				color={ 254 224 139 }
-				color2={ 255 255 255 }
-				
-				b_iberg = {
-				}
-				b_wattwil = {
-				}
-				b_ebnat = {
-				}
-				b_ruedberg = {
-				}
-				b_iberg_2 = {
-				}
-				b_iberg_3 = {
-				}
-			}
-			c_nesslau = { # 410
-				color={ 147 255 152 }
-				color2={ 255 255 255 }
-				
-				b_neu_st_johann = {
-				}
-				b_nesslau = {
-				}
-				b_stein_2 = {
-				}
-				b_nesslau_2 = {
-				}
-				b_nesslau_3 = {
-				}
-			}
-			c_uznach = { # 285
-				color={ 41 158 99 }
-				color2={ 255 255 255 }
-				
-				b_uznaburg = {
-				}
-				b_uznach = {
-				}
-				b_berg_sion = {
-				}
-				b_uznach_2 = {
-				}
-				b_uznach_3 = {
-				}
-			}
-			c_wildhaus = { # 274
-				color={ 139 190 178 }
-				color2={ 255 255 255 }
-				
-				b_wildenburg = {
-				}
-				b_wildhaus = {
-				}
-				b_alt_st_johann = {
-				}
-				b_wildhaus_2 = {
-				}
-			}
-		}
-		d_ufgau = {
-			color={ 173 115 53 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 23 province_id = 33 province_id = 64 province_id = 163 province_id = 174 province_id = 175 province_id = 229 province_id = 254 province_id = 256 province_id = 390 province_id = 391 province_id = 438 province_id = 469 province_id = 505 province_id = 523 } }
-				}
-			}
-			capital = 175 # c_thun
-			
-			c_thun = { # 175
-				color={ 163 125 48 }
-				color2={ 255 255 255 }
-				
-				b_thun = {
-				}
-				b_steffisburg = {
-				}
-				b_thun_2 = {
-				}
-				b_thierachern = {
-				}
-				b_uetendorf = {
-				}
-				b_seftigen = {
-				}
-				b_huenibach = {
-				}
-			}
-			c_brienz = { # 391
-				color={ 108 142 157 }
-				color2={ 255 255 255 }
-				
-				b_fluhberg = {
-				}
-				b_brienz = {
-				}
-				b_schwanden_2 = {
-				}
-				b_wychelmatten = {
-				}
-				b_ballenberg = {
-				}
-			}
-			c_grindelwald = { # 174
-				color={ 186 157 52 }
-				color2={ 255 255 255 }
-				
-				b_grindelwald = {
-				}
-				b_truffersbrunnen = {
-				}
-				b_grindelwald_2 = {
-				}
-			}
-			c_gstaad = { # 256
-				color={ 129 190 142 }
-				color2={ 255 255 255 }
-				
-				b_gstaad = {
-				}
-				b_saanen = {
-				}
-				b_schoenried = {
-				}
-				b_saanenmoerser = {
-				}
-				b_oesch = {
-				}
-			}
-			c_interlaken = { # 23
-				color={ 106 152 94 }
-				color2={ 255 255 255 }
-				
-				b_interlaken = {
-				}
-				b_wilderswil = {
-				}
-				b_unspunnen = {
-				}
-				b_weissenau = {
-				}
-				b_lauterbrunnen = {
-				}
-				b_interlaken_2 = {
-				}
-			}
-			c_kandertal = { # 33
-				color={ 226 184 181 }
-				color2={ 255 255 255 }
-				
-				b_felsenburg = {
-				}
-				b_frutigen = {
-				}
-				b_tellenburg = {
-				}
-				b_kandertal = {
-				}
-				b_kandertal_2 = {
-				}
-			}
-			c_lenk = { # 523
-				color={ 195 115 22 }
-				color2={ 255 255 255 }
-				
-				b_burguebel = {
-				}
-				b_lenk = {
-				}
-				b_st_stephan = {
-				}
-				b_lenk_2 = {
-				}
-				b_lenk_3 = {
-				}
-			}
-			c_meiringen = { # 505
-				color={ 224 171 35 }
-				color2={ 255 255 255 }
-				
-				b_meiringen = {
-				}
-				b_meiringen_2 = {
-				}
-				b_innertkirchen = {
-				}
-				b_meiringen_3 = {
-				}
-				b_meiringen_4 = {
-				}
-			}
-			c_oberhofen = { # 469
-				color={ 116 151 255 }
-				color2={ 255 255 255 }
-				
-				b_oberhofen = {
-				}
-				b_huenegg = {
-				}
-				b_heiligenschwendi = {
-				}
-				b_oberhofen_2 = {
-				}
-			}
-			c_riggisberg = { # 438
-				color={ 200 227 128 }
-				color2={ 255 255 255 }
-				
-				b_burgistein = {
-				}
-				b_riggisberg = {
-				}
-				b_rueeggisberg = {
-				}
-				b_wattenwil = {
-				}
-				b_riggisberg_2 = {
-				}
-				b_riggisberg_3 = {
-				}
-			}
-			c_schwarzenburg = { # 229
-				color={ 81 129 177 }
-				color2={ 255 255 255 }
-				
-				b_schwarzenburg = {
-				}
-				b_pfaffeien = {
-				}
-				b_alterswil = {
-				}
-				b_grasburg = {
-				}
-				b_schwarzenburg_2 = {
-				}
-				b_schwarzenburg_3 = {
-				}
-				b_schwarzenburg_4 = {
-				}
-			}
-			c_schwarzsee = { # 163
-				color={ 71 97 40 }
-				color2={ 255 255 255 }
-				
-				b_schwarzee = {
-				}
-				b_attenberg = {
-				}
-				b_schwarzsee = {
-				}
-				b_schwarzsee_2 = {
-				}
-				b_schwarzsee_3 = {
-				}
-			}
-			c_simmental = { # 64
-				color={ 179 160 34 }
-				color2={ 255 255 255 }
-				
-				b_weissenburg = {
-				}
-				b_simmenegg = {
-				}
-				b_eichstalden = {
-				}
-				b_blankenburg = {
-				}
-				b_zweisimmen = {
-				}
-				b_manneberg = {
-				}
-				b_daerstetten = {
-				}
-			}
-			c_spiez = { # 390
-				color={ 167 110 86 }
-				color2={ 255 255 255 }
-				
-				b_wimmis = {
-				}
-				b_spiez = {
-				}
-				b_spiez_2 = {
-				}
-				b_faulensee = {
-				}
-				b_spiez_3 = {
-				}
-				b_spiez_4 = {
-				}
-			}
-			c_unterseen = { # 254
-				color={ 119 238 125 }
-				color2={ 255 255 255 }
-				
-				b_unterseen = {
-				}
-				b_unterseen_2 = {
-				}
-				b_ralligen = {
-				}
-				b_beatenberg = {
-				}
-			}
-		}
-		d_unteraargau = {
-			color={ 245 179 41 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 70 province_id = 95 province_id = 101 province_id = 122 province_id = 220 province_id = 280 province_id = 311 province_id = 314 province_id = 548 } }
-				}
-			}
-			capital = 220 # c_habsburg
-			
-			c_habsburg = { # 220
-				color={ 255 169 46 }
-				color2={ 255 255 255 }
-				
-				b_habsburg = {
-				}
-				b_wildegg = {
-				}
-				b_windisch = {
-				}
-				b_villigen = {
-				}
-				b_besserstein = {
-				}
-				b_freudenau = {
-				}
-				b_siggenthal = {
-				}
-			}
-			c_aarau = { # 70
-				color={ 191 76 41 }
-				color2={ 255 255 255 }
-				
-				b_kuengstein = {
-				}
-				b_aarau = {
-				}
-				b_rombach = {
-				}
-				b_rohr = {
-				}
-				b_st_ursula = {
-				}
-				b_suhr = {
-				}
-				b_thalheim = {
-				}
-			}
-			c_bad_zurzach = { # 314
-				color={ 36 162 95 }
-				color2={ 255 255 255 }
-				
-				b_klingmau = {
-				}
-				b_tegerfelden = {
-				}
-				b_baldingen = {
-				}
-				b_bad_zurzach = {
-				}
-				b_st_verena = {
-				}
-				b_bad_zurzach_2 = {
-				}
-			}
-			c_baden = { # 311
-				color={ 6 146 115 }
-				color2={ 255 255 255 }
-				
-				b_stein_3 = {
-				}
-				b_baden = {
-				}
-				b_endingen = {
-				}
-				b_siggental = {
-				}
-				b_kreuzliberg = {
-				}
-				b_baden_2 = {
-				}
-				b_baden_3 = {
-				}
-			}
-			c_bremgarten = { # 95
-				color={ 91 168 151 }
-				color2={ 255 255 255 }
-				
-				b_bremgarten = {
-				}
-				b_bremgarten_2 = {
-				}
-				b_bellikon = {
-				}
-				b_stetten_3 = {
-				}
-				b_busslingen = {
-				}
-				b_kuenten = {
-				}
-				b_rohrdorf = {
-				}
-			}
-			c_kienberg = { # 548
-				color={ 168 171 90 }
-				color2={ 255 255 255 }
-				
-				b_kienberg = {
-				}
-				b_kienberg_2 = {
-				}
-				b_chilch = {
-				}
-				b_kienberg_3 = {
-				}
-				b_kienberg_4 = {
-				}
-			}
-			c_laufenburg = { # 122
-				color={ 238 81 232 }
-				color2={ 255 255 255 }
-				
-				b_homberg = {
-				}
-				b_laufenburg = {
-				}
-				b_frick = {
-				}
-				b_horn = {
-				}
-				b_urgiz = {
-				}
-				b_st_paul = {
-				}
-				b_stein_4 = {
-				}
-			}
-			c_rheinfelden = { # 101
-				color={ 140 204 106 }
-				color2={ 255 255 255 }
-				
-				b_riburg = {
-				}
-				b_reinfelden = {
-				}
-				b_st_martin_3 = {
-				}
-				b_augst = {
-				}
-				b_rheinfelden = {
-				}
-				b_rheinfelden_2 = {
-				}
-			}
-			c_schoeftland = { # 280
-				color={ 209 250 145 }
-				color2={ 255 255 255 }
-				
-				b_rued = {
-				}
-				b_hochwacht = {
-				}
-				b_teufenthal = {
-				}
-				b_schoeftland = {
-				}
-				b_reinach = {
-				}
-				b_kulm = {
-				}
-				b_schoeftland_2 = {
-				}
-			}
-		}
-		d_unterwalden = {
-			color={ 218 192 251 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 72 province_id = 108 province_id = 177 province_id = 230 province_id = 305 province_id = 361 province_id = 384 province_id = 511 } }
-				}
-			}
-			capital = 384 # c_stans
-			
-			c_stans = { # 384
-				color={ 228 182 0 }
-				color2={ 255 255 255 }
-				
-				b_stansstad = {
-				}
-				b_stans = {
-				}
-				b_ennetmos = {
-				}
-				b_st_klara = {
-				}
-				b_wolfenschiessen = {
-				}
-				b_fueringen = {
-				}
-			}
-			c_alpnach = { # 108
-				color={ 227 76 17 }
-				color2={ 255 255 255 }
-				
-				b_alpnachstad = {
-				}
-				b_alpnach = {
-				}
-				b_siebenreich = {
-				}
-				b_alpnach_2 = {
-				}
-			}
-			c_beckenried = { # 305
-				color={ 72 150 34 }
-				color2={ 255 255 255 }
-				
-				b_isenringen = {
-				}
-				b_emmetten = {
-				}
-				b_beckenried = {
-				}
-			}
-			c_buochs = { # 72
-				color={ 163 124 63 }
-				color2={ 255 255 255 }
-				
-				b_buochs = {
-				}
-				b_ennetbuergen = {
-				}
-				b_buergerstock = {
-				}
-			}
-			c_engelberg = { # 230
-				color={ 17 109 240 }
-				color2={ 255 255 255 }
-				
-				b_engelberg = {
-				}
-				b_engelberg_2 = {
-				}
-				b_grafenort = {
-				}
-			}
-			c_lungern = { # 177
-				color={ 149 77 0 }
-				color2={ 255 255 255 }
-				
-				b_rudenz = {
-				}
-				b_hunwil = {
-				}
-				b_giswil = {
-				}
-			}
-			c_melchtal = { # 511
-				color={ 175 183 104 }
-				color2={ 255 255 255 }
-				
-				b_fluehe = {
-				}
-				b_melchtal = {
-				}
-				b_sachseln = {
-				}
-				b_melchtal_2 = {
-				}
-				b_melchtal_3 = {
-				}
-			}
-			c_sarnen = { # 361
-				color={ 79 238 240 }
-				color2={ 255 255 255 }
-				
-				b_sarnen = {
-				}
-				b_sarnen_2 = {
-				}
-				b_kerns = {
-				}
-				b_sarnen_3 = {
-				}
-			}
-		}
-		d_uri = {
-			color={ 71 134 51 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 8 province_id = 190 province_id = 207 province_id = 213 province_id = 219 province_id = 319 province_id = 461 province_id = 512 province_id = 545 } }
-				}
-			}
-			capital = 8 # c_wassen
-			
-			c_wassen = { # 8
-				color={ 61 144 46 }
-				color2={ 255 255 255 }
-				
-				b_gurtnellen = {
-				}
-				b_wassen = {
-				}
-				b_wassen_2 = {
-				}
-			}
-			c_altdorf = { # 207
-				color={ 91 221 236 }
-				color2={ 255 255 255 }
-				
-				b_wattingwil = {
-				}
-				b_altdorf = {
-				}
-				b_flueele = {
-				}
-				b_st_lazarus = {
-				}
-				b_altdorf_2 = {
-				}
-			}
-			c_amsteg = { # 512
-				color={ 176 71 120 }
-				color2={ 255 255 255 }
-				
-				b_meierturm = {
-				}
-				b_amsteg = {
-				}
-				b_silenen = {
-				}
-				b_zwing_uri = {
-				}
-			}
-			c_erstfeld = { # 190
-				color={ 38 181 143 }
-				color2={ 255 255 255 }
-				
-				b_attinghausen = {
-				}
-				b_erstfeld = {
-				}
-				b_niederhofen = {
-				}
-				b_erstfeld_2 = {
-				}
-				b_erstfeld_3 = {
-				}
-			}
-			c_goeschenen = { # 219
-				color={ 224 65 46 }
-				color2={ 255 255 255 }
-				
-				b_langflue = {
-				}
-				b_goeschenen = {
-				}
-			}
-			c_gotthard = { # 545
-				color={ 208 131 46 }
-				color2={ 255 255 255 }
-				
-				b_hospental = {
-				}
-				b_andermatt = {
-				}
-			}
-			c_klausenpass = { # 461
-				color={ 30 103 157 }
-				color2={ 255 255 255 }
-				
-				b_unterschaechen = {
-				}
-				b_klausenpass = {
-				}
-				b_klausenpass_2 = {
-				}
-			}
-			c_realp = { # 213
-				color={ 182 185 114 }
-				color2={ 255 255 255 }
-				
-				b_realp = {
-				}
-				b_realp_2 = {
-				}
-			}
-			c_seelisberg = { # 319
-				color={ 78 42 204 }
-				color2={ 255 255 255 }
-				
-				b_seelisberg = {
-				}
-				b_isenthal = {
-				}
-				b_seelisberg_2 = {
-				}
-				b_seelisberg_3 = {
-				}
-			}
-		}
-		d_zuerich = {
-			color={ 141 239 110 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 206 province_id = 235 province_id = 278 province_id = 283 province_id = 294 province_id = 473 province_id = 486 province_id = 510 province_id = 542 } }
-				}
-			}
-			capital = 235 # c_zuerich
-			
-			c_zuerich = { # 235
-				color={ 151 229 115 }
-				color2={ 255 255 255 }
-				
-				b_zuerich = {
-				}
-				b_fraumuenster = {
-				}
-				b_st_martin_2 = {
-				}
-				b_oerlikon = {
-				}
-				b_wiedikon = {
-				}
-				b_friesenberg = {
-				}
-				b_barfuesser = {
-				}
-			}
-			c_faellanden = { # 486
-				color={ 166 175 0 }
-				color2={ 255 255 255 }
-				
-				b_duebelstein = {
-				}
-				b_faellanden = {
-				}
-				b_maur = {
-				}
-				b_binz = {
-				}
-				b_zumikon = {
-				}
-			}
-			c_horgen = { # 278
-				color={ 135 126 184 }
-				color2={ 255 255 255 }
-				
-				b_oberrieden = {
-				}
-				b_horgen = {
-				}
-				b_horgen_2 = {
-				}
-				b_horgen_3 = {
-				}
-				b_horgen_4 = {
-				}
-				b_horgen_5 = {
-				}
-			}
-			c_meilen = { # 283
-				color={ 102 118 37 }
-				color2={ 255 255 255 }
-				
-				b_friedberg = {
-				}
-				b_meilen = {
-				}
-				b_hohenegg = {
-				}
-				b_herrliberg = {
-				}
-				b_meilen_2 = {
-				}
-				b_meilen_3 = {
-				}
-			}
-			c_schlieren = { # 510
-				color={ 24 219 222 }
-				color2={ 255 255 255 }
-				
-				b_altstetten = {
-				}
-				b_schlieren = {
-				}
-				b_hoengg = {
-				}
-				b_lachern = {
-				}
-				b_frankental = {
-				}
-				b_unterengstringen = {
-				}
-				b_oberengstringen = {
-				}
-			}
-			c_staefa = { # 542
-				color={ 107 155 159 }
-				color2={ 255 255 255 }
-				
-				b_uelikon = {
-				}
-				b_staefa = {
-				}
-				b_oetwil = {
-				}
-				b_staefa_2 = {
-				}
-				b_staefa_3 = {
-				}
-			}
-			c_thalwil = { # 294
-				color={ 32 110 126 }
-				color2={ 255 255 255 }
-				
-				b_thalwil = {
-				}
-				b_thalwil_2 = {
-				}
-				b_gattikon = {
-				}
-				b_entzberg = {
-				}
-				b_thalwil_3 = {
-				}
-				b_thalwil_4 = {
-				}
-			}
-			c_wollishofen = { # 473
-				color={ 89 195 200 }
-				color2={ 255 255 255 }
-				
-				b_wollishofen = {
-				}
-				b_moenchhof = {
-				}
-				b_adliswil = {
-				}
-				b_wollishofen_2 = {
-				}
-				b_wollishofen_3 = {
-				}
-				b_wollishofen_4 = {
-				}
-			}
-			c_zollikon = { # 206
-				color={ 58 137 141 }
-				color2={ 255 255 255 }
-				
-				b_riesbach = {
-				}
-				b_zollikon = {
-				}
-				b_hirslanden = {
-				}
-				b_wulp = {
-				}
-			}
-		}
-		d_zug = {
-			color={ 148 27 186 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 138 province_id = 187 province_id = 432 } }
-				}
-			}
-			capital = 138 # c_zug
-			
-			c_zug = { # 138
-				color={ 138 37 181 }
-				color2={ 255 255 255 }
-				
-				b_wallburg = {
-				}
-				b_wildenburg_2 = {
-				}
-				b_baar = {
-				}
-				b_zug = {
-				}
-				b_baarburg = {
-				}
-				b_zug_2 = {
-				}
-				b_zug_3 = {
-				}
-			}
-			c_ageri = { # 432
-				color={ 178 247 143 }
-				color2={ 255 255 255 }
-				
-				b_allenwinden = {
-				}
-				b_menzingen = {
-				}
-				b_gubel = {
-				}
-				b_ageri = {
-				}
-				b_ageri_2 = {
-				}
-			}
-			c_cham = { # 187
-				color={ 232 97 79 }
-				color2={ 255 255 255 }
-				
-				b_huenenburg = {
-				}
-				b_cham = {
-				}
-				b_st_wolfgang = {
-				}
-				b_buonas = {
-				}
-				b_cham_2 = {
-				}
-				b_cham_3 = {
-				}
-			}
-		}
-	}
-	k_baden = {
-		color={ 127 163 198 }
-		color2={ 255 255 255 }
-		
-		capital = 142 # c_schopfheim
-		culture = low_alemannic
-		
-		d_breisgau = {
-			color={ 147 143 208 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 142 province_id = 246 province_id = 344 province_id = 414 } }
-				}
-			}
-			capital = 142 # c_schopfheim
-			
-			c_schopfheim = { # 142
-				color={ 157 133 213 }
-				color2={ 255 255 255 }
-				
-				b_hausen = {
-				}
-				b_schopfheim = {
-				}
-				b_zell = {
-				}
-				b_wieslet = {
-				}
-				b_kuemberg = {
-				}
-				b_hasel = {
-				}
-				b_brodenloch = {
-				}
-			}
-			c_bad_krozingen = { # 344
-				color={ 198 106 106 }
-				color2={ 255 255 255 }
-				
-				b_sulzburg = {
-				}
-				b_eschbach = {
-				}
-				b_bad_krozingen = {
-				}
-				b_ehrkirchen = {
-				}
-				b_staufen = {
-				}
-				b_tunsel = {
-				}
-				b_dottingen = {
-				}
-			}
-			c_loerrach = { # 414
-				color={ 182 135 185 }
-				color2={ 255 255 255 }
-				
-				b_maulburg = {
-				}
-				b_buergeln = {
-				}
-				b_loerrach = {
-				}
-				b_muellheim = {
-				}
-				b_steinen = {
-				}
-				b_ruemmingen = {
-				}
-				b_malsburg = {
-				}
-			}
-			c_wehr = { # 246
-				color={ 130 177 118 }
-				color2={ 255 255 255 }
-				
-				b_wehr = {
-				}
-				b_bad_saeckingen = {
-				}
-				b_wallbach = {
-				}
-				b_rippolingen = {
-				}
-				b_haroplingen = {
-				}
-				b_duttenberg = {
-				}
-				b_wehr_2 = {
-				}
-			}
-		}
-		d_fuerstenberg = {
-			color={ 224 250 74 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 79 province_id = 133 province_id = 322 province_id = 394 province_id = 397 } }
-				}
-			}
-			capital = 79 # c_waldshut
-			
-			c_waldshut = { # 79
-				color={ 234 240 79 }
-				color2={ 255 255 255 }
-				
-				b_homburg = {
-				}
-				b_waldshut = {
-				}
-				b_lauchringen = {
-				}
-				b_kandelburg = {
-				}
-				b_weilheim = {
-				}
-				b_gurtweil = {
-				}
-			}
-			c_kuessaburg = { # 322
-				color={ 145 106 23 }
-				color2={ 255 255 255 }
-				
-				b_kuessaburg = {
-				}
-				b_hohentengen = {
-				}
-				b_stetten = {
-				}
-				b_griessen = {
-				}
-				b_krummhof = {
-				}
-				b_dangstetten = {
-				}
-			}
-			c_schluchsee = { # 133
-				color={ 11 161 36 }
-				color2={ 255 255 255 }
-				
-				b_st_blasien = {
-				}
-				b_hoechenschwand = {
-				}
-				b_grafenhausen = {
-				}
-				b_noeggenschwiel = {
-				}
-				b_brunnadern = {
-				}
-				b_dachsberg = {
-				}
-				b_brenden = {
-				}
-			}
-			c_stuehlingen = { # 397
-				color={ 245 138 0 }
-				color2={ 255 255 255 }
-				
-				b_hohenlupfen = {
-				}
-				b_stuehlingen = {
-				}
-				b_bonndorf = {
-				}
-				b_bettmaringen = {
-				}
-				b_mauchen = {
-				}
-				b_birkendorf = {
-				}
-				b_schwaningen = {
-				}
-			}
-			c_todtnau = { # 394
-				color={ 84 162 167 }
-				color2={ 255 255 255 }
-				
-				b_todtnau = {
-				}
-				b_gschwend = {
-				}
-				b_schoenau_2 = {
-				}
-				b_aitern = {
-				}
-				b_hau = {
-				}
-				b_utzenfeld = {
-				}
-			}
-		}
-	}
-	k_osterreich = {
-		color={ 225 172 241 }
-		color2={ 255 255 255 }
-		
-		capital = 403 # c_landeck
-		culture = tirolian
-		
-		d_tirol = {
-			color={ 245 152 251 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 35 province_id = 51 province_id = 158 province_id = 403 province_id = 433 } }
-				}
-			}
-			capital = 403 # c_landeck
-			
-			c_landeck = { # 403
-				color={ 255 142 0 }
-				color2={ 255 255 255 }
-				
-				b_pfunds = {
-				}
-				b_ladis = {
-				}
-				b_landeck = {
-				}
-				b_landeck_2 = {
-				}
-				b_grins = {
-				}
-				b_zams = {
-				}
-			}
-			c_ischgl = { # 51
-				color={ 222 44 164 }
-				color2={ 255 255 255 }
-				
-				b_mathon = {
-				}
-				b_ischgl = {
-				}
-				b_versahl = {
-				}
-				b_ebene = {
-				}
-			}
-			c_mals = { # 158
-				color={ 28 73 123 }
-				color2={ 255 255 255 }
-				
-				b_marienburg_3 = {
-				}
-				b_mals = {
-				}
-				b_st_valentin = {
-				}
-				b_graun = {
-				}
-				b_churburg = {
-				}
-				b_burgers = {
-				}
-			}
-			c_stanzach = { # 433
-				color={ 125 55 61 }
-				color2={ 255 255 255 }
-				
-				b_stanzach = {
-				}
-				b_elmen = {
-				}
-				b_forchach = {
-				}
-				b_weissenbach = {
-				}
-			}
-			c_stilfs = { # 35
-				color={ 88 188 0 }
-				color2={ 255 255 255 }
-				
-				b_stilfs = {
-				}
-				b_laas = {
-				}
-				b_erys = {
-				}
-				b_schlanders = {
-				}
-				b_latsch = {
-				}
-			}
-		}
-		d_bregenz = {
-			color={ 58 80 95 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 306 province_id = 416 province_id = 528 } }
-				}
-			}
-			capital = 306 # c_lech
-			
-			c_lech = { # 306
-				color={ 48 90 90 }
-				color2={ 255 255 255 }
-				
-				b_warth_3 = {
-				}
-				b_lech = {
-				}
-				b_zuers = {
-				}
-				b_au_2 = {
-				}
-				b_schoppernau = {
-				}
-			}
-			c_bregenz = { # 528
-				color={ 221 159 4 }
-				color2={ 255 255 255 }
-				
-				b_wolfurt = {
-				}
-				b_bregenz = {
-				}
-				b_kennelbach = {
-				}
-				b_schwarzach = {
-				}
-				b_hittisau = {
-				}
-				b_bolgenach = {
-				}
-				b_lagenegg = {
-				}
-			}
-			c_dornbirn = { # 416
-				color={ 135 91 149 }
-				color2={ 255 255 255 }
-				
-				b_goetzis = {
-				}
-				b_dornbirn = {
-				}
-				b_hohenems = {
-				}
-				b_mellau = {
-				}
-				b_reuthe = {
-				}
-				b_bizau = {
-				}
-				b_bezau = {
-				}
-			}
-		}
-		d_montfort = {
-			color={ 121 198 134 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2 province_id = 166 province_id = 313 province_id = 373 province_id = 519 } }
-				}
-			}
-			capital = 2 # c_buldenz
-			
-			c_buldenz = { # 2
-				color={ 131 188 139 }
-				color2={ 255 255 255 }
-				
-				b_rosenegg = {
-				}
-				b_buldenz = {
-				}
-				b_st_peter_2 = {
-				}
-				b_braz = {
-				}
-				b_dalaas = {
-				}
-				b_gratz = {
-				}
-				b_danoefen = {
-				}
-			}
-			c_balzers = { # 166
-				color={ 209 197 80 }
-				color2={ 255 255 255 }
-				
-				b_gutenberg = {
-				}
-				b_balzers = {
-				}
-				b_triesen = {
-				}
-				b_triesenberg = {
-				}
-				b_chrup = {
-				}
-				b_garnis = {
-				}
-			}
-			c_montfort = { # 373
-				color={ 131 90 90 }
-				color2={ 255 255 255 }
-				
-				b_montfort = {
-				}
-				b_schattenburg = {
-				}
-				b_feldkirch = {
-				}
-				b_maria_gruen = {
-				}
-				b_rankweil = {
-				}
-				b_roethis = {
-				}
-				b_sulz = {
-				}
-			}
-			c_st_anton = { # 313
-				color={ 95 194 37 }
-				color2={ 255 255 255 }
-				
-				b_st_anton_2 = {
-				}
-				b_st_christoph = {
-				}
-				b_gand = {
-				}
-				b_pettneu = {
-				}
-			}
-			c_vaduz = { # 519
-				color={ 244 155 38 }
-				color2={ 255 255 255 }
-				
-				b_schalun = {
-				}
-				b_vaduz = {
-				}
-				b_schaan = {
-				}
-				b_planken = {
-				}
-				b_eschen = {
-				}
-				b_mauren = {
-				}
-				b_gamprin = {
-				}
-			}
-		}
-	}
-	k_raetia = {
-		color={ 33 163 197 }
-		color2={ 255 255 255 }
-		
-		capital = 201 # c_chur
-		culture = raetoromanish
-		
-		d_chur_raetia = {
-			color={ 13 183 187 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 94 province_id = 201 province_id = 241 province_id = 352 province_id = 439 } }
-				}
-			}
-			capital = 201 # c_chur
-			
-			c_chur = { # 201
-				color={ 3 193 182 }
-				color2={ 255 255 255 }
-				raetoromanish=Curia
-				
-				b_chur = {
-				}
-				b_landquart = {
-				}
-				b_chur_2 = {
-				}
-				b_bernegg = {
-				}
-				b_chur_3 = {
-				}
-				b_chur_4 = {
-				}
-			}
-			c_arosa = { # 241
-				color={ 166 173 79 }
-				color2={ 255 255 255 }
-				
-				b_arosa = {
-				}
-				b_piest = {
-				}
-			}
-			c_bonaduz = { # 94
-				color={ 35 168 228 }
-				color2={ 255 255 255 }
-				raetoromanish=Panaduz
-				
-				b_trin = {
-				}
-				b_parcazi = {
-				}
-				b_flims = {
-				}
-			}
-			c_praettigau = { # 439
-				color={ 155 171 211 }
-				color2={ 255 255 255 }
-				raetoromanish=Partenz
-				
-				b_wyneck = {
-				}
-				b_maienfeld = {
-				}
-				b_malans = {
-				}
-				b_luzein = {
-				}
-				b_praettigau = {
-				}
-				b_praettigau_2 = {
-				}
-			}
-			c_thusis = { # 352
-				color={ 117 198 198 }
-				color2={ 255 255 255 }
-				raetoromanish=Tusáun
-				
-				b_hohenraetien_sils = {
-				}
-				b_fuerstenau = {
-				}
-				b_obertagstein_thusis = {
-				}
-				b_rietberg = {
-				}
-				b_thusis = {
-				}
-			}
-		}
-		d_albula = {
-			color={ 199 214 74 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 74 province_id = 186 province_id = 337 province_id = 341 province_id = 412 } }
-				}
-			}
-			capital = 74 # c_davos
-			
-			c_davos = { # 74
-				color={ 209 204 79 }
-				color2={ 255 255 255 }
-				
-				b_monstein = {
-				}
-				b_davos = {
-				}
-				b_klosters = {
-				}
-				b_serneus = {
-				}
-				b_davos_2 = {
-				}
-				b_davos_3 = {
-				}
-			}
-			c_albula = { # 186
-				color={ 205 65 105 }
-				color2={ 255 255 255 }
-				
-				b_belfort = {
-				}
-				b_casti = {
-				}
-				b_salouf = {
-				}
-			}
-			c_avers = { # 412
-				color={ 96 131 109 }
-				color2={ 255 255 255 }
-				
-				b_andeer = {
-				}
-				b_son_antonius = {
-				}
-				b_ziran = {
-				}
-				b_avers = {
-				}
-				b_avers_2 = {
-				}
-			}
-			c_bivio = { # 337
-				color={ 21 106 138 }
-				color2={ 255 255 255 }
-				german=Stalla
-				tirolian=Stalla
-				low_alemannic=Stalla
-				bavarian=Stalla
-				middle_alemannic=Stalla
-				high_alemannic=Stalla
-				
-				b_spuglatsch = {
-				}
-				b_riom = {
-				}
-				b_savognin = {
-				}
-				b_bivio = {
-				}
-				b_marmels = {
-				}
-			}
-			c_bravuogn = { # 341
-				color={ 214 142 113 }
-				color2={ 255 255 255 }
-				german=Bergün
-				tirolian=Bergün
-				low_alemannic=Bergün
-				bavarian=Bergün
-				middle_alemannic=Bergün
-				high_alemannic=Bergün
-				
-				b_greifenstein = {
-				}
-				b_bravuogn = {
-				}
-			}
-		}
-		d_appenzell = {
-			color={ 92 144 242 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 18 province_id = 24 province_id = 92 province_id = 127 province_id = 179 province_id = 240 province_id = 307 province_id = 328 province_id = 358 province_id = 372 province_id = 383 province_id = 495 } }
-				}
-			}
-			capital = 328 # c_appenzell
-			
-			c_appenzell = { # 328
-				color={ 102 134 247 }
-				color2={ 255 255 255 }
-				
-				b_clanx = {
-				}
-				b_steig = {
-				}
-				b_appenzell = {
-				}
-			}
-			c_gais = { # 127
-				color={ 123 25 88 }
-				color2={ 255 255 255 }
-				
-				b_stoss = {
-				}
-				b_gais = {
-				}
-			}
-			c_gonten = { # 383
-				color={ 227 134 0 }
-				color2={ 255 255 255 }
-				
-				b_haseln = {
-				}
-				b_st_jakob = {
-				}
-				b_gonten = {
-				}
-			}
-			c_heiden = { # 358
-				color={ 97 194 221 }
-				color2={ 255 255 255 }
-				
-				b_trogen = {
-				}
-				b_bleichi = {
-				}
-				b_heiden = {
-				}
-				b_heiden_2 = {
-				}
-			}
-			c_herisau = { # 372
-				color={ 140 78 84 }
-				color2={ 255 255 255 }
-				
-				b_ramsenburg = {
-				}
-				b_herisau = {
-				}
-			}
-			c_oberegg = { # 495
-				color={ 29 255 174 }
-				color2={ 255 255 255 }
-				
-				b_oberegg = {
-				}
-				b_st_anton = {
-				}
-			}
-			c_reute = { # 92
-				color={ 241 188 55 }
-				color2={ 255 255 255 }
-				
-				b_eschenmoos = {
-				}
-				b_reute = {
-				}
-			}
-			c_saentis = { # 307
-				color={ 164 122 200 }
-				color2={ 255 255 255 }
-				
-				b_weissbad = {
-				}
-				b_wildkirchli = {
-				}
-			}
-			c_schwellbrunn = { # 240
-				color={ 71 189 174 }
-				color2={ 255 255 255 }
-				
-				b_geren = {
-				}
-				b_schwellbrunn = {
-				}
-				b_schwellbrunn_2 = {
-				}
-			}
-			c_teufen = { # 18
-				color={ 152 144 178 }
-				color2={ 255 255 255 }
-				
-				b_teufen = {
-				}
-				b_speicher = {
-				}
-			}
-			c_urnaesch = { # 24
-				color={ 80 172 101 }
-				color2={ 255 255 255 }
-				
-				b_oberturm = {
-				}
-				b_urnaesch = {
-				}
-				b_chronbach = {
-				}
-			}
-			c_waldstatt = { # 179
-				color={ 242 181 104 }
-				color2={ 255 255 255 }
-				
-				b_geisshalden = {
-				}
-				b_waldstatt = {
-				}
-			}
-		}
-		d_engadin = {
-			color={ 159 54 164 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 5 province_id = 41 province_id = 68 province_id = 259 } }
-				}
-			}
-			capital = 252 # c_st_moritz
-			
-			c_st_moritz = { # 252
-				color={ 211 134 210 }
-				color2={ 255 255 255 }
-				raetoromanish="Son Moretzen"
-				
-				b_crest_alta = {
-				}
-				b_samedam = {
-				}
-				b_st_moritz = {
-				}
-				b_pontresina = {
-				}
-				b_st_moritz_2 = {
-				}
-			}
-			c_zernez = { # 5
-				color={ 149 64 159 }
-				color2={ 255 255 255 }
-				
-				b_wildenberg = {
-				}
-				b_zernez = {
-				}
-				b_la_motta = {
-				}
-			}
-			c_martina = { # 41
-				color={ 209 228 181 }
-				color2={ 255 255 255 }
-				
-				b_tschanueff = {
-				}
-				b_martina = {
-				}
-				b_martina_2 = {
-				}
-			}
-			c_muestair = { # 68
-				color={ 181 168 32 }
-				color2={ 255 255 255 }
-				german=Münster
-				tirolian=Münster
-				low_alemannic=Münster
-				bavarian=Münster
-				middle_alemannic=Münster
-				high_alemannic=Münster
-				
-				b_balcun = {
-				}
-				b_muestair = {
-				}
-				b_son_jon = {
-				}
-			}
-			c_scuol = { # 259
-				color={ 143 130 155 }
-				color2={ 255 255 255 }
-				german=Schuls
-				tirolian=Schuls
-				low_alemannic=Schuls
-				bavarian=Schuls
-				middle_alemannic=Schuls
-				high_alemannic=Schuls
-				
-				b_tarasp = {
-				}
-				b_scuol = {
-				}
-				b_san_peder = {
-				}
-				b_scuol_2 = {
-				}
-			}
-			
-			c_maloja = { # 325
-				color={ 229 142 104 }
-				color2={ 255 255 255 }
-				
-				b_castelmur = {
-				}
-				b_bondo = {
-				}
-				b_san_pietro = {
-				}
-				b_san_cassiano = {
-				}
-				b_maloja = {
-				}
-			}
-			c_zuoz = { # 331
-				color={ 10 146 159 }
-				color2={ 255 255 255 }
-				
-				b_zouoz = {
-				}
-				b_s_chanf = {
-				}
-				b_zuoz = {
-				}
-			}
-		}
-		d_moesa = {
-			color={ 31 148 172 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 349 province_id = 362 province_id = 382 province_id = 492 } }
-				}
-			}
-			capital = 349 # c_san_bernhardino
-			
-			c_san_bernhardino = { # 349
-				color={ 21 158 167 }
-				color2={ 255 255 255 }
-				raetoromanish="Son Bernhardino"
-				
-				b_gualdo = {
-				}
-				b_san_bernhardino = {
-				}
-			}
-			c_calanca = { # 382
-				color={ 132 62 103 }
-				color2={ 255 255 255 }
-				
-				b_calanca = {
-				}
-				b_son_domenica = {
-				}
-				b_santa_maria_calanca = {
-				}
-			}
-			c_mesocco = { # 362
-				color={ 138 170 75 }
-				color2={ 255 255 255 }
-				
-				b_mesocco = {
-				}
-				b_san_martino = {
-				}
-			}
-			c_roveredo = { # 492
-				color={ 237 203 66 }
-				color2={ 255 255 255 }
-				
-				b_torre_palas = {
-				}
-				b_san_vittore = {
-				}
-				b_roveredo = {
-				}
-				b_roveredo_2 = {
-				}
-			}
-		}
-		d_rintel = {
-			color={ 131 122 97 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 14 province_id = 19 province_id = 40 province_id = 273 province_id = 415 } }
-				}
-			}
-			capital = 14 # c_taminatal
-			
-			c_taminatal = { # 14
-				color={ 121 132 92 }
-				color2={ 255 255 255 }
-				
-				b_wartenstein = {
-				}
-				b_bad_ragaz = {
-				}
-				b_st_leonhard = {
-				}
-				b_taminatal = {
-				}
-				b_taminatal_2 = {
-				}
-			}
-			c_altstaetten = { # 273
-				color={ 140 182 191 }
-				color2={ 255 255 255 }
-				
-				b_rebstein = {
-				}
-				b_altstaetten = {
-				}
-				b_marbach = {
-				}
-				b_neu_altstaetten = {
-				}
-				b_heerbrugg = {
-				}
-			}
-			c_buchs = { # 40
-				color={ 128 100 228 }
-				color2={ 255 255 255 }
-				raetoromanish="de Pogio"
-				
-				b_werdenberg = {
-				}
-				b_buchs = {
-				}
-				b_hohensax = {
-				}
-				b_buchs_2 = {
-				}
-			}
-			c_sargans = { # 19
-				color={ 206 88 226 }
-				color2={ 255 255 255 }
-				
-				b_mels = {
-				}
-				b_sargans = {
-				}
-				b_sargans_2 = {
-				}
-				b_sargans_3 = {
-				}
-			}
-			c_walenstadt = { # 415
-				color={ 95 199 79 }
-				color2={ 255 255 255 }
-				raetoromanish=Ripa
-				
-				b_graepplang = {
-				}
-				b_flums = {
-				}
-				b_walenstadt = {
-				}
-			}
-		}
-		d_st_gallen = {
-			color={ 98 198 79 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 7 province_id = 333 province_id = 430 province_id = 503 } }
-				}
-			}
-			capital = 7 # c_gossau
-			
-			c_gossau = { # 7
-				color={ 88 208 74 }
-				color2={ 255 255 255 }
-				
-				b_oberberg = {
-				}
-				b_gossau = {
-				}
-				b_helfenberg = {
-				}
-			}
-			c_st_fiden = { # 503
-				color={ 137 187 55 }
-				color2={ 255 255 255 }
-				
-				b_st_fiden = {
-				}
-				b_neudorf = {
-				}
-				b_hohenstein = {
-				}
-			}
-			c_st_gallen = { # 430
-				color={ 230 119 218 }
-				color2={ 255 255 255 }
-				
-				b_st_otmar_2 = {
-				}
-				b_st_gallen = {
-				}
-				b_wittenbach = {
-				}
-				b_dottenwil = {
-				}
-			}
-			c_uzwil = { # 333
-				color={ 243 162 104 }
-				color2={ 255 255 255 }
-				
-				b_gielen = {
-				}
-				b_uzwil = {
-				}
-				b_flawil = {
-				}
-			}
-		}
-		d_surselva = {
-			color={ 60 150 148 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 88 province_id = 146 province_id = 242 province_id = 392 province_id = 453 } }
-				}
-			}
-			capital = 88 # c_muster
-			
-			c_muster = { # 88
-				color={ 50 160 143 }
-				color2={ 255 255 255 }
-				german=Disentis
-				tirolian=Disentis
-				low_alemannic=Disentis
-				bavarian=Disentis
-				middle_alemannic=Disentis
-				high_alemannic=Disentis
-				
-				b_son_martin = {
-				}
-				b_travaulta = {
-				}
-				b_muster = {
-				}
-			}
-			c_illanz = { # 392
-				color={ 156 122 109 }
-				color2={ 255 255 255 }
-				
-				b_luvis = {
-				}
-				b_grueneck = {
-				}
-				b_castrisch = {
-				}
-				b_illanz = {
-				}
-				b_illanz_2 = {
-				}
-			}
-			c_sedrun = { # 242
-				color={ 167 201 75 }
-				color2={ 255 255 255 }
-				
-				b_tujetsch = {
-				}
-				b_sedrun = {
-				}
-			}
-			c_truns = { # 453
-				color={ 173 143 195 }
-				color2={ 255 255 255 }
-				
-				b_saxenstein = {
-				}
-				b_riggenberg = {
-				}
-				b_truns = {
-				}
-				b_truns_2 = {
-				}
-			}
-			c_vals = { # 146
-				color={ 207 29 157 }
-				color2={ 255 255 255 }
-				raetoromanish=Val
-				
-				b_surcasti = {
-				}
-				b_vella = {
-				}
-				b_vals = {
-				}
-			}
-		}
 
-	}
-	k_schwaben = {
-		color={ 159 162 15 }
-		color2={ 255 255 255 }
-		
-		capital = 53 # c_ravensburg
-		culture = low_alemannic
-		
-		d_niederschwaben = {
-			color={ 139 182 5 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 53 province_id = 152 province_id = 184 province_id = 288 province_id = 316 province_id = 456 province_id = 463 province_id = 481 } }
-				}
-			}
-			capital = 53 # c_ravensburg
-			
-			c_ravensburg = { # 53
-				color={ 129 192 0 }
-				color2={ 255 255 255 }
-				
-				b_veitsburg = {
-				}
-				b_ravensburg = {
-				}
-				b_grosstobel = {
-				}
-				b_weingarten = {
-				}
-				b_wolpertswende = {
-				}
-				b_ravensburg_2 = {
-				}
-				b_ravensburg_3 = {
-				}
-			}
-			c_engen = { # 152
-				color={ 196 53 164 }
-				color2={ 255 255 255 }
-				
-				b_tengen = {
-				}
-				b_engen = {
-				}
-				b_hohenhewen = {
-				}
-				b_neuhewen = {
-				}
-				b_blumberg = {
-				}
-				b_engen_2 = {
-				}
-				b_engen_3 = {
-				}
-			}
-			c_frickingen = { # 456
-				color={ 0 215 116 }
-				color2={ 255 255 255 }
-				
-				b_hohenfels = {
-				}
-				b_frickingen = {
-				}
-				b_heiligenberg = {
-				}
-				b_frickingen_2 = {
-				}
-				b_frickingen_3 = {
-				}
-				b_frickingen_4 = {
-				}
-				b_frickingen_5 = {
-				}
-			}
-			c_meersburg = { # 481
-				color={ 108 171 204 }
-				color2={ 255 255 255 }
-				
-				b_meersburg = {
-				}
-				b_hagnau = {
-				}
-				b_ittendorf = {
-				}
-				b_meersburg_2 = {
-				}
-				b_meersburg_3 = {
-				}
-			}
-			c_singen = { # 463
-				color={ 104 59 237 }
-				color2={ 255 255 255 }
-				
-				b_hohentwil = {
-				}
-				b_singen = {
-				}
-				b_radolfzell = {
-				}
-				b_ehringen = {
-				}
-				b_singen_2 = {
-				}
-			}
-			c_stein = { # 288
-				color={ 80 166 0 }
-				color2={ 255 255 255 }
-				
-				b_hohenklingen = {
-				}
-				b_st_georgen = {
-				}
-				b_wagenhausen = {
-				}
-				b_stein = {
-				}
-				b_wolkenstein = {
-				}
-				b_st_otmar = {
-				}
-			}
-			c_stockach = { # 184
-				color={ 157 25 61 }
-				color2={ 255 255 255 }
-				
-				b_nellenburg = {
-				}
-				b_stockach = {
-				}
-				b_stockach_2 = {
-				}
-				b_stockach_3 = {
-				}
-				b_stockach_4 = {
-				}
-				b_stockach_5 = {
-				}
-			}
-			c_uberlingen = { # 316
-				color={ 0 114 126 }
-				color2={ 255 255 255 }
-				
-				b_uberlingen = {
-				}
-				b_owingen = {
-				}
-				b_uberlingen_2 = {
-				}
-				b_uberlingen_3 = {
-				}
-				b_uberlingen_4 = {
-				}
-				b_uberlingen_5 = {
-				}
-			}
-		}
-		d_allgaeu = {
-			color={ 245 137 90 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 57 province_id = 80 province_id = 137 province_id = 231 province_id = 310 province_id = 482 province_id = 532 } }
-				}
-			}
-			capital = 482 # c_sonthofen
-			
-			c_sonthofen = { # 482
-				color={ 255 127 95 }
-				color2={ 255 255 255 }
-				
-				b_falkenstein = {
-				}
-				b_starz = {
-				}
-				b_sonthofen = {
-				}
-				b_agathazell = {
-				}
-				b_nesselwang = {
-				}
-				b_edelsberg = {
-				}
-				b_eisenberg = {
-				}
-			}
-			c_balderschwang = { # 80
-				color={ 89 68 255 }
-				color2={ 255 255 255 }
-				
-				b_balderschwang = {
-				}
-				b_riedberg = {
-				}
-				b_fischen = {
-				}
-				b_bolsterlang = {
-				}
-			}
-			c_immerstadt = { # 57
-				color={ 139 116 0 }
-				color2={ 255 255 255 }
-				
-				b_buehl = {
-				}
-				b_immerstadt = {
-				}
-				b_thalkirchdorf = {
-				}
-				b_weissach = {
-				}
-				b_oberstaufen = {
-				}
-				b_steibis = {
-				}
-			}
-			c_kempten = { # 137
-				color={ 190 141 130 }
-				color2={ 255 255 255 }
-				
-				b_wiggensbach = {
-				}
-				b_kempten = {
-				}
-				b_mariaberg = {
-				}
-				b_st_mang = {
-				}
-				b_durach = {
-				}
-				b_waltenhofen = {
-				}
-				b_heising = {
-				}
-			}
-			c_lindenberg = { # 231
-				color={ 79 153 173 }
-				color2={ 255 255 255 }
-				
-				b_lindenberg = {
-				}
-				b_simmergerg = {
-				}
-				b_schoenau = {
-				}
-				b_roethenbach = {
-				}
-				b_heimenkirch = {
-				}
-				b_oberreute = {
-				}
-			}
-			c_marktoberdorf = { # 310
-				color={ 107 50 26 }
-				color2={ 255 255 255 }
-				
-				b_hatten = {
-				}
-				b_marktoberdorf = {
-				}
-				b_schwenden = {
-				}
-				b_bertoldshofen = {
-				}
-				b_giesenried = {
-				}
-			}
-			c_oberstdorf = { # 532
-				color={ 152 115 68 }
-				color2={ 255 255 255 }
-				
-				b_fischen_2 = {
-				}
-				b_oberstdorf = {
-				}
-				b_schoellang = {
-				}
-				b_st_loretto = {
-				}
-				b_oytalhaus = {
-				}
-			}
-		}
-		d_arbongau = {
-			color={ 242 52 27 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 135 province_id = 279 province_id = 293 province_id = 402 province_id = 530 } }
-				}
-			}
-			capital = 402 # c_arbon
-			
-			c_arbon = { # 402
-				color={ 232 62 22 }
-				color2={ 255 255 255 }
-				
-				b_roggwil = {
-				}
-				b_arbon = {
-				}
-				b_st_scholastika = {
-				}
-				b_arbon_2 = {
-				}
-				b_arbon_3 = {
-				}
-			}
-			c_amriswil = { # 293
-				color={ 164 254 254 }
-				color2={ 255 255 255 }
-				
-				b_hagenwil = {
-				}
-				b_amriswil = {
-				}
-				b_eppishausen = {
-				}
-				b_amriswil_2 = {
-				}
-			}
-			c_romanshorn = { # 279
-				color={ 244 22 203 }
-				color2={ 255 255 255 }
-				
-				b_romanshorn = {
-				}
-				b_salmsach = {
-				}
-				b_romanshorn_2 = {
-				}
-				b_romanshorn_3 = {
-				}
-			}
-			c_rorschach = { # 135
-				color={ 114 157 72 }
-				color2={ 255 255 255 }
-				
-				b_sulzburg_2 = {
-				}
-				b_rorschach = {
-				}
-				b_mariaberg_2 = {
-				}
-				b_rorschach_2 = {
-				}
-			}
-			c_st_margreten = { # 530
-				color={ 211 255 8 }
-				color2={ 255 255 255 }
-				
-				b_st_margreten = {
-				}
-				b_heldsberg = {
-				}
-				b_grimmerstein = {
-				}
-				b_st_margreten_2 = {
-				}
-			}
-		}
-		d_konstanz = {
-			color={ 150 138 5 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 59 province_id = 147 province_id = 224 province_id = 332 province_id = 338 } }
-				}
-			}
-			capital = 59 # c_ermatingen
-			
-			c_ermatingen = { # 59
-				color={ 140 148 0 }
-				color2={ 255 255 255 }
-				
-				b_ermatingen = {
-				}
-				b_salenstein = {
-				}
-				b_berlingen = {
-				}
-			}
-			c_allensbach = { # 224
-				color={ 181 189 97 }
-				color2={ 255 255 255 }
-				
-				b_allensbach = {
-				}
-				b_litzelstetten = {
-				}
-				b_dettingen = {
-				}
-				b_allensbach_2 = {
-				}
-				b_allensbach_3 = {
-				}
-				b_allensbach_4 = {
-				}
-			}
-			c_gaienhofen = { # 338
-				color={ 145 174 48 }
-				color2={ 255 255 255 }
-				
-				b_gaienhofen = {
-				}
-				b_wangen = {
-				}
-				b_gaienhofen_2 = {
-				}
-				b_gaienhofen_3 = {
-				}
-				b_gaienhofen_4 = {
-				}
-			}
-			c_konstanz = { # 147
-				color={ 114 241 38 }
-				color2={ 255 255 255 }
-				
-				b_konstanz = {
-				}
-				b_fuerstenberg = {
-				}
-				b_st_katharina = {
-				}
-				b_allmansdorf = {
-				}
-				b_petershausen = {
-				}
-				b_mainau = {
-				}
-			}
-			c_reichenau = { # 332
-				color={ 114 194 235 }
-				color2={ 255 255 255 }
-				
-				b_reichenau = {
-				}
-				b_oberzell = {
-				}
-			}
-		}
-		d_oberschwaben = {
-			color={ 124 171 85 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 126 province_id = 226 province_id = 298 province_id = 350 province_id = 367 } }
-				}
-			}
-			capital = 126 # c_lindau
-			
-			c_lindau = { # 126
-				color={ 114 181 80 }
-				color2={ 255 255 255 }
-				
-				b_lindau = {
-				}
-				b_aeschach = {
-				}
-				b_muenchhof = {
-				}
-				b_reutin = {
-				}
-				b_wannental = {
-				}
-				b_senftenau = {
-				}
-				b_schwesterberg = {
-				}
-			}
-			c_buchhorn = { # 367
-				color={ 193 166 6 }
-				color2={ 255 255 255 }
-				
-				b_buchhorn = {
-				}
-				b_st_georgen_2 = {
-				}
-				b_waggershausen = {
-				}
-				b_windhang = {
-				}
-				b_manzell = {
-				}
-				b_ittenhausen = {
-				}
-				b_ailingen = {
-				}
-			}
-			c_kessbronn = { # 226
-				color={ 103 69 187 }
-				color2={ 255 255 255 }
-				
-				b_wasserburg = {
-				}
-				b_kessbronn = {
-				}
-				b_st_georg = {
-				}
-				b_langenargen = {
-				}
-				b_bodolz = {
-				}
-				b_eriskirch = {
-				}
-			}
-			c_leutkirch = { # 350
-				color={ 111 50 221 }
-				color2={ 255 255 255 }
-				
-				b_kisslegg = {
-				}
-				b_leutkirch = {
-				}
-				b_wolfegg = {
-				}
-				b_amach = {
-				}
-				b_sankt_anna = {
-				}
-				b_herrot = {
-				}
-				b_arnach = {
-				}
-			}
-			c_wangen = { # 298
-				color={ 166 130 199 }
-				color2={ 255 255 255 }
-				
-				b_wangen_2 = {
-				}
-				b_wangen_3 = {
-				}
-				b_isny = {
-				}
-				b_trachtburg = {
-				}
-				b_argenbuehl = {
-				}
-				b_amtzell = {
-				}
-				b_eisenharz = {
-				}
-			}
-		}
-		d_thurgau = {
-			color={ 154 178 221 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 3 province_id = 26 province_id = 28 province_id = 50 province_id = 117 province_id = 329 province_id = 468 province_id = 480 province_id = 497 province_id = 504 } }
-				}
-			}
-			capital = 28 # c_bischofszell
-			
-			c_bischofszell = { # 28
-				color={ 164 168 226 }
-				color2={ 255 255 255 }
-				
-				b_bischofszell = {
-				}
-				b_st_pelagius = {
-				}
-				b_bischofszell_2 = {
-				}
-				b_bischofszell_3 = {
-				}
-			}
-			c_feldegg = { # 468
-				color={ 106 167 224 }
-				color2={ 255 255 255 }
-				
-				b_feldegg = {
-				}
-				b_kirchberg = {
-				}
-				b_iddaburg = {
-				}
-			}
-			c_fischingen = { # 480
-				color={ 150 215 54 }
-				color2={ 255 255 255 }
-				
-				b_fischingen = {
-				}
-				b_wil = {
-				}
-				b_tannegg = {
-				}
-			}
-			c_frauenfeld = { # 117
-				color={ 255 192 0 }
-				color2={ 255 255 255 }
-				
-				b_wellenberg = {
-				}
-				b_fauenfeld = {
-				}
-				b_oberkirch = {
-				}
-				b_frauenfeld = {
-				}
-			}
-			c_muellheim = { # 504
-				color={ 0 179 191 }
-				color2={ 255 255 255 }
-				
-				b_altenburg = {
-				}
-				b_muellheim_2 = {
-				}
-				b_wigoltingen = {
-				}
-				b_griesenberg = {
-				}
-				b_muellheim_3 = {
-				}
-			}
-			c_muensterlingen = { # 50
-				color={ 240 168 137 }
-				color2={ 255 255 255 }
-				
-				b_muensterlingen = {
-				}
-				b_altnau = {
-				}
-				b_bernrain = {
-				}
-				b_muensterlingen_2 = {
-				}
-				b_muensterlingen_3 = {
-				}
-				b_muensterlingen_4 = {
-				}
-			}
-			c_steckborn = { # 3
-				color={ 0 88 9 }
-				color2={ 255 255 255 }
-				
-				b_mammern = {
-				}
-				b_steckborn = {
-				}
-				b_feldbach = {
-				}
-				b_steckborn_2 = {
-				}
-			}
-			c_warth = { # 26
-				color={ 62 156 0 }
-				color2={ 255 255 255 }
-				
-				b_huettwilen = {
-				}
-				b_ittingen = {
-				}
-				b_warth = {
-				}
-				b_warth_2 = {
-				}
-			}
-			c_weinfelden = { # 497
-				color={ 255 75 72 }
-				color2={ 255 255 255 }
-				
-				b_bussnang = {
-				}
-				b_weinfelden = {
-				}
-				b_buergeln_2 = {
-				}
-				b_weinfelden_2 = {
-				}
-				b_weinfelden_3 = {
-				}
-				b_weinfelden_4 = {
-				}
-			}
-			c_wittenwil = { # 329
-				color={ 169 114 58 }
-				color2={ 255 255 255 }
-				
-				b_wittenwil = {
-				}
-				b_aadorf = {
-				}
-				b_taenikon = {
-				}
-				b_wittenwil_2 = {
-				}
-			}
-		}
-	}
-}
-e_italy = {
-	color={ 13 245 126 }
-	color2={ 255 255 20 }
 	
+e_italy = {
+color={ 13 245 126 }
+color2={ 255 255 20 }
+
+capital = 188 # c_bellinzona
+culture = romano_lombard
+	k_lombardy = {
+	color={ 23 235 131 }
+	color2={ 255 255 255 }
+
 	capital = 188 # c_bellinzona
 	culture = romano_lombard
-	
-	k_lombardy = {
-		color={ 23 235 131 }
-		color2={ 255 255 255 }
-		
-		capital = 188 # c_bellinzona
-		culture = romano_lombard
-		
+
 		d_leventina = {
 			color={ 43 215 141 }
 			color2={ 255 255 255 }
@@ -8755,457 +8744,458 @@ e_italy = {
 			}
 		}
 		d_valtellina = {
-			color={ 171 66 141 }
+		color={ 171 66 141 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 15 province_id = 54 province_id = 214 province_id = 247 province_id = 326 province_id = 421 province_id = 478 province_id = 483 } }
+			}
+		}
+		capital = 15 # c_tirano
+		german=Veltlin
+		tirolian=Veltlin
+		low_alemannic=Veltlin
+		bavarian=Veltlin
+		middle_alemannic=Veltlin
+		high_alemannic=Veltlin
+		
+		c_tirano = { # 15
+			color={ 161 76 136 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 15 province_id = 54 province_id = 214 province_id = 247 province_id = 326 province_id = 421 province_id = 478 province_id = 483 } }
-				}
+			b_tirano = {
 			}
-			capital = 15 # c_tirano
-			german=Veltlin
-			tirolian=Veltlin
-			low_alemannic=Veltlin
-			bavarian=Veltlin
-			middle_alemannic=Veltlin
-			high_alemannic=Veltlin
+			b_san_pietro_6 = {
+			}
+			b_teglio = {
+			}
+			b_aprica = {
+			}
+			b_chiuro = {
+			}
+			b_sernio = {
+			}
+		}
+		c_campo = { # 421
+			color={ 131 115 163 }
+			color2={ 255 255 255 }
 			
-			c_tirano = { # 15
-				color={ 161 76 136 }
-				color2={ 255 255 255 }
-				
-				b_tirano = {
-				}
-				b_san_pietro_6 = {
-				}
-				b_teglio = {
-				}
-				b_aprica = {
-				}
-				b_chiuro = {
-				}
-				b_sernio = {
-				}
+			b_campo = {
 			}
-			c_campo = { # 421
-				color={ 131 115 163 }
-				color2={ 255 255 255 }
-				
-				b_campo = {
-				}
-				b_menaggio_2 = {
-				}
-				b_rezzonico = {
-				}
-				b_calozzo = {
-				}
+			b_menaggio_2 = {
 			}
-			c_chiavenna = { # 214
-				color={ 121 213 189 }
-				color2={ 255 255 255 }
-				
-				b_chiavenna = {
-				}
-				b_filippo = {
-				}
-				b_prata = {
-				}
-				b_campodolcio = {
-				}
+			b_rezzonico = {
 			}
-			c_livigno = { # 326
-				color={ 114 94 255 }
-				color2={ 255 255 255 }
-				
-				b_livigno = {
-				}
-				b_san_antonio_2 = {
-				}
-				b_valdirentro = {
-				}
-				b_isolaccia = {
-				}
+			b_calozzo = {
 			}
-			c_morbegno = { # 247
-				color={ 121 193 141 }
-				color2={ 255 255 255 }
-				
-				b_delebio = {
-				}
-				b_morbegno = {
-				}
-				b_mello = {
-				}
-				b_talamona = {
-				}
+		}
+		c_chiavenna = { # 214
+			color={ 121 213 189 }
+			color2={ 255 255 255 }
+			
+			b_chiavenna = {
 			}
-			c_poschiavo = { # 483
-				color={ 78 139 234 }
-				color2={ 255 255 255 }
-				german=Puschlav
-				tirolian=Puschlav
-				low_alemannic=Puschlav
-				bavarian=Puschlav
-				middle_alemannic=Puschlav
-				high_alemannic=Puschlav
-				
-				b_poschiavo = {
-				}
-				b_san_romerio = {
-				}
+			b_filippo = {
 			}
-			c_sondalo = { # 54
-				color={ 46 180 172 }
-				color2={ 255 255 255 }
-				
-				b_grosio = {
-				}
-				b_sondalo = {
-				}
-				b_frontale = {
-				}
-				b_mazzo = {
-				}
-				b_santa_lucia = {
-				}
-				b_bormio = {
-				}
+			b_prata = {
 			}
-			c_sondrio = { # 478
-				color={ 195 207 88 }
-				color2={ 255 255 255 }
-				
-				b_chiuro_2 = {
-				}
-				b_sondrio = {
-				}
-				b_berbenno = {
-				}
-				b_san_giovanni_3 = {
-				}
+			b_campodolcio = {
+			}
+		}
+		c_livigno = { # 326
+			color={ 114 94 255 }
+			color2={ 255 255 255 }
+			
+			b_livigno = {
+			}
+			b_san_antonio_2 = {
+			}
+			b_valdirentro = {
+			}
+			b_isolaccia = {
+			}
+		}
+		c_morbegno = { # 247
+			color={ 121 193 141 }
+			color2={ 255 255 255 }
+			
+			b_delebio = {
+			}
+			b_morbegno = {
+			}
+			b_mello = {
+			}
+			b_talamona = {
+			}
+		}
+		c_poschiavo = { # 483
+			color={ 78 139 234 }
+			color2={ 255 255 255 }
+			german=Puschlav
+			tirolian=Puschlav
+			low_alemannic=Puschlav
+			bavarian=Puschlav
+			middle_alemannic=Puschlav
+			high_alemannic=Puschlav
+			
+			b_poschiavo = {
+			}
+			b_san_romerio = {
+			}
+		}
+		c_sondalo = { # 54
+			color={ 46 180 172 }
+			color2={ 255 255 255 }
+			
+			b_grosio = {
+			}
+			b_sondalo = {
+			}
+			b_frontale = {
+			}
+			b_mazzo = {
+			}
+			b_santa_lucia = {
+			}
+			b_bormio = {
+			}
+		}
+		c_sondrio = { # 478
+			color={ 195 207 88 }
+			color2={ 255 255 255 }
+			
+			b_chiuro_2 = {
+			}
+			b_sondrio = {
+			}
+			b_berbenno = {
+			}
+			b_san_giovanni_3 = {
 			}
 		}
 	}
+	}
 	k_piemont = {
-		color={ 128 145 79 }
+color={ 128 145 79 }
+color2={ 255 255 255 }
+
+capital = 424 # c_aosta
+culture = savoyian
+
+d_aosta = {
+	color={ 108 165 69 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 221 province_id = 222 province_id = 424 province_id = 437 province_id = 520 } }
+		}
+	}
+	capital = 424 # c_aosta
+	
+	c_aosta = { # 424
+		color={ 98 175 64 }
 		color2={ 255 255 255 }
 		
-		capital = 424 # c_aosta
-		culture = savoyian
+		b_signayes = {
+		}
+		b_aosta = {
+		}
+		b_st_christophe_3 = {
+		}
+		b_pollein = {
+		}
+		b_brissogne = {
+		}
+		b_sorreley = {
+		}
+	}
+	c_chatillon = { # 520
+		color={ 21 183 198 }
+		color2={ 255 255 255 }
 		
-		d_aosta = {
-			color={ 108 165 69 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 221 province_id = 222 province_id = 424 province_id = 437 province_id = 520 } }
-				}
-			}
-			capital = 424 # c_aosta
-			
-			c_aosta = { # 424
-				color={ 98 175 64 }
-				color2={ 255 255 255 }
-				
-				b_signayes = {
-				}
-				b_aosta = {
-				}
-				b_st_christophe_3 = {
-				}
-				b_pollein = {
-				}
-				b_brissogne = {
-				}
-				b_sorreley = {
-				}
-			}
-			c_chatillon = { # 520
-				color={ 21 183 198 }
-				color2={ 255 255 255 }
-				
-				b_chatillon = {
-				}
-				b_st_vincent = {
-				}
-				b_chambave = {
-				}
-				b_st_denis_2 = {
-				}
-				b_steirou = {
-				}
-			}
-			c_etroubles = { # 437
-				color={ 255 255 185 }
-				color2={ 255 255 255 }
-				
-				b_etroubles = {
-				}
-				b_st_rhemy = {
-				}
-				b_st_oyen = {
-				}
-			}
-			c_st_pierre = { # 221
-				color={ 21 21 198 }
-				color2={ 255 255 255 }
-				
-				b_st_pierre_4 = {
-				}
-				b_arvier = {
-				}
-				b_st_nicolas_2 = {
-				}
-				b_avise = {
-				}
-			}
-			c_valpelline = { # 222
-				color={ 21 121 198 }
-				color2={ 255 255 255 }
-				
-				b_valpelline = {
-				}
-				b_semojn = {
-				}
-				b_thoules = {
-				}
-			}
+		b_chatillon = {
 		}
-		d_borgomanero = {
-			color={ 219 171 82 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 199 province_id = 271 province_id = 303 province_id = 466 province_id = 494 province_id = 533 province_id = 534 } }
-				}
-			}
-			capital = 199 # c_gattinara
-			
-			c_gattinara = { # 199
-				color={ 229 161 87 }
-				color2={ 255 255 255 }
-				
-				b_gattinara = {
-				}
-				b_romagnano = {
-				}
-				b_grignasco = {
-				}
-				b_servalle_2 = {
-				}
-				b_ghemme = {
-				}
-				b_lozzolo = {
-				}
-			}
-			c_borgomanero = { # 303
-				color={ 100 2 2 }
-				color2={ 255 255 255 }
-				
-				b_arona = {
-				}
-				b_borgomanero = {
-				}
-				b_lesa = {
-				}
-				b_invorio = {
-				}
-				b_gozzano = {
-				}
-				b_paruzzaro = {
-				}
-				b_oleggio = {
-				}
-			}
-			c_brgosesia = { # 533
-				color={ 229 235 59 }
-				color2={ 255 255 255 }
-				
-				b_borgosesia = {
-				}
-				b_borgosesia_2 = {
-				}
-				b_serrvalle = {
-				}
-				b_quarona = {
-				}
-				b_zuccaro = {
-				}
-			}
-			c_cossato = { # 466
-				color={ 76 235 203 }
-				color2={ 255 255 255 }
-				
-				b_cossato = {
-				}
-				b_verres = {
-				}
-				b_gressoney = {
-				}
-				b_callibana = {
-				}
-				b_sagliano = {
-				}
-				b_quittengo = {
-				}
-				b_veglio = {
-				}
-			}
-			c_omegna = { # 271
-				color={ 135 66 170 }
-				color2={ 255 255 255 }
-				
-				b_casale = {
-				}
-				b_omegna = {
-				}
-				b_bagnella = {
-				}
-				b_gravenolla = {
-				}
-				b_montebuglio = {
-				}
-				b_germagna = {
-				}
-				b_toce = {
-				}
-			}
-			c_scopello = { # 534
-				color={ 87 131 181 }
-				color2={ 255 255 255 }
-				
-				b_scopello = {
-				}
-				b_campertogno = {
-				}
-				b_mollina = {
-				}
-				b_piode = {
-				}
-			}
-			c_varallo = { # 494
-				color={ 87 207 229 }
-				color2={ 255 255 255 }
-				
-				b_varallo = {
-				}
-				b_civiasco = {
-				}
-				b_varallo_2 = {
-				}
-				b_vocca = {
-				}
-				b_isola = {
-				}
-				b_balmuccia = {
-				}
-				b_scopa = {
-				}
-			}
+		b_st_vincent = {
 		}
-		d_domodossola = {
-			color={ 124 242 166 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 20 province_id = 132 province_id = 182 province_id = 289 province_id = 411 } }
-				}
-			}
-			capital = 20 # c_maggiore
-			german=Duhm
-			tirolian=Duhm
-			low_alemannic=Duhm
-			bavarian=Duhm
-			middle_alemannic=Duhm
-			high_alemannic=Duhm
-			
-			c_maggiore = { # 20
-				color={ 134 232 171 }
-				color2={ 255 255 255 }
-				
-				b_cannobio = {
-				}
-				b_maggiore = {
-				}
-				b_santa_maria_3 = {
-				}
-				b_coimo = {
-				}
-			}
-			c_baceno = { # 182
-				color={ 240 141 111 }
-				color2={ 255 255 255 }
-				
-				b_baceno = {
-				}
-				b_varzo = {
-				}
-			}
-			c_domodossola = { # 289
-				color={ 4 130 87 }
-				color2={ 255 255 255 }
-				german=Duhm
-				tirolian=Duhm
-				low_alemannic=Duhm
-				bavarian=Duhm
-				middle_alemannic=Duhm
-				high_alemannic=Duhm
-				
-				b_caddo = {
-				}
-				b_domodossola = {
-				}
-				b_san_lorenzo = {
-				}
-				b_tronano = {
-				}
-				b_croppo = {
-				}
-				b_pontetto = {
-				}
-			}
-			c_vanzone = { # 132
-				color={ 120 181 87 }
-				color2={ 255 255 255 }
-				
-				b_vanzone = {
-				}
-				b_san_carlo_3 = {
-				}
-				b_ceppo = {
-				}
-				b_mecugnaga = {
-				}
-				b_vanzone_2 = {
-				}
-			}
-			c_verbania = { # 411
-				color={ 13 111 0 }
-				color2={ 255 255 255 }
-				
-				b_rosso = {
-				}
-				b_verbania = {
-				}
-				b_santino = {
-				}
-				b_vigonneb = {
-				}
-				b_cossogno = {
-				}
-				b_cavadonne = {
-				}
-				b_pallanza = {
-				}
-			}
+		b_chambave = {
+		}
+		b_st_denis_2 = {
+		}
+		b_steirou = {
+		}
+	}
+	c_etroubles = { # 437
+		color={ 255 255 185 }
+		color2={ 255 255 255 }
+		
+		b_etroubles = {
+		}
+		b_st_rhemy = {
+		}
+		b_st_oyen = {
+		}
+	}
+	c_st_pierre = { # 221
+		color={ 21 21 198 }
+		color2={ 255 255 255 }
+		
+		b_st_pierre_4 = {
+		}
+		b_arvier = {
+		}
+		b_st_nicolas_2 = {
+		}
+		b_avise = {
+		}
+	}
+	c_valpelline = { # 222
+		color={ 21 121 198 }
+		color2={ 255 255 255 }
+		
+		b_valpelline = {
+		}
+		b_semojn = {
+		}
+		b_thoules = {
 		}
 	}
 }
+d_borgomanero = {
+	color={ 219 171 82 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 199 province_id = 271 province_id = 303 province_id = 466 province_id = 494 province_id = 533 province_id = 534 } }
+		}
+	}
+	capital = 199 # c_gattinara
+	
+	c_gattinara = { # 199
+		color={ 229 161 87 }
+		color2={ 255 255 255 }
+		
+		b_gattinara = {
+		}
+		b_romagnano = {
+		}
+		b_grignasco = {
+		}
+		b_servalle_2 = {
+		}
+		b_ghemme = {
+		}
+		b_lozzolo = {
+		}
+	}
+	c_borgomanero = { # 303
+		color={ 100 2 2 }
+		color2={ 255 255 255 }
+		
+		b_arona = {
+		}
+		b_borgomanero = {
+		}
+		b_lesa = {
+		}
+		b_invorio = {
+		}
+		b_gozzano = {
+		}
+		b_paruzzaro = {
+		}
+		b_oleggio = {
+		}
+	}
+	c_brgosesia = { # 533
+		color={ 229 235 59 }
+		color2={ 255 255 255 }
+		
+		b_borgosesia = {
+		}
+		b_borgosesia_2 = {
+		}
+		b_serrvalle = {
+		}
+		b_quarona = {
+		}
+		b_zuccaro = {
+		}
+	}
+	c_cossato = { # 466
+		color={ 76 235 203 }
+		color2={ 255 255 255 }
+		
+		b_cossato = {
+		}
+		b_verres = {
+		}
+		b_gressoney = {
+		}
+		b_callibana = {
+		}
+		b_sagliano = {
+		}
+		b_quittengo = {
+		}
+		b_veglio = {
+		}
+	}
+	c_omegna = { # 271
+		color={ 135 66 170 }
+		color2={ 255 255 255 }
+		
+		b_casale = {
+		}
+		b_omegna = {
+		}
+		b_bagnella = {
+		}
+		b_gravenolla = {
+		}
+		b_montebuglio = {
+		}
+		b_germagna = {
+		}
+		b_toce = {
+		}
+	}
+	c_scopello = { # 534
+		color={ 87 131 181 }
+		color2={ 255 255 255 }
+		
+		b_scopello = {
+		}
+		b_campertogno = {
+		}
+		b_mollina = {
+		}
+		b_piode = {
+		}
+	}
+	c_varallo = { # 494
+		color={ 87 207 229 }
+		color2={ 255 255 255 }
+		
+		b_varallo = {
+		}
+		b_civiasco = {
+		}
+		b_varallo_2 = {
+		}
+		b_vocca = {
+		}
+		b_isola = {
+		}
+		b_balmuccia = {
+		}
+		b_scopa = {
+		}
+	}
+}
+d_domodossola = {
+	color={ 124 242 166 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 20 province_id = 132 province_id = 182 province_id = 289 province_id = 411 } }
+		}
+	}
+	capital = 20 # c_maggiore
+	german=Duhm
+	tirolian=Duhm
+	low_alemannic=Duhm
+	bavarian=Duhm
+	middle_alemannic=Duhm
+	high_alemannic=Duhm
+	
+	c_maggiore = { # 20
+		color={ 134 232 171 }
+		color2={ 255 255 255 }
+		
+		b_cannobio = {
+		}
+		b_maggiore = {
+		}
+		b_santa_maria_3 = {
+		}
+		b_coimo = {
+		}
+	}
+	c_baceno = { # 182
+		color={ 240 141 111 }
+		color2={ 255 255 255 }
+		
+		b_baceno = {
+		}
+		b_varzo = {
+		}
+	}
+	c_domodossola = { # 289
+		color={ 4 130 87 }
+		color2={ 255 255 255 }
+		german=Duhm
+		tirolian=Duhm
+		low_alemannic=Duhm
+		bavarian=Duhm
+		middle_alemannic=Duhm
+		high_alemannic=Duhm
+		
+		b_caddo = {
+		}
+		b_domodossola = {
+		}
+		b_san_lorenzo = {
+		}
+		b_tronano = {
+		}
+		b_croppo = {
+		}
+		b_pontetto = {
+		}
+	}
+	c_vanzone = { # 132
+		color={ 120 181 87 }
+		color2={ 255 255 255 }
+		
+		b_vanzone = {
+		}
+		b_san_carlo_3 = {
+		}
+		b_ceppo = {
+		}
+		b_mecugnaga = {
+		}
+		b_vanzone_2 = {
+		}
+	}
+	c_verbania = { # 411
+		color={ 13 111 0 }
+		color2={ 255 255 255 }
+		
+		b_rosso = {
+		}
+		b_verbania = {
+		}
+		b_santino = {
+		}
+		b_vigonneb = {
+		}
+		b_cossogno = {
+		}
+		b_cavadonne = {
+		}
+		b_pallanza = {
+		}
+	}
+}
+}
+}
+

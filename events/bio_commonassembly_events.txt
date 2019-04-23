@@ -1,7 +1,7 @@
 
 #Common Assembly Election Events 
 
-#Trigger on a 4 Year Pulse
+#Trigger on a 2 Year Pulse
 namespace = bio
 narrative_event = {
 

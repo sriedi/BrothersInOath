@@ -1,0 +1,45 @@
+#Habsburg
+51=
+{
+	name="von Habsburg"
+	culture="german"
+	religion="catholic"
+	coat_of_arms=
+	{
+		data=
+		{
+0 3 0 20 0 0 0 			}
+		religion="catholic"
+	}
+	used_for_random=no
+}
+
+#Zähringen
+261=
+{
+	name="von Zähringen"
+	culture="german"
+	religion="catholic"
+	coat_of_arms=
+	{
+		data=
+		{
+0 3 0 50 0 0 0 			}
+		religion="catholic"
+	}
+}
+
+#Savoie
+240=
+{
+	name="de Savoie"
+	culture="frankish"
+	religion="catholic"
+	coat_of_arms=
+	{
+		data=
+		{
+0 3 0 40 0 0 0 			}
+		religion="catholic"
+	}
+}

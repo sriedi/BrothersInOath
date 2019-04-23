@@ -1,4 +1,5 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-e_burgundy;Burgundy;Burgundy;Burgundy;;Burgundy;;;;;;;;;x
-e_burgundy_adj;Burgundian;;burgunder;;;;;;;;;;;x
-
+e_burgundy;Burgundy;Burgundy;Burgund;;Burgundy;;;;;;;;;x
+e_burgundy_adj;Burgundian;;burgundisch;;;;;;;;;;;x
+hre_offmap;Holy Roman ;;Heiliges Römisches ;;;;;;;;;;;
+title_hre_emperor;Emperor;;Kaiser;;;;;;;;;;;

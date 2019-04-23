@@ -65,8 +65,8 @@ d_lecco;Lecco;Lecco;Lecco;;Lecco;;;;;;;;;x
 d_lecco_adj;Leccian;;leccer;;;;;;;;;;;x
 d_leventina;Leventina;Leventina;Leventina;;Leventina;;;;;;;;;x
 d_leventina_adj;Leventinan;;leventiner;;;;;;;;;;;x
-d_engadin;Lower-Engadin;Lower-Engadin;Lower-Engadin;;Lower-Engadin;;;;;;;;;x
-d_engadin_adj;Lower-Engadinian;;lower-engadiner;;;;;;;;;;;x
+d_engadin;Engadin;Engadin;Engadin;;Lower-Engadin;;;;;;;;;x
+d_engadin_adj;engadinian;;engadinisch;;;;;;;;;;;x
 d_lugano;Lugano;Lugano;Lugano;;Lugano;;;;;;;;;x
 d_lugano_adj;Luganian;;luganer;;;;;;;;;;;x
 d_lure;Lure;Lure;Lure;;Lure;;;;;;;;;x

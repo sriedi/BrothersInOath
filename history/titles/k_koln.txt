@@ -1,0 +1,7 @@
+
+1270.1.1 = {
+	holder = 110000 #Bishop Siegfried
+	law = succ_catholic_bishopric
+	government = theocracy_government
+}
+

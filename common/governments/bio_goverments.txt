@@ -104,14 +104,16 @@ feudal_governments = {
 			HOSPITAL
 		}
 		potential = {
-			NAND = {
-				controls_religion = yes
-				is_female = yes
-				}
-			OR = {
-					culture = middle_alemannic
-					culture = high_alemannic
-				}	
+			AND = {
+				NAND = {
+					controls_religion = yes
+					is_female = yes
+					}
+				OR = {
+						culture = middle_alemannic
+						culture = high_alemannic
+					}
+			}
 		}
 		accepts_liege_governments = { # Accepts other republics or Common Assemblies
 			republic_government
@@ -128,6 +130,44 @@ feudal_governments = {
 		allows_matrilineal_marriage = no
 		uses_bride_price = yes
 		can_build_tribal = no
+		commander_limit = 10
+		capital_move_delay = 600
+		vassal_call_to_arms = {
+			feudal_government
+			merchant_republic_government
+			theocracy_government
+			commonassembly_government
+		}
+	}
+	
+	vogtei_government ={
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			CITY
+			FORT
+			HOSPITAL
+		}
+		potential = {
+			AND = {
+				NAND = {
+					controls_religion = yes
+					is_female = yes
+					}
+				has_title_flag = vogtei
+			}
+		}
+		accepts_liege_governments = { # Accepts other republics or Common Assemblies
+			feudal_government
+		}
+		color = { 250 250 0 }
+		frame_suffix = "_feudal"
+		title_prefix = "vogtei_"
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+
 		commander_limit = 10
 		capital_move_delay = 600
 		vassal_call_to_arms = {

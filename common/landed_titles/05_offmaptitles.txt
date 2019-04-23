@@ -1,0 +1,19 @@
+e_reichsvogtei = {
+		culture = german
+		religion = catholic
+		landless = yes 
+		can_be_claimed = no 
+		can_be_usurped = no
+		name_tier = duke
+		monthly_income = 5
+		primary = yes
+	k_vogtei_burgundy =
+	{
+	
+	}
+	k_vogtei_waldstatte = 
+	{
+	
+	}
+} 
+	

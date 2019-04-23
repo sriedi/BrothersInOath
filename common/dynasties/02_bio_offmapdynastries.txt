@@ -1,0 +1,58 @@
+1001 = { 
+name = "Przemysliden" 
+culture = "bohemian"
+religion =  "catholic"
+ }
+ 
+1002 = {
+	name="Salian"
+	culture="german"
+	religion="catholic"
+	coat_of_arms=
+	{
+		data=
+		{ 0 5 0 14 0 0 0 }
+		religion="catholic"
+	}
+	used_for_random=no
+}
+
+1003 = {
+	name="von Hohenstaufen"
+	culture="german"
+	religion="catholic"
+	coat_of_arms=
+	{
+		data=
+		{
+0 3 0 22 0 0 0 			}
+		religion="catholic"
+	}
+}
+
+1004 = {
+	name="Welf"
+	culture="german"
+	religion="catholic"
+	coat_of_arms=
+	{
+		data=
+		{
+0 3 0 44 0 0 0 			}
+		religion="catholic"
+	}
+	used_for_random=no
+}
+
+1005 = {
+	name="von Wittelsbach"
+	culture="german"
+	religion="catholic"
+	coat_of_arms=
+	{
+		data=
+		{
+0 3 0 47 0 0 0 			}
+		religion="catholic"
+	}
+}

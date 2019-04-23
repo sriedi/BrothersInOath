@@ -1,0 +1,20 @@
+#150000 The Habsburgs
+
+150000 = {
+	name="Rudolf"
+	dynasty=51
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	religion="catholic"
+	culture="middle_alemannic"
+	trait="tough_soldier"
+	1218.5.1 = {
+		birth="1218.5.1"
+	}
+
+	1291.7.15 = {
+		death="1291.7.15"
+	}
+}

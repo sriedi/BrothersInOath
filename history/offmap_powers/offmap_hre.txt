@@ -1,0 +1,4 @@
+1280.4.01 = {
+	holder = 150000 #Rudolf von Habsburg
+	#status = china_unrest
+}
