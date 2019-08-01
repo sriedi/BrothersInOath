@@ -9,7 +9,7 @@ narrative_event = {
 	desc = EVTDESCbio.100
 	picture = GFX_evt_campfire_hf
 	
-	only_rulers = true
+	only_rulers = yes
 	trigger = {
 			AND = {
 				government = commonassembly_government
@@ -181,7 +181,7 @@ character_event = {
 	id = bio.104
 	desc = EVTDESCbio.104
 	picture = GFX_evt_council_agreement
-	only_rulers = true
+	only_rulers = yes
 	trigger = {
 		government = commonassembly_government
         has_character_flag = holding_commonassembly
@@ -211,7 +211,7 @@ character_event = {
 	id = bio.105
 	desc = EVTDESCbio.105
 	picture = GFX_evt_upsetting_letter
-	only_rulers = true
+	only_rulers = yes
 	
 	trigger = {
 		government = commonassembly_government
@@ -272,7 +272,7 @@ character_event = {
 	desc = EVTDESCbio.108
 	picture = GFX_evt_culture_change
 	
-	only_rulers = true
+	only_rulers = yes
 	
 	trigger = {
 		primary_title = {

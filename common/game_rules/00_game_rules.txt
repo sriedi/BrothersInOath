@@ -122,7 +122,6 @@ exclave_purge = {
 	}
 }
 
-
 unjustified_wars = {
 	name = "RULE_UNJUSTIFIED_WARS"
 	dlc = "Jade Dragon"
@@ -137,23 +136,6 @@ unjustified_wars = {
 		name = off
 		text = "RULE_OPTION_OFF"
 		desc = "RULE_UNJUSTIFIED_OFF_DESC"
-	}
-}
-
-jade_dragon_cbs = {
-	name = "RULE_JD_CBS"
-	dlc = "Jade Dragon"
-	group = "RULE_GROUP_WARFARE"
-	group = "RULE_GROUP_JD"
-	option = {
-		name = on
-		text = "RULE_OPTION_ON"
-		desc = "RULE_JD_CBS_ON_DESC"
-	}
-	option = {
-		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_JD_CBS_OFF_DESC"
 	}
 }
 
@@ -643,28 +625,6 @@ invitation = {
 	}
 }
 
-diplo_range = {
-	name = "RULE_DIPLO_RANGE"
-	group = "RULE_GROUP_DIPLOMACY"
-	option = {
-		name = on
-		text = "RULE_OPTION_ON"
-		desc = "RULE_DIPLO_RANGE_ON_DESC"
-	}
-	option = {
-		name = restricted
-		text = "RULE_OPTION_RESTRICTED"
-		desc = "RULE_DIPLO_RANGE_RESTRICTED_DESC"
-	}
-	option = {
-		name = off
-		achievements = no
-		alt_start_achievements = no
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_DIPLO_RANGE_OFF_DESC"
-	}
-}
-
 provincial_revolts = {
 	name = "RULE_PROVINCE_REVOLTS"
 	group = "RULE_GROUP_WARFARE"
@@ -736,28 +696,6 @@ defensive_attrition = {
 		alt_start_achievements = no
 		text = "RULE_OPTION_OFF"
 		desc = "RULE_DEF_ATTRITION_OFF_DESC"
-	}
-}
-
-pagan_reformation = {
-	name = "RULE_PAGAN_REFORMATION"
-	group = "RULE_GROUP_RELIGION"
-	option = {
-		name = allowed
-		text = "RULE_PAGAN_REFORMATION_ALLOWED"
-		desc = "RULE_PAGAN_REFORMATION_ALLOWED_DESC"
-	}
-	option = {
-		name = disallowed
-		text = "RULE_PAGAN_REFORMATION_DISALLOWED"
-		desc = "RULE_PAGAN_REFORMATION_DISALLOWED_DESC"
-	}
-	option = {
-		name = players
-		achievements = no
-		alt_start_achievements = no
-		text = "RULE_PAGAN_REFORMATION_PLAYERS"
-		desc = "RULE_PAGAN_REFORMATION_PLAYERS_DESC"
 	}
 }
 
@@ -1045,26 +983,6 @@ conclave_education_focuses = {
 		name = minimal
 		text = "RULE_OPTION_MINIMAL"
 		desc = "RULE_EDU_FOCUSES_MINIMAL_DESC"
-	}
-}
-
-dynamic_crusader_states = {
-	name = "RULE_CRUSADER_STATES"
-	group = "RULE_GROUP_CRUSADE"
-	option = {
-		name = default
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_DYNAMIC_CRUSADER_STATES_ON"
-	}
-	option = {
-		name = limited
-		text = "RULE_OPTION_LIMITED"
-		desc = "RULE_DYNAMIC_CRUSADER_STATES_LIMITED"
-	}
-	option = {
-		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_DYNAMIC_CRUSADER_STATES_OFF"
 	}
 }
 

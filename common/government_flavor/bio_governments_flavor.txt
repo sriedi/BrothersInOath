@@ -9,3 +9,15 @@ government_flavor = {
 
 	}
 }
+
+government_flavor = {
+	name = guild_republic_government
+	graphics = GFX_event_commonassembly_oath
+	priority = 1
+	trigger = {
+		OR = {
+			government = guild_republic_government
+		}
+
+	}
+}

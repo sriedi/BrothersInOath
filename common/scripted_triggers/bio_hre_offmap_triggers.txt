@@ -1,0 +1,82 @@
+###BUTTON TRIGGERS ####
+#Found in the 00_offmap_powers file... and the conditions for the decisions, use custom tooltip for that decisions cooldown modifier
+
+hre_offmap_decisions_enabled_trigger = { 
+	offmap_hre = {
+		NOT = { has_policy = hre_consolidation }
+		custom_tooltip = {
+			text = hre_offmap_decisions_enabled_trigger_war_tt #"Is at peace with §Y[From.GetTitledFirstName]§!"
+			NOT = { governor = { war_with = FROM } }
+		}
+		governor = {
+			show_scope_change = no
+			hidden_trigger  = { NOT = { character = FROM } } #Governor cannot use boon/tributes decisions
+		}
+	}
+}
+
+hre_offmap_tribute_decisions_enabled_trigger = {
+	hre_offmap_decisions_enabled_trigger = yes
+}
+
+
+hre_offmap_boon_decisions_enabled_trigger = {
+	hre_offmap_decisions_enabled_trigger = yes
+	custom_tooltip = {
+		text = hre_offmap_boon_decisions_enabled_trigger_cd_tt #From is player character
+		FROM = { NOT = { has_character_modifier = hre_boon_cd } } #boon cooldown, which is set in each decision (one year!)...
+	}
+}
+
+
+hre_offmap_hostile_decisions_enabled_trigger = {
+	offmap_hre = {
+		custom_tooltip = {
+			text = hre_offmap_decisions_enabled_trigger_war_tt #"Is at peace with §Y[From.GetTitledFirstName]§!"
+			NOT = { governor = { war_with = FROM } }
+		}
+		governor = {
+			show_scope_change = no
+			NOT = { character = FROM }  #Governor cannot use boon/tributes decisions
+		}
+		offmap_ruler = {
+			NOT = { dynasty = FROM }
+		}
+	}
+}
+
+###What the Kaiser Likes
+is_liked_by_hre_trigger = {
+	liked_by_offmap = {
+        type = offmap_hre
+    }
+    NOT = {
+        disliked_by_offmap = {
+            type = offmap_hre
+        }
+    }
+    offmap_hre = {
+        show_scope_change = no
+        custom_tooltip = { text = emperor_likes_THIS_tt }
+    }
+}
+
+
+likes_low_alemannics = {
+	culture = low_alemannic
+}
+likes_middle_alemannics = {
+	culture = middle_alemannic
+}
+likes_high_alemannics = {
+	culture = high_alemannic
+}
+likes_cities = {
+	is_republic = yes
+}
+likes_commoners = {
+	government = commonassembly_government
+}
+likes_feudal = {
+	is_feudal = yes
+}

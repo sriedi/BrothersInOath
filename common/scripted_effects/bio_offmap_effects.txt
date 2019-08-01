@@ -1,0 +1,21 @@
+set_hre_boon_cd_effect = {  #added via tribute to  decisions... Always one year.
+	add_character_modifier = {
+		hidden = yes
+		name = hre_boon_cd
+		days = 365 #If this is changed, edit  china_offmap_boon_decisions_enabled_trigger_cd_tt
+	}
+}
+
+set_hre_supply_mercs_effect = {
+	add_character_modifier = {
+		name = hre_supply_mercs
+	}
+}
+
+set_hre_stopp_supply_mercs_effect = {
+	add_character_modifier = {
+		hidden = yes
+		name = hre_supply_mercs_cd
+		days = 365 
+	}
+}

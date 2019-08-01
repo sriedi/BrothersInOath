@@ -1,4 +1,5 @@
 1280.4.01 = {
 	holder = 150000 #Rudolf von Habsburg
-	#status = china_unrest
+	status = hre_stable
+	policy = hre_free
 }

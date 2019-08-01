@@ -1,56 +1,70 @@
 succession_laws = {
 	succ_gavelkind = {
 		allow = {
-			NOT = {
-				has_law = succ_assembly_elective
+			holder_scope  = {
+				NOT = {
+					government = commonassembly_government
+				}
 			}
 		}
 	}
 
 	succ_elective_gavelkind = {
 		allow = {
-			NOT = {
-				has_law = succ_assembly_elective
+			holder_scope  = {
+				NOT = {
+					government = commonassembly_government
+				}
 			}
 		}
 	}
 
 	succ_eldership = {
 		allow = {
-			NOT = {
-				has_law = succ_assembly_elective
+			holder_scope  = {
+				NOT = {
+					government = commonassembly_government
+				}
 			}
 		}
 	}
 
 	succ_seniority = {
 		allow = {
-			NOT = {
-				has_law = succ_assembly_elective
+			holder_scope  = {
+				NOT = {
+					government = commonassembly_government
+				}
 			}
 		}
 	}
 
 	succ_primogeniture = {
 		allow = {
-			NOT = {
-				has_law = succ_assembly_elective
+			holder_scope  = {
+				NOT = {
+					government = commonassembly_government
+				}
 			}
 		}
 	}
 
 	succ_feudal_elective = {
 		allow = {
-			NOT = {
-				has_law = succ_assembly_elective
+			holder_scope  = {
+				NOT = {
+					government = commonassembly_government
+				}
 			}
 		}
 	}
 
 	succ_ultimogeniture = {
 		allow = {
-			NOT = {
-				has_law = succ_assembly_elective
+			holder_scope  = {
+				NOT = {
+					government = commonassembly_government
+				}
 			}
 		}
 	}
