@@ -5,7 +5,7 @@ hre_offmap_decisions_enabled_trigger = {
 	offmap_hre = {
 		NOT = { has_policy = hre_consolidation }
 		custom_tooltip = {
-			text = hre_offmap_decisions_enabled_trigger_war_tt #"Is at peace with §Y[From.GetTitledFirstName]§!"
+			text = hre_offmap_decisions_enabled_trigger_war_tt #"Is at peace with ??Y[From.GetTitledFirstName]??!"
 			NOT = { governor = { war_with = FROM } }
 		}
 		governor = {
@@ -32,7 +32,7 @@ hre_offmap_boon_decisions_enabled_trigger = {
 hre_offmap_hostile_decisions_enabled_trigger = {
 	offmap_hre = {
 		custom_tooltip = {
-			text = hre_offmap_decisions_enabled_trigger_war_tt #"Is at peace with §Y[From.GetTitledFirstName]§!"
+			text = hre_offmap_decisions_enabled_trigger_war_tt #"Is at peace with ??Y[From.GetTitledFirstName]??!"
 			NOT = { governor = { war_with = FROM } }
 		}
 		governor = {
@@ -64,19 +64,25 @@ is_liked_by_hre_trigger = {
 
 likes_low_alemannics = {
 	culture = low_alemannic
+	context = culture
 }
 likes_middle_alemannics = {
 	culture = middle_alemannic
+	context = culture
 }
 likes_high_alemannics = {
 	culture = high_alemannic
+	context = culture
 }
 likes_cities = {
 	is_republic = yes
+	context = government
 }
 likes_commoners = {
 	government = commonassembly_government
+	context = government
 }
 likes_feudal = {
 	is_feudal = yes
+	context = government
 }

@@ -1,0 +1,213 @@
+namespace = bio
+#Evaluate if the Offmap likes you and adding grace
+character_event = {
+	id = bio.20020
+	hide_window = yes
+	is_triggered_only = yes
+
+}
+
+#GAINING GRACE
+#Sending gift
+
+##Govenor Event
+character_event = {
+    id = bio.20021
+    hide_window = yes
+    is_triggered_only = yes
+    immediate = {
+		
+	}
+}
+
+##Player Event
+letter_event = {
+    id = bio.20022
+    desc = EVTDESC_BIO_20022
+    border = GFX_event_letter_frame_diplomacy
+
+    is_triggered_only = yes
+
+    option = { 
+        name = EVTOPTA_BIO_20022
+		sound_effect = china_grace_gain
+    		if = {
+				limit = {
+					OR={
+						liked_by_offmap = {
+						type = offmap_hre
+							context= wealth
+						}
+						liked_by_offmap = {
+							type = offmap_hre
+						}
+					}
+					NOR={
+						disliked_by_offmap = {
+							type = offmap_hre
+						}
+						disliked_by_offmap = {
+							type = offmap_hre
+							context= wealth
+						}
+					}
+				}
+				add_offmap_currency = {
+					offmap = offmap_hre
+					value = 450
+				}
+			}
+			else_if = {
+				limit = {
+					OR={
+						disliked_by_offmap = {
+							type = offmap_hre
+							context = wealth
+						}
+						disliked_by_offmap = {
+							type = offmap_hre
+						}
+					}
+					NOR={ 
+						liked_by_offmap = {
+							type = offmap_hre
+						}
+						liked_by_offmap ={
+							type = offmap_hre
+							context = wealth
+						}
+					}
+				}
+				add_offmap_currency = {
+					offmap = offmap_hre
+					value = 150
+				}
+			}
+			else ={
+				add_offmap_currency = {
+					offmap = offmap_hre
+					value = 300
+				}
+			}
+		
+    }
+}
+
+#Supply Mercs
+##Govenor Event
+character_event = {
+    id = bio.20023
+    hide_window = yes
+    is_triggered_only = yes
+    immediate = {  
+		set_hre_recive_mercs_effect = yes
+	}
+}
+
+##Stop the Mercs
+character_event = {
+    id = bio.20025
+    hide_window = yes
+    is_triggered_only = yes
+    immediate = {  
+		remove_character_modifier = hre_recive_merc
+	}
+}
+
+##Player Event
+letter_event = {
+    id = bio.20024
+    desc = EVTDESC_BIO_20024
+    border = GFX_event_letter_frame_diplomacy
+
+    is_triggered_only = yes
+
+    option = { 
+        name = EVTOPTA_BIO_20024
+		
+		sound_effect = china_grace_gain
+		if = {
+			limit = {
+				OR={
+					liked_by_offmap = {
+					type = offmap_hre
+						context= culture
+					}
+					liked_by_offmap = {
+						type = offmap_hre
+					}
+				}
+				NOR={
+					disliked_by_offmap = {
+						type = offmap_hre
+					}
+					disliked_by_offmap = {
+						type = offmap_hre
+						context= culture
+					}
+				}
+			}
+			add_offmap_currency = {
+				offmap = offmap_hre
+				value = 400
+			}
+		}
+		else_if = {
+			limit = {
+				OR={
+					disliked_by_offmap = {
+						type = offmap_hre
+						context = culture
+					}
+					disliked_by_offmap = {
+						type = offmap_hre
+					}
+				}
+				NOR={ 
+					liked_by_offmap = {
+						type = offmap_hre
+					}
+					liked_by_offmap ={
+						type = offmap_hre
+						context = culture
+					}
+				}
+			}
+			add_offmap_currency = {
+				offmap = offmap_hre
+				value = 100
+			}
+		}
+		else ={
+			add_offmap_currency = {
+				offmap = offmap_hre
+				value = 200
+			}
+		}
+		
+    }
+}
+
+###RECVIE BOONS###
+
+#Ask for direct domain
+##Govenor Event
+
+
+##Player Event
+letter_event = {
+	id = bio.20026
+    desc = EVTDESC_BIO_20026
+    border = GFX_event_letter_frame_diplomacy
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_BIO_20026
+	}
+}
+
+
+
+
+

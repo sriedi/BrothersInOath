@@ -1,41 +1,254 @@
-column 0;column 1;column 2;column 3;column 4;column 5;column 6;column 7;column 8;column 9;column 10;column 11;column 12;column 13;column 14
-#CODE ENGLISH FRENCH GERMAN  SPANISH         x;;;;;;;;;;;;;;
-offmap_hre_hre;Holy Roman Empire;;Heiliges Römisches Reich;;;;;;;;;;;
-title_hre_emperor;Holy Roman Emperor;;Römischer Kaiser;;;;;;;;;;;
-offmap_hre_hre_full;Holy Roman Empire;;Heiliges Römisches Reich;;;;;;;;;;;
-e_reichsvogtei;Imperial Guardianship;;Reichsvogtei;;;;;;;;;;;
-hre_free;Imperial Freedoms;;Reichsfreiheit;;;;;;;;;;;
-hre_expansionist;Expansionist;;Expansion;;;;;;;;;;;
-hre_consolidation;Consolidation;;Konsolidierung;;;;;;;;;;;
-hre_free_desc;The Emperor has decided not to intervene in the matters of his subject. The subjects only pay minimal taxes.;;Der Kaiser garaniert den Untertanen die Reichsfreiheit. Damit können alle Untertanen nach ihren eigenen Gesetzen leben und zahlen nur geringe Steuern.;;;;;;;;;;;
-hre_expansionist_desc;The Empire seeks to expand and is persuing expensive wars. A special tax has been levied from the important subjects.;;Der Kaiser verfolgt eine agressive Expansion;;;;;;;;;;;
-hre_consolidation_desc;The Emperor is consolidating his power. He may react sensitive to any forms of unrest in the realm.;;Der Kaiser Konsolidiert seine Machtbasis. Er reagiert möglicherweise empfintlich auf Unruhen im Reich.;;;;;;;;;;;
-hre_stable;Stable;;Stabil;;;;;;;;;;;
-hre_stable_desc;The Reich is stable.;;Das Reich ist stabil.;;;;;;;;;;;
-hre_unrest;Unrest;;Unruhe;;;;;;;;;;;
-hre_unrest_desc;The Reich is in deep unrest. This affects traderoutes and the power of the Emperor;;Das Reich ist unruhig. Dies beeinflusst die Handelsrouten und den Einfluss des Kaisers.;;;;;;;;;;;
-hre_civil_war;Civil War;;Bürgerkrieg;;;;;;;;;;;
-hre_civil_war_desc;A large scale civil war has broken out between different dynasties in the realm. This will impact every vassal in the region.;;Ein grosser Bürgerkrieg zwischen unterschiedlichen Dynastien ist ausgebrochen, dies hat Auswirkungen auf jeden Vasall im Reich.;;;;;;;;;;;
-hre_reformation;Reformation;;Reformation;;;;;;;;;;;
-hre_reformation_desc;The relligious quarrels about the reformation brought the Reich in deep economical and societal trouble.;;Die religiösen Streitigkeiten haben das Reich in eine schwere wirtschaftliche und soziale Kriese gestürtzt.;;;;;;;;;;;
-hre_famine;Famine;;Hungersnot;;;;;;;;;;;
-hre_famine_desc;A shortage of food brought a huge crisis.;;Eine Nahrungsmittelknappheit verursacht eine grosse Krise;;;;;;;;;;;
-hre_plague;Plage;;Pest;;;;;;;;;;;
-hre_plague_desc;A big plage has come over all lands of the realm.;;Eine grosse Pest ist in allen Ländern des Reiches ausgebrochen.;;;;;;;;;;;
-hre_golden_age;Golden Age;;Goldenes Zeitalter;;;;;;;;;;;
-hre_golden_age_desc;Times are good in the Reich. Maybe as good as they ever going to be.;;Die Zeiten sind gut. So gut, wie sie vielleicht nie mehr sein werden.;;;;;;;;;;;
-hre_grace_send_gift_allow_tt;Has not send money to the Reich in the last 15 years.;;Hat in den letzten 15 Jahren noch kein Geld an das Reich geschickt.;;;;;;;;;;;
-hre_offmap_decisions_enabled_trigger_war_tt;Is at peace with §Y[From.GetTitledFirstName]§!;;Ist im Frieden mit §Y[From.GetTitledFirstName]§!;;;;;;;;;;;
-likes_low_alemannics;Low-Alemanns;;Niederalemannen;;;;;;;;;;;
-likes_middle_alemannics;Middles-Alemanns;;Mittelalemannen;;;;;;;;;;;
-likes_high_alemannics;High-Alemanns;;Hochalemannen;;;;;;;;;;;
-likes_cities;Cities;;Städte;;;;;;;;;;;
-likes_commoners;Commoners;;Gemeinherrschaften;;;;;;;;;;;
-likes_feudal;Feudal Lords;;Feudalherrscher;;;;;;;;;;;
-OFFMAP_VIEW_BUTTON_INSTANT;$OFFMAP|Y$\nOpen interaction with the Reich;;$OFFMAP|Y$\nInteraktion mit dem Reich öffnen.;;;;;;;;;;;
-OFFMAP_HRE_TRIBUTARIES;Imperial Lands;;Reichsunmittelbar;;;;;;;;;;;
-OFFMAP_TRIBUTARIES_TOOLTIP;§YImperial Lands§!;;§YReichsunmittelbar§!;;;;;;;;;;;
-OFFMAP_TRIBUTARIES_TOOLTIP_DESC;Lands which are administered by the Emperor directly. They are considered part of his domian. They enjoy bigger freedoms and can call upon the emperor if their lands are threatend.;;Diese Länder werden vom Kaiser direkt regiert. Sie gehören zu seiner Domäne. Sie besitzen grössere Freiheiten und können den Kaiser um Hilfe bitten, wenn ihre Länder bedroht sind.;;;;;;;;;;;
-OFFMAP_HRE_NAPS;Free Countries;;Freie Länder;;;;;;;;;;;
-OFFMAP_NAPS_TOOLTIP;§YFree Countries§!;;§YFreie Länder§!;;;;;;;;;;;
-OFFMAP_NAPS_TOOLTIP_DESC;These Countries are not part of the Reich or have gained their independence;;Diese Länder sind nicht teil des Reiches oder haben ihre Freiheit erlangt;;;;;;;;;;;
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+offmap_hre_hre;Holy Roman Empire;;Heiliges Römisches Reich;;;;;;;;;;;x
+title_hre_emperor;Holy Roman Emperor;;Römischer Kaiser;;;;;;;;;;;x
+offmap_hre_hre_full;Holy Roman Empire;;Heiliges Römisches Reich;;;;;;;;;;;x
+e_reichsvogtei;Imperial Guardianship;;Reichsvogtei;;;;;;;;;;;x
+hre_free;Imperial Freedoms;;Reichsfreiheit;;;;;;;;;;;x
+hre_expansionist;Expansionist;;Expansion;;;;;;;;;;;x
+hre_consolidation;Consolidation;;Konsolidierung;;;;;;;;;;;x
+hre_free_desc;The Emperor has decided not to intervene in the matters of his subject. The subjects only pay minimal taxes.;;Der Kaiser garaniert den Untertanen die Reichsfreiheit. Damit können alle Untertanen nach ihren eigenen Gesetzen leben und zahlen nur geringe Steuern.;;;;;;;;;;;x
+hre_expansionist_desc;The Empire seeks to expand and is persuing expensive wars. A special tax has been levied from the important subjects.;;Der Kaiser verfolgt eine agressive Expansion;;;;;;;;;;;x
+hre_expansionist_effect_desc;;;;;;;;;;;;;;x
+hre_consolidation_desc;The Emperor is consolidating his power. He may react sensitive to any forms of unrest in the realm.;;Der Kaiser Konsolidiert seine Machtbasis. Er reagiert möglicherweise empfintlich auf Unruhen im Reich.;;;;;;;;;;;x
+hre_stable;Stable;;Stabil;;;;;;;;;;;x
+hre_stable_desc;The Reich is stable.;;Das Reich ist stabil.;;;;;;;;;;;x
+hre_unrest;Unrest;;Unruhe;;;;;;;;;;;x
+hre_unrest_desc;The Reich is in deep unrest. This affects traderoutes and the power of the Emperor;;Das Reich ist unruhig. Dies beeinflusst die Handelsrouten und den Einfluss des Kaisers.;;;;;;;;;;;x
+hre_civil_war;Civil War;;Bürgerkrieg;;;;;;;;;;;x
+hre_civil_war_desc;A large scale civil war has broken out between different dynasties in the realm. This will impact every vassal in the region.;;Ein grosser Bürgerkrieg zwischen unterschiedlichen Dynastien ist ausgebrochen, dies hat Auswirkungen auf jeden Vasall im Reich.;;;;;;;;;;;x
+hre_reformation;Reformation;;Reformation;;;;;;;;;;;x
+hre_reformation_desc;The relligious quarrels about the reformation brought the Reich in deep economical and societal trouble.;;Die religiösen Streitigkeiten haben das Reich in eine schwere wirtschaftliche und soziale Kriese gestürtzt.;;;;;;;;;;;x
+hre_famine;Famine;;Hungersnot;;;;;;;;;;;x
+hre_famine_desc;A shortage of food brought a huge crisis.;;Eine Nahrungsmittelknappheit verursacht eine grosse Krise;;;;;;;;;;;x
+hre_plague;Plage;;Pest;;;;;;;;;;;x
+hre_plague_desc;A big plage has come over all lands of the realm.;;Eine grosse Pest ist in allen Ländern des Reiches ausgebrochen.;;;;;;;;;;;x
+hre_golden_age;Golden Age;;Goldenes Zeitalter;;;;;;;;;;;x
+hre_golden_age_desc;Times are good in the Reich. Maybe as good as they ever going to be.;;Die Zeiten sind gut. So gut, wie sie vielleicht nie mehr sein werden.;;;;;;;;;;;x
+hre_grace_send_gift_allow_tt;Has not send money to the Reich in the last 15 years.;;Hat in den letzten 15 Jahren noch kein Geld an das Reich geschickt.;;;;;;;;;;;x
+hre_offmap_decisions_enabled_trigger_war_tt;Is at peace with §Y[From.GetTitledFirstName]§!;;Ist im Frieden mit §Y[From.GetTitledFirstName]§!;;;;;;;;;;;x
+likes_low_alemannics;Low-Alemanns;;Niederalemannen;;;;;;;;;;;x
+likes_middle_alemannics;Middles-Alemanns;;Mittelalemannen;;;;;;;;;;;x
+likes_high_alemannics;High-Alemanns;;Hochalemannen;;;;;;;;;;;x
+likes_cities;Cities;;Städte;;;;;;;;;;;x
+likes_commoners;Commoners;;Gemeinherrschaften;;;;;;;;;;;x
+likes_feudal;Feudal Lords;;Feudalherrscher;;;;;;;;;;;x
+OFFMAP_VIEW_BUTTON_INSTANT;$OFFMAP|Y$\nOpen interaction with the Reich;;$OFFMAP|Y$\nInteraktion mit dem Reich öffnen.;;;;;;;;;;;x
+OFFMAP_HRE_TRIBUTARIES;Imperial Lands;;Reichsunmittelbar;;;;;;;;;;;x
+OFFMAP_TRIBUTARIES_TOOLTIP;§YImperial Lands§!;;§YReichsunmittelbar§!;;;;;;;;;;;x
+OFFMAP_TRIBUTARIES_TOOLTIP_DESC;Lands which are administered by the Emperor directly. They are considered part of his domian. They enjoy bigger freedoms and can call upon the emperor if their lands are threatend.;;Diese Länder werden vom Kaiser direkt regiert. Sie gehören zu seiner Domäne. Sie besitzen grössere Freiheiten und können den Kaiser um Hilfe bitten, wenn ihre Länder bedroht sind.;;;;;;;;;;;x
+OFFMAP_HRE_NAPS;Free Countries;;Freie Länder;;;;;;;;;;;x
+OFFMAP_NAPS_TOOLTIP;§YFree Countries§!;;§YFreie Länder§!;;;;;;;;;;;x
+OFFMAP_NAPS_TOOLTIP_DESC;These Countries are not part of the Reich or have gained their independence;;Diese Länder sind nicht teil des Reiches oder haben ihre Freiheit erlangt;;;;;;;;;;;x
+OFFMAP_LIKES_AND_DISLIKES_DESC;;;;;;;;;;;;;;x
+TXT_GRACE_desc;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+hre_grace_send_gift;Send a gift;;Ein Geschenk schicken;;;;;;;;;;;x
+hre_grace_send_gift_desc;;;;;;;;;;;;;;x
+EVTDESC_BIO_20022;[Root.GetGovernorLetterGreeting]. \n\nThe wise [From.Offmap.Ruler.GetLongName], has graciously accepted your gift. The generosity of his subjects of [Root.Title.GetName] will not be forgotten.;;[Root.GetGovernorLetterGreeting]. \n\n Der weise [From.Offmap.Ruler.GetLongName], akzeptiert in seiner ganzen Gande euer Geschen. Die Grosszügikeit seiner Untertanen in [Root.Title.GetName] wird nicht vergessen werden.;;;;;;;;;;;x
+EVTOPTA_BIO_20022 ;Anything to please the [From.Offmap.Ruler.GetTitle].;;Alles, um [From.Offmap.Ruler.Getdemder] [From.Offmap.Ruler.GetTitle] zu gefallen.;;;;;;;;;;;x
+hre_grace_supply_mercs;Supply mercenaries;;Sölder zur Verfügung stellen;;;;;;;;;;;x
+hre_grace_supply_mercs_desc;;;;;;;;;;;;;;x
+hre_mercs_vassal_opinion;;;;;;;;;;;;;;x
+EVTDESC_BIO_20024 ;[Root.GetGovernorLetterGreeting]. \n\nThe wise [From.Offmap.Ruler.GetLongName], has agreed to your proposal to send mercenaries form his lands of [Root.Title.GetName]. The [From.Offmap.GetTitle] will leed them to victory against the foes of the Reich. ;;[Root.GetGovernorLetterGreeting]. \n\n Der weise [From.Offmap.Ruler.GetLongName], hat euren Vorschlag Söldner an das Reich aus den Landen von [Root.Title.GetName]. Der [From.Offmap.GetTitle] wird diese Männder zum Siege gegen die Feide des Reiches führen. ;;;;;;;;;;;x
+EVTOPTA_BIO_20024 ;Anything to please the [From.Offmap.Ruler.GetTitle].;;Alles, um [From.Offmap.Ruler.Getdemder] [From.Offmap.Ruler.GetTitle] zu gefallen.;;;;;;;;;;;x
+hre_mercs_supply_effect_tt;With more mercenaries the emperor will be able to defend the borders of the Reich. Speacially in unceartain times he will be thankful for your help. This will impact our own strenght.;;Mit mehr Söldnern kann der Kaiser die Grenzen des Reiches besser verteitigen. Gerade in unsicheren Zeiten wird er dafür dankbar sein. Dies wird unsere Stärke negativ beeinflussen.;;;;;;;;;;;x
+hre_grace_stop_supply_mercs;Stop supplying mercenaries;;Solddienst stoppen;;;;;;;;;;;x
+hre_grace_stop_supply_mercs_desc;;;;;;;;;;;;;;x
+hre_demand_direct;Ask for direct domain;;Reichsunmittelbarkeit einfordern;;;;;;;;;;;x
+hre_direct_domain;Direct Domain;;Reichsunmittelbar;;;;;;;;;;;x
+hre_direct_domain_effect_tt;You can ask to be the direct domain of the empire. You will be directly swear loyalty to the emperor and no other lord stands between you and him. This will be a boon for your provinces economic and military power.;;Mit der Reichsunmittelbarkeit unterstehen eure Lande direkt dem Kaiser. Kein Feudalherr steht mehr zwischen euch und dem Reich. Dies ist ein Vorteil für eure Wirtschaft und militärische Stärke.;;;;;;;;;;;x
+EVTDESC_BIO_20026;[Root.GetGovernorLetterGreeting]. \n\n The wise  [From.Offmap.Ruler.GetLongName], has decided to grant the Lands of [Root.Title.GetName] the status as a direct domain of the Empire.;;[Root.GetGovernorLetterGreeting]. \n\n Der Weise  [From.Offmap.Ruler.GetLongName], hat sich entschlossen den Ländereien von [Root.Title.GetName] die Reichsunmittelbarkeit zu verleihen. ;;;;;;;;;;;x
+EVTOPTA_BIO_20026;I [Root.GetFullName] pledge loyalty to [From.Offmap.Ruler.GetFullName].;;Ich [Root.GetFullName] schwöre [From.Offmap.Ruler.GetFullName] die Treue.;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x

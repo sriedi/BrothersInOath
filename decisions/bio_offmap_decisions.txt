@@ -39,6 +39,7 @@ offmap_decisions = {
 		}
 		effect = {
 			FROM = {
+				letter_event = { id = bio.20022 }
 				sound_effect = china_grace_gain
 				scaled_wealth = { value = -4 min = -200 } #If this changes the ai chances should probably be adjusted
 				hidden_effect = {
@@ -48,8 +49,8 @@ offmap_decisions = {
 						years = 15 #Change chinese_grace_send_gift_allow_tt if this number changes
 					} 
 				}
+				
 			}
-			hidden_effect = { offmap_hre = { governor = { character_event = { id = BIO.20021 } } } }
 		}
 
 		revoke_allowed = {
@@ -86,7 +87,6 @@ offmap_decisions = {
 		allow = {
 			show_only_failed_conditions = yes
 			FROM = {
-				show_scope_change = no
 				custom_tooltip = {
 					text = hre_grace_supply_mercs_not_already_supplying_tt
 					NOT = {
@@ -108,102 +108,19 @@ offmap_decisions = {
 		}
     
 		effect = {
-			set_hre_supply_mercs_effect = yes
-			hidden_effect = { offmap_hre = { governor = { character_event = { id = JD.3040 } } } }
+			hidden_effect = { offmap_hre = { governor = { character_event = { id = bio.20023 } } } }
 			FROM = {
-				hre_supply_mercs = yes
-				sound_effect = china_grace_gain
-				tooltip = {
-					add_character_modifier = {
-						name = hre_supply_mercs
-						duration = -1
-						inherit = yes
-					}
-					if = {
-						limit = {
-							liked_by_offmap = {
-								type = offmap_hre
-							}
-							NOT = {
-								disliked_by_offmap = {
-									type = offmap_hre
-								}
-							}
-						}
-						add_offmap_currency = {
-							offmap = offmap_hre
-							value = 150
-						}
-						e_reichsvogtei = {
-							show_scope_change = no
-							offmap_power = {
-								show_scope_change = no
-								custom_tooltip = { text = likes_tt }
-							}
-						}
-					}
-					if = {
-						limit = {
-							disliked_by_offmap = {
-								type = offmap_hre
-							}
-							NOT = {
-								liked_by_offmap = {
-									type = offmap_hre
-								}
-							}
-						}
-						add_offmap_currency = {
-							offmap = offmap_hre
-							value = 50
-						}
-						e_reichsvogtei = {
-							show_scope_change = no
-							offmap_power = {
-								show_scope_change = no
-								custom_tooltip = { text = dislikes_tt }
-							}
-						}
-					}
-					if = {
-						limit = {
-							liked_by_offmap = {
-								type = offmap_hre
-							}
-							disliked_by_offmap = {
-								type = offmap_hre
-							}
-						}
-						add_offmap_currency = {
-							offmap = offmap_hre
-							value = 150
-						}
-						e_reichsvogtei = {
-							show_scope_change = no
-							offmap_power = {
-								show_scope_change = no
-								custom_tooltip = { text = likes_but_dislikes_tt }
-							}
-						}
-					}
-					if = {
-						limit = {
-							NOR = {
-								liked_by_offmap = {
-									type = offmap_hre
-								}
-								disliked_by_offmap = {
-									type = offmap_hre
-								}
-							}
-						}
-						add_offmap_currency = {
-							offmap = offmap_hre
-							value = 100
-						}
-					}
+				add_character_modifier = {
+					name = hre_mercs_vassal_opinion
+					years = 5
 				}
+				any_realm_province = {
+				set_hre_supply_mercs_effect = yes
+				}
+				sound_effect = china_grace_gain
+				letter_event = { id = bio.20024 }
 			}
+			custom_tooltip = { text = hre_mercs_supply_effect_tt }
 		}
     
 		revoke_allowed = {
@@ -228,14 +145,6 @@ offmap_decisions = {
 					OR = {
 						trait = ambitious
 						trait = proud
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				FROM = {
-					primary_title = {
-						title = e_mongol_empire
 					}
 				}
 			}
@@ -255,7 +164,7 @@ offmap_decisions = {
 			mercenary = no
 			holy_order = no
 			is_landed = yes
-			has_character_modifier = hre_grace_supply_mercs
+			has_character_modifier = hre_supply_mercs
 		}
     
 		allow = {
@@ -267,94 +176,11 @@ offmap_decisions = {
 		}
     
 		effect = {
-			set_hre_stopp_supply_mercs_effect = yes
-			#hidden_effect = { offmap_hre = { governor = { character_event = { id = JD.3040 } } } }
+			hidden_effect = { offmap_hre = { governor = { character_event = { id = bio.20025 } } } }
 			FROM = {
 				sound_effect = china_angered_emperor
-				remove_character_modifier = hre_supply_mercs
-				if = {
-					limit = {
-						liked_by_offmap = {
-							type = offmap_hre
-						}
-						NOT = {
-							disliked_by_offmap = {
-								type = offmap_hre
-							}
-						}
-					}
-					add_offmap_currency = {
-						offmap = offmap_hre
-						value = -150
-					}
-					e_china_west_governor = {
-						show_scope_change = no
-						offmap_power = {
-							show_scope_change = no
-							custom_tooltip = { text = likes_tt }
-						}
-					}
-				}
-				if = {
-					limit = {
-						disliked_by_offmap = {
-							type = offmap_hre
-						}
-						NOT = {
-							liked_by_offmap = {
-								type = offmap_hre
-							}
-						}
-					}
-					add_offmap_currency = {
-						offmap = offmap_hre
-						value = -50
-					}
-					e_china_west_governor = {
-						show_scope_change = no
-						offmap_power = {
-							show_scope_change = no
-							custom_tooltip = { text = dislikes_tt }
-						}
-					}
-				}
-				if = {
-					limit = {
-						liked_by_offmap = {
-							type = offmap_hre
-						}
-						disliked_by_offmap = {
-							type = offmap_hre
-						}
-					}
-					add_offmap_currency = {
-						offmap = offmap_hre
-						value = -150
-					}
-					e_china_west_governor = {
-						show_scope_change = no
-						offmap_power = {
-							show_scope_change = no
-							custom_tooltip = { text = likes_but_dislikes_tt }
-						}
-					}
-				}
-				if = {
-					limit = {
-						NOR = {
-							liked_by_offmap = {
-								type = offmap_hre
-							}
-							disliked_by_offmap = {
-								type = offmap_hre
-							}
-						}
-					}
-					add_offmap_currency = {
-						offmap = offmap_hre
-						value = -100
-					}
-				}
+				set_hre_stopp_supply_mercs_effect = yes
+				
 			}
 		}
     
@@ -365,12 +191,11 @@ offmap_decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0
+				factor = 1.5
 				FROM = {
 					OR = {
-						trait = humble
-						trait = shy
-						trait = craven
+						trait = ambitious
+						trait = misguided_warrior
 					}
 				}
 			}
@@ -378,12 +203,59 @@ offmap_decisions = {
 				factor = 0
 				FROM = {
 					NOR = {
-						trait = proud
-						trait = ambitious
-						trait = brave
+						trait = humble
+						trait = content
 					}
 				}
 			}
+		}
+	}
+
+
+}
+
+
+#BOON DECISIONS (LOOSE GRACE)
+offmap_decisions = {
+	hre_demand_direct = {
+		only_playable = yes
+		button_name = offmap_boons
+		ai_check_interval = 36
+
+		potential = {
+			is_offmap_tag = offmap_hre
+		}
+
+		allow = { 
+			FROM = {
+				show_scope_change = no
+				in_revolt = no
+				primary_title = { higher_tier_than = COUNT } 
+				has_offmap_currency = { offmap = offmap_hre value = 520 }
+			}
+			offmap_hre = {
+				NOT = { has_policy = hre_expansionist } #-----------------------------------------------------------------------------------------------------------------CURRENT POINT
+			}
+		}
+		effect = {
+			FROM = {
+				sound_effect = china_grace_spend
+				show_scope_change = no
+				any_realm_province = {
+					set_hre_direct_domain = yes
+				}
+				make_tributary = {
+					who = FROM
+					tributary_type = offmap
+				}
+				add_offmap_currency = {
+					offmap = offmap_hre
+					value = -520
+				}
+			}
+			custom_tooltip = { text = hre_direct_domain_effect_tt }
+			hidden_effect = { FROM = { letter_event = { id = bio.20026 } } }
+			hidden_effect = { FROM = { set_hre_boon_cd_effect = yes } }
 		}
 	}
 

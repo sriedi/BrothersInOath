@@ -1,5 +1,5 @@
 	
-	#  1 - Martial 				- 19
+#  1 - Martial 				- 19
 #  2 - Learning 			- 20
 #  3 - Diplomacy 			- 21
 #  4 - Stewardship 			- 22
@@ -75,11 +75,18 @@ hre_grace_tributary_timer = { icon = 1 }
 
 hre_boon_cd = { icon = 1 }
 
-hre_tribute_cd = { icon = 1 } # not used anymore
 hre_independence = {
 	icon = 3
-	inherit = yes
 	monthly_character_prestige = 1
+	manpower_growth = 0.5
+	max_manpower_mult = 0.5
+}
+
+hre_direct_domain = {
+	icon = 111
+	manpower_growth = 0.2
+	vassal_opinion = 10
+	trade_route_value = 1.5
 }
 
 hre_boon_cd = { icon = 1 }
@@ -88,7 +95,18 @@ hre_tribute_cd = { icon = 1 } # not used anymore
 
 hre_supply_mercs = {
 	icon = 31
-	inherit = yes
 	manpower_growth = -0.15
+	
 }
+
+hre_recive_merc = {
+	icon  = 13
+	manpower_growth = 0.15
+}
+
+hre_mercs_vassal_opinion = {
+	icon = 31
+	vassal_opinion = -10
+}
+
 hre_supply_mercs_cd = { icon = 1 }

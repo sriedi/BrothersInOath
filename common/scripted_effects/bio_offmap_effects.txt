@@ -9,13 +9,39 @@ set_hre_boon_cd_effect = {  #added via tribute to  decisions... Always one year.
 set_hre_supply_mercs_effect = {
 	add_character_modifier = {
 		name = hre_supply_mercs
+		duration = -1
+		monthly_grace = 1.0
 	}
+
 }
 
+set_hre_recive_mercs_effect = {
+		add_character_modifier = {
+			name = hre_recive_merc
+			duration = -1
+			stacking = yes
+			
+	}
+}	
+
 set_hre_stopp_supply_mercs_effect = {
+	remove_character_modifier = hre_supply_mercs
 	add_character_modifier = {
 		hidden = yes
 		name = hre_supply_mercs_cd
 		days = 365 
+		
 	}
 }
+
+set_hre_direct_domain = {
+	add_province_modifier = {
+		name = hre_direct_domain
+		duration = -1
+	}
+	FROM = {
+		set_defacto_liege = FROM
+	}
+}
+
+

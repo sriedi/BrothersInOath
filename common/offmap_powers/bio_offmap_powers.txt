@@ -76,15 +76,10 @@ offmap_hre = {
 			FROM = { is_liked_by_hre_trigger = yes }
 			is_within_diplo_range = FROM
 		}
-		offmap_likes_tributaries = {
+		offmap_likes_mercs = {
 			value = 2
-			offmap_hre = {			
-				offmap_has_like = likes_tributaries
-			}
 			FROM = {
-				is_tributary = {
-					type = offmap
-				}
+				has_character_modifier = hre_supply_mercs
 			}
 		}
 		vassal_of_rv = {
