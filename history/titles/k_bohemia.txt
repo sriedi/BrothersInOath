@@ -1,7 +1,0 @@
-1200.1.1={
-	law = agnatic_succession
-	government = feudal_government
-}
-1278.1.1 = {
-	holder = 110001 #Bohemian King
-}

@@ -10,7 +10,6 @@ set_hre_supply_mercs_effect = {
 	add_character_modifier = {
 		name = hre_supply_mercs
 		duration = -1
-		monthly_grace = 1.0
 	}
 
 }

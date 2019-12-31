@@ -18,6 +18,7 @@ bm_landvogts = {
 			dynasty=752
 			religion=catholic
 			culture=high_alemannic
+			government = commonassembly_government
 			dna="0gabj0leab0"
 			properties="qc00fh000000000000"
 			

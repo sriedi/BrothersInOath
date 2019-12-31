@@ -7,5 +7,5 @@
 	law = succ_primogeniture
 }
 1260.1.1={
-	holder = 15000 #Rudolf von Habsburg
+	#holder = 15000 #Rudolf von Habsburg
 }
