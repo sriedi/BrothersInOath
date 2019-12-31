@@ -1,7 +1,5 @@
 # k_baden
-800.1.1={
-	liege= "e_hre"
-}
+
 1200.1.1={
 	law = agnatic_succession
 	law = succ_primogeniture

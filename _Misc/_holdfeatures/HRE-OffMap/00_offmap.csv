@@ -42,13 +42,14 @@ OFFMAP_NAPS_TOOLTIP_DESC;These Countries are not part of the Reich or have gaine
 OFFMAP_LIKES_AND_DISLIKES_DESC;;;;;;;;;;;;;;x
 TXT_GRACE_desc;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
-hre_grace_send_gift;Send a gift;;Ein Geschenk schicken;;;;;;;;;;;x
-hre_grace_send_gift_desc;;;;;;;;;;;;;;x
+hre_grace_send_gift;Send a gift;;Geschenk schicken;;;;;;;;;;;x
+hre_grace_send_gift_desc;Send a valuable gift to the emperor;;Dem Kaiser ein wertvolles Geschenk schicken.;;;;;;;;;;;x
 EVTDESC_BIO_20022;[Root.GetGovernorLetterGreeting]. \n\nThe wise [From.Offmap.Ruler.GetLongName], has graciously accepted your gift. The generosity of his subjects of [Root.Title.GetName] will not be forgotten.;;[Root.GetGovernorLetterGreeting]. \n\n Der weise [From.Offmap.Ruler.GetLongName], akzeptiert in seiner ganzen Gande euer Geschen. Die Grosszügikeit seiner Untertanen in [Root.Title.GetName] wird nicht vergessen werden.;;;;;;;;;;;x
 EVTOPTA_BIO_20022 ;Anything to please the [From.Offmap.Ruler.GetTitle].;;Alles, um [From.Offmap.Ruler.Getdemder] [From.Offmap.Ruler.GetTitle] zu gefallen.;;;;;;;;;;;x
 hre_grace_supply_mercs;Supply mercenaries;;Sölder zur Verfügung stellen;;;;;;;;;;;x
-hre_grace_supply_mercs_desc;;;;;;;;;;;;;;x
-hre_mercs_vassal_opinion;;;;;;;;;;;;;;x
+hre_grace_supply_mercs_desc;Send men as  mercenaries to the Empire;;Männer ins Reich in den Diensten des Kaisers entsenden.;;;;;;;;;;;x
+hre_mercs_vassal_opinion;Mercenaries for the Emperor;;Söldner für den Kaiser;;;;;;;;;;;x
+hre_supply_mercs;Mercenaries for the Emperor;;Söldner für den Kaiser;;;;;;;;;;;x
 EVTDESC_BIO_20024 ;[Root.GetGovernorLetterGreeting]. \n\nThe wise [From.Offmap.Ruler.GetLongName], has agreed to your proposal to send mercenaries form his lands of [Root.Title.GetName]. The [From.Offmap.GetTitle] will leed them to victory against the foes of the Reich. ;;[Root.GetGovernorLetterGreeting]. \n\n Der weise [From.Offmap.Ruler.GetLongName], hat euren Vorschlag Söldner an das Reich aus den Landen von [Root.Title.GetName]. Der [From.Offmap.GetTitle] wird diese Männder zum Siege gegen die Feide des Reiches führen. ;;;;;;;;;;;x
 EVTOPTA_BIO_20024 ;Anything to please the [From.Offmap.Ruler.GetTitle].;;Alles, um [From.Offmap.Ruler.Getdemder] [From.Offmap.Ruler.GetTitle] zu gefallen.;;;;;;;;;;;x
 hre_mercs_supply_effect_tt;With more mercenaries the emperor will be able to defend the borders of the Reich. Speacially in unceartain times he will be thankful for your help. This will impact our own strenght.;;Mit mehr Söldnern kann der Kaiser die Grenzen des Reiches besser verteitigen. Gerade in unsicheren Zeiten wird er dafür dankbar sein. Dies wird unsere Stärke negativ beeinflussen.;;;;;;;;;;;x
@@ -59,7 +60,7 @@ hre_direct_domain;Direct Domain;;Reichsunmittelbar;;;;;;;;;;;x
 hre_direct_domain_effect_tt;You can ask to be the direct domain of the empire. You will be directly swear loyalty to the emperor and no other lord stands between you and him. This will be a boon for your provinces economic and military power.;;Mit der Reichsunmittelbarkeit unterstehen eure Lande direkt dem Kaiser. Kein Feudalherr steht mehr zwischen euch und dem Reich. Dies ist ein Vorteil für eure Wirtschaft und militärische Stärke.;;;;;;;;;;;x
 EVTDESC_BIO_20026;[Root.GetGovernorLetterGreeting]. \n\n The wise  [From.Offmap.Ruler.GetLongName], has decided to grant the Lands of [Root.Title.GetName] the status as a direct domain of the Empire.;;[Root.GetGovernorLetterGreeting]. \n\n Der Weise  [From.Offmap.Ruler.GetLongName], hat sich entschlossen den Ländereien von [Root.Title.GetName] die Reichsunmittelbarkeit zu verleihen. ;;;;;;;;;;;x
 EVTOPTA_BIO_20026;I [Root.GetFullName] pledge loyalty to [From.Offmap.Ruler.GetFullName].;;Ich [Root.GetFullName] schwöre [From.Offmap.Ruler.GetFullName] die Treue.;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
+hre_offmap_boon_decisions_enabled_trigger_cd_tt;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x

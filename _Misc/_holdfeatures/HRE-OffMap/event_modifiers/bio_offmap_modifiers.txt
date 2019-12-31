@@ -96,7 +96,7 @@ hre_tribute_cd = { icon = 1 } # not used anymore
 hre_supply_mercs = {
 	icon = 31
 	manpower_growth = -0.15
-	
+	monthly_grace = 2
 }
 
 hre_recive_merc = {

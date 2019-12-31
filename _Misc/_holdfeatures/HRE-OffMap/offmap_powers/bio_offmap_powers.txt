@@ -1,0 +1,257 @@
+offmap_hre = {
+	name = offmap_hre_hre
+	tier = emperor
+	window_name = domestic_offmaps_window
+	button_name = icon_offmaps_entry
+	currency_name = TXT_GRACE
+	currency_gain = monthly_grace
+	currency_reset_on_dynasty_change = yes
+	holder_title = title_hre_emperor			# minor title used to identify a character as holder of this offmap power
+	governor_title = e_reichsvogtei
+	non_aggression_modifier = hre_independence
+	coa_religion = christian
+	government = feudal_government
+	beginning_of_history = 800.1.1
+	sound = china_interaction_interface
+
+	display_trigger = {
+		always= yes
+	}
+	policies = {
+		hre_free
+		hre_expansionist
+		hre_consolidation
+	}
+	statuses = {
+		hre_stable
+		hre_unrest
+		hre_civil_war
+		hre_reformation
+		hre_thirty_years_war
+		hre_famine
+		hre_plague
+		hre_golden_age
+
+	}
+
+	buttons = {
+		offmap_gifts = {
+			is_active_trigger = {
+				hre_offmap_tribute_decisions_enabled_trigger = yes
+			}
+			display_trigger = {
+				always = yes
+			}
+		}
+		offmap_boons = {
+			is_active_trigger = {
+				hre_offmap_boon_decisions_enabled_trigger = yes
+			}
+			display_trigger = {
+				always = yes
+			}
+		}
+		offmap_hostility = {
+			is_active_trigger = {
+				hre_offmap_hostile_decisions_enabled_trigger = yes
+			}
+			display_trigger = {
+				NOT = { offmap_hre = { offmap_ruler = { dynasty = FROM } } }
+			}
+		}
+	}
+
+
+	monthly_currency_gain = {
+		offmap_same_dynasty = {
+			value = 10
+			offmap_hre = { offmap_ruler = { dynasty = FROM } }
+		}
+		offmap_war_with_me = {
+			value = -10
+			war_with = FROM
+		}
+		offmap_likes_me = {
+			value = 1
+			FROM = { is_liked_by_hre_trigger = yes }
+			is_within_diplo_range = FROM
+		}
+		offmap_likes_mercs = {
+			value = 2
+			FROM = {
+				has_character_modifier = hre_supply_mercs
+			}
+		}
+		vassal_of_rv = {
+			value = 2
+			FROM = {
+				liege = {
+					has_landed_title = e_reichsvogtei
+				}
+			}
+		}
+		offmap_same_culture_and_religion = {
+			value = 2
+			offmap_ruler = {
+				culture = FROM
+				religion = FROM
+			}
+			is_within_diplo_range = FROM
+		}
+	}
+	
+	temple_names = {
+		{ # Founder names
+			Lothar
+			Karl
+			Otto
+			Heinrich
+			Konrad
+			Rudolf
+			Friederich
+			Ludwig
+			Maximilian
+			Ferdinand
+			Leopold
+		}
+		{ # Successor names
+			Lothar
+			Karl
+			Otto
+			Heinrich
+			Konrad
+			Rudolf
+			Friederich
+			Ludwig
+			Maximilian
+			Ferdinand
+			Leopold
+		}
+	}
+	holder_succession = {
+		is_female = {					# chances of getting a female holder, as a percentage: if the total is >= 100, the new holder will always be female. If the total is <= 0, the new holder will always be male
+			value = 0
+		}
+		culture = {
+
+			german = { # default culture for new emperor
+				value = 99 # if any other value reaches 100, it will be picked instead
+			}
+			FROM = { # default culture for new emperor
+								# the left side here (and for culture, religion, graphical_culture and dynasty) can be a right hand side value (FROM, ROOT, a culture name, etc). and the right hand side / inside the brackets is a standard MTTH evaluation. Only the one with the highest weight will be used. If there's a tie, one of the tied values is picked at random
+				value = 0
+				additive_modifier = { #the new emperor will keep current culture if things are great
+					value = 100
+					#china_is_fine_trigger = yes
+					FROM = { culture_scope = { always = yes } } # Essentially a check that the previous emperor actually exists
+				}
+			}
+		}
+
+		graphical_culture = { 
+			germangfx = {
+				value = 100
+			}
+		}
+
+		religion = {
+			catholic = { # default religion for new emperor
+				value = 99 # if any other value reaches 100, it will be picked instead (unless equal, then it will randomize)
+			}
+			FROM = {
+				value = 0
+				additive_modifier = { # the new emperor will keep current religion if things are great
+					value = 100
+					FROM = { religion_scope = { always = yes } } # Essentially a check that the previous emperor actually exists
+				}
+			}
+		}
+
+		dynasty = {
+			51 = { 
+				value = 100 
+				# dynasty = 51
+			}
+			1002 = { 
+				value = 100 
+			}
+			1003 = { 
+				value = 100 
+				# dynasty = 1003
+			}
+			1004 = {
+				value = 100 
+				# dynasty = 1004
+			}
+			1004 = { 
+				value = 100 
+				# dynasty = 1005
+			}
+		}
+
+		likes = {
+			likes_wealth = {
+				value = 300
+			}
+			likes_tributaries = {
+				value = 100
+			}
+			
+			likes_middle_alemannics = {
+				value = 100
+			}
+			likes_low_alemannics = {
+				value = 100
+			}
+			likes_high_alemannics = {
+				value = 100
+			}
+			likes_cities = {
+				value = 100
+			}
+			likes_commoners = {
+				value = 100
+			}
+			likes_feudal = {
+				value = 100
+			}
+		}
+		
+		dislikes = {
+			likes_wealth = {
+				value = 300
+			}
+			likes_tributaries = {
+				value = 100
+			}
+			
+			likes_middle_alemannics = {
+				value = 100
+			}
+			likes_low_alemannics = {
+				value = 100
+			}
+			likes_high_alemannics = {
+				value = 100
+			}
+			likes_cities = {
+				value = 100
+			}
+			likes_commoners = {
+				value = 100
+			}
+			likes_feudal = {
+				value = 100
+			}
+		}
+	}
+
+    diplomatic_range = { 
+
+	}
+
+	icon_triggers = {
+
+	}
+	
+}
