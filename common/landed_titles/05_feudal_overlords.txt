@@ -1,0 +1,17 @@
+k_upper_austria = {
+    color={ 155 86 44 }
+	color2={ 255 255 255 }
+	capital = 220
+	culture = lower_allemannic
+	name_tier = duke
+
+
+	d_oberaargau = {}
+	
+	d_unteraargau = {}
+
+	d_regensberg = {}
+
+	d_baden = {}
+
+}
