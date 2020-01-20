@@ -1,0 +1,10 @@
+
+
+
+#Zurich Patrician Families
+b_brun = {}
+b_bodmer = {}
+b_burkli = {}
+b_meiss = {}
+b_jori = {}
+b_werdmuller = {}

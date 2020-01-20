@@ -6,3 +6,8 @@
 800.1.1={
 	liege= "k_alemannia"
 }
+1280.1.1={
+	liege= "d_zuerich"
+	government = merchant_republic_government
+	holder = 30005
+}

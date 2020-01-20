@@ -1,0 +1,60 @@
+#3000 CITY Dynasties
+
+3001=	
+{	
+	name="Bodmer"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	coat_of_arms = {
+        template = 0
+        layer = {
+            texture = 2
+            texture_internal = 0
+            emblem = 0
+            color = 14
+            color = 12
+            color = 1
+        }
+    }
+	
+}	
+
+3002=	
+{	
+	name="Brun"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	 
+	
+}	
+
+3003=	
+{	
+	name="Bürkli"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	 
+	
+}	
+3004=	
+{	
+	name="Meiss"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	 
+	
+}
+	
+3005=	
+{	
+	name="Jori"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	 
+	
+}	

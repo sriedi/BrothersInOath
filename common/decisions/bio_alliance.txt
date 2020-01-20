@@ -1,0 +1,11 @@
+#TargetedSwornAlliance
+#-Can only be formed by duke tiers
+
+
+
+#Invite to Sworn Alliance
+
+
+
+#Leave Sworn Alliance
+#-> CB Keep in the Alliance

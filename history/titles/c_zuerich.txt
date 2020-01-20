@@ -2,6 +2,9 @@
 500.1.1={
 	law = agnatic_succession
 }
-800.1.1={
-	liege= "k_alemannia"
+
+1280.1.1 = {
+	holder= 30001 #Huldrych Brun
+	law = succ_patrician_elective
+	government = merchant_republic_government
 }
