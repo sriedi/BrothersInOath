@@ -1,0 +1,128 @@
+targetted_decisions = {
+#TargetedSwornAlliance
+#-Can only be formed by duke tiers
+	form_sworn_alliance = {
+		ai_check_interval = 1
+
+		potential = {
+				FROM = {
+					is_ruler = yes
+					independent = yes
+					OR = {
+						government = commonassembly_government
+						government = guild_republic_government
+						is_republic = yes
+					}
+				}
+		}
+
+		allow = {
+			ROOT = {
+				war = no
+				is_ruler = yes
+				independent = yes
+				OR = {
+					government = commonassembly_government
+					government = guild_republic_government
+					is_republic = yes
+				}
+			}
+			FROM = {
+				war = no
+				NOT = {
+					has_character_modifier = negative_money
+				}
+			}
+		}
+		effect = {
+			ROOT = {
+				letter_event = {
+					id = bio.201
+					days = 4
+				}
+			}
+		}
+
+		ai_acceptance = {
+			factor = 0 # The base score
+			yes_threshold = 50 # At what point to switch from "maybe" to "yes". Defaults to 0, meaning it will never be "maybe"
+			show_maybe_for_human = no 
+			additive_modifier = {
+				value = -10
+				always = yes
+				localisation_key = "REASON_ALWAYS"
+			}
+			additive_modifier = {
+				value = 5
+				opinion = { who = FROM value >= 20 }
+			}
+			additive_modifier = {
+				value = 30
+				opinion = { who = FROM value >= 50 }
+			}
+			additive_modifier = {
+				value = 80
+				opinion = { who = FROM value >= 80 }
+			}
+			additive_modifier = {
+				value = -60
+				opinion = { who = FROM value =< -10 }
+			}
+			additive_modifier = {
+				value = 70
+				culture = FROM
+				localisation_key = "REASON_CULTURE"
+			}
+			additive_modifier = {
+				value = 20
+				distance_from_realm = {
+					who = ROOT
+					value < 100
+				}
+				localisation_key = "REASON_DISTANCE_CLOSE"
+			}
+			additive_modifier = {
+				value = -30
+				NOT = {
+					distance_from_realm = {
+						who = ROOT
+						value < 100
+					}
+				}
+				localisation_key = "REASON_DISTANCE_FAR"
+			}
+
+		}
+	}
+	
+
+#Invite to Sworn Alliance
+#-> 3rd Party Alliance Partner
+
+	invite_sworn_alliance ={
+
+	}
+#Leave Sworn Alliance
+#-> CB Keep in the Alliance
+	leave_alliance = {
+
+
+	}
+
+}
+
+#decisions = {
+
+	#form_confederacy = {
+
+	#}
+
+	#form_the_swissconfederacy = {
+
+	#}
+
+	#form_the_burgundian_confederacy = {
+
+	#}
+
+#}

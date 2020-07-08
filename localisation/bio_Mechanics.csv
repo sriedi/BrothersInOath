@@ -1,0 +1,19 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+traderoute_province_desc;Is traderoute Province;;Ist eine Handelsrouten Provinz;;;;;;;;;;;x
+form_sworn_alliance;Form a Sworn Alliance;;Schwurbund anbieten;;;;;;;;;;;x
+form_sworn_alliance_desc;Propose a sworn alliance between your terretories. . Sworn Alliances will not be dissolved when a Ruler dies. You will be the leader of the alliance;;Schlägt vor einen gegenseitigen Bundesschwur zu leisten. Schwurbünde überdauern, selbst wenn ein Herrscher stirbt. Ihr werded der Anführer des Bundes sein.;;;;;;;;;;;x
+REASON_CULTURE;Same Culture;;Gleiche Kultur;;;;;;;;;;;x
+REASON_DISTANCE_CLOSE;Distance;;Entfernung;;;;;;;;;;;x
+REASON_DISTANCE_FAR;Distance;;Entfernung;;;;;;;;;;;x
+REASON_ALWAYS;Base reluctance;;Grundzurückhaltung;;;;;;;;;;;x
+sworn_alliance;Sworn Alliance;;Schwurbund;;;;;;;;;;;x
+TRIBUTARY_SWORNALLIANCE_NAME;Sworn Ally;;Bundesgenosse;;;;;;;;;;;x
+TRIBUTARY_SWORNALLIANCE_PLURAL;Sworn Allies;;Bundesgenossen;;;;;;;;;;;x
+SUZERAIN_SWORNALLIANCE_NAME;Alliance Leader;;Bundführer;;;;;;;;;;;x
+TRIBUTARY_SWORNALLIANCE_TRIBUTE;Alliance Contribution;;Bundesbeitrag;;;;;;;;;;;x
+EVTDESCbio.201;Greetings [GetRootFromCompliment] [Root.GetTitle] [Root.GetName]. We propose that our people should form an oath of alliance in front of [From.Religion.GetRandomGodName]. Together our people will stand united against our enemies.;;Grüße euch [GetRootFromCompliment] [Root.GetTitle] [Root.GetName]. Wir schlagen vor, dass unsere beiden Völker einen Bündnisschwur ewiger Bruderschaft vor [From.Religion.GetRandomGodName] ablegen. Zusammen wollen wir gegen unsere Feinde stehen.;;;;;;;;;;;x
+EVENTOPTAbio.201;Yes let us stand together.;;Ja lasst uns zusammen stehen.;;;;;;;;;;;x
+EVENTOPTBbio.201;[Root.primary_title.GetBaseName] can stand alone.;;[Root.primary_title.GetBaseName] ist stark genug alleine.;;;;;;;;;;;x
+SUZERAIN_RELATIONSHIP;;;;;;;;;;;;;;x
+SUZERAIN_OF;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x

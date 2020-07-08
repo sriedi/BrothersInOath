@@ -47,7 +47,10 @@ narrative_event = {
 		
 		THIS = {
 			any_vassal = {
-				narrative_event = {id = bio.101}
+				narrative_event = {
+					id = bio.101
+					days = 4
+				}
 			}
 		}
 		ai_chance = {
@@ -85,7 +88,10 @@ narrative_event = {
 		name = EVENTOPAbio.101
 		custom_tooltip = { text = EVENTOPATTbio.101 }
 		FROM = {
-			letter_event = { id = bio.102 }
+			letter_event = { 
+				id = bio.102
+				days = 2
+			}
 		}
 		ai_chance = {
 			factor = 12
@@ -107,7 +113,10 @@ narrative_event = {
 		name = EVENTOPBbio.101
 		custom_tooltip = { text = EVENTOPBTTbio.101 }
 		FROM = {
-			letter_event = { id = bio.103 }
+			letter_event = { 
+				id = bio.103 
+				days = 2
+			}
 		}
 		ai_chance = {
 		factor = 10
@@ -245,7 +254,9 @@ letter_event = {
     id = bio.106
     desc = EVTDESCbio.106
     is_triggered_only = yes
-	
+	mean_time_to_happen = {
+		days = 2
+    }
 	option = {
 		name = EVTOPTAbio.106
 		
@@ -256,7 +267,9 @@ letter_event = {
     id = bio.107
     desc = EVTDESCbio.107
     is_triggered_only = yes
-	
+	mean_time_to_happen = {
+		days = 2
+    }
 	option = {
 		name = EVTOPTAbio.107
 		
