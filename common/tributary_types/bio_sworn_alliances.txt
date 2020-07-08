@@ -10,6 +10,11 @@ sworn_alliance = {
 	tributary_must_defend = yes
 	tributaries_can_unite = no
 	breaks_on_realm_change = yes
+	cbs_against_suzerain = {
+		religious
+		excommunicated_ruler
+		peasant_revolt
+	}
 	icon = 9
 	income_tribute_percentage = {
 		value = 0

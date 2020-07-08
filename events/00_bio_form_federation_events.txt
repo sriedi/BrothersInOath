@@ -46,6 +46,52 @@ letter_event = {
 		
 	}
 }
+#Invite into Sworn Alliance
+letter_event = {
+	id = bio.204
+	desc = EVTDESCbio.204
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.204
+		FROMFROM = {
+			letter_event = {
+				id = bio.204
+				days = 4
+			}
+		}
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 15
+				OR = {
+					trait = trusting
+					trait = humble
+				}
+			}
+		}
+	}
+	option = {
+		name = EVENTOPTBbio.204
+		FROM = {
+			letter_event = {
+				id = bio.204
+				days = 4
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 100
+				OR = {
+				trait = lunatic
+				}
+			}
+		}
+		
+	}
+}
 #Answer to Request Positive
 letter_event = {
 	id = bio.202
