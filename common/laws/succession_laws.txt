@@ -3,11 +3,11 @@
 succession_laws = {
 	succ_papal_succession = {
 		potential = {
-			title = k_papal_state
+			always = no
 		}
 		
 		effect = {
-			succession = open_elective
+			succession = papal_succession
 		}
 		revoke_allowed = {
 			always = no

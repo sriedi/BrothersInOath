@@ -3,9 +3,9 @@ traderoute_province_desc;Is traderoute Province;;Ist eine Handelsrouten Provinz;
 form_sworn_alliance;Form a Sworn Alliance;;Schwurbund anbieten;;;;;;;;;;;x
 form_sworn_alliance_desc;Propose a sworn alliance between your terretories. Sworn Alliances will not be dissolved when a Ruler dies. You will be the leader of the alliance;;Schlägt vor einen gegenseitigen Bundesschwur zu leisten. Schwurbünde überdauern, selbst wenn ein Herrscher stirbt. Ihr werded der Anführer des Bundes sein.;;;;;;;;;;;x
 invite_sworn_alliance;Invite to Sworn Alliance;;Zu Schwurbund einladen;;;;;;;;;;;x
-invite_sworn_alliance_desc;Invite [Root.GetName] to your sworn alliance. This will extend your sworn alliance.;;[Root.GetName] zum Schwurbund einladen. Dies wird euren Schwurbund erweitern.;;;;;;;;;;;x
+invite_sworn_alliance_desc;Invite §Y[Root.GetTitledFirstName]§! to your sworn alliance. This will extend your sworn alliance.;;[Root.GetName] zum Schwurbund einladen. Dies wird euren Schwurbund erweitern.;;;;;;;;;;;x
 invite_sworn_alliance_of_suzerain;Invite to Sworn Alliance;;Zu Schwurbund einladen;;;;;;;;;;;x
-invite_sworn_alliance_of_suzerain_desc;Invite [Root.GetName] to your sworn alliance. This will extend your sworn alliance.;;[Root.GetName] zum Schwurbund einladen. Dies wird euren Schwurbund erweitern.;;;;;;;;;;;x
+invite_sworn_alliance_of_suzerain_desc;Invite §Y[Root.GetTitledFirstName]§! to your sworn alliance. This will extend your sworn alliance.;;[Root.GetName] zum Schwurbund einladen. Dies wird euren Schwurbund erweitern.;;;;;;;;;;;x
 REASON_CULTURE;Same Culture;;Gleiche Kultur;;;;;;;;;;;x
 REASON_DISTANCE_CLOSE;Distance;;Entfernung;;;;;;;;;;;x
 REASON_DISTANCE_FAR;Distance;;Entfernung;;;;;;;;;;;x
@@ -28,7 +28,13 @@ EVENTOPTAbio.203;How dare you!;;Wie könnt ihr nur!;;;;;;;;;;;x
 EVTDESCbio.204;Greetings [Root.GetTitle] [Root.GetName]. We propose that our people should form an oath of alliance in front of [From.Religion.GetRandomGodName]. So you can enter our alliance with our other brothers in oath.;;Grüße euch [Root.GetTitle] [Root.GetName]. Wir schlagen vor, dass unsere beiden Völker einen Bündnisschwur ewiger Bruderschaft vor [From.Religion.GetRandomGodName] ablegen. So könnt ihr in unseren gemeinsamen Bund mit unseren Schwurbrüdern eintreten.;;;;;;;;;;;x
 EVENTOPTAbio.204;Yes let us stand together.;;Ja lasst uns zusammen stehen.;;;;;;;;;;;x
 EVENTOPTBbio.204;[Root.PrimaryTitle.GetBaseName] can stand alone.;;[Root.PrimaryTitle.GetBaseName] ist stark genug alleine.;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
+EVTDESCbio.205;Greetings [Root.GetTitle] [Root.GetName]. We propose that our people should form an oath of alliance in front of [From.Religion.GetRandomGodName]. So you can enter our alliance with our other brothers in oath.;;Grüße euch [Root.GetTitle] [Root.GetName]. Wir schlagen vor, dass unsere beiden Völker einen Bündnisschwur ewiger Bruderschaft vor [From.Religion.GetRandomGodName] ablegen. So könnt ihr in unseren gemeinsamen Bund mit unseren Schwurbrüdern eintreten.;;;;;;;;;;;x
+EVENTOPTAbio.205;Yes let us stand together.;;Ja lasst uns zusammen stehen.;;;;;;;;;;;x
+EVENTOPTBbio.205;[Root.PrimaryTitle.GetBaseName] can stand alone.;;[Root.PrimaryTitle.GetBaseName] ist stark genug alleine.;;;;;;;;;;;x
+EVTDESCbio.206;To the great noble [Root.GetTitle]. In the name of [From.Religion.GetRandomGodName] the people of [From.PrimaryTitle.GetBaseName] will stand with the people of [Root.PrimaryTitle.GetBaseName] and their brothers in oath against all dreads and enemies.;;Oh grosser nobler [Root.GetTitle]. Vor [From.Religion.GetRandomGodName] leisten die Leute von [From.PrimaryTitle.GetBaseName] einen Schwur mit den Leuten von [Root.PrimaryTitle.GetBaseName] und ihren Schwurbrüdern gemeinsam gegen alle Gefahren und Gegner zu stehen.;;;;;;;;;;;x
+EVENTOPTAbio.206;So help us [From.Religion.GetRandomGodName].;;So wahr uns [From.Religion.GetRandomGodName] helfe.;;;;;;;;;;;x
+EVTDESCbio.207;How can you [Root.GetName] think we need any help? We will not besmirch the name of [From.Religion.GetRandomGodName] in takeing oath with the people of [Root.PrimaryTitle.GetBaseName] and their worthless brothers.;;Wie könnt ihr [Root.GetName] denken wir bräuchten Hilfe? Wir werden nicht den Namen von [From.Religion.GetRandomGodName] beschmutzen indem wir einen Schwur mit den schäbigen Leuten von [Root.PrimaryTitleGetBaseName] und ihren anderen Schwurbrüdern leisten.;;;;;;;;;;;x
+EVENTOPTAbio.207;How dare you!;;Wie könnt ihr nur!;;;;;;;;;;;x
+invites_to_swornalliance;Already inviteing someone else to a sworn alliance;;Lädt bereits jemanden zum Schwurbund ein.;;;;;;;;;;;x
 NOT_ANY_INDEP_RULER_STARTS;NO other independet ruler;;KEIN anderer unabhängiger Herrscher;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x

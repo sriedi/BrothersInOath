@@ -6,6 +6,7 @@ targetted_decisions = {
 		filter = independent_rulers
 		potential = {
 				FROM = {
+					higher_tier_than = COUNT
 					is_ruler = yes
 					independent = yes
 					OR = {
@@ -13,21 +14,19 @@ targetted_decisions = {
 						government = guild_republic_government
 						is_republic = yes
 					}
-
+					
 					NOT = {
-						OR = {
+						is_tributary = {
+							type = sworn_alliance
+						}
+
+						any_tributary  = {
 							is_tributary = {
 								type = sworn_alliance
 							}
-							any_independent_ruler = {
-								is_tributary = {
-									type = sworn_alliance
-									suzerain = ROOT
-								}
-							}
-
 						}
 					}
+						
 				}
 		}
 
@@ -42,17 +41,15 @@ targetted_decisions = {
 					is_republic = yes
 				}
 				NOT = {
-					OR = {
+
+					is_tributary = {
+						type = sworn_alliance
+					}
+
+					any_tributary = {
 						is_tributary = {
 							type = sworn_alliance
-						}
-					}
-					OR = {
-						any_independent_ruler = {
-							is_tributary = {
-								type = sworn_alliance
-								suzerain = ROOT
-							}
+							suzerain = ROOT
 						}
 					}
 				}
@@ -61,6 +58,7 @@ targetted_decisions = {
 				war = no
 				NOT = {
 					has_character_modifier = negative_money
+					has_character_flag = invites_to_swornalliance
 				}
 			}
 		}
@@ -70,6 +68,9 @@ targetted_decisions = {
 					id = bio.201
 					days = 4
 				}
+			}
+			FROM = {
+				set_character_flag = invites_to_swornalliance
 			}
 		}
 
@@ -131,7 +132,7 @@ targetted_decisions = {
 			}
 			additive_modifier = {
 				value = -60
-				opinion = { who = FROM value =< -10 }
+				opinion = { who = FROM value <= -10 }
 			}
 			additive_modifier = {
 				value = 70
@@ -142,18 +143,19 @@ targetted_decisions = {
 				value = 20
 				NOT = {
 					distance = {
-						who = ROOT
-						value > 60
+						who = FROM
+						value >= 450
 					}
 				}
 				localisation_key = "REASON_DISTANCE_CLOSE"
 			}
 			additive_modifier = {
 				value = -30
-					distance_from_realm = {
-						who = ROOT
-						value > 100
-					}
+				distance = {
+					who = FROM
+					value >= 450
+				}
+
 				localisation_key = "REASON_DISTANCE_FAR"
 			}
 			additive_modifier ={
@@ -165,24 +167,20 @@ targetted_decisions = {
 			}
 
 		}
-
-
 	}
 	
 
 #Invite to Sworn Alliance
-#-> 3rd Party Alliance Partner
 
 	invite_sworn_alliance ={
 		ai_check_interval = 4
 		filter = independent_rulers
 		potential = {
 			FROM = {
-				OR = {
-					any_tributary = {
-						is_tributary = {
-							type = sworn_alliance
-						}
+				higher_tier_than = COUNT
+				any_tributary = {
+					is_tributary = {
+						type = sworn_alliance
 					}
 				}
 			}
@@ -199,19 +197,13 @@ targetted_decisions = {
 					is_republic = yes
 				}
 				NOT = {
-					OR = {
+					is_tributary = {
+						type = sworn_alliance
+					}
+					any_independent_ruler = {
 						is_tributary = {
 							type = sworn_alliance
-						}
-					}
-					OR = {
-						NOT = {
-							any_independent_ruler = {
-								is_tributary = {
-									type = sworn_alliance
-									suzerain = ROOT
-								}
-							}
+							suzerain = ROOT
 						}
 					}
 				}
@@ -220,7 +212,15 @@ targetted_decisions = {
 				war = no
 				NOT = {
 					has_character_modifier = negative_money
+					has_character_flag = invites_to_swornalliance
+					any_tributary = {
+						opinion = {
+							who = suzerain
+							value <= 0
+						}
+					}
 				}
+				
 			}
 		}
 		effect = {
@@ -229,6 +229,9 @@ targetted_decisions = {
 					id = bio.204
 					days = 4
 				}
+			}
+			FROM = {
+				set_character_flag = invites_to_swornalliance
 			}
 		}
 		ai_will_do = {
@@ -272,7 +275,7 @@ targetted_decisions = {
 			}
 			additive_modifier = {
 				value = -60
-				opinion = { who = FROM value =< -10 }
+				opinion = { who = FROM value <= -10 }
 			}
 			additive_modifier = {
 				value = 70
@@ -281,20 +284,21 @@ targetted_decisions = {
 			}
 			additive_modifier = {
 				value = 20
-				distance_from_realm = {
-					who = ROOT
-					value < 100
+				NOT = {
+					distance = {
+						who = FROM
+						value >= 450
+					}
 				}
 				localisation_key = "REASON_DISTANCE_CLOSE"
 			}
 			additive_modifier = {
 				value = -30
-				NOT = {
-					distance_from_realm = {
-						who = ROOT
-						value < 100
-					}
+				distance = {
+					who = FROM
+					value >= 450
 				}
+
 				localisation_key = "REASON_DISTANCE_FAR"
 			}
 			additive_modifier ={
@@ -314,12 +318,9 @@ targetted_decisions = {
 		filter = independent_rulers
 		potential = {
 			FROM = {
-				OR = {
-					any_tributary = {
-						is_tributary = {
-							type = sworn_alliance
-						}
-					}
+				higher_tier_than = COUNT
+				is_tributary = {
+					type = sworn_alliance
 				}
 			}
 		}
@@ -335,19 +336,13 @@ targetted_decisions = {
 					is_republic = yes
 				}
 				NOT = {
-					OR = {
+					is_tributary = {
+						type = sworn_alliance
+					}
+					any_independent_ruler = {
 						is_tributary = {
 							type = sworn_alliance
-						}
-					}
-					OR = {
-						NOT = {
-							any_independent_ruler = {
-								is_tributary = {
-									type = sworn_alliance
-									suzerain = ROOT
-								}
-							}
+							suzerain = ROOT
 						}
 					}
 				}
@@ -356,11 +351,31 @@ targetted_decisions = {
 				war = no
 				NOT = {
 					has_character_modifier = negative_money
+					has_character_flag = invites_to_swornalliance
+				}
+				is_tributary = {
+					type = sworn_alliance
+				}
+				suzerain = {
+					any_tributary = {
+						opinion = {
+							who = suzerain
+							value >= 0
+						}
+					}
 				}
 			}
 		}
 		effect = {
-		#Commands executed when taking the decision
+			ROOT = {
+				letter_event = {
+					id = bio.205
+					days = 4
+				}
+			}
+			FROM = {
+				set_character_flag = invites_to_swornalliance
+			}
 		}
 		ai_will_do = {
 			factor = 0
@@ -403,7 +418,7 @@ targetted_decisions = {
 			}
 			additive_modifier = {
 				value = -60
-				opinion = { who = FROM value =< -10 }
+				opinion = { who = FROM value <= -10 }
 			}
 			additive_modifier = {
 				value = 70
@@ -412,20 +427,21 @@ targetted_decisions = {
 			}
 			additive_modifier = {
 				value = 20
-				distance_from_realm = {
-					who = ROOT
-					value < 100
+				NOT = {
+					distance = {
+						who = FROM
+						value >= 450
+					}
 				}
 				localisation_key = "REASON_DISTANCE_CLOSE"
 			}
 			additive_modifier = {
 				value = -30
-				NOT = {
-					distance_from_realm = {
-						who = ROOT
-						value < 100
-					}
+				distance = {
+					who = FROM
+					value >= 450
 				}
+
 				localisation_key = "REASON_DISTANCE_FAR"
 			}
 			additive_modifier ={
@@ -439,15 +455,17 @@ targetted_decisions = {
 		}
 	}
 
+}#targetedDescisions
+
 
 #Leave Sworn Alliance
 #-> CB Keep in the Alliance
-	leave_alliance = {
+	#leave_alliance = {
 
 
-	}
+	#}
 
-}
+
 
 #Request Admission into Sworn Alliance
 
