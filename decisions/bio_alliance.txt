@@ -7,6 +7,7 @@ targetted_decisions = {
 		potential = {
 				FROM = {
 					higher_tier_than = COUNT
+					lower_tier_than = KING
 					is_ruler = yes
 					independent = yes
 					OR = {
@@ -59,8 +60,20 @@ targetted_decisions = {
 				NOT = {
 					has_character_modifier = negative_money
 					has_character_flag = invites_to_swornalliance
+					
 				}
+				conditional_tooltip = {
+					trigger = {
+							has_character_flag = invites_to_swornalliance
+						}
+					custom_tooltip = {
+						text = invites_to_swornalliance
+					}
+				}
+				
 			}
+
+		
 		}
 		effect = {
 			ROOT = {
@@ -169,7 +182,6 @@ targetted_decisions = {
 		}
 	}
 	
-
 #Invite to Sworn Alliance
 
 	invite_sworn_alliance ={
@@ -177,7 +189,7 @@ targetted_decisions = {
 		filter = independent_rulers
 		potential = {
 			FROM = {
-				higher_tier_than = COUNT
+				lower_tier_than = KING
 				any_tributary = {
 					is_tributary = {
 						type = sworn_alliance
@@ -220,8 +232,16 @@ targetted_decisions = {
 						}
 					}
 				}
-				
+				conditional_tooltip = {
+					trigger = {
+							has_character_flag = invites_to_swornalliance
+						}
+					custom_tooltip = {
+						text = invites_to_swornalliance
+					}
+				}
 			}
+
 		}
 		effect = {
 			ROOT = {
@@ -318,7 +338,7 @@ targetted_decisions = {
 		filter = independent_rulers
 		potential = {
 			FROM = {
-				higher_tier_than = COUNT
+				lower_tier_than = KING
 				is_tributary = {
 					type = sworn_alliance
 				}
@@ -364,7 +384,16 @@ targetted_decisions = {
 						}
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+							has_character_flag = invites_to_swornalliance
+						}
+					custom_tooltip = {
+						text = invites_to_swornalliance
+					}
+				}
 			}
+
 		}
 		effect = {
 			ROOT = {
@@ -455,27 +484,544 @@ targetted_decisions = {
 		}
 	}
 
+	#Request Admission into Sworn Alliance
+
+	request_entry_into_sworn_alliance ={
+		ai_check_interval = 4
+		filter = independent_rulers
+		potential = {
+			FROM = {
+				lower_tier_than = KING
+				is_ruler = yes
+				independent = yes
+				OR = {
+					government = commonassembly_government
+					government = guild_republic_government
+					is_republic = yes
+				}
+				
+				NOT = {
+					is_tributary = {
+						type = sworn_alliance
+					}
+
+					any_tributary  = {
+						is_tributary = {
+							type = sworn_alliance
+						}
+					}
+				}
+					
+			}
+			ROOT = {
+				any_tributary  = {
+					is_tributary = {
+						type = sworn_alliance
+					}
+				}
+			}
+		}
+
+		allow = {
+			ROOT = {
+				war = no
+				is_ruler = yes
+				independent = yes
+				OR = {
+					government = commonassembly_government
+					government = guild_republic_government
+					is_republic = yes
+				}
+			}
+			FROM = {
+				war = no
+				NOT = {
+					has_character_modifier = negative_money
+					has_character_flag = invites_to_swornalliance
+					any_tributary = {
+						opinion = {
+							who = suzerain
+							value <= 0
+						}
+					}
+				}
+				conditional_tooltip = {
+					trigger = {
+							has_character_flag = invites_to_swornalliance
+						}
+					custom_tooltip = {
+						text = invites_to_swornalliance
+					}
+				}
+			}
+
+		}
+		effect = {
+			ROOT = {
+				letter_event = {
+					id= bio.208
+					days = 4
+				}
+			}
+			FROM = {
+				set_character_flag = invites_to_swornalliance
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.5
+				opinion = { who = FROM value >= 50 }
+			}
+			modifier = {
+				factor = 0.7
+				opinion = { who = FROM value >= 80 }
+			}
+			modifier = {
+				factor = 0.8
+				any_neighbor_independent_ruler = {
+					infamy >= 20
+				}
+			}
+		}
+
+		ai_acceptance = {
+			factor = 0 # The base score
+			yes_threshold = 50 # At what point to switch from "maybe" to "yes". Defaults to 0, meaning it will never be "maybe"
+			show_maybe_for_human = no 
+			additive_modifier = {
+				value = -10
+				always = yes
+				localisation_key = "REASON_ALWAYS"
+			}
+			additive_modifier = {
+				value = 5
+				opinion = { who = FROM value >= 20 }
+			}
+			additive_modifier = {
+				value = 30
+				opinion = { who = FROM value >= 50 }
+			}
+			additive_modifier = {
+				value = 80
+				opinion = { who = FROM value >= 80 }
+			}
+			additive_modifier = {
+				value = -60
+				opinion = { who = FROM value <= -10 }
+			}
+			additive_modifier = {
+				value = 70
+				culture = FROM
+				localisation_key = "REASON_CULTURE"
+			}
+			additive_modifier = {
+				value = 20
+				NOT = {
+					distance = {
+						who = FROM
+						value >= 450
+					}
+				}
+				localisation_key = "REASON_DISTANCE_CLOSE"
+			}
+			additive_modifier = {
+				value = -30
+				distance = {
+					who = FROM
+					value >= 450
+				}
+
+				localisation_key = "REASON_DISTANCE_FAR"
+			}
+			additive_modifier ={
+				value = 60
+				any_neighbor_independent_ruler = {
+					infamy >= 20
+				}
+				localisation_key = "REASON_THREATEND"
+			}
+
+		}
+	}
+
+	#Request Admission into Sworn Alliance of Suzerain
+
+	request_entry_into_sworn_alliance_suzerain ={
+		ai_check_interval = 4
+		filter = independent_rulers
+		potential = {
+			FROM = {
+				lower_tier_than = KING
+				is_ruler = yes
+				independent = yes
+				OR = {
+					government = commonassembly_government
+					government = guild_republic_government
+					is_republic = yes
+				}
+				
+				NOT = {
+					is_tributary = {
+						type = sworn_alliance
+					}
+
+					any_tributary  = {
+						is_tributary = {
+							type = sworn_alliance
+						}
+					}
+				}
+					
+			}
+			ROOT = {
+					is_tributary = {
+						type = sworn_alliance
+						suzerain = ROOT
+					}
+			}
+		}
+
+		allow = {
+			ROOT = {
+				war = no
+				is_ruler = yes
+				independent = yes
+				OR = {
+					government = commonassembly_government
+					government = guild_republic_government
+					is_republic = yes
+				}
+			}
+			FROM = {
+				war = no
+				NOT = {
+					has_character_modifier = negative_money
+					has_character_flag = invites_to_swornalliance
+					any_tributary = {
+						opinion = {
+							who = suzerain
+							value <= 0
+						}
+					}
+				}
+				conditional_tooltip = {
+					trigger = {
+							has_character_flag = invites_to_swornalliance
+						}
+					custom_tooltip = {
+						text = invites_to_swornalliance
+					}
+				}
+			}
+
+		}
+		effect = {
+			ROOT = {
+				letter_event = {
+					id= bio.211
+					days = 4
+				}
+			}
+			FROM = {
+				set_character_flag = invites_to_swornalliance
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.5
+				opinion = { who = FROM value >= 50 }
+			}
+			modifier = {
+				factor = 0.7
+				opinion = { who = FROM value >= 80 }
+			}
+			modifier = {
+				factor = 0.8
+				any_neighbor_independent_ruler = {
+					infamy >= 20
+				}
+			}
+		}
+
+		ai_acceptance = {
+			factor = 0 # The base score
+			yes_threshold = 50 # At what point to switch from "maybe" to "yes". Defaults to 0, meaning it will never be "maybe"
+			show_maybe_for_human = no 
+			additive_modifier = {
+				value = -10
+				always = yes
+				localisation_key = "REASON_ALWAYS"
+			}
+			additive_modifier = {
+				value = 5
+				opinion = { who = FROM value >= 20 }
+			}
+			additive_modifier = {
+				value = 30
+				opinion = { who = FROM value >= 50 }
+			}
+			additive_modifier = {
+				value = 80
+				opinion = { who = FROM value >= 80 }
+			}
+			additive_modifier = {
+				value = -60
+				opinion = { who = FROM value <= -10 }
+			}
+			additive_modifier = {
+				value = 70
+				culture = FROM
+				localisation_key = "REASON_CULTURE"
+			}
+			additive_modifier = {
+				value = 20
+				NOT = {
+					distance = {
+						who = FROM
+						value >= 450
+					}
+				}
+				localisation_key = "REASON_DISTANCE_CLOSE"
+			}
+			additive_modifier = {
+				value = -30
+				distance = {
+					who = FROM
+					value >= 450
+				}
+
+				localisation_key = "REASON_DISTANCE_FAR"
+			}
+			additive_modifier ={
+				value = 60
+				any_neighbor_independent_ruler = {
+					infamy >= 20
+				}
+				localisation_key = "REASON_THREATEND"
+			}
+
+		}
+	}
+
+
 }#targetedDescisions
 
 
 #Leave Sworn Alliance
 #-> CB Keep in the Alliance
-	#leave_alliance = {
+decisions = {
+	leave_alliance = {
+		is_high_prio = no
+		ai_check_interval = 1
+		potential = {
+			ROOT = {
+				primary_title = {
+					has_title_flag = in_sworn_alliance
+				}
+			}
+		}
+
+		allow = {
+			ROOT = {
+				is_tributary = {
+					type = sworn_alliance
+				}
+				custom_tooltip = {
+					text = cant_be_allianceleader
+					NOT = {
+						any_tributary = {
+							is_tributary = {
+								type = sworn_alliance
+							}
+						}
+						
+					}
+				}
+			}
+		}
+		effect = {
+			add_character_modifier = {
+				modifier = oath_breaker
+				years = 10
+			}
+			
+			piety = -1000
+			any_suzerain = {
+				remove_tributary = ROOT
+				letter_event = {
+					id = bio.204
+					days = 4
+				}
+			}
+			primary_title = {
+				clr_title_flag = in_sworn_alliance
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.3
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.9
+				trait = lunatic
+			}
+
+			modifier = {
+				factor = 0.7
+				opinion = { who = suzerain value <= -20 }
+			}
+			modifier = {
+				factor = 0.9
+				any_suzerain = {
+					NOT = {
+						calc_true_if = {
+						religion = ROOT
+						}
+					}
+				}
+			}
+		}
+		
+
+	}
+
+	
+	take_over_sworn_alliance = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 80
+
+		potential = {
+			ROOT = {
+				is_tributary = {
+					type = sworn_alliance
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = part_of_alliance_desc
+				ROOT = {
+					primary_title = {
+						had_title_flag = {
+							flag = in_sworn_alliance
+							years >= 3
+						}
+					}
+				}
+			}
+			ROOT = {
+				suzerain = {
+					war =no
+					any_tributary = {
+						war = no
+					}
+				}
+				war = no
+			}
+			
+		}
+		effect = {
+			suzerain = {
+				
+				any_tributary = {
+					IF = {
+						limit ={
+							NOT = {
+								character = ROOT
+							}
+						}
+					
+						any_suzerain = {
+							remove_tributary = PREV 
+						}
+						ROOT = {
+							make_tributary = {
+								who = PREV
+								tributary_type = sworn_alliance
+								}
+						}
+						
+					}
+					letter_event = {
+						id = bio.214
+					}	
+					
+				}
+				ROOT = {
+					make_tributary = {
+						who = PREV
+						tributary_type = sworn_alliance
+						}
+					}
+				letter_event = {
+					id = bio.214
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 
 
-	#}
+	form_confederacy = {
+		is_high_prio = yes
+		ai_check_interval = 4
+		
+		potential = {
+			ROOT = {
+				primary_title = {
+					has_title_flag = in_sworn_alliance
+				}
+				NOT = {
+					is_tributary = yes
+				}
+			}
+		}
 
+		allow = {
+			custom_tooltip = {
+				text = part_of_alliance_desc
+				ROOT = {
+					primary_title = {
+						had_title_flag = {
+							flag = in_sworn_alliance
+							years >= 3
+						}
+					}
+				}
+			}
+			war = no
+			any_tributary = {
+				opinion = {
+					who = ROOT
+					value >= 10  
+				}
+			}
+			
+		}
 
+		effect = {
+			narrative_event = {
+				id =bio.215
+			}
+		}
 
-#Request Admission into Sworn Alliance
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.8
+				trait = ambitious
+			}
+		}
 
-
-
-#decisions = {
-
-	#form_confederacy = {
-
-	#}
+	}
 
 	#form_the_swissconfederacy = {
 
@@ -484,5 +1030,4 @@ targetted_decisions = {
 	#form_the_burgundian_confederacy = {
 
 	#}
-
-#}
+}#decisions

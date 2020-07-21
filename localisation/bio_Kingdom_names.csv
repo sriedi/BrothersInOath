@@ -19,7 +19,12 @@ k_schwaben;Schwaben;Schwaben;Schwaben;;Schwaben;;;;;;;;;x
 k_schwaben_adj;Schwabenian;;schwäbisch;;;;;;;;;;;x
 k_upper_burgundy;Upper Burgundy;Upper Burgundy;Oberburgund;;Upper Burgundy;;;;;;;;;x
 k_upper_burgundy_adj;Upper Burgundian;;oberburgundisch;;;;;;;;;;;x
-k_koln;Cologne;;Köln;;;;;;;;;;;
-k_koln_adj;cologian;;kölnisch;;;;;;;;;;;
-k_brandenburg;Brandenburg;;Brandenburg;;;;;;;;;;;
-k_brandenburg_adj;brandenburgian;;brandenburgerisch;;;;;;;;;;;
+k_aarburgundy_conf;Aaarburgundy Confederation;;Aaarburgunder Bund;;;;;;;;;;;x
+k_aarburgundy_conf_adj;Aarburgundian;;aarburgundisch;;;;;;;;;;;x
+k_aargau_conf;Aargau Confederation;;Aargauer Bund;;;;;;;;;;;x
+k_aargau_conf_adj;Aargovian;;aargauisch;;;;;;;;;;;x
+k_common_conf;Commoner Confederation;;Grosser Gemeinde Bund;;;;;;;;;;;x
+k_common_conf_adj;Commoner;;gemein;;;;;;;;;;;x
+k_grey_confederacy;Grey Confederation;;Grauer Bund;;;;;;;;;;;x
+k_grey_confederacy_adj ;Grison;;bünderisch;;;;;;;;;;;x
+;;;;;;;;;;;;;;x

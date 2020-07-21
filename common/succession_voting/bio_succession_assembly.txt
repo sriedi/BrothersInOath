@@ -306,6 +306,10 @@ assembly_elective_voteing = {
 				
 					
 				}
+				NOR = {
+					is_republic = yes
+					is_theocracy = yes
+				}
 			}
 			
 			FROM = {

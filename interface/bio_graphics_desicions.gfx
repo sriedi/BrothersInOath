@@ -1,0 +1,19 @@
+spriteTypes = {
+	spriteType = {
+	  name = "GFX_leave_alliance"
+	  texturefile = "gfx\\interface\\decision_icon_faction_overthrow_ultimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_take_over_sworn_alliance"
+		texturefile = "gfx\\interface\\decision_icon_help_liege_manage_titles.dds"
+	  }
+	  spriteType = {
+		name = "GFX_take_over_sworn_alliance"
+		texturefile = "gfx\\interface\\decision_icon_help_liege_manage_titles.dds"
+	  }
+	  spriteType = {
+		name = "GFX_form_confederacy"
+		texturefile = "gfx\\interface\\decision_icon_faction_independence_ultimatum.dds"
+	  }
+	
+  }

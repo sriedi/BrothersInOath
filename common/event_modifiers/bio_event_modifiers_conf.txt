@@ -1,0 +1,6 @@
+oath_breaker = {
+	monthly_prestige = -1.0
+	diplomacy_penalty = -5
+	general_opinion = -30
+	icon = 35
+}

@@ -158,7 +158,6 @@ letter_event = {
 	}
 }
 
-
 #Answer to Request Positive
 letter_event = {
 	id = bio.202
@@ -170,6 +169,14 @@ letter_event = {
 		make_tributary = {
 			who = FROM
 			tributary_type = sworn_alliance
+		}
+		FROM = {
+			primary_title = {
+				set_title_flag = in_sworn_alliance
+			}
+		}
+		primary_title = {
+			set_title_flag = in_sworn_alliance
 		}
 		clr_character_flag = invites_to_swornalliance
 	}
@@ -201,6 +208,11 @@ letter_event = {
 				tributary_type = sworn_alliance
 			}
 		}
+		FROM = {
+			primary_title = {
+				set_title_flag = in_sworn_alliance
+			}
+		}
 		clr_character_flag = invites_to_swornalliance
 	}
 }
@@ -220,9 +232,601 @@ letter_event = {
 
 
 #Request of Entering a Sworn Alliance
+letter_event = {
+	id = bio.208
+	desc= EVTDESCbio.208
+	is_triggered_only = yes
 
-#Answer Positive
+	option = {
+		name = EVENTOPTAbio.208
+		FROMFROM = {
+			letter_event = {
+				id = bio.209
+				days = 4
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 15
+				OR = {
+					trait = trusting
+					trait = humble
+				}
+			}
+			modifier = {
+				factor = -100
+				OR = {
+				trait = lunatic
+				}
+			}
+		}
+	}
+	option = {
+		name = EVENTOPTBbio.208
+		FROM = {
+			letter_event = {
+				id = bio.210
+				days = 4
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 100
+				OR = {
+				trait = lunatic
+				}
+			}
+		}
+		
+	}
+}
 
-#Answer Negative
+#Request of Enter Alliance of Suzerain
+
+letter_event = {
+	id = bio.211
+	desc= EVTDESCbio.211
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.211
+		FROMFROM = {
+			letter_event = {
+				id = bio.212
+				days = 4
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 15
+				OR = {
+					trait = trusting
+					trait = humble
+				}
+			}
+			modifier = {
+				factor = -100
+				OR = {
+				trait = lunatic
+				}
+			}
+		}
+	}
+	option = {
+		name = EVENTOPTBbio.211
+		FROM = {
+			letter_event = {
+				id = bio.210
+				days = 4
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 100
+				OR = {
+				trait = lunatic
+				}
+			}
+		}
+		
+	}
+}
+
+#Request Answer Positive
+letter_event = {
+	id = bio.209
+	desc= EVTDESCbio.209
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.209
+		clr_character_flag = invites_to_swornalliance
+		FROM = {
+			make_tributary = {
+				who = ROOT
+				tributary_type = sworn_alliance
+			}
+			primary_title = {
+				set_title_flag = in_sworn_alliance
+			}
+		}
+	}
+}
+#Request Answer Positive Suzerain
+letter_event = {
+	id = bio.212
+	desc= EVTDESCbio.212
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.212
+		clr_character_flag = invites_to_swornalliance
+		FROM = {
+			suzerain = {
+				make_tributary = {
+					who = ROOT
+					tributary_type = sworn_alliance
+				}
+			}
+		}
+		ROOT = {
+			primary_title = {
+				set_title_flag = in_sworn_alliance
+			}
+		}
+	}
+}
 
 
+#Request Answer Negative
+letter_event = {
+	id = bio.210
+	desc= EVTDESCbio.210
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.210
+		clr_character_flag = invites_to_swornalliance
+	}
+}
+
+#Leave  Alliance
+letter_event = {
+	id = bio.213
+	desc= EVTDESCbio.213
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.213
+	}
+}
+
+#Taken LeaderShip Info
+
+letter_event = {
+	id = bio.214
+	desc= EVTDESCbio.214
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.214
+	}
+}
+
+narrative_event = {
+	id = bio.215
+	title = EVENTTitlebio.215
+	picture = GFX_evt_heretic
+	desc = EVTDESCbio.215
+	is_triggered_only = yes
+	
+	
+	#Title Name
+	option = {
+		name = EVENTOPTAbio_generic.215
+		if = {
+			limit = {
+				is_republic = yes
+			}
+			random_tributary = {
+				create_title = {
+					tier = KING
+					custom_created = yes
+					culture = THIS
+					holder = THIS
+					base_title = ROOT
+					copy_title_laws = yes
+				}
+				THIS = {
+					save_event_target_as = targetliege
+				}
+				set_government_type = commonassembly_government
+				primary_title = {
+					succession = {
+						base_type = feudal_elective 
+						voting_rules = assembly_elective_voteing #Definded in common/succession_voting/
+					}
+					add_law = {
+						law = succ_assembly_elective
+					}
+				}
+			}
+			any_tributary = {
+				any_suzerain = {
+					remove_tributary = THIS 
+				}
+				set_defacto_liege = event_target:targetliege
+				primary_title = {
+					clr_title_flag = in_sworn_alliance
+				}
+			}
+			ROOT = {
+				set_defacto_liege = event_target:targetliege
+			}
+		}
+		else = {
+			create_title = {
+				tier = KING
+				custom_created = yes
+				culture = ROOT
+				holder = ROOT
+				base_title = THIS
+				copy_title_laws = yes
+			}
+			set_government_type = commonassembly_government
+			primary_title = {
+				succession = {
+					base_type = feudal_elective 
+					voting_rules = assembly_elective_voteing #Definded in common/succession_voting/
+				}
+				add_law = {
+					law = succ_assembly_elective
+				}
+			}
+			any_tributary = {
+				any_suzerain = {
+					remove_tributary = THIS 
+				}
+				set_defacto_liege = PREV
+				primary_title = {
+					clr_title_flag = in_sworn_alliance
+				}
+			}
+		}
+		any_independent_ruler = {
+			narrative_event = {id = bio.216}
+		}
+	}
+
+	#Grey Confederacy
+	option = {
+		name = EVENTOPTAbio_reatia.215
+		trigger = {
+			ROOT = {
+				primary_title ={
+					de_jure_liege = k_raetia
+				}
+			}
+		}
+		create_title = {
+			tier = KING
+			name = k_grey_confederacy
+			custom_created = yes
+			culture = ROOT
+			holder = ROOT
+			copy_title_laws = yes
+		}
+		set_government_type = commonassembly_government
+		primary_title = {
+			succession = {
+				base_type = feudal_elective 
+				voting_rules = assembly_elective_voteing #Definded in common/succession_voting/
+			}
+			add_law = {
+				law = succ_assembly_elective
+			}
+		}
+		any_tributary = {
+			any_suzerain = {
+				remove_tributary = THIS 
+			}
+			set_defacto_liege = PREV
+			primary_title = {
+				clr_title_flag = in_sworn_alliance
+			}
+		}
+		primary_title = {
+			clr_title_flag = in_sworn_alliance
+		}
+		any_independent_ruler = {
+			narrative_event = {id = bio.217}
+		}
+	}
+
+	#Commoner Conferderacy
+	option = {
+		name = EVENTOPTAbio_commoner.215
+		trigger = {
+			ROOT = {
+				government = commonassembly_government
+			}
+		}
+		create_title = {
+			tier = KING
+			name = k_common_conf
+			custom_created = yes
+			culture = ROOT
+			holder = ROOT
+			copy_title_laws = yes
+			short_name = yes 
+		}
+		primary_title = {
+			clr_title_flag = in_sworn_alliance
+		}
+		set_government_type = commonassembly_government
+		primary_title = {
+			succession = {
+				base_type = feudal_elective 
+				voting_rules = assembly_elective_voteing #Definded in common/succession_voting/
+			}
+			add_law = {
+				law = succ_assembly_elective
+			}
+		}
+		any_tributary = {
+			any_suzerain = {
+				remove_tributary = THIS 
+			}
+			set_defacto_liege = PREV
+			primary_title = {
+				clr_title_flag = in_sworn_alliance
+			}
+		}
+		any_independent_ruler = {
+			narrative_event = {id = bio.218}
+		}
+	}
+	
+	#Aargau
+	option = {
+		name = EVENTOPTAbio_aargau.215
+		trigger = {
+			OR = {
+				has_landet_title = d_unteraargau
+				has_landet_title = d_oberaargau
+			}
+		}
+		if = {
+			limit = {
+				is_republic = yes
+			}
+			random_tributary = {
+				create_title = {
+					tier = KING
+					custom_created = yes
+					culture = THIS
+					holder = THIS
+					base_title = ROOT
+					copy_title_laws = yes
+				}
+				THIS = {
+					save_event_target_as = targetliege
+				}
+				set_government_type = commonassembly_government
+				primary_title = {
+					succession = {
+						base_type = feudal_elective 
+						voting_rules = assembly_elective_voteing #Definded in common/succession_voting/
+					}
+					add_law = {
+						law = succ_assembly_elective
+					}
+				}
+				
+			}
+			any_tributary = {
+				any_suzerain = {
+					remove_tributary = THIS 
+				}
+				set_defacto_liege = event_target:targetliege
+				primary_title = {
+					clr_title_flag = in_sworn_alliance
+				}
+			}
+			ROOT = {
+				set_defacto_liege = event_target:targetliege
+			}
+		}
+			else = {
+				create_title = {
+					tier = KING
+					name = k_aargau_conf
+					custom_created = yes
+					culture = ROOT
+					holder = ROOT
+					copy_title_laws = yes
+					short_name = yes 
+				}
+				primary_title = {
+					clr_title_flag = in_sworn_alliance
+				}
+				any_tributary = {
+					any_suzerain = {
+						remove_tributary = THIS 
+					}
+					set_defacto_liege = PREV
+				}
+				set_government_type = commonassembly_government
+				primary_title = {
+					succession = {
+						base_type = feudal_elective 
+						voting_rules = assembly_elective_voteing #Definded in common/succession_voting/
+					}
+					add_law = {
+						law = succ_assembly_elective
+					}
+				}
+				
+					
+			}
+			any_independent_ruler = {
+				narrative_event = {id = bio.219}
+			}
+	}
+
+	#Aarburgund
+	option = {
+		name = EVENTOPTAbio_aarburgundy.215
+		trigger = {
+
+			OR = {
+				has_landed_title = d_solothurn
+				has_landed_title = d_bern
+			}
+		}
+		if = {
+			limit = {
+				is_republic = yes
+			}
+			primary_title = {
+				clr_title_flag = in_sworn_alliance
+			}
+			random_tributary = {
+				create_title = {
+					tier = KING
+					name = k_aarburgundy_conf
+					custom_created = yes
+					culture = ROOT
+					holder = THIS
+					copy_title_laws = yes
+					short_name = yes
+					 
+				}
+				set_government_type = commonassembly_government
+				primary_title = {
+					succession = {
+						base_type = feudal_elective 
+						voting_rules = assembly_elective_voteing #Definded in common/succession_voting/
+					}
+					add_law = {
+						law = succ_assembly_elective
+					}
+				}
+			}
+			any_tributary = {
+				primary_title = {
+					clr_title_flag = in_sworn_alliance
+				}
+				any_suzerain = {
+					remove_tributary = THIS 
+				}
+				set_defacto_liege = PREVPREV
+			}
+		}
+		else = {
+			create_title = {
+				tier = KING
+				name = k_aarburgundy_conf
+				custom_created = yes
+				culture = ROOT
+				holder = ROOT
+				copy_title_laws = yes
+				short_name = yes 
+			}
+			primary_title = {
+				clr_title_flag = in_sworn_alliance
+			}
+			any_tributary = {
+				any_suzerain = {
+					remove_tributary = THIS 
+				}
+				set_defacto_liege = PREV
+			}
+			set_government_type = commonassembly_government
+			primary_title = {
+				succession = {
+					base_type = feudal_elective 
+					voting_rules = assembly_elective_voteing #Definded in common/succession_voting/
+				}
+				add_law = {
+					law = succ_assembly_elective
+				}
+			}
+		}
+		any_independent_ruler = {
+			narrative_event = {id = bio.220}
+		}
+	}
+
+
+
+}
+
+#Notification Generic Confederacy
+narrative_event = {
+	id = bio.216
+	title = EVENTTitlebio.216
+	picture = GFX_evt_heretic
+	desc = EVTDESCbio.216
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.216
+	}
+}
+
+#Notification Grey Confederacy
+narrative_event = {
+	id = bio.217
+	title = EVENTTitlebio.217
+	picture = GFX_evt_heretic
+	desc = EVTDESCbio.217
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.216
+	}
+}
+
+#Notification Commoner Conferderacy
+narrative_event = {
+	id = bio.218
+	title = EVENTTitlebio.218
+	picture = GFX_evt_heretic
+	desc = EVTDESCbio.218
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.216
+	}
+}
+#Notification Aargau
+narrative_event = {
+	id = bio.219
+	title = EVENTTitlebio.219
+	picture = GFX_evt_heretic
+	desc = EVTDESCbio.219
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.216
+	}
+}
+#Notification Aarburgund
+narrative_event = {
+	id = bio.220
+	title = EVENTTitlebio.220
+	picture = GFX_evt_heretic
+	desc = EVTDESCbio.220
+	is_triggered_only = yes
+
+	option = {
+		name = EVENTOPTAbio.216
+	}
+}

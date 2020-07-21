@@ -3,9 +3,13 @@ traderoute_province_desc;Is traderoute Province;;Ist eine Handelsrouten Provinz;
 form_sworn_alliance;Form a Sworn Alliance;;Schwurbund anbieten;;;;;;;;;;;x
 form_sworn_alliance_desc;Propose a sworn alliance between your terretories. Sworn Alliances will not be dissolved when a Ruler dies. You will be the leader of the alliance;;Schlägt vor einen gegenseitigen Bundesschwur zu leisten. Schwurbünde überdauern, selbst wenn ein Herrscher stirbt. Ihr werded der Anführer des Bundes sein.;;;;;;;;;;;x
 invite_sworn_alliance;Invite to Sworn Alliance;;Zu Schwurbund einladen;;;;;;;;;;;x
-invite_sworn_alliance_desc;Invite §Y[Root.GetTitledFirstName]§! to your sworn alliance. This will extend your sworn alliance.;;[Root.GetName] zum Schwurbund einladen. Dies wird euren Schwurbund erweitern.;;;;;;;;;;;x
+invite_sworn_alliance_desc;Invite §Y[Root.GetTitledFirstName]§! to your sworn alliance. This will extend your sworn alliance.;;§Y[Root.GetTitledFirstName]§! zum Schwurbund einladen. Dies wird euren Schwurbund erweitern.;;;;;;;;;;;x
 invite_sworn_alliance_of_suzerain;Invite to Sworn Alliance;;Zu Schwurbund einladen;;;;;;;;;;;x
-invite_sworn_alliance_of_suzerain_desc;Invite §Y[Root.GetTitledFirstName]§! to your sworn alliance. This will extend your sworn alliance.;;[Root.GetName] zum Schwurbund einladen. Dies wird euren Schwurbund erweitern.;;;;;;;;;;;x
+invite_sworn_alliance_of_suzerain_desc;Invite §Y[Root.GetTitledFirstName]§! to your sworn alliance. This will extend your sworn alliance.;;§Y[Root.GetTitledFirstName]§! zum Schwurbund einladen. Dies wird euren Schwurbund erweitern.;;;;;;;;;;;x
+request_entry_into_sworn_alliance;Request to enter Sworn Alliance;;Schwurbund beitreten;;;;;;;;;;;x
+request_entry_into_sworn_alliance_desc;Request §Y[Root.GetTitledFirstName]§! to enter their sworn alliance. You will become a sworn ally of §Y[Root.GetTitledFirstName]§! and their allies. ;;§Y[Root.GetTitledFirstName]§! um den Beitritt zum Schwurbund bitten. Damit tretet ihr dem Schwurbund von §Y[Root.GetTitledFirstName]§! und Verbündeten bei.;;;;;;;;;;;x
+request_entry_into_sworn_alliance_suzerain;Request to enter Sworn Alliance;;Schwurbund beitreten;;;;;;;;;;;x
+request_entry_into_sworn_alliance_suzerain_desc;Request §Y[Root.GetTitledFirstName]§! to enter their sworn alliance. You will become a sworn ally of §Y[Root.GetTitledFirstName]§! and their allies. ;;§Y[Root.GetTitledFirstName]§! um den Beitritt zum Schwurbund bitten. Damit tretet ihr dem Schwurbund von §Y[Root.GetTitledFirstName]§! und Verbündeten bei.;;;;;;;;;;;x
 REASON_CULTURE;Same Culture;;Gleiche Kultur;;;;;;;;;;;x
 REASON_DISTANCE_CLOSE;Distance;;Entfernung;;;;;;;;;;;x
 REASON_DISTANCE_FAR;Distance;;Entfernung;;;;;;;;;;;x
@@ -35,6 +39,48 @@ EVTDESCbio.206;To the great noble [Root.GetTitle]. In the name of [From.Religion
 EVENTOPTAbio.206;So help us [From.Religion.GetRandomGodName].;;So wahr uns [From.Religion.GetRandomGodName] helfe.;;;;;;;;;;;x
 EVTDESCbio.207;How can you [Root.GetName] think we need any help? We will not besmirch the name of [From.Religion.GetRandomGodName] in takeing oath with the people of [Root.PrimaryTitle.GetBaseName] and their worthless brothers.;;Wie könnt ihr [Root.GetName] denken wir bräuchten Hilfe? Wir werden nicht den Namen von [From.Religion.GetRandomGodName] beschmutzen indem wir einen Schwur mit den schäbigen Leuten von [Root.PrimaryTitleGetBaseName] und ihren anderen Schwurbrüdern leisten.;;;;;;;;;;;x
 EVENTOPTAbio.207;How dare you!;;Wie könnt ihr nur!;;;;;;;;;;;x
-invites_to_swornalliance;Already inviteing someone else to a sworn alliance;;Lädt bereits jemanden zum Schwurbund ein.;;;;;;;;;;;x
+EVTDESCbio.208;Greetings [Root.GetTitle] [Root.GetName].The people of [From.PrimaryTitle.GetBaseName] request enty into your alliance. We too want to take an oath in front of [From.Religion.GetRandomGodName] and fight with you as bretherens against all enemies.;;Grüße euch  [Root.GetTitle] [Root.GetName]. Das Volk von [From.PrimaryTitle.GetBaseName] möchte in eure Allianz eintreten. Wir möchten ebenfalss den Schwur vor [From.Religion.GetRandomGodName] leisten und zusammen gegen alle Feinde stehen.;;;;;;;;;;;x
+EVENTOPTAbio.208;Yes let us stand together. ;;Ja lasst uns zusammen stehen. ;;;;;;;;;;;x
+EVENTOPTBbio.208;[Root.PrimaryTitle.GetBaseName] doesn‘t need [From.PrimaryTitle.GetBaseName]!;;[Root.PrimaryTitle.GetBaseName] braucht [From.PrimaryTitle.GetBaseName] nicht!;;;;;;;;;;;x
+EVTDESCbio.209;Greetings [Root.GetTitle] [Root.GetName]. We accept your oath and welcome you in our band of sworn allies and brothers in arms.;;Grüße euch [Root.GetTitle] [Root.GetName]. Wir akzeptieren euren Schwur und heissen euch als Brüder und geschworene Mitverbündete willkommen!;;;;;;;;;;;x
+EVENTOPTAbio.209;So help us [From.Religion.GetRandomGodName].;;So wahr uns [From.Religion.GetRandomGodName] helfe.;;;;;;;;;;;x
+EVTDESCbio.210;How can you [Root.GetName] think we need any help? We will not besmirch the name of [From.Religion.GetRandomGodName] in takeing oath with the people of [Root.PrimaryTitle.GetBaseName];;Wie könnt ihr [Root.GetName] denken wir bräuchten Hilfe? Wir werden nicht den Namen von [From.Religion.GetRandomGodName] beschmutzen indem wir einen Schwur mit den schäbigen Leuten von [Root.PrimaryTitleGetBaseName] leisten.;;;;;;;;;;;x
+EVENTOPTAbio.210;How dare you!;;Wie könnt ihr nur!;;;;;;;;;;;x
+EVTDESCbio.211;Greetings [Root.GetTitle] [Root.GetName].The people of [From.PrimaryTitle.GetBaseName] request enty into your alliance. We too want to take an oath in front of [From.Religion.GetRandomGodName] and fight with you as bretherens against all enemies.;;Grüße euch  [Root.GetTitle] [Root.GetName]. Das Volk von [From.PrimaryTitle.GetBaseName] möchte in eure Allianz eintreten. Wir möchten ebenfalss den Schwur vor [From.Religion.GetRandomGodName] leisten und zusammen gegen alle Feinde stehen.;;;;;;;;;;;x
+EVENTOPTAbio.211;Yes let us stand together. ;;Ja lasst uns zusammen stehen.;;;;;;;;;;;x
+EVENTOPTBbio.211;[Root.PrimaryTitle.GetBaseName] doesn‘t need [From.PrimaryTitle.GetBaseName]!;;[Root.PrimaryTitle.GetBaseName] braucht [From.PrimaryTitle.GetBaseName] nicht!;;;;;;;;;;;x
+EVTDESCbio.212;Greetings [Root.GetTitle] [Root.GetName]. We accept your oath and welcome you in our band of sworn allies and brothers in arms!;;Grüße euch [Root.GetTitle] [Root.GetName]. Wir akzeptieren euren Schwur und heissen euch als Brüder und geschworene Mitverbündete willkommen!;;;;;;;;;;;x
+EVENTOPTAbio.212;So help us [From.Religion.GetRandomGodName].;;So wahr uns [From.Religion.GetRandomGodName] helfe.;;;;;;;;;;;x
+invites_to_swornalliance;§RAlready inviteing someone else to a sworn alliance.§!;;§RLädt bereits jemanden zum Schwurbund ein.§!;;;;;;;;;;;x
+leave_alliance;Leave Sworn Alliance;;Schwurbund brechen;;;;;;;;;;;x
+leave_alliance_desc;You leave the Sworn Alliance this will be viewed as oath breaking and hurt your reputation.;;Ihr verlässt euren Schwurbund, dies wird als Eidbruch angesehen und eurem Ruf massiv schaden.;;;;;;;;;;;x
+EVTDESCbio.213;To the [Root.GetTitle] [Root.GetName]. We the people of [From.PrimaryTitle.GetBaseName] have decided to leave this alliance. We have no need for your laughable assembly of filth.;;An den [Root.GetTitle] [Root.GetName]. Wir das Volk von [From.PrimaryTitle.GetBaseName] haben beschlossen unsere Allianz aufzulösen. Wir haben kein Verlangen diesem schmutzigen Haufen länger anzugehören.;;;;;;;;;;;x
+EVENTOPTAbio.213;Oath breaker! ;;Eidbrecher!;;;;;;;;;;;x
+part_of_alliance_desc;Has been in the sworn alliance for at least three years.;;Seit mindestens drei Jahren im Schwurbund.;;;;;;;;;;;x
+cant_be_allianceleader;Is NOT the leader of the alliance;;Ist NICHT Anführer des Schwurbundes.;;;;;;;;;;;x
+take_over_sworn_alliance;Take over Sworn Alliance;;Schwurbund übernehmen;;;;;;;;;;;x
+take_over_sworn_alliance_desc;Take over the leadership of your sworn alliance.;;Übernehmt die Führung in eurem Schwurbund.;;;;;;;;;;;x
 NOT_ANY_INDEP_RULER_STARTS;NO other independet ruler;;KEIN anderer unabhängiger Herrscher;;;;;;;;;;;x
+EVTDESCbio.214;Greetings [Root.GetTitle] [Root.GetName]. The people of [Root.PrimaryTitle.GetBaseName] have decided that we shall take leadership of our great holy Sworn Alliance by the name of [From.Religion.GetRandomGodName].;;Grüße euch  [Root.GetTitle] [Root.GetName]. Das Volk von [From.PrimaryTitle.GetBaseName] hat beschlossen die Führerschaft in unserem grossen heiligen Schwurbund vor [From.Religion.GetRandomGodName] zu übernehmen. ;;;;;;;;;;;x
+EVENTOPTAbio.214;Well that‘s your right.;;Nun das ist euer gutes Recht.;;;;;;;;;;;x
+form_confederacy;Form a Confederacy;;Einen Bund gründen;;;;;;;;;;;x
+form_confederacy_desc;After years of cooperation your Sworn Alliance can be formed into a confederacy. A confederacy acts as one country but grants its vassals great autonomy.;;Nach Jahren des Schwurbundes könnt ihr aus eurem Bündnis einen Bund formen. Ein Bund verhält sich wie ein verreintes Land aber gibt seinen Vassallen grössere Autonomie.;;;;;;;;;;;x
+EVENTTitlebio.215;A united people of brethren;;Ein einzig Volk von Brüdern;;;;;;;;;;;x
+EVTDESCbio.215;After years of work and building up a united front against our enemies, the people of [Root.PrimaryTitle.GetBaseName] and its Alliance has prevailed and proven itself. We will now have the opportunity to form a more coherent and stable country of a single people of bretheren. How shall this new confederation be called?;;Nach Jahren des Aufbaus einer gemeinsamen Front gegen unsere Gegner haben die Leut von [Root.PrimaryTitle.GetBaseName] und seine Allianz haben überdauert und sich bewiesen. Wir haben nun die Gelegenheit einen neuen Bund als ein einzig Land von Brüdern zu schaffen. Wie soll dieser Bund heissen?;;;;;;;;;;;x
+EVENTOPTAbio_generic.215;It shall be the Confederation of [Root.PrimaryTitle.GetBaseName]!;;Soll der Bund von [Root.PrimaryTitle.GetBaseName];;;;;;;;;;;x
+EVENTOPTAbio_reatia.215;The Grey Confederation, as the mountains of Raetia;;Der Graue Bund, wie die Berge von Rätien;;;;;;;;;;;x
+EVENTOPTAbio_commoner.215;The Commoner Confederation, no longer shall we be slaves to nobles.;;Der Gemeinde Bund, niemals wieder sollen Adlige über uns bestimmen;;;;;;;;;;;x
+EVENTOPTAbio_aargau.215;The Aargau Confedertion;;Der Aargauer Bund;;;;;;;;;;;x
+EVENTOPTAbio_aarburgundy.215;The Aarburgundy Confedertion;;Der Aarburgunder Bund;;;;;;;;;;;x
+EVENTTitlebio.216;The Copnfederacy of [From.PrimaryTitle.GetBaseName];;Der Bund von [From.PrimaryTitle.GetBaseName];;;;;;;;;;;x
+EVTDESCbio.216;The people of [From.PrimaryTitle.GetBaseName] have formed a new Conferderation with their sworn allies. This Confederation will now stand as a single united people of bretheren agianst their enemies.;;Das Volk von [From.PrimaryTitle.GetBaseName] hat zusammen mit seinen Schwurbrüdern einen neuen Bund geschaffen. Dieser Bund wird als ein einzig Volk von Brüdern gegen ihre Feinde stehen. ;;;;;;;;;;;x
+EVENTOPTAbio.216;I hope this doesn‘t mean trouble;;Ich hoffe das bedeutet keine Schwierigkeiten;;;;;;;;;;;x
+EVENTTitlebio.217;The Grey Confederation;;Der Graue Bund;;;;;;;;;;;x
+EVTDESCbio.217;The people of [From.PrimaryTitle.GetBaseName] have formed a new Conferderation with their sworn allies. This Confederation will now stand as a single united people of bretheren agianst their enemies.;;Das Volk von [From.PrimaryTitle.GetBaseName] hat zusammen mit seinen Schwurbrüdern einen neuen Bund geschaffen. Dieser Bund wird als ein einzig Volk von Brüdern gegen ihre Feinde stehen. ;;;;;;;;;;;
+EVENTTitlebio.218;The Commoner Confederacy;;Der Gemeinde Bund;;;;;;;;;;;x
+EVTDESCbio.218;The people of [From.PrimaryTitle.GetBaseName] have formed a new Conferderation with their sworn allies. This Confederation will now stand as a single united people of bretheren agianst their enemies.;;Das Volk von [From.PrimaryTitle.GetBaseName] hat zusammen mit seinen Schwurbrüdern einen neuen Bund geschaffen. Dieser Bund wird als ein einzig Volk von Brüdern gegen ihre Feinde stehen. ;;;;;;;;;;;x
+EVENTTitlebio.219;The Aargau Confederation;;Der Aargauer Bund;;;;;;;;;;;x
+EVTDESCbio.219 ;The people of [From.PrimaryTitle.GetBaseName] have formed a new Conferderation with their sworn allies. This Confederation will now stand as a single united people of bretheren agianst their enemies.;;Das Volk von [From.PrimaryTitle.GetBaseName] hat zusammen mit seinen Schwurbrüdern einen neuen Bund geschaffen. Dieser Bund wird als ein einzig Volk von Brüdern gegen ihre Feinde stehen. ;;;;;;;;;;;x
+EVENTTitlebio.220;The Aarburgundy Confederation;;Der Aarburgunder Bund;;;;;;;;;;;x
+EVTDESCbio.220 ;The people of [From.PrimaryTitle.GetBaseName] have formed a new Conferderation with their sworn allies. This Confederation will now stand as a single united people of bretheren agianst their enemies.;;Das Volk von [From.PrimaryTitle.GetBaseName] hat zusammen mit seinen Schwurbrüdern einen neuen Bund geschaffen. Dieser Bund wird als ein einzig Volk von Brüdern gegen ihre Feinde stehen. ;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
