@@ -1,0 +1,370 @@
+50=    
+{    #Counts of Schwyz
+    name="Staufacher"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+     
+}    
+
+
+51=    
+{    #Schwyz Counts
+    name="Hunn"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+     
+    
+}
+
+52=    
+{    #Schwyz Count
+    name="im Hofe"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+53=    
+{    #Schwyz Count
+    name="Reding"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=yes
+}
+
+54=    
+{    #Schwyz Count
+    name="auf der Mauer"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=yes
+}
+
+
+
+55=    
+{    #Uri Leaders
+    name="Fürst"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+56=    
+{    #Unterwalden Leaders
+    name="Melchtal"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+57=    
+{    #Gersau Leaders
+    name="Kunz"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+58=    
+{    #Luzern Leaders
+    name="Pfeifer"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+59=    
+{    #Uri counts
+    name="Rebler"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+60=    
+{    #Uri counts
+    name="Püntener"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+61=    
+{    #Uri counts
+    name="Walker"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+62=    
+{    #Uri counts
+    name="Furgler"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+63=    
+{    #Uri counts
+    name="von Beroldingen"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+64=    
+{    #Uri counts
+    name="Kuon"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+65=    
+{    #Uri counts
+    name="Stricker"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+66=    
+{    #Uri counts
+    name="Zumbrunnen"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+67=    
+{    #Uri counts
+    name="von Attinghausen"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+68=    
+{    #Unterwalden counts
+    name="Baumgarten"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+69=    
+{    #Unterwalden counts
+    name="von Sarnen"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+70=    
+{    #Unterwalden counts
+    name="von Winkelried"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+71=    
+{    #Unterwalden counts
+    name="am Bühel"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+
+72=    
+{    #Unterwalden counts
+    name="von Sewa"
+    religion="catholic"
+    culture="high_alemannic"
+    used_for_random=no
+}
+    
+73= 
+{ #Zug Rulers
+name="Zurlauben"
+religion="catholic"
+culture="middle_alemannic"
+used_for_random=yes
+} 
+
+74= 
+{ #Zug Counts
+name="Bütler"
+religion="catholic"
+culture="middle_alemannic"
+used_for_random=yes
+} 
+
+75= 
+{ #Zug Counts
+name="Elsener"
+religion="catholic"
+culture="middle_alemannic"
+used_for_random=yes
+} 
+
+76= 
+{ #Zug Counts
+name="Iten"
+religion="catholic"
+culture="middle_alemannic"
+used_for_random=yes
+} 
+
+
+77= 
+{ #Appenzeller Counts
+name="Brugger"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+
+78= 
+{ #Appenzeller Counts
+name="Geiger"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+
+79= 
+{ #Appenzeller Counts
+name="Sutter"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+
+80= 
+{ #Appenzeller Counts
+name="Zellweger"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+81= 
+{ #Appenzeller Counts
+name="Roth"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+82= 
+{ #Appenzeller Counts
+name="Loppacher"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+83= 
+{ #Appenzeller Counts
+name="Spiess"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+
+84= 
+{ #Appenzeller Counts
+name="Waldburger"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+}
+
+
+85= 
+{ #Glarus Rulers
+name="Aebli"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+
+
+86= 
+{ #Glarus Counts
+name="Hauser"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+
+87= 
+{ #Glarus Counts
+name="Thut"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=yes
+} 
+
+88= 
+{ #Leaders of Valais
+name="Wyssen"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=no
+}
+
+89= 
+{ #Counts of Valais
+name="Nanzer"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=no
+} 
+
+90= 
+{ #Counts of Valais
+name="Sprung"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=no
+} 
+
+91= 
+{ #Counts of Valais
+name="Burgener"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=no
+} 
+
+92= 
+{ #Counts of Valais
+name="Imhof"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=no
+} 
+
+93= 
+{ #Counts of Valais
+name="Imstepf"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=no
+} 
+
+94= 
+{ #Counts of Valais
+name="Huter"
+religion="catholic"
+culture="high_alemannic"
+used_for_random=no
+} 
+
+
+
+
+
+    
+

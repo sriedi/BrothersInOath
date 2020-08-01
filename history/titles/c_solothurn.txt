@@ -1,7 +1,7 @@
-# e_hre
-500.1.1={
-	law = agnatic_succession
-}
-800.1.1={
-	liege= "k_alemannia"
+1280.1.1 = {
+	law = succ_patrician_elective
+	holder= 31600 #Guntram Buckard
+	effect= {
+		set_title_flag = guildrep_gov
+	}
 }

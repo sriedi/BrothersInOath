@@ -1,8 +1,5 @@
-# e_hre
-500.1.1={
+1200.1.1={
 	law = agnatic_succession
-	law = succ_gavelkind
-}
-800.1.1={
-	liege= "k_alemannia"
+	law = succ_primogeniture
+	liege = d_andelfingen
 }

@@ -1,14 +1,15 @@
 #Habsburg
-51=
+501=
 {
 	name="von Habsburg"
-	culture="german"
+	culture="middle_allemannic"
 	religion="catholic"
 	coat_of_arms=
 	{
 		data=
 		{
-0 3 0 20 0 0 0 			}
+		0 3 0 20 0 0 0 			
+		}
 		religion="catholic"
 	}
 	used_for_random=no
@@ -17,7 +18,7 @@
 #ZÃ¤hringen
 261=
 {
-	name="von ZÃ¤hringen"
+	name="von Zähringen"
 	culture="german"
 	religion="catholic"
 	coat_of_arms=
@@ -29,11 +30,401 @@
 	}
 }
 
+
+241=
+{
+	name="Gessler"
+	culture="low_allemanic"
+	religion= "catholic"
+}
+
+242=
+{
+	name="Landenberg"
+	culture="middle_allemannic"
+	religion= "catholic"
+    coat_of_arms = {
+        template = 0
+        layer = {
+            texture = 2
+            texture_internal = 1
+            emblem = 0
+            color = 1
+            color = 3
+            color = 3
+        }
+    }
+}
+
+243=
+{
+	name="Homberg"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+
+244=
+{
+	name="Toggenburg"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+
+245=
+{
+	name="Montfort"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+
+2450 = {
+	name="Eschenbach" 
+	culture="low_allemannic"
+	religion="catholic"
+}
+
+246=	
+{	
+	name="von Buchegg"
+	religion="catholic"
+	culture="low_alemannic"
+	used_for_random=no
+	coat_of_arms = {
+        template = 0
+        layer = {
+            texture = 1
+            texture_internal = 14
+            emblem = 0
+            color = 3
+            color = 0
+            color = 5
+        }
+    }
+	
+}
+
+247=
+{
+	name="Grünenberg"
+	culture="low_allemanic"
+	religion= "catholic"
+}
+
+248=
+{
+	name="Toggenburg"
+	culture="low_allemanic"
+	religion= "catholic"
+	coat_of_arms = {
+        template = 0
+        layer = {
+            texture = 2
+            texture_internal = 35
+            emblem = 0
+            color = 1
+            color = 0
+            color = 12
+        }
+    }
+
+}
+
+249=
+{
+	name="von Rapperswil"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+
+250=
+{
+	name="von Regensberg"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+
+251=
+{
+	name="Hohenrohn"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+252=
+{
+	name="von Rohr"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+253=
+{
+	name="Iberg"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+
+253={
+	name="Hallwyl"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+254={
+	name="Krauer"
+	culture="middle_allemannic"
+	religion= "catholic"
+}
+
+255= {
+	
+	name="Hewen"
+	culture="low_allemannic"
+	religion= "catholic"
+}
+
+##Visconti of Milan
+
+256 ={
+	name="Visconti"
+	culture="romano_lombard"
+	religion="catholic"
+	coat_of_arms=
+	{
+		data=
+		{
+	0 5 0 10 0 0 0 			}
+			religion="catholic"
+		}
+}
+
+257 ={
+	name="Albizzi"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+258 ={
+	name="Amidei"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+259 ={
+	name="Marenzi"
+	culture="romano_lombard"
+	religion="catholic"
+}
+260 ={
+	name="Gonzaga"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+261 ={
+	name="Sforza"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+262 ={
+	name="Spinola"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+263 ={
+	name="Strozzi"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+264 ={
+	name="Medici"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+265 ={
+	name="di Como"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+266 ={
+	name="di Lugano"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+267 ={
+	name="Bernasconi"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+268 ={
+	name="Guenetti"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+269 ={
+	name="di Maggia"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+270 ={
+	name="Suardi"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+271 ={
+	name="Colleoni"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+
+272 ={
+	name="di Gussago"
+	culture="romano_lombard"
+	religion="catholic"
+}
+
+273 = {
+	name="d'Oron" #Vaud Nobles
+	culture="upper_burgundian"
+	religion="catholic"
+}
+274 = {
+	name="de Gruyères" 
+	culture="upper_burgundian"
+	religion="catholic"
+}
+
+275 = {
+	name="de Champvent" 
+	culture="upper_burgundian"
+	religion="catholic"
+}
+276 = {
+	name="de Vuippens" 
+	culture="upper_burgundian"
+	religion="catholic"
+}
+277 = {
+	name="Clutinc" 
+	culture="upper_burgundian"
+	religion="catholic"
+}
+
+278 = {
+	name="Saint-Sigismond" 
+	culture="upper_burgundian"
+	religion="catholic"
+}
+
+2780 = {
+	name="de Géneve" 
+	culture="upper_burgundian"
+	religion="catholic"
+}
+
+
+279 = {
+	name="von Laupen" 
+	culture="low_alemannic"
+	religion="catholic"
+}
+
+280 = {
+	name="von Neuenburg" 
+	culture="low_alemannic"
+	religion="catholic"
+}
+
+281 = {
+	name="von Eidberg" 
+	culture="low_alemannic"
+	religion="catholic"
+}
+
+282=  {
+	name="Baden" #Dukes of Baden
+	culture="low_alemannic"
+	religion="catholic"
+	used_for_random = no
+}
+
+283=  {
+	name="von Altkirch" #Dukes of Sundgau
+	culture="low_alemannic"
+	religion="catholic"
+	used_for_random = no
+}
+284=  {
+	name="Montfaucon" #Dukes of Mömpelgrat
+	culture="lower_burgundian"
+	religion="catholic"
+}
+285=  {
+	name="Gillion" 
+	culture="lower_burgundian"
+	religion="catholic"
+}
+287=  {
+	name="Saveron" 
+	culture="lower_burgundian"
+	religion="catholic"
+}
+
+288=  {
+	name="Réussy" 
+	culture="lower_burgundian"
+	religion="catholic"
+}
+
+289=  {
+	name="Trumare" 
+	culture="lower_burgundian"
+	religion="catholic"
+}
+290=  {
+	name="De Cleux" 
+	culture="lower_burgundian"
+	religion="catholic"
+}
+
+291=  {
+	name="Salins" 
+	culture="lower_burgundian"
+	religion="catholic"
+}
+
+292=  {
+	name="de La Tour" 
+	culture="lower_burgundian"
+	religion="catholic"
+}
+
+293=  {
+	name="de Ventadour" 
+	culture="lower_burgundian"
+	religion="catholic"
+}
+294=  {
+	name="de Ventadour" 
+	culture="lower_burgundian"
+	religion="catholic"
+}
+
+
+
 #Savoie
-240=
+295=
 {
 	name="de Savoie"
-	culture="frankish"
+	culture="savoian"
 	religion="catholic"
 	coat_of_arms=
 	{
@@ -43,3 +434,60 @@
 		religion="catholic"
 	}
 }
+
+
+
+296=  {
+	name="de Tournon" 
+	culture="savoian"
+	religion="catholic"
+}
+
+297=  {
+	name="de Voyer" 
+	culture="savoian"
+	religion="catholic"
+}
+
+298=  {
+	name="de Paulmy" 
+	culture="savoian"
+	religion="catholic"
+}
+
+299=  {
+	name="Milliet" 
+	culture="savoian"
+	religion="catholic"
+}
+
+300=  {
+	name="Deschamps" 
+	culture="savoian"
+	religion="catholic"
+}
+
+301=  {
+	name="Métral" 
+	culture="savoian"
+	religion="catholic"
+}
+
+302=  {
+	name="d'Allinges" 
+	culture="savoian"
+	religion="catholic"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

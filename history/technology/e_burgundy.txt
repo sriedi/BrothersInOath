@@ -22,7 +22,7 @@ technology = {
 		d_savoy
 		d_sornegau
 		d_st_claude
-		d_st_grevais
+		c_st_gervais
 		d_sundgau
 		d_valais_bas
 		d_vaud

@@ -1,8 +1,8 @@
-# e_italy
-500.1.1={
+1200.1.1={
 	law = agnatic_succession
-	law = succ_gavelkind
+	law = succ_primogeniture
+	liege = d_valtellina
 }
-800.1.1={
-	liege= "k_lombardy"
+1273.1.1={
+	holder = 6026 #di Maggia
 }

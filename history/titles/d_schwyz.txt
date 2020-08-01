@@ -1,8 +1,10 @@
 # e_hre
-800.1.1={
-	liege= "e_hre"
+
+1256.1.1={
+	liege = k_schwyz_vogtei
+	#government = commonassembly_government
+	law = succ_assembly_elective
 }
-1200.1.1={
-	law = agnatic_succession
-	law = succ_primogeniture
+1261.1.1={
+	holder = 2001 #Werner Staufacher
 }

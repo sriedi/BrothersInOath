@@ -6,9 +6,9 @@ title = c_edolo
 # Settlements
 max_settlements = 5
 
+b_monno = temple
 b_edolo = castle
 b_santicolo = temple
-b_monno = temple
 b_uncudine = castle
 #b_vezza = city
 

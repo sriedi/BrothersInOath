@@ -1,4 +1,8 @@
 # e_hre
-800.1.1={
-	liege= "k_raetia"
+1200.1.1 = {
+	law = succ_catholic_bishopric
+	liege = d_st_gallen
+}
+1274.1.1 = {
+	holder= 4001
 }

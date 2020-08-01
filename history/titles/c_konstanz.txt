@@ -1,7 +1,7 @@
-# e_hre
-500.1.1={
-	law = agnatic_succession
+1200.1.1={
+	law = succ_catholic_bishopric
+	liege = d_konstanz
 }
-800.1.1={
-	liege= "k_schwaben"
+1280.1.1={
+	holder = 462715 #Rudolf Habsburg-Laufenburg
 }

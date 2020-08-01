@@ -1,4 +1,8 @@
-# e_hre
-800.1.1={
-	liege= "k_alemannia"
+1200.1.1 = {
+	law = succ_catholic_bishopric
+	liege = d_basel_bishopric
+}
+1275.1.1 = {
+	holder = 6047 #Heinrich
+	law = succ_catholic_bishopric
 }

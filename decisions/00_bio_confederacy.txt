@@ -1,0 +1,63 @@
+#Form Confederacy
+#Generate Title
+decisions = {
+	form_confederacy = {
+		is_high_prio = yes
+		ai_check_interval = 4
+		
+		potential = {
+			ROOT = {
+				primary_title = {
+					has_title_flag = in_sworn_alliance
+				}
+				NOT = {
+					is_tributary = yes
+				}
+			}
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = part_of_alliance_desc
+				ROOT = {
+					primary_title = {
+						had_title_flag = {
+							flag = in_sworn_alliance
+							years >= 3
+						}
+					}
+				}
+			}
+			war = no
+			any_tributary = {
+				opinion = {
+					who = ROOT
+					value >= 10  
+				}
+			}
+			
+		}
+
+		effect = {
+			narrative_event = {
+				id =bio.215
+			}
+		}
+
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.8
+				trait = ambitious
+			}
+		}
+
+	}
+
+	#Form Swiss Confederacy
+	
+
+
+}#decisions
+
+#Targeted invite to Confederacy

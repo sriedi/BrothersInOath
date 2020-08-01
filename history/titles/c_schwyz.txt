@@ -1,8 +1,12 @@
 # e_hre
-500.1.1={
+
+1100.1.1={
 	law = agnatic_succession
-	law = succ_gavelkind
+	law = succ_primogeniture
 }
-800.1.1={
-	liege= "k_alemannia"
+1210.1.1={
+	liege = d_schwyz
+}
+1261.1.1={
+	holder = 2001 #Werner Staufacher
 }

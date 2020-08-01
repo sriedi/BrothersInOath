@@ -1,4 +1,7 @@
-# e_hre
-800.1.1={
-	liege= "k_alemannia"
+1277.1.1 = {
+	holder = 4002
+}
+
+1280.1.1 ={
+	set_tribute_suzerain = { who = k_osterreich type = permanent }
 }

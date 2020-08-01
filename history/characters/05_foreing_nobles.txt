@@ -1,0 +1,1949 @@
+6005={
+	name="Matteo" #Duke of Milan
+	dynasty=256
+	dna="cnbhgibpfkg"
+	culture="romano_lombard"
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=8
+	intrigue=1
+	learning=6
+	trait="fortune_builder"
+	trait="gluttonous"
+	1240.11.1={birth=yes}
+	1272.9.21 = {add_spouse=6001}
+	1296.9.1={death=yes}
+}
+
+6001={
+	name="Adalberta"
+	female=yes
+	dynasty=257
+	dna="anincfcgpnb"
+	culture="romano_lombard"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=3
+	learning=1
+	trait="fortune_builder"
+	trait="gardener"
+	trait="paranoid"
+	1242.10.5={birth=yes}
+	1272.9.21 = {add_spouse=6000}
+	1306.7.12={death=yes}
+}
+
+6002={
+	name="Alessandro"
+	dynasty=256
+	dna="cnbncfbpfnb"
+	culture="romano_lombard"
+	religion=catholic
+	martial=3
+	diplomacy=5
+	stewardship=3
+	intrigue=6
+	learning=3
+	trait="misguided_warrior"
+	father=6000
+	mother=6001
+	1265.8.28={birth=yes}
+	1328.6.21={death=yes}
+}
+
+6003={
+	name="Patrizio"
+	dynasty=256
+	dna="akihfibppnb"
+	culture="romano_lombard"
+	religion=catholic
+	martial=2
+	diplomacy=4
+	stewardship=3
+	intrigue=4
+	learning=1
+	trait="underhanded_rogue"
+	trait="greedy"
+	trait="content"
+	trait="humble"
+	trait="deceitful"
+	father=6000
+	mother=6001
+	1267.11.4={birth=yes}
+	1336.1.5={death=yes}
+}
+
+6004={
+	name="Michele"
+	dynasty=256
+	dna="cnhhcicgpna"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=0
+	stewardship=2
+	intrigue=3
+	learning=3
+	trait="tough_soldier"
+	father=6000
+	mother=6001
+	1271.9.22={birth=yes}
+	1333.12.25={death=yes}
+}
+
+6000={
+	name="Ottone" # The Bishop of Milan
+	dynasty=256
+	dna="ndhjdmmhick"
+	culture="romano_lombard"
+	religion=catholic
+	martial=1
+	diplomacy=2
+	stewardship=5
+	intrigue=5
+	learning=6
+	trait="indulgent_wastrel"
+	trait="lustful"
+	trait="ill"
+	1207.1.1={birth=yes}
+
+	1207.1.1={birth=yes}
+	1294.3.15={death=yes}
+}
+
+6006={        #Lord of Como
+	name="Igino"
+	dynasty=265
+	dna="hmdhnckjghl"
+	culture="romano_lombard"
+	religion=catholic
+	martial=2
+	diplomacy=4
+	stewardship=7
+	intrigue=4
+	learning=5
+	trait="flamboyant_schemer"
+	trait="gardener"
+	trait="trusting"
+	trait="cynical"
+	1255.1.1={birth=yes}
+	1275.5.14 = {add_spouse=6007}
+	1299.1.13={death=yes}
+}
+
+6007={
+	name="Froizza"
+	female=yes
+	dynasty=266
+	dna="ibkohomncgj"
+	culture="romano_lombard"
+	religion=catholic
+	martial=2
+	diplomacy=2
+	stewardship=1
+	intrigue=8
+	learning=3
+	trait="thrifty_clerk"
+	trait="hedonist"
+	trait="wroth"
+	1256.8.1={birth=yes}
+	1275.5.14 = {add_spouse=6006}
+	1310.4.22={death=yes}
+}
+
+6008={
+	name="Anastasia"
+	female=yes
+	dynasty=265
+	dna="imkohomjggl"
+	culture="romano_lombard"
+	religion=catholic
+	martial=7
+	diplomacy=2
+	stewardship=1
+	intrigue=3
+	learning=6
+	trait="grey_eminence"
+	trait="lustful"
+	trait="greedy"
+	trait="gregarious"
+	trait="arbitrary"
+	father=6006
+	mother=6007
+	1278.9.14={birth=yes}
+	1332.11.10={death=yes}
+}
+
+6009={
+	name="Hyacintha"
+	female=yes
+	dynasty=265
+	dna="imdhhokjcml"
+	culture="romano_lombard"
+	religion=catholic
+	martial=1
+	diplomacy=5
+	stewardship=6
+	intrigue=6
+	learning=5
+	trait="charismatic_negotiator"
+	trait="humble"
+	trait="arbitrary"
+	father=6006
+	mother=6007
+	1279.11.1={birth=yes}
+	1334.9.7={death=yes}
+}
+
+6010={
+	name="Niccolò"
+	dynasty=265
+	dna="ibkoncmjchl"
+	culture="romano_lombard"
+	religion=catholic
+	martial=2
+	diplomacy=2
+	stewardship=8
+	intrigue=2
+	learning=6
+	trait="intricate_webweaver"
+	trait="zealous"
+	trait="brave"
+	father=6006
+	mother=6007
+	1285.4.22={birth=yes}
+	1350.9.28={death=yes}
+}
+
+6011={
+	name="Torgodorio" #Lord of Leventina
+	dynasty=267
+	dna="bidmnoldjmg"
+	culture="romano_lombard"
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=2
+	intrigue=6
+	learning=8
+	trait="underhanded_rogue"
+	trait="honest"
+	trait="just"
+	1248.1.1={birth=yes}
+	1270.11.24 = {add_spouse=6012}
+	1307.10.16={death=yes}
+	}
+	
+6012={
+	name="Flora"
+	female=yes
+	dynasty=268
+	dna="ldkckmdhclo"
+	culture="romano_lombard"
+	religion=catholic
+	martial=7
+	diplomacy=4
+	stewardship=5
+	intrigue=1
+	learning=3
+	trait="tough_soldier"
+	trait="chaste"
+	1251.1.18={birth=yes}
+	1270.11.24 = {add_spouse=6011}
+	1303.7.20={death=yes}
+}
+
+6013={
+	name="Lealdo"
+	dynasty=267
+	dna="lekmnodhjlg"
+	culture="romano_lombard"
+	religion=catholic
+	martial=4
+	diplomacy=2
+	stewardship=4
+	intrigue=2
+	learning=4
+	trait="elusive_shadow"
+	trait="patient"
+	trait="proud"
+	trait="wounded"
+	father=6011
+	mother=6012
+	1277.1.4={birth=yes}
+	1331.12.1={death=yes}
+}
+
+6014={
+	name="Nolfo"
+	dynasty=267
+	dna="lddcnmldcmg"
+	culture="romano_lombard"
+	religion=catholic
+	martial=7
+	diplomacy=6
+	stewardship=3
+	intrigue=2
+	learning=5
+	trait="fortune_builder"
+	trait="greedy"
+	trait="brave"
+	father=6011
+	mother=6012
+	1279.8.29={birth=yes}
+	1329.1.14={death=yes}
+}
+	
+6015={
+	name="Uberto" #Lord of Maggia
+	dynasty=269
+	dna="mkokofgelph"
+	culture="romano_lombard"
+	religion=catholic
+	martial=1
+	diplomacy=6
+	stewardship=1
+	intrigue=6
+	learning=3
+	trait="charismatic_negotiator"
+	trait="craven"
+	trait="paranoid"
+	trait="patient"
+	1243.1.1={birth=yes}
+	1262.11.20 = {add_spouse=6016}
+	1299.11.16={death=yes}
+	}
+	
+6016={
+	name="Elena"
+	female=yes
+	dynasty=270
+	dna="ebinaekckdj"
+	culture="romano_lombard"
+	religion=catholic
+	martial=2
+	diplomacy=5
+	stewardship=6
+	intrigue=2
+	learning=0
+	trait="skilled_tactician"
+	trait="temperate"
+	trait="ambitious"
+	trait="paranoid"
+	1243.10.20={birth=yes}
+	1262.11.20 = {add_spouse=6015}
+	1310.8.24={death=yes}
+}
+
+6017={
+	name="Felice"
+	dynasty=269
+	dna="mkonongclda"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=6
+	intrigue=3
+	learning=2
+	trait="skilled_tactician"
+	trait="honest"
+	trait="content"
+	father=6015
+	mother=6016
+	1267.10.9={birth=yes}
+	1322.3.8={death=yes}
+}
+
+6018={
+	name="Comita"
+	dynasty=269
+	dna="ekinafjckpj"
+	culture="romano_lombard"
+	religion=catholic
+	martial=2
+	diplomacy=6
+	stewardship=7
+	intrigue=7
+	learning=3
+	trait="tough_soldier"
+	trait="craven"
+	father=6015
+	mother=6016
+	1273.11.18={birth=yes}
+	1336.7.1={death=yes}
+}
+
+6019={
+	name="Anastasia"
+	female=yes
+	dynasty=269
+	dna="eiokhfgekdj"
+	culture="romano_lombard"
+	religion=catholic
+	martial=6
+	diplomacy=0
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait="naive_appeaser"
+	trait="charitable"
+	trait="cynical"
+	father=6015
+	mother=6016
+	1278.11.9={birth=yes}
+	1342.10.31={death=yes}
+}
+	
+6020={ #Bergamo Duke
+	name="Uberto"
+	dynasty=270
+	dna="dhdnnmiagnm"
+	culture="romano_lombard"
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=3
+	intrigue=3
+	learning=2
+	trait="skilled_tactician"
+	trait="honest"
+	trait="shy"
+	1231.1.1={birth=yes}
+	1251.8.23 = {add_spouse=6021}
+	1284.1.9={death=yes}
+}
+
+6021={
+	name="Hyacintha"
+	female=yes
+	dynasty=266
+	dna="kohefalpgcg"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=3
+	intrigue=6
+	learning=2
+	trait="misguided_warrior"
+	trait="gregarious"
+	trait="patient"
+	trait="wounded"
+	1234.6.3={birth=yes}
+	1251.8.23 = {add_spouse=6020}
+	1312.7.16={death=yes}
+}
+
+6022={
+	name="Durante"
+	dynasty=270
+	dna="dodnnalpgce"
+	culture="romano_lombard"
+	religion=catholic
+	martial=8
+	diplomacy=4
+	stewardship=0
+	intrigue=6
+	learning=3
+	trait="charismatic_negotiator"
+	father=6020
+	mother=6021
+	1256.10.6={birth=yes}
+	1334.12.27={death=yes}
+}
+
+6023={
+	name="Battista"
+	dynasty=270
+	dna="hhhnnmlpgcm"
+	culture="romano_lombard"
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=6
+	intrigue=3
+	learning=3
+	trait="midas_touched"
+	trait="impaler"
+	trait="arbitrary"
+	trait="chaste"
+	father=6020
+	mother=6021
+	1262.7.5={birth=yes}
+	1325.11.23={death=yes}
+}
+
+6024={
+	name="Lucia"
+	female=yes
+	dynasty=270
+	dna="dhdnnalagcm"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=6
+	stewardship=3
+	intrigue=7
+	learning=5
+	trait="thrifty_clerk"
+	trait="shy"
+	trait="stressed"
+	father=6020
+	mother=6021
+	1264.9.14={birth=yes}
+	1310.8.22={death=yes}
+}
+	
+6025={
+	name="Nino" # Bishop of Edolo 
+	dynasty=268
+	dna="kljhdmjjjje"
+	culture="romano_lombard"
+	religion=catholic
+	martial=0
+	diplomacy=1
+	stewardship=4
+	intrigue=3
+	learning=3
+	trait="tough_soldier"
+	trait="gardener"
+	trait="brave"
+	trait="deceitful"
+	1241.1.1={birth=yes}
+	1301.10.18={death=yes}
+	}
+	
+6026={
+	name="Abbondanzio" #Lord of Vatellina
+	dynasty=268
+	dna="ocnldkcpibk"
+	culture="romano_lombard"
+	religion=catholic
+	martial=3
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=2
+	trait="thrifty_clerk"
+	trait="paranoid"
+	trait="proud"
+	1237.7.1={birth=yes}
+	1269.2.7 = {add_spouse=6027}
+	1301.3.4={death=yes}
+}
+	
+6027={
+	name="Anastasia"
+	female=yes
+	dynasty=269
+	dna="kkhcleiincm"
+	culture="romano_lombard"
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=1
+	learning=2
+	trait="flamboyant_schemer"
+	trait="arbitrary"
+	trait="proud"
+	trait="gluttonous"
+	trait="stressed"
+	1241.10.6={birth=yes}
+	1269.2.7 = {add_spouse=6026}
+	1322.9.22={death=yes}
+}
+	
+6028={
+	name="Comito"
+	dynasty=268
+	dna="kkhllkcpibk"
+	culture="romano_lombard"
+	religion=catholic
+	martial=3
+	diplomacy=3
+	stewardship=4
+	intrigue=5
+	learning=3
+	trait="skilled_tactician"
+	trait="cruel"
+	father=6026
+	mother=6027
+	1271.6.27={birth=yes}
+	1325.9.17={death=yes}
+}
+	
+6029={
+	name="Adelaide"
+	female=yes
+	dynasty=268
+	dna="ocncdkcppem"
+	culture="romano_lombard"
+	religion=catholic
+	martial=3
+	diplomacy=6
+	stewardship=3
+	intrigue=5
+	learning=4
+	trait="skilled_tactician"
+	trait="wroth"
+	trait="gregarious"
+	father=6026
+	mother=6027
+	1273.7.10={birth=yes}
+	1314.9.2={death=yes}
+}
+	
+6030={
+	name="Giacomo"
+	dynasty=268
+	dna="kcncleiiicm"
+	culture="romano_lombard"
+	religion=catholic
+	martial=0
+	diplomacy=4
+	stewardship=5
+	intrigue=0
+	learning=3
+	trait="tough_soldier"
+	trait="zealous"
+	trait="temperate"
+	trait="ill"
+	father=6026
+	mother=6027
+	1278.12.21={birth=yes}
+	1360.12.9={death=yes}
+}
+		
+6031={
+	name="Patrizio" #Lord of Bescia and Darfo
+	dynasty=272
+	dna="lejejpddeeg"
+	culture="romano_lombard"
+	religion=catholic
+	martial=2
+	diplomacy=7
+	stewardship=7
+	intrigue=6
+	learning=4
+	trait="flamboyant_schemer"
+	trait="mystic"
+	trait="craven"
+	trait="chaste"
+	trait="paranoid"
+	1250.3.1={birth=yes}
+	1273.2.24 = {add_spouse=6032}
+	1328.12.16={death=yes}
+}
+	
+6032={
+	name="Silvana"
+	female=yes
+	dynasty=273
+	dna="clhdefnbcbd"
+	culture="romano_lombard"
+	religion=catholic
+	martial=0
+	diplomacy=6
+	stewardship=6
+	intrigue=4
+	learning=5
+	trait="charismatic_negotiator"
+	trait="trusting"
+	trait="chaste"
+	trait="charitable"
+	1253.11.9={birth=yes}
+	1273.2.24 = {add_spouse=6031}
+	1304.5.9={death=yes}
+}
+	
+6033={
+	name="Felicita"
+	female=yes
+	dynasty=272
+	dna="llheekndehd"
+	culture="romano_lombard"
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=2
+	learning=5
+	trait="charismatic_negotiator"
+	trait="hunter"
+	trait="temperate"
+	trait="humble"
+	father=6031
+	mother=6032
+	1275.8.27={birth=yes}
+	1326.8.7={death=yes}
+}
+	
+6034={
+	name="Adriana"
+	female=yes
+	dynasty=272
+	dna="lljeefdbcbg"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=5
+	learning=3
+	trait="fortune_builder"
+	trait="lustful"
+	trait="gluttonous"
+	father=6031
+	mother=6032
+	1279.7.1={birth=yes}
+	1340.11.23={death=yes}
+}
+	
+6035={
+	name="Alfonsina"
+	female=yes
+	dynasty=272
+	dna="clheefdbced"
+	culture="romano_lombard"
+	religion=catholic
+	martial=1
+	diplomacy=4
+	stewardship=1
+	intrigue=7
+	learning=3
+	trait="skilled_tactician"
+	trait="paranoid"
+	trait="ill"
+	father=6031
+	mother=6032
+	1283.2.20={birth=yes}
+	1360.1.7={death=yes}
+}
+	
+6036={ #Sforzas of Domodossola and Borgomanero
+	name="Manfredo"
+	dynasty=261
+	dna="gicpdmcdbnn"
+	culture="romano_lombard"
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=1
+	intrigue=6
+	learning=6
+	trait="underhanded_rogue"
+	1232.1.1={birth=yes}
+	1251.11.12 = {add_spouse=6037}
+	1314.11.15={death=yes}
+}
+
+6037={
+	name="Elisa"
+	female=yes
+	dynasty=262
+	dna="lkaolidkeaf"
+	culture="romano_lombard"
+	religion=catholic
+	martial=7
+	diplomacy=5
+	stewardship=4
+	intrigue=8
+	learning=8
+	trait="charismatic_negotiator"
+	trait="greedy"
+	trait="charitable"
+	trait="shy"
+	1235.12.30={birth=yes}
+	1251.11.12 = {add_spouse=6036}
+	1298.9.13={death=yes}
+}
+
+6038={
+	name="Buoso"
+	dynasty=261
+	dna="gicjlicdeaf"
+	culture="romano_lombard"
+	religion=catholic
+	martial=2
+	diplomacy=4
+	stewardship=1
+	intrigue=6
+	learning=2
+	trait="elusive_shadow"
+	trait="envious"
+	trait="zealous"
+	father=6036
+	mother=6037
+	1254.9.27={birth=yes}
+	1316.3.8={death=yes}
+}
+
+6039={
+	name="Simon"
+	dynasty=261
+	dna="lkaodickbnn"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=1
+	stewardship=5
+	intrigue=5
+	learning=6
+	trait="grey_eminence"
+	trait="duelist"
+	trait="gregarious"
+	trait="ambitious"
+	father=6036
+	mother=6037
+	1258.6.23={birth=yes}
+	1323.1.21={death=yes}
+}
+
+6040={
+	name="Iacopo"
+	dynasty=261
+	dna="gkcoliddenn"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=2
+	stewardship=4
+	intrigue=1
+	learning=4
+	trait="underhanded_rogue"
+	trait="deceitful"
+	trait="temperate"
+	trait="brave"
+	trait="content"
+	father=6036
+	mother=6037
+	1259.11.19={birth=yes}
+	1309.10.15={death=yes}
+}
+
+6041={
+	name="Alda"
+	female=yes
+	dynasty=261
+	dna="gkcpdmmdeac"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=2
+	stewardship=3
+	intrigue=0
+	learning=2
+	trait="thrifty_clerk"
+	trait="impaler"
+	trait="shy"
+	trait="honest"
+	father=6036
+	mother=6037
+	1261.6.6={birth=yes}
+	1300.7.20={death=yes}
+}
+	
+6042={
+	name="Pandolfo" #Lord Cossato and some stuff in the Aosta Valley
+	dynasty=259
+	dna="gddpakbpnpl"
+	culture="romano_lombard"
+	religion=catholic
+	martial=3
+	diplomacy=4
+	stewardship=3
+	intrigue=4
+	learning=3
+	trait="intricate_webweaver"
+	trait="gregarious"
+	trait="greedy"
+	trait="content"
+	1244.1.1={birth=yes}
+	1264.7.23 = {add_spouse=6043}
+	1303.2.26={death=yes}
+}
+
+6043={
+	name="Lodovica"
+	female=yes
+	dynasty=260
+	dna="cggfccokmgh"
+	culture="romano_lombard"
+	religion=catholic
+	martial=2
+	diplomacy=5
+	stewardship=4
+	intrigue=1
+	learning=2
+	trait="flamboyant_schemer"
+	trait="trusting"
+	1245.1.31={birth=yes}
+	1264.7.23 = {add_spouse=6042}
+	1288.12.19={death=yes}
+}
+
+6044={
+	name="Adalberta"
+	female=yes
+	dynasty=259
+	dna="ggkfckbknpl"
+	culture="romano_lombard"
+	religion=catholic
+	martial=7
+	diplomacy=3
+	stewardship=1
+	intrigue=4
+	learning=3
+	trait="midas_touched"
+	trait="envious"
+	father=6042
+	mother=6043
+	1267.2.10={birth=yes}
+	1307.11.29={death=yes}
+}
+
+6045={
+	name="Antonia"
+	female=yes
+	dynasty=259
+	dna="cddfakopmph"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=7
+	stewardship=5
+	intrigue=7
+	learning=5
+	trait="brilliant_strategist"
+	trait="ambitious"
+	father=6042
+	mother=6043
+	1268.5.28={birth=yes}
+	1329.12.4={death=yes}
+}
+
+6046={
+	name="Rosso"
+	dynasty=259
+	dna="ghgoacmpmpl"
+	culture="romano_lombard"
+	religion=catholic
+	martial=5
+	diplomacy=1
+	stewardship=3
+	intrigue=5
+	learning=3
+	trait="brilliant_strategist"
+	trait="brave"
+	father=6042
+	mother=6043
+	1274.5.23={birth=yes}
+	1326.10.13={death=yes}
+}
+	
+### Lords in the West ###
+
+#Duchy of Baden
+
+6100={
+	name="Rudolf"
+	dynasty=282
+	dna="haojoceiemj"
+	culture="low_alemannic"
+	religion=catholic
+	martial=8
+	diplomacy=5
+	stewardship=6
+	intrigue=6
+	learning=0
+	trait="flamboyant_schemer"
+	trait="wroth"
+	trait="envious"
+	1230.1.1={birth=yes}
+	1253.1.14 = {add_spouse=6101}
+	1288.5.4={death=yes}
+}
+
+6101={
+	name="Jutta"
+	female=yes
+	dynasty=283
+	dna="iabjcldfidd"
+	culture="low_alemannic"
+	religion=catholic
+	martial=3
+	diplomacy=3
+	stewardship=6
+	intrigue=7
+	learning=2
+	trait="indulgent_wastrel"
+	trait="proud"
+	trait="craven"
+	trait="chaste"
+	trait="just"
+	trait="wounded"
+	1232.12.15={birth=yes}
+	1253.1.14 = {add_spouse=6100}
+	1285.4.15={death=yes}
+}
+
+6102={
+	name="Irmele"
+	female=yes
+	dynasty=282
+	dna="iahjolefimd"
+	culture="low_alemannic"
+	religion=catholic
+	martial=5
+	diplomacy=0
+	stewardship=5
+	intrigue=7
+	learning=6
+	trait="flamboyant_schemer"
+	trait="kind"
+	trait="content"
+	trait="just"
+	father=6100
+	mother=6101
+	1254.1.30={birth=yes}
+	1331.8.19={death=yes}
+}
+
+6103={
+	name="Magnus"
+	dynasty=282
+	dna="iabjcleiedj"
+	culture="low_alemannic"
+	religion=catholic
+	martial=2
+	diplomacy=4
+	stewardship=5
+	intrigue=6
+	learning=4
+	trait="tough_soldier"
+	trait="proud"
+	trait="craven"
+	trait="paranoid"
+	father=6100
+	mother=6101
+	1255.6.12={birth=yes}
+	1328.9.29={death=yes}
+}
+
+### Sundgau Duchy ###
+
+6150={
+	name="Thomas"
+	dynasty=283
+	dna="bbihiaefcgf"
+	culture="low_alemannic"
+	religion=catholic
+	martial=3
+	diplomacy=5
+	stewardship=2
+	intrigue=2
+	learning=6
+	trait="intricate_webweaver"
+	trait="diligent"
+	trait="content"
+	trait="deceitful"
+	trait="gluttonous"
+	1236.1.1={birth=yes}
+	1257.11.9 = {add_spouse=6151}
+	1281.9.10={death=yes}
+}
+
+6151={
+	name="Binhilde"
+	female=yes
+	dynasty=284
+	dna="lpffmidhlfl"
+	culture="low_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=5
+	intrigue=3
+	learning=1
+	trait="grey_eminence"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="stressed"
+	1240.10.20={birth=yes}
+	1257.11.9 = {add_spouse=6150}
+	1292.3.27={death=yes}
+}
+
+6152={
+	name="Ingeltrude"
+	female=yes
+	dynasty=283
+	dna="lbihiidflkl"
+	culture="low_alemannic"
+	religion=catholic
+	martial=1
+	diplomacy=2
+	stewardship=3
+	intrigue=3
+	learning=8
+	trait="charismatic_negotiator"
+	father=6150
+	mother=6151
+	1261.10.4={birth=yes}
+	1304.3.21={death=yes}
+}
+
+6153={
+	name="Bernhard"
+	dynasty=283
+	dna="bpfhiadfcgf"
+	culture="low_alemannic"
+	religion=catholic
+	martial=7
+	diplomacy=4
+	stewardship=3
+	intrigue=6
+	learning=4
+	trait="underhanded_rogue"
+	trait="temperate"
+	trait="shy"
+	father=6150
+	mother=6151
+	1262.10.2={birth=yes}
+	1317.8.7={death=yes}
+}
+
+6154={
+	name="Landolf"
+	dynasty=283
+	dna="lpfhifdflff"
+	culture="low_alemannic"
+	religion=catholic
+	martial=1
+	diplomacy=6
+	stewardship=7
+	intrigue=2
+	learning=6
+	trait="fortune_builder"
+	trait="content"
+	father=6150
+	mother=6151
+	1267.11.23={birth=yes}
+	1321.6.8={death=yes}
+}
+
+6155={
+	name="Landolf"
+	dynasty=283
+	dna="lpfhgadhcgf"
+	culture="low_alemannic"
+	religion=catholic
+	martial=6
+	diplomacy=7
+	stewardship=6
+	intrigue=0
+	learning=0
+	trait="charismatic_negotiator"
+	trait="cruel"
+	trait="paranoid"
+	trait="lustful"
+	trait="brave"
+	father=6150
+	mother=6151
+	1272.1.22={birth=yes}
+	1339.1.24={death=yes}
+}
+	
+### Lords of Motepilard ###
+6200={
+	name="Clotaire "
+	dynasty=284
+	dna="ihjiebbglkm"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=5
+	diplomacy=3
+	stewardship=5
+	intrigue=7
+	learning=2
+	trait="grey_eminence"
+	trait="content"
+	trait="cruel"
+	trait="temperate"
+	trait="wounded"
+	1223.9.1={birth=yes}
+	1239.6.15 = {add_spouse=6201}
+	1282.5.3={death=yes}
+}
+
+6201={
+	name="Péronelle"
+	female=yes
+	dynasty=285
+	dna="bknohgnonnf"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=6
+	diplomacy=6
+	stewardship=4
+	intrigue=3
+	learning=4
+	trait="tough_soldier"
+	trait="honest"
+	trait="depressed"
+	1223.10.18={birth=yes}
+	1239.6.15 = {add_spouse=6200}
+	1274.5.25={death=yes}
+}
+
+6202={
+	name="Mahaut"
+	female=yes
+	dynasty=284
+	dna="ennifgnonnf"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=6
+	diplomacy=6
+	stewardship=5
+	intrigue=3
+	learning=0
+	trait="misguided_warrior"
+	trait="charitable"
+	trait="craven"
+	trait="zealous"
+	father=6200
+	mother=6201
+	1244.8.24={birth=yes}
+	1316.9.24={death=yes}
+}
+
+6203={
+	name="Hodierne"
+	female=yes
+	dynasty=284
+	dna="ikniebnonfm"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=7
+	diplomacy=2
+	stewardship=1
+	intrigue=2
+	learning=4
+	trait="underhanded_rogue"
+	trait="celibate"
+	trait="lustful"
+	trait="stressed"
+	father=6200
+	mother=6201
+	1245.8.18={birth=yes}
+	1308.11.27={death=yes}
+}
+	
+##### French Comte ######
+
+###Vogts of Burgundy
+6300={
+	name="Otto"
+	dynasty=291
+	dna="omgpjiailbc"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=6
+	diplomacy=6
+	stewardship=1
+	intrigue=4
+	learning=3
+	trait="underhanded_rogue"
+	trait="cruel"
+	trait="deceitful"
+	trait="proud"
+	1238.11.1={birth=yes
+		effect = { set_government_type = vogtei_government }
+	}
+	1255.5.18 = {add_spouse=6301}
+	1280.1.1 = {
+		effect = { set_government_type = vogtei_government }
+	}
+	1304.11.5={death=yes}
+}
+
+6301={
+	name="Sibylla"
+	female=yes
+	dynasty=292
+	dna="mlhmdblnjej"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=6
+	trait="intricate_webweaver"
+	trait="mystic"
+	trait="wroth"
+	trait="gregarious"
+	1238.12.9={birth=yes}
+	1255.5.18 = {add_spouse=6300}
+	1296.5.24={death=yes}
+}
+
+6302={
+	name="Herbert"
+	dynasty=291
+	dna="mmibjilijej"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=8
+	diplomacy=2
+	stewardship=7
+	intrigue=3
+	learning=7
+	trait="flamboyant_schemer"
+	trait="shy"
+	father=6300
+	mother=6301
+	1260.3.5={birth=yes}
+	1295.12.31={death=yes}
+}
+
+6303={
+	name="Boson"
+	dynasty=291
+	dna="mmghdbaijec"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=6
+	diplomacy=2
+	stewardship=4
+	intrigue=2
+	learning=7
+	trait="grey_eminence"
+	trait="greedy"
+	trait="deceitful"
+	father=6300
+	mother=6301
+	1263.9.16={birth=yes}
+	1321.12.30={death=yes}
+}
+
+6304={
+	name="Peronella"
+	female=yes
+	dynasty=291
+	dna="omgpdililej"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=1
+	diplomacy=2
+	stewardship=4
+	intrigue=3
+	learning=1
+	trait="skilled_tactician"
+	trait="hedonist"
+	trait="cruel"
+	trait="deceitful"
+	trait="proud"
+	father=6300
+	mother=6301
+	1266.8.12={birth=yes}
+	1333.7.7={death=yes}
+}
+ 
+### Lords of Saone
+6305={
+	name="Bernard"
+	dynasty=287
+	dna="ocibdoicidn"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=7
+	intrigue=3
+	learning=0
+	trait="indulgent_wastrel"
+	trait="celibate"
+	trait="ambitious"
+	trait="deceitful"
+	1243.7.1={birth=yes}
+	1262.10.16 = {add_spouse=6306}
+	1297.1.13={death=yes}
+}
+
+6306={
+	name="Arsinde"
+	female=yes
+	dynasty=288
+	dna="oeicchhchdf"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=7
+	diplomacy=2
+	stewardship=2
+	intrigue=4
+	learning=4
+	trait="skilled_tactician"
+	trait="craven"
+	1247.3.8={birth=yes}
+	1262.10.16 = {add_spouse=6305}
+	1328.3.15={death=yes}
+}
+
+6307={
+	name="Léonard"
+	dynasty=287
+	dna="ocicdhhcjdf"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=2
+	diplomacy=7
+	stewardship=5
+	intrigue=3
+	learning=6
+	trait="charismatic_negotiator"
+	trait="hedonist"
+	trait="cynical"
+	father=6305
+	mother=6306
+	1268.8.1={birth=yes}
+	1323.10.6={death=yes}
+}
+
+6308={
+	name="Berthe"
+	female=yes
+	dynasty=287
+	dna="oeibdohlidl"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=3
+	diplomacy=6
+	stewardship=7
+	intrigue=3
+	learning=4
+	trait="skilled_tactician"
+	trait="scholar"
+	trait="zealous"
+	trait="brave"
+	trait="shy"
+	trait="trusting"
+	father=6305
+	mother=6306
+	1272.9.1={birth=yes}
+	1323.2.10={death=yes}
+}
+
+## Mountfancon Counts
+6309={
+	name="Jourdain"
+	dynasty=287
+	dna="ejfnleojhjh"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=5
+	diplomacy=2
+	stewardship=7
+	intrigue=5
+	learning=4
+	trait="skilled_tactician"
+	trait="patient"
+	trait="cruel"
+	trait="brave"
+	trait="honest"
+	1257.1.1={birth=yes}
+	1277.10.13 = {add_spouse=6310}
+	1319.1.22={death=yes}
+}
+
+6310={
+	name="Almodis"
+	female=yes
+	dynasty=288
+	dna="mildkoogpfl"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=7
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=7
+	trait="thrifty_clerk"
+	trait="celibate"
+	trait="slothful"
+	1262.1.6={birth=yes}
+	1277.10.13 = {add_spouse=6309}
+	1324.6.2={death=yes}
+}
+
+6311={
+	name="Bonne"
+	female=yes
+	dynasty=287
+	dna="mecnleoghjm"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=1
+	diplomacy=5
+	stewardship=4
+	intrigue=2
+	learning=5
+	trait="intricate_webweaver"
+	trait="scholar"
+	trait="lustful"
+	trait="temperate"
+	trait="content"
+	father=6309
+	mother=6310
+	1282.4.6={birth=yes}
+	1343.8.30={death=yes}
+}
+
+6312={
+	name="Élodie"
+	female=yes
+	dynasty=287
+	dna="eifnkoojpjl"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=4
+	diplomacy=2
+	stewardship=5
+	intrigue=7
+	learning=6
+	trait="tough_soldier"
+	trait="honest"
+	trait="syphilitic"
+	father=6309
+	mother=6310
+	1287.2.27={birth=yes}
+	1339.10.20={death=yes}
+}
+
+6313={
+	name="Benoîte"
+	female=yes
+	dynasty=287
+	dna="mjfjleojpfh"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=2
+	diplomacy=3
+	stewardship=8
+	intrigue=1
+	learning=7
+	trait="misguided_warrior"
+	trait="gluttonous"
+	trait="diligent"
+	father=6309
+	mother=6310
+	1288.1.15={birth=yes}
+	1355.2.26={death=yes}
+}
+	
+		
+## Lords of Montgesoye
+
+6314={
+	name="Pagan"
+	dynasty=289
+	dna="mikolmcecba"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait="grey_eminence"
+	trait="envious"
+	trait="blinded"
+	1243.1.1={birth=yes}
+	1265.10.14 = {add_spouse=6315}
+	1297.12.24={death=yes}
+}
+
+6315={
+	name="Elisabeth"
+	female=yes
+	dynasty=290
+	dna="mfapipkmbin"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=8
+	diplomacy=3
+	stewardship=7
+	intrigue=4
+	learning=7
+	trait="tough_soldier"
+	trait="brave"
+	1245.5.18={birth=yes}
+	1265.10.14 = {add_spouse=6314}
+	1316.3.11={death=yes}
+}
+
+6316={
+	name="Simon"
+	dynasty=289
+	dna="miaplpcebba"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=2
+	intrigue=6
+	learning=1
+	trait="thrifty_clerk"
+	trait="content"
+	father=6314
+	mother=6315
+	1269.5.13={birth=yes}
+	1316.6.9={death=yes}
+}
+
+6317={
+	name="Esclarmunda"
+	female=yes
+	dynasty=289
+	dna="miaoimcmcin"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=5
+	diplomacy=7
+	stewardship=2
+	intrigue=5
+	learning=4
+	trait="flamboyant_schemer"
+	trait="paranoid"
+	father=6314
+	mother=6315
+	1271.5.29={birth=yes}
+	1345.11.1={death=yes}
+}
+	
+# Bishop of Besancon
+6318={
+	name="Odo" #Bishop of Besancon
+	dna="akblppbanhc"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=3
+	diplomacy=5
+	stewardship=4
+	intrigue=7
+	learning=2
+	trait="underhanded_rogue"
+	trait="scholar"
+	trait="humble"
+	1235.11.1={
+		birth=yes
+		effect={ dynasty=none}
+	}
+	1301.1.20={death=yes}
+}
+	
+6319={
+	name="Henry"
+	dynasty=0
+	dna="iohkoogfjak"
+	culture="lower_burgundian"
+	religion=catholic
+	martial=2
+	diplomacy=1
+	stewardship=1
+	intrigue=3
+	learning=7
+	trait="fortune_builder"
+	trait="cruel"
+	trait="brave"
+	trait="trusting"
+	trait="greedy"
+	trait="ill"
+	1262.1.1={
+		birth=yes
+		effect={ dynasty=none}
+	}
+	1309.5.23={death=yes}
+}
+
+6320={
+	name="Lothaire" #Bishop of St_Grevais
+	dynasty=0
+	dna="injmjgfclil"
+	culture="savoyian"
+	religion=catholic
+	martial=3
+	diplomacy=8
+	stewardship=6
+	intrigue=4
+	learning=5
+	trait="intricate_webweaver"
+	trait="arbitrary"
+	1240.1.1={birth=yes
+		effect={ dynasty=none}
+	}
+	1330.7.6={death=yes
+	
+	}
+	}
+	
+	
+### The SAVOY LORDS ###
+6400={
+	name="Thomas" #Thomas Original Lord of Savoy
+	dynasty=295
+	dna="iodknakaljf"
+	culture="savoyian"
+	religion=catholic
+	martial=3
+	diplomacy=5
+	stewardship=0
+	intrigue=1
+	learning=3
+	trait="tough_soldier"
+	trait="scholar"
+	trait="shy"
+	trait="shy"
+	trait="lustful"
+	trait="craven"
+	1177.1.1={birth=yes}
+	1200.3.2 = {add_spouse=6401}
+	1233.2.1={death=yes}
+}
+
+6401={
+	name="Amelie"
+	female=yes
+	dynasty=296
+	dna="nleboflnbjf"
+	culture="savoyian"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=8
+	intrigue=3
+	learning=2
+	trait="brilliant_strategist"
+	trait="celibate"
+	trait="patient"
+	1180.4.10={birth=yes}
+	1200.3.2 = {add_spouse=6400}
+	1225.5.21={death=yes}
+}
+
+6402={
+	name="Thomas"
+	dynasty=295
+	dna="noeknalabjf"
+	culture="savoyian"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=6
+	intrigue=7
+	learning=4
+	trait="flamboyant_schemer"
+	trait="mystic"
+	trait="cruel"
+	trait="slothful"
+	trait="ambitious"
+	trait="envious"
+	father=6400
+	mother=6401
+	1202.1.22={birth=yes}
+	1217.9.25 = {add_spouse=6404}
+	1268.3.27={death=yes}
+}
+
+6403={
+	name="Philipp"
+	dynasty=295
+	dna="nldboaknbjf"
+	culture="savoyian"
+	religion=catholic
+	martial=7
+	diplomacy=5
+	stewardship=2
+	intrigue=3
+	learning=3
+	trait="skilled_tactician"
+	trait="trusting"
+	trait="shy"
+	trait="cynical"
+	father=6400
+	mother=6401
+	1220.3.27={birth=yes}
+	1285.5.21={death=yes}
+}
+
+6404={
+name="Bonne"
+female=yes
+dynasty=297
+dna="fmaiiifglkk"
+culture="savoyian"
+religion=catholic
+martial=4
+diplomacy=4
+stewardship=8
+intrigue=6
+learning=5
+trait="midas_touched"
+trait="honest"
+trait="brave"
+trait="cynical"
+1202.3.5={birth=yes}
+1217.9.25 = {add_spouse=6402}
+1251.8.26={death=yes}
+}
+
+6405={
+	name="Amadeus"
+	dynasty=295
+	dna="nmeiialabkf"
+	culture="savoyian"
+	religion=catholic
+	martial=6
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait="flamboyant_schemer"
+	father=6402
+	mother=6404
+	1240.3.30={birth=yes}
+	1261.2.9 = {add_spouse=6410}
+	1290.11.6={death=yes}
+}
+
+6406={
+	name="Louis"
+	dynasty=295
+	dna="noekiifgbjn"
+	culture="savoyian"
+	religion=catholic
+	martial=2
+	diplomacy=8
+	stewardship=6
+	intrigue=0
+	learning=4
+	trait="flamboyant_schemer"
+	trait="gregarious"
+	trait="just"
+	father=6402
+	mother=6404
+	1242.7.10={birth=yes}
+	1262.7.9 = {add_spouse=6407}
+	1305.11.13={death=yes}
+}
+
+6407={
+	name="Anne"
+	female=yes
+	dynasty=298
+	dna="nkgdghboejm"
+	culture="savoyian"
+	religion=catholic
+	martial=6
+	diplomacy=6
+	stewardship=5
+	intrigue=1
+	learning=5
+	trait="tough_soldier"
+	trait="humble"
+	trait="greedy"
+	1245.9.1={birth=yes}
+	1262.7.9 = {add_spouse=6406}
+	1294.5.4={death=yes}
+}
+
+6408={
+	name="Emma"
+	female=yes
+	dynasty=295
+	dna="nkediibobjm"
+	culture="savoyian"
+	religion=catholic
+	martial=2
+	diplomacy=2
+	stewardship=3
+	intrigue=4
+	learning=6
+	trait="flamboyant_schemer"
+	trait="slothful"
+	trait="charitable"
+	trait="wounded"
+	father=6406
+	mother=6407
+	1263.12.9={birth=yes}
+	1326.11.17={death=yes}
+}
+
+6409={
+	name="Marguerite"
+	female=yes
+	dynasty=295
+	dna="jkgdihfgejm"
+	culture="savoyian"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=3
+	intrigue=4
+	learning=1
+	trait="underhanded_rogue"
+	trait="diligent"
+	trait="envious"
+	father=6406
+	mother=6407
+	1268.7.2={birth=yes}
+	1349.7.5={death=yes}
+}
+
+6410={
+	name="Maria"
+	female=yes
+	dynasty=299
+	dna="dcapacdigfp"
+	culture="savoyian"
+	religion=catholic
+	martial=4
+	diplomacy=2
+	stewardship=8
+	intrigue=3
+	learning=3
+	trait="flamboyant_schemer"
+	trait="cynical"
+	1241.2.7={birth=yes}
+	1261.2.9 = {add_spouse=6405}
+	1307.10.26={death=yes}
+}
+
+6411={
+	name="Gelduin"
+	dynasty=295
+	dna="nmeiaclibkp"
+	culture="savoyian"
+	religion=catholic
+	martial=3
+	diplomacy=3
+	stewardship=6
+	intrigue=8
+	learning=6
+	trait="charismatic_negotiator"
+	trait="gluttonous"
+	trait="charitable"
+	trait="slothful"
+	father=6405
+	mother=6410
+	1266.5.19={birth=yes}
+	1311.10.20={death=yes}
+}
+	
+		

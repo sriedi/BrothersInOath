@@ -2,7 +2,7 @@
 technology = {
 	titles = {
 		d_aosta
-		d_bergramo
+		d_bergamo
 		d_borgomanero
 		d_brescia
 		d_como

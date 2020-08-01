@@ -15,7 +15,7 @@ assembly_elective_voteing = {
 			}
 		}
 		additive_modifier = { #Then the Councilors.
-			value = 10
+			value = 20
 			OR = { 
 				has_job_title = job_chancellor
 				has_job_title = job_marshal
@@ -28,21 +28,21 @@ assembly_elective_voteing = {
 		}
 		additive_modifier = { #And all Vassals of the Title above baron
 			value = 10
-			vassal_of = FROMFROM
+			de_jure_liege = FROMFROM
 			higher_real_tier_than = BARON
 		}
 		additive_modifier = { #And all Vassals of the Title if count
 			value = 7
 			FROMFROM = {
 			AND = {
-				vassal_of = FROMFROM
+				de_jure_liege = FROMFROM
 				holder_scope = { lower_real_tier_than = DUKE }				
 				}
 			}
 			
 		}
 		additive_modifier = { #All males on court if there is a shortage of voters
-			value = 4
+			value = 2
 			FROMFROM = {
 			holder_scope = {
 					any_courtier = {
@@ -50,10 +50,13 @@ assembly_elective_voteing = {
 						is_female = no
 						prisoner = no
 						is_incapable = no
-						is_landed = no
-						NOT = {
-							has_minor_title = title_commander
-						}
+						#is_landed = no
+							NOT = {
+								has_minor_title = title_commander
+							}
+							liege = {
+								is_liege_of = PREV
+							}
 						}
 					}
 				}
@@ -267,42 +270,44 @@ assembly_elective_voteing = {
 			FROM ={
 				OR = {
 					AND = {
-					vassal_of = ROOT
-					higher_tier_than = BARON
-					is_female = no
-					age > 16
-					}
-					AND = {
-						ROOT = {
-						any_courtier = {
-							OR = {
-								has_minor_title = title_commander
-								is_voter = yes
-							}
-							is_female = no
-							prisoner = no
-							age > 16
-							is_incapable  = no
-							is_republic = no
-							is_merchant_republic = no
-							is_theocracy = no
-							culture = ROOT
-							religion = ROOT
-							NOR = {
-								any_heir_title = {
-									is_republic = yes
-								}
-								any_heir_title = {
-									is_merchant_republic = yes
-								}
-								any_heir_title = {
-									is_theocracy = yes
-								}
-							}
-							}
+						vassal_of = ROOT
+						higher_tier_than = BARON
+						is_female = no
+						age > 16
 						}
+					# AND = {
+					# 	ROOT = {
+					# 	any_courtier = {
+					# 		OR = {
+					# 			has_minor_title = title_commander
+					# 			is_voter = yes
+					# 		}
+					# 		is_female = no
+					# 		prisoner = no
+					# 		age > 16
+					# 		is_incapable  = no
+					# 		is_republic = no
+					# 		is_merchant_republic = no
+					# 		is_theocracy = no
+					# 		culture = ROOT
+					# 		religion = ROOT
+					# 		vassal_of = ROOT
+					# 		NOR = {
+					# 				any_heir_title = {
+					# 					is_republic = yes
+					# 				}
+					# 				any_heir_title = {
+					# 					is_merchant_republic = yes
+					# 				}
+					# 				any_heir_title = {
+					# 					is_theocracy = yes
+					# 				}
+					# 				is_landed = no
+					# 			}
+					# 		}
+					# 	}
 						
-					}
+					# }
 				
 					
 				}

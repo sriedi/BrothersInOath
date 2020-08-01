@@ -1,5 +1,5 @@
 #3000 CITY Dynasties
-
+##Zurich
 3001=	
 {	
 	name="Bodmer"
@@ -57,4 +57,159 @@
 	used_for_random=no
 	 
 	
-}	
+}
+
+######## Schaffhausen #######
+
+3006=	
+{	
+	name="Am Stad"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	 
+	
+}
+
+3007=	
+{	
+	name="von Fulach"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	 
+	
+}
+
+3008=	
+{	
+	name="von Mandach"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	 
+	
+}
+3009=	
+{	
+	name="Peyer"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	 
+	
+}
+3010=	
+{	
+	name="im Thurn"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+	 
+	
+}
+
+##### Bern #########
+
+3011=	
+{	
+	name="von Erlach"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+
+3012=	
+{	
+	name="von Wattenwyl"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+
+3013=	
+{	
+	name="von Diesbach"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+3014=	
+{	
+	name="Lombach"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+3015=	
+{	
+	name="von Muralt"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+
+#### Basel Patrician ###
+
+3016=	
+{	
+	name="Burckhardt"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+
+3017=	
+{	
+	name="Frey"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+
+3018=	
+{	
+	name="Iselin"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+
+3019=	
+{	
+	name="Sarasin"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+
+3020=	
+{	
+	name="Vischer"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+
+### Solothurn ###
+
+3021 = {
+	name="Grimm"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+3022 = {
+	name="Vigier"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+3023 = {
+	name="von Roll"
+	religion="catholic"
+	culture="middle_alemannic"
+	used_for_random=no
+}
+
+

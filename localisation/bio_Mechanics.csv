@@ -1,5 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 traderoute_province_desc;Is traderoute Province;;Ist eine Handelsrouten Provinz;;;;;;;;;;;x
+BISHOPRIC;Bishopric;;Bistum;;;;;;;;;;;x
+ABBEY;Abbey of;;Kloster;;;;;;;;;;;x
 form_sworn_alliance;Form a Sworn Alliance;;Schwurbund anbieten;;;;;;;;;;;x
 form_sworn_alliance_desc;Propose a sworn alliance between your terretories. Sworn Alliances will not be dissolved when a Ruler dies. You will be the leader of the alliance;;Schlägt vor einen gegenseitigen Bundesschwur zu leisten. Schwurbünde überdauern, selbst wenn ein Herrscher stirbt. Ihr werded der Anführer des Bundes sein.;;;;;;;;;;;x
 invite_sworn_alliance;Invite to Sworn Alliance;;Zu Schwurbund einladen;;;;;;;;;;;x
@@ -16,7 +18,7 @@ REASON_DISTANCE_FAR;Distance;;Entfernung;;;;;;;;;;;x
 REASON_ALWAYS;Base reluctance;;Grundzurückhaltung;;;;;;;;;;;x
 REASON_THREATEND;Threatend;;Bedroht;;;;;;;;;;;x
 REASON_PROTECTOR;Strong Protector;;Starker Beschützer;;;;;;;;;;;x
-REASON_DIPLOMACY;Diplomacy;;Diplomatie;;;;;;;;;;;
+REASON_DIPLOMACY;Diplomacy;;Diplomatie;;;;;;;;;;;x
 sworn_alliance;Sworn Alliance;;Schwurbund;;;;;;;;;;;x
 TRIBUTARY_SWORNALLIANCE_NAME;Sworn Ally;;Bundesgenosse;;;;;;;;;;;x
 TRIBUTARY_SWORNALLIANCE_PLURAL;Sworn Allies;;Bundesgenossen;;;;;;;;;;;x

@@ -1,0 +1,82 @@
+narrative_event = {
+	id = bio.400
+	picture = GFX_evt_scandal
+	desc = EVTDESCbio.400
+
+	trigger = {
+		NOT = {
+			has_global_flag = swiss_rebelion_triggered
+		}
+		AND = {
+			primary_title = {
+					title = d_schwyz
+			}
+			any_suzerain = {
+				primary_title = {
+					OR = {
+						title = k_schwyz_vogtei
+						title = k_unterwalden_vogtei
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	immediate = {
+		set_global_flag = swiss_rebelion_triggered
+	}
+
+	option = {
+		name = EVTOPTAbio.400
+		#Send for the others
+
+	}
+
+	option = {
+		name = EVTOPTBAbio.400
+	}
+}
+
+#Event to clear the Flag agian
+
+character_event = {
+	id = bio.401
+	desc = EVTDESCbio.401
+	immediate = {
+		IF = {
+			limit = {
+				had_global_flag = {
+					flag = swiss_rebelion_triggered
+					years >= 3
+				}
+			}
+			clr_global_flag = swiss_rebelion_triggered
+		}
+		option = {
+			name = EVTOPTAbio.401
+		}
+	}
+}
+
+#Invite to Secret Meeting
+letter_event = {
+
+}
+
+#Secret Meeting Host
+narrative_event = {
+
+}
+
+#Secret Meeting Others
+narrative_event = {
+
+	#Possibility to Decline
+}
+
+#Declare the Burgensturm 
+narrative_event = {
+
+}

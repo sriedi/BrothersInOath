@@ -12,7 +12,7 @@ targetted_decisions = {
 					independent = yes
 					OR = {
 						government = commonassembly_government
-						government = guild_republic_government
+						government = guildrepublic_government
 						is_republic = yes
 					}
 					
@@ -38,7 +38,7 @@ targetted_decisions = {
 				independent = yes
 				OR = {
 					government = commonassembly_government
-					government = guild_republic_government
+					government = guildrepublic_government
 					is_republic = yes
 				}
 				NOT = {
@@ -205,7 +205,7 @@ targetted_decisions = {
 				independent = yes
 				OR = {
 					government = commonassembly_government
-					government = guild_republic_government
+					government = guildrepublic_government
 					is_republic = yes
 				}
 				NOT = {
@@ -352,7 +352,7 @@ targetted_decisions = {
 				independent = yes
 				OR = {
 					government = commonassembly_government
-					government = guild_republic_government
+					government = guildrepublic_government
 					is_republic = yes
 				}
 				NOT = {
@@ -496,7 +496,7 @@ targetted_decisions = {
 				independent = yes
 				OR = {
 					government = commonassembly_government
-					government = guild_republic_government
+					government = guildrepublic_government
 					is_republic = yes
 				}
 				
@@ -529,7 +529,7 @@ targetted_decisions = {
 				independent = yes
 				OR = {
 					government = commonassembly_government
-					government = guild_republic_government
+					government = guildrepublic_government
 					is_republic = yes
 				}
 			}
@@ -657,7 +657,7 @@ targetted_decisions = {
 				independent = yes
 				OR = {
 					government = commonassembly_government
-					government = guild_republic_government
+					government = guildrepublic_government
 					is_republic = yes
 				}
 				
@@ -689,7 +689,7 @@ targetted_decisions = {
 				independent = yes
 				OR = {
 					government = commonassembly_government
-					government = guild_republic_government
+					government = guildrepublic_government
 					is_republic = yes
 				}
 			}
@@ -969,65 +969,4 @@ decisions = {
 		}
 	}
 
-
-	form_confederacy = {
-		is_high_prio = yes
-		ai_check_interval = 4
-		
-		potential = {
-			ROOT = {
-				primary_title = {
-					has_title_flag = in_sworn_alliance
-				}
-				NOT = {
-					is_tributary = yes
-				}
-			}
-		}
-
-		allow = {
-			custom_tooltip = {
-				text = part_of_alliance_desc
-				ROOT = {
-					primary_title = {
-						had_title_flag = {
-							flag = in_sworn_alliance
-							years >= 3
-						}
-					}
-				}
-			}
-			war = no
-			any_tributary = {
-				opinion = {
-					who = ROOT
-					value >= 10  
-				}
-			}
-			
-		}
-
-		effect = {
-			narrative_event = {
-				id =bio.215
-			}
-		}
-
-		ai_will_do = {
-			factor = 0.5
-			modifier = {
-				factor = 0.8
-				trait = ambitious
-			}
-		}
-
-	}
-
-	#form_the_swissconfederacy = {
-
-	#}
-
-	#form_the_burgundian_confederacy = {
-
-	#}
 }#decisions

@@ -6,9 +6,9 @@ title = c_gallarate
 # Settlements
 max_settlements = 7
 
+b_san_stefano = temple
 b_oggiona = castle
 b_gallarate = city
-b_san_stefano = temple
 b_cassagno = castle
 b_castronno = castle
 b_tradate = city

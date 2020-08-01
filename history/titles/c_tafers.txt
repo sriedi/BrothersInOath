@@ -1,8 +1,8 @@
-# e_burgundy
-500.1.1={
+1200.1.1={
 	law = agnatic_succession
 	law = succ_gavelkind
+	liege = d_morat
 }
-800.1.1={
-	liege= "k_upper_burgundy"
+1261.1.1 = {
+	holder= 4035 # Albrecht of Laupen
 }

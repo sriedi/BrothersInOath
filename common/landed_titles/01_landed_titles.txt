@@ -632,7 +632,7 @@ culture = middle_alemannic
 				any_demesne_province = { OR = { province_id = 56 province_id = 76 province_id = 105 province_id = 149 province_id = 151 province_id = 197 province_id = 525 } }
 			}
 		}
-		capital = 56 # c_weesen
+		capital = 151 # c_glarus
 		
 		c_weesen = { # 56
 			color={ 235 104 109 }
@@ -797,7 +797,7 @@ culture = middle_alemannic
 	d_kyburg = {
 		color={ 87 94 70 }
 		color2={ 255 255 255 }
-		
+		name_tier = count
 		allow = {
 			OR = {
 				lower_tier_than = KING
@@ -888,6 +888,17 @@ culture = middle_alemannic
 		color={ 103 179 130 }
 		color2={ 255 255 255 }
 		
+		coat_of_arms = {
+			template = 0
+			layer = {
+				texture = 2
+				texture_internal = 1
+				emblem = 0
+				color = 1
+				color = 3
+				color = 3
+			}
+		}
 		allow = {
 			OR = {
 				lower_tier_than = KING
@@ -1928,7 +1939,7 @@ culture = middle_alemannic
 	d_surgau = {
 		color={ 240 177 140 }
 		color2={ 255 255 255 }
-		
+		name_tier = count
 		allow = {
 			OR = {
 				lower_tier_than = KING
@@ -2039,7 +2050,7 @@ culture = middle_alemannic
 	d_toggenburg = {
 		color={ 244 234 134 }
 		color2={ 255 255 255 }
-		
+		name_tier = count
 		allow = {
 			OR = {
 				lower_tier_than = KING
@@ -2112,7 +2123,7 @@ culture = middle_alemannic
 	d_ufgau = {
 		color={ 173 115 53 }
 		color2={ 255 255 255 }
-		
+		name_tier = count
 		allow = {
 			OR = {
 				lower_tier_than = KING
@@ -2997,8 +3008,8 @@ culture = middle_alemannic
 k_baden = {
 color={ 127 163 198 }
 color2={ 255 255 255 }
-
-capital = 142 # c_schopfheim
+name_tier = duke
+capital = 344 # c_bad_krozingen
 culture = low_alemannic
 	d_breisgau = {
 		color={ 147 143 208 }
@@ -3195,7 +3206,8 @@ culture = low_alemannic
 k_osterreich = {
 color={ 225 172 241 }
 color2={ 255 255 255 }
-
+name_tier = duke
+primary = yes 
 capital = 403 # c_landeck
 culture = tirolian
 	d_tirol = {
@@ -3355,7 +3367,7 @@ culture = tirolian
 	d_montfort = {
 		color={ 121 198 134 }
 		color2={ 255 255 255 }
-		
+		name_tier = count
 		allow = {
 			OR = {
 				lower_tier_than = KING
@@ -4165,7 +4177,7 @@ culture = raetoromanish
 k_schwaben = {
 	color={ 159 162 15 }
 	color2={ 255 255 255 }
-
+	name_tier = duke
 	capital = 53 # c_ravensburg
 	culture = low_alemannic
 
@@ -4450,7 +4462,7 @@ k_schwaben = {
 	d_arbongau = {
 		color={ 242 52 27 }
 		color2={ 255 255 255 }
-		
+		name_tier = count
 		allow = {
 			OR = {
 				lower_tier_than = KING
@@ -4718,7 +4730,7 @@ k_schwaben = {
 	d_thurgau = {
 		color={ 154 178 221 }
 		color2={ 255 255 255 }
-		
+		name_tier = count
 		allow = {
 			OR = {
 				lower_tier_than = KING
@@ -4883,7 +4895,7 @@ e_burgundy = {
 		d_aarburgund = {
 			color={ 108 117 18 }
 			color2={ 255 255 255 }
-			
+			name_tier = count
 			allow = {
 				OR = {
 					lower_tier_than = KING
@@ -5776,7 +5788,7 @@ e_burgundy = {
 		d_romont = {
 			color={ 191 135 30 }
 			color2={ 255 255 255 }
-			
+			tier_name = count
 			allow = {
 				OR = {
 					lower_tier_than = KING
@@ -6115,7 +6127,7 @@ e_burgundy = {
 				}
 			}
 		}
-		d_st_grevais = {
+		d_st_gervais = {
 			color={ 196 63 62 }
 			color2={ 255 255 255 }
 			
@@ -6717,7 +6729,7 @@ e_burgundy = {
 		d_neuchatel = {
 			color={ 82 207 241 }
 			color2={ 255 255 255 }
-			
+			name_tier = count
 			allow = {
 				OR = {
 					lower_tier_than = KING
@@ -8111,11 +8123,11 @@ color2={ 255 255 20 }
 
 capital = 188 # c_bellinzona
 culture = romano_lombard
-	k_lombardy = {
+	k_milan = {
 	color={ 23 235 131 }
 	color2={ 255 255 255 }
-
-	capital = 188 # c_bellinzona
+	name_tier = duke
+	capital = 295 # c_bellinzona
 	culture = romano_lombard
 
 		d_leventina = {
@@ -8220,7 +8232,7 @@ culture = romano_lombard
 				}
 			}
 		}
-		d_bergramo = {
+		d_bergamo = {
 			color={ 149 172 79 }
 			color2={ 255 255 255 }
 			
@@ -9039,7 +9051,7 @@ d_borgomanero = {
 		b_oleggio = {
 		}
 	}
-	c_brgosesia = { # 533
+	c_borgosesia = { # 533
 		color={ 229 235 59 }
 		color2={ 255 255 255 }
 		

@@ -1,11 +1,11 @@
 # e_hre
-800.1.1={
-	liege= "e_hre"
-}
 1200.1.1={
 	law = agnatic_succession
 	law = succ_primogeniture
 }
-1260.1.1={
-	#holder = 15000 #Rudolf von Habsburg
+1270.1.1={
+	holder = 3000 #Random von Buchegg Character
+}
+1280.1.1 = {
+	liege = k_osterreich
 }

@@ -1,17 +1,66 @@
-k_upper_austria = {
+k_schwyz_vogtei = {
     color={ 155 86 44 }
 	color2={ 255 255 255 }
-	capital = 220
-	culture = lower_allemannic
-	name_tier = duke
-
-
-	d_oberaargau = {}
-	
-	d_unteraargau = {}
-
-	d_regensberg = {}
-
-	d_baden = {}
-
+	culture = "low_alemannic"
+	capital = 38
+	primary = yes
+	assimilate = no
+	can_be_claimed = no
+	can_be_usurped = no
 }
+
+k_unterwalden_vogtei = {
+    color={ 155 56 67 }
+	color2={ 255 255 255 }
+	culture = "low_alemannic"
+	capital = 93
+	primary = yes
+	assimilate = no
+	can_be_claimed = no
+	can_be_usurped = no
+}
+
+d_sion_bishopric = {
+	color={ 255 18 35 }
+	color2={ 255 25 55 }
+	culture = "high_alemannic"
+	title_prefix = BISHOPRIC 
+	capital = 192
+	primary = yes
+	can_be_claimed = no
+	can_be_usurped = no
+}
+
+d_st_maurice_abbey = {
+	color={ 60 10 90 }
+	color2={ 60 10 90 }
+	culture = "high_alemannic"
+	title_prefix = ABBEY 
+	capital = 192
+	primary = yes
+	can_be_claimed = no
+	can_be_usurped = no
+}
+
+d_basel_bishopric = {
+	color={ 250 250 250 }
+	color2={ 255 0 55 }
+	culture = "low_alemannic"
+	title_prefix = BISHOPRIC 
+	capital = 258
+	primary = yes
+	can_be_claimed = no
+	can_be_usurped = no
+}
+
+k_burgundy_vogtei = {
+    color={ 164 109 227 }
+	color2={ 161 73 207 }
+	culture = "low_alemannic"
+	capital = 251
+	primary = yes
+	assimilate = no
+	can_be_claimed = no
+	can_be_usurped = no
+}
+

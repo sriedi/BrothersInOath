@@ -1,4 +1,4 @@
 # e_hre
-800.1.1={
-	liege= "k_alemannia"
+1255.1.1 = {
+	holder= 4000
 }

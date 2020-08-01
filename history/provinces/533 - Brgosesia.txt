@@ -1,7 +1,7 @@
-# c_brgosesia
+# c_borgosesia
 
 # County Title
-title = c_brgosesia
+title = c_borgosesia
 
 # Settlements
 max_settlements = 5

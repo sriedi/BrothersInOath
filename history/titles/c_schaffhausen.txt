@@ -1,7 +1,9 @@
 # e_hre
-500.1.1={
-	law = agnatic_succession
+1200.1.1 = {
+	liege = d_schaffhausen
 }
-800.1.1={
-	liege= "k_alemannia"
+
+1280.1.1 = {
+	holder= 31034 #Engelbert Am Stad 
+	
 }

@@ -4,3 +4,7 @@
 	law = agnatic_succession
 	law = succ_primogeniture
 }
+
+1280.1.1={
+	holder = 5003 #Albrecht of Habsburg
+}

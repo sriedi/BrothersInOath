@@ -1,8 +1,10 @@
-# e_hre
-800.1.1={
-	liege= "e_hre"
-}
 1200.1.1={
 	law = agnatic_succession
 	law = succ_primogeniture
+}
+1268.1.1={
+	holder =3008
+}
+1280.1.1 = {
+	liege = k_osterreich
 }

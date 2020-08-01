@@ -1,4 +1,4 @@
-#30000 City Characters
+#30000 City Characters of Zurich
 
 30001 = {	#Huldrych Brun Mayor of Zurich	
 	name ="Huldrych"	
@@ -23,6 +23,10 @@
 	mother = 31002
 	1250.7.6={	
 		birth=yes
+		effect = { set_government_type = guildrepublic_government }
+	}
+	1280.1.1 = {
+		effect = { set_government_type = guildrepublic_government }
 	}	
 	1293.8.16={	
 		death=yes
@@ -823,3 +827,439 @@
 	1243.1.16={birth=yes}
 	1315.12.29={death=yes}
 }
+
+
+####### CITY OF SCHAFFHAUSEN ########
+31034={
+	name="Engelbert"
+	dynasty=3006
+	dna="jipmgieeefg"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=2
+	stewardship=7
+	intrigue=2
+	learning=5
+	trait="midas_touched"
+	trait="envious"
+	trait="kind"
+	trait="deceitful"
+	1252.7.1={
+		birth=yes
+		effect = { set_government_type = guildrepublic_government }
+	}
+	1273.11.21 = {add_spouse=31035}
+	1280.1.1 = {
+		effect = { set_government_type = guildrepublic_government }
+	}	
+	1295.7.19={death=yes}
+}
+
+31035={
+	name="Benedicta"
+	female=yes
+	dynasty=3007
+	dna="ifndjcpmbhc"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=7
+	stewardship=3
+	intrigue=2
+	learning=4
+	trait="indulgent_wastrel"
+	trait="trusting"
+	trait="cynical"
+	trait="honest"
+	trait="craven"
+	trait="stressed"
+	1257.6.7={birth=yes}
+	1273.11.21 = {add_spouse=31034}
+	1298.6.10={death=yes}
+}
+
+31036={
+	name="Alois"
+	dynasty=3006
+	dna="jindjjeebhg"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=5
+	diplomacy=7
+	stewardship=3
+	intrigue=6
+	learning=4
+	trait="grey_eminence"
+	trait="paranoid"
+	trait="wroth"
+	trait="temperate"
+	trait="humble"
+	father=31034
+	mother=31035
+	1276.12.25={birth=yes}
+	1334.9.20={death=yes}
+}
+
+31037={
+	name="Wilhelmina"
+	female=yes
+	dynasty=3006
+	dna="iinpjcembfc"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=8
+	diplomacy=3
+	stewardship=4
+	intrigue=1
+	learning=3
+	trait="tough_soldier"
+	trait="zealous"
+	trait="diligent"
+	trait="kind"
+	trait="lustful"
+	father=31034
+	mother=31035
+	1281.6.30={birth=yes}
+	1326.11.5={death=yes}
+}
+
+31038={
+	name="Adelheid"
+	female=yes
+	dynasty=3006
+	dna="jindgeeeehg"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=5
+	intrigue=7
+	learning=3
+	trait="thrifty_clerk"
+	trait="paranoid"
+	trait="charitable"
+	father=31034
+	mother=31035
+	1287.2.15={birth=yes}
+	1336.3.22={death=yes}
+}
+	
+################ CITY of BERN #################	
+31040={
+	name="Niklaus" #Leader of Berne
+	dynasty=3011
+	dna="hgdhfhdhjjm"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=7
+	intrigue=4
+	learning=5
+	trait="underhanded_rogue"
+	trait="deceitful"
+	trait="brave"
+	trait="arbitrary"
+	1233.1.1={
+	birth=yes
+	effect = { set_government_type = guildrepublic_government }
+	}
+	1252.6.12 = {add_spouse=31041}
+	1280.1.1 = {
+		effect = { set_government_type = guildrepublic_government }
+	}	
+	1284.8.18={death=yes}
+}
+	
+31041={
+	name="Richwara"
+	female=yes
+	dna="cjkbeedehbd"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=8
+	learning=4
+	trait="underhanded_rogue"
+	trait="impaler"
+	trait="kind"
+	trait="gluttonous"
+	1236.3.18={birth=yes}
+	1252.6.12 = {add_spouse=31040}
+	1286.8.12={death=yes}
+}
+	
+31042={
+	name="Urs"
+	dynasty=3011
+	dna="cgdbfedehgd"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=7
+	stewardship=3
+	intrigue=3
+	learning=4
+	trait="flamboyant_schemer"
+	trait="kind"
+	trait="craven"
+	trait="honest"
+	father=31040
+	mother=31041
+	1254.5.9={birth=yes}
+	1321.6.22={death=yes}
+}
+	
+31043={
+	name="Bernhard"
+	dynasty=3011
+	dna="cgdbehdhhfm"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=1
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=4
+	trait="intricate_webweaver"
+	trait="scholar"
+	trait="gregarious"
+	father=31040
+	mother=31041
+	1259.10.14={birth=yes}
+	1330.9.24={death=yes}
+}
+	
+31044={
+	name="Peter" #Patrician of Wattenwyl / Lord of Worb
+	dynasty=3012
+	dna="ajmciapkjgm"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=1
+	diplomacy=2
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait="tough_soldier"
+	trait="charitable"
+	trait="brave"
+	trait="just"
+	trait="kind"
+	trait="ill"
+	1241.1.1={birth=yes}
+	1264.4.26 = {add_spouse=31045}
+	1314.7.2={death=yes}
+}
+
+31045={
+	name="Henrike"
+	female=yes
+	dynasty=3013
+	dna="jnjoielcpon"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=1
+	diplomacy=1
+	stewardship=7
+	intrigue=4
+	learning=2
+	trait="charismatic_negotiator"
+	1245.9.4={birth=yes}
+	1264.4.26 = {add_spouse=31044}
+	1310.10.9={death=yes}
+}
+
+31046={
+	name="Meinhard"
+	dynasty=3012
+	dna="jnmcialkjom"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=3
+	diplomacy=7
+	stewardship=4
+	intrigue=5
+	learning=7
+	trait="tough_soldier"
+	father=31044
+	mother=31045
+	1267.8.12={birth=yes}
+	1315.6.24={death=yes}
+}
+
+31047={
+	name="Thietmar"
+	dynasty=3012
+	dna="jjmciepcjgm"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=1
+	learning=1
+	trait="skilled_tactician"
+	trait="shy"
+	father=31044
+	mother=31045
+	1268.5.28={birth=yes}
+	1321.6.16={death=yes}
+}
+	
+####Patricians of Basel ######		
+
+31500={
+	name="Guntram" # Mayor of Basel
+	dynasty=3016
+	dna="lkocegomhbi"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=2
+	intrigue=0
+	learning=0
+	trait="elusive_shadow"
+	trait="cynical"
+	trait="wroth"
+	trait="pneumonic"
+	1246.1.1={
+	birth=yes
+	effect = { set_government_type = guildrepublic_government }
+	}
+	1268.3.9 = {add_spouse=31501}
+	1280.1.1 = {
+		effect = { set_government_type = guildrepublic_government }
+	}	
+	1306.11.12={death=yes}
+}
+	
+31501={
+	name="Gisela"
+	female=yes
+	dynasty=3017
+	dna="hlpddelobag"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=5
+	diplomacy=6
+	stewardship=2
+	intrigue=6
+	learning=7
+	trait="intricate_webweaver"
+	trait="humble"
+	trait="cynical"
+	trait="patient"
+	1247.12.6={birth=yes}
+	1268.3.9 = {add_spouse=31500}
+	1306.7.14={death=yes}
+}
+	
+31502={
+	name="Peter"
+	dynasty=3016
+	dna="hlpddeomhag"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=6
+	diplomacy=5
+	stewardship=6
+	intrigue=0
+	learning=5
+	trait="skilled_tactician"
+	trait="envious"
+	trait="slothful"
+	father=31500
+	mother=31501
+	1271.2.10={birth=yes}
+	1342.5.5={death=yes}
+}
+	
+######Solothurn #####
+
+31600={
+	name="Erich"
+	dynasty=3021
+	dna="bjgbidihmag"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=1
+	intrigue=3
+	learning=0
+	trait="detached_priest"
+	trait="chaste"
+	trait="wroth"
+	1252.5.1={birth=yes}
+	1269.2.25 = {add_spouse=31601}
+	1297.12.3={death=yes}
+}
+
+31601={
+	name="Binhilde"
+	female=yes
+	dynasty=3022
+	dna="mhfohjkghjo"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=3
+	diplomacy=3
+	stewardship=5
+	intrigue=5
+	learning=7
+	trait="tough_soldier"
+	trait="craven"
+	trait="honest"
+	1253.8.13={birth=yes}
+	1269.2.25 = {add_spouse=31600}
+	1322.10.20={death=yes}
+}
+
+31602={
+	name="Isentrude"
+	female=yes
+	dynasty=3021
+	dna="mhgoijhhhao"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=0
+	diplomacy=3
+	stewardship=8
+	intrigue=2
+	learning=1
+	trait="elusive_shadow"
+	trait="brave"
+	trait="shy"
+	father=31600
+	mother=31601
+	1273.8.21={birth=yes}
+	1334.10.21={death=yes}
+}
+
+31603={
+	name="Ehrenfried"
+	dynasty=3021
+	dna="mhgahdighjg"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=0
+	intrigue=3
+	learning=7
+	trait="tough_soldier"
+	trait="chaste"
+	father=31600
+	mother=31601
+	1277.2.24={birth=yes}
+	1340.12.31={death=yes}
+}
+
+
+	
+##### City of Geneva #####	

@@ -7,21 +7,37 @@ bm_landvogts = {
 	picture = GFX_pick_era_image_1
 	
 	selectable_character = {
-		id = 1 # Max Muster
-		age = 26
-		name = "Max Muster Testchar"
+		id = 2022 # Walter FÃ¼rst
+		age = 35
+		name = "Walter Fürst"
 		title = d_uri
 		title_name = d_uri
 		
 		character = {
-			name=Max
-			dynasty=752
+			name="Walter"
+			dynasty=55
 			religion=catholic
 			culture=high_alemannic
 			government = commonassembly_government
-			dna="0gabj0leab0"
-			properties="qc00fh000000000000"
-			
+			dna ="agfii0cia00"	
+			properties ="tj0hfe000000000000000000000000000000"	
+		}
+	}
+	selectable_character = {
+		id = 2001 # Werner Staufacher
+		age = 45
+		name = "Werner Staufacher"
+		title = d_schwyz
+		title_name = d_schwyz
+		
+		character = {
+			name ="Werner"
+			dynasty=50
+			religion= catholic
+			culture= high_alemannic
+			government = commonassembly_government
+			dna ="agfii0cia00"	
+			properties ="n00dbh000000000000000000000000000000"	
 		}
 	}
 }

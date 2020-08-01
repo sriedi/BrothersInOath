@@ -7,6 +7,16 @@ spriteTypes = {
 				name = "GFX_event_commonassembly_oath"
 				texturefile = "gfx\\event_pictures\\common_assembly_oath.tga"
 		}
+		spriteType = {
+			name = "GFX_icon_guildrepublic_government"
+			texturefile = "gfx\\interface\\government_icon_guildrepublic.dds"
+		}
+		spriteType = {
+			name = "GFX_icon_vogtei_government"
+			texturefile = "gfx\\interface\\government_icon_vogtei.dds"
+		}
+
+
 
 
 }

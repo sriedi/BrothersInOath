@@ -4,3 +4,9 @@
 	law = agnatic_succession
 	law = succ_primogeniture
 }
+1273.1.1={
+	holder = 5003 #Albrecht 
+}
+1280.1.1={
+	liege = k_osterreich
+}

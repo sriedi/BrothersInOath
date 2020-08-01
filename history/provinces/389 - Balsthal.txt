@@ -6,10 +6,11 @@ title = c_balsthal
 # Settlements
 max_settlements = 6
 
+b_st_wolfgang_2 = temple
 b_falkestein = castle
 b_klus = castle
 b_balsthal = city
-b_st_wolfgang_2 = temple
+
 #b_farisberg = city
 #b_hoenggen = temple
 

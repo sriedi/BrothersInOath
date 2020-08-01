@@ -4,12 +4,12 @@
 title = c_locarno
 
 # Settlements
-max_settlements = 7
+max_settlements = 5
 
-b_locarno = city
+
+b_locarno = castle
 b_ascona = city
 b_madonna = temple
-b_locarno_2 = castle
 #b_balladrum = city
 #b_san_michele = temple
 #b_losone = castle

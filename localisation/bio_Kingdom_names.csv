@@ -5,8 +5,8 @@ k_baden;Baden;Baden;Baden;;Baden;;;;;;;;;x
 k_baden_adj;Badenian;;badisch;;;;;;;;;;;x
 k_bayern;Bayern;Bayern;Bayern;;Bayern;;;;;;;;;x
 k_bayern_adj;Bayernian;;bayrisch;;;;;;;;;;;x
-k_lombardy;Lombardy;Lombardy;Lombardei;;Lombardy;;;;;;;;;x
-k_lombardy_adj;Lombardian;;lombardisch;;;;;;;;;;;x
+k_milan;Milan;Milan;Mailand;;Milan;;;;;;;;;x
+k_milan_adj;Milanese;;mailänderisch;;;;;;;;;;;x
 k_lower_burgundy;Lower Burgundy;Lower Burgundy;Niederburgund;;Lower Burgundy;;;;;;;;;x
 k_lower_burgundy_adj;Lower Burgundian;;niederburgundisch;;;;;;;;;;;x
 k_osterreich;Österreich;Österreich;Österreich;;Österreich;;;;;;;;;x
@@ -27,4 +27,10 @@ k_common_conf;Commoner Confederation;;Grosser Gemeinde Bund;;;;;;;;;;;x
 k_common_conf_adj;Commoner;;gemein;;;;;;;;;;;x
 k_grey_confederacy;Grey Confederation;;Grauer Bund;;;;;;;;;;;x
 k_grey_confederacy_adj ;Grison;;bünderisch;;;;;;;;;;;x
+k_schwyz_vogtei;Schwyz;;Schwyz;;;;;;;;;;;x
+k_schwyz_vogtei_adj;Swiss;;schwyzer;;;;;;;;;;;x
+k_unterwalden_vogtei;Unterwalden;;Unterwalden;;;;;;;;;;;x
+k_unterwalden_vogtei_adj;Unterwalder;;unterwalder;;;;;;;;;;;x
+k_burgundy_vogtei;Burgundy;;Burgund;;;;;;;;;;;x
+k_burgundy_vogtei_adj;burgundian;;burgunder;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x

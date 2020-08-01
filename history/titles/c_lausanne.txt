@@ -1,7 +1,4 @@
-# e_burgundy
-500.1.1={
-	law = agnatic_succession
-}
-800.1.1={
-	liege= "k_upper_burgundy"
+1274.1.1 = {
+	law = succ_catholic_bishopric
+	holder= 6048
 }

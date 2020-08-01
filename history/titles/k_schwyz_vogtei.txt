@@ -1,0 +1,14 @@
+1100.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+1240.1.1={
+	set_tribute_suzerain = { who = k_osterreich type = permanent }
+}
+1256.1.1={	
+	holder = 1001
+	effect= {
+		set_title_flag = vogtei_gov
+	}
+}	
+

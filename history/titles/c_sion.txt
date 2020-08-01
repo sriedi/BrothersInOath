@@ -1,8 +1,7 @@
-# e_burgundy
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1200.1.1 = {
+	law = succ_catholic_bishopric
+	liege = d_sion_bishopric
 }
-800.1.1={
-	liege= "k_upper_burgundy"
+1261.1.1 = {
+	holder = 4033 #Pierre d'Oron
 }

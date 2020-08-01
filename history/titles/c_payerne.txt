@@ -1,4 +1,9 @@
-# e_burgundy
-800.1.1={
-	liege= "k_upper_burgundy"
+1100.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+	liege = d_romont
+}
+
+1277.1.1={	
+	holder =3150 #Raimbaut of orbe
 }

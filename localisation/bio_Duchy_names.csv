@@ -6,7 +6,7 @@ d_ain_adj;Ainian;;ainer;;;;;;;;;;;x
 d_albula;Albula;Albula;Albula;;Albula;;;;;;;;;x
 d_albula_adj;Albulan;;albuler;;;;;;;;;;;x
 d_allgaeu;Allgäu;Allgäu;Allgäu;;Allgäu;;;;;;;;;x
-d_allgaeu_adj;Allgäian;;allgäer;;;;;;;;;;;x
+d_allgaeu_adj;Allgäian;;Allgäer;;;;;;;;;;;x
 d_andelfingen;Andelfingen;Andelfingen;Andelfingen;;Andelfingen;;;;;;;;;x
 d_andelfingen_adj;Andelfingenian;;andelfingener;;;;;;;;;;;x
 d_aosta;Aosta;Aosta;Aosta;;Aosta;;;;;;;;;x
@@ -17,8 +17,8 @@ d_arbongau;Arbongau;Arbongau;Arbongau;;Arbongau;;;;;;;;;x
 d_arbongau_adj;Arbongian;;arbonger;;;;;;;;;;;x
 d_basel;Basel;Basel;Basel;;Basel;;;;;;;;;x
 d_basel_adj;Baselian;;baseler;;;;;;;;;;;x
-d_bergramo;Bergramo;Bergramo;Bergramo;;Bergramo;;;;;;;;;x
-d_bergramo_adj;Bergramian;;bergramer;;;;;;;;;;;x
+d_bergamo;Bergamo;Bergamo;Bergamo;;Bergamo;;;;;;;;;x
+d_bergamo_adj;Bergramian;;bergramer;;;;;;;;;;;x
 d_bern;Bern;Bern;Bern;;Bern;;;;;;;;;x
 d_bern_adj;Bernian;;berner;;;;;;;;;;;x
 d_besancon;Besancon;Besancon;Besancon;;Besancon;;;;;;;;;x
@@ -46,13 +46,13 @@ d_emmental_adj;Emmentalian;;emmentaler;;;;;;;;;;;x
 d_fribourg;Fribourg;Fribourg;Fribourg;;Fribourg;;;;;;;;;x
 d_fribourg_adj;Fribourgian;;fribourger;;;;;;;;;;;x
 d_fuerstenberg;Fürstenberg;Fürstenberg;Fürstenberg;;Fürstenberg;;;;;;;;;x
-d_fuerstenberg_adj;Fürstenbergian;;fürstenberger;;;;;;;;;;;x
+d_fuerstenberg_adj;Fürstenbergian;;Fürstenberger;;;;;;;;;;;x
 d_geneve;Genève;Genève;Genève;;Genève;;;;;;;;;x
-d_geneve_adj;Genèvean;;genèver;;;;;;;;;;;x
+d_geneve_adj;Genèvean;;Genèver;;;;;;;;;;;x
 d_glarus;Glarus;Glarus;Glarus;;Glarus;;;;;;;;;x
 d_glarus_adj;Glarusian;;glaruser;;;;;;;;;;;x
 d_gruyeres;Gruyères;Gruyères;Gruyères;;Gruyères;;;;;;;;;x
-d_gruyeres_adj;Gruyèresian;;gruyèreser;;;;;;;;;;;x
+d_gruyeres_adj;Gruyèresian;;Gruyèreser;;;;;;;;;;;x
 d_knonau;Knonau;Knonau;Knonau;;Knonau;;;;;;;;;x
 d_knonau_adj;Knonian;;knoner;;;;;;;;;;;x
 d_konstanz;Konstanz;Konstanz;Konstanz;;Konstanz;;;;;;;;;x
@@ -80,7 +80,7 @@ d_milano_adj;Milanian;;milaner;;;;;;;;;;;x
 d_moesa;Moesa;Moesa;Moesa;;Moesa;;;;;;;;;x
 d_moesa_adj;Moesan;;moeser;;;;;;;;;;;x
 d_montbeliard;Montbéliard;Montbéliard;Montbéliard;;Montbéliard;;;;;;;;;x
-d_montbeliard_adj;Montbéliardian;;montbéliarder;;;;;;;;;;;x
+d_montbeliard_adj;Montbéliardian;;Montbéliarder;;;;;;;;;;;x
 d_montfaucon;Montfaucon;Montfaucon;Montfaucon;;Montfaucon;;;;;;;;;x
 d_montfaucon_adj;Montfauconian;;montfauconer;;;;;;;;;;;x
 d_montfort;Montfort;Montfort;Montfort;;Montfort;;;;;;;;;x
@@ -90,7 +90,7 @@ d_montgesoye_adj;Montgesoyean;;montgesoer;;;;;;;;;;;x
 d_morat;Morat;Morat;Morat;;Morat;;;;;;;;;x
 d_morat_adj;Moratian;;morater;;;;;;;;;;;x
 d_neuchatel;Neuchâtel;Neuchâtel;Neuchâtel;;Neuchâtel;;;;;;;;;x
-d_neuchatel_adj;Neuchâtelian;;neuchâteler;;;;;;;;;;;x
+d_neuchatel_adj;Neuchâtelian;;Neuchâteler;;;;;;;;;;;x
 d_niederbayern;Niederbayern;Niederbayern;Niederbayern;;Niederbayern;;;;;;;;;x
 d_niederbayern_adj;Niederbayernian;;niederbayerner;;;;;;;;;;;x
 d_niederschwaben;Niederschwaben;Niederschwaben;Niederschwaben;;Niederschwaben;;;;;;;;;x
@@ -131,8 +131,8 @@ d_st_claude;St.Claude;St.Claude;St.Claude;;St.Claude;;;;;;;;;x
 d_st_claude_adj;St.Claudean;;st.clauder;;;;;;;;;;;x
 d_st_gallen;St.Gallen;St.Gallen;St.Gallen;;St.Gallen;;;;;;;;;x
 d_st_gallen_adj;St.Gallenian;;st.gallener;;;;;;;;;;;x
-d_st_grevais;St.Grevais;St.Grevais;St.Grevais;;St.Grevais;;;;;;;;;x
-d_st_grevais_adj;St.Grevaisian;;st.grevaiser;;;;;;;;;;;x
+d_st_gervais;St.Gervais;St.Grevais;St.Gervais;;St.Grevais;;;;;;;;;x
+d_st_gervais_adj;St.Gervaisian;;st.gervaiser;;;;;;;;;;;x
 d_sundgau;Sundgau;Sundgau;Sundgau;;Sundgau;;;;;;;;;x
 d_sundgau_adj;Sundgian;;sundger;;;;;;;;;;;x
 d_surgau;Surgau;Surgau;Surgau;;Surgau;;;;;;;;;x
@@ -162,6 +162,12 @@ d_vaud_adj;Vaudian;;vauder;;;;;;;;;;;x
 d_yverdon;Yverdon;Yverdon;Yverdon;;Yverdon;;;;;;;;;x
 d_yverdon_adj;Yverdonian;;yverdoner;;;;;;;;;;;x
 d_zuerich;Zürich;Zürich;Zürich;;Zürich;;;;;;;;;x
-d_zuerich_adj;Zürichian;;züricher;;;;;;;;;;;x
+d_zuerich_adj;Zürichian;;Züricher;;;;;;;;;;;x
 d_zug;Zug;Zug;Zug;;Zug;;;;;;;;;x
 d_zug_adj;Zugian;;zuger;;;;;;;;;;;x
+d_sion_bishopric;Sion;;Sion;;Sion;;;;;;;;;x
+d_sion_bishopric_adj;Sionian;;sittener;;Sionian;;;;;;;;;x
+d_st_maurice_abbey;St. Maurice;St. Maurice;St. Maurice;;St. Maurice;;;;;;;;;x
+d_st_maurice_abbey;Mauriceian;Mauriceian;Mauriceian;Mauriceian;Mauriceian;;;;;;;;;x
+d_basel_bishopric;Basel;Bâle;Basel;;Basel;;;;;;;;;x
+d_basel_bishopric_adj;baslerish;baloiase;basler;;;;;;;;;;;x

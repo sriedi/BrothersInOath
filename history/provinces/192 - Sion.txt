@@ -6,10 +6,10 @@ title = c_sion
 # Settlements
 max_settlements = 7
 
+b_sion_2 = temple
 b_valere = castle
 b_sion = city
 b_tourbillon = castle
-b_sion_2 = temple
 b_monteiller = city
 b_st_germain = temple
 b_st_leonard = temple

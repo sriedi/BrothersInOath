@@ -1,7 +1,5 @@
-# e_hre
-500.1.1={
+1200.1.1={
 	law = agnatic_succession
-}
-800.1.1={
-	liege= "k_schwaben"
+	law = succ_gavelkind
+	liege= d_oberschwaben
 }

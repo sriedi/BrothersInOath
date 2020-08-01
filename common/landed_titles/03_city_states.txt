@@ -8,3 +8,10 @@ b_burkli = {}
 b_meiss = {}
 b_jori = {}
 b_werdmuller = {}
+
+#Bern Patrician Families
+b_erlach = {}
+b_wattenwyl = {}
+b_diesbach = {}
+b_lombach = {}
+b_muralt = {}

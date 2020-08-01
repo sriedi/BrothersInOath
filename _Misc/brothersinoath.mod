@@ -15,6 +15,7 @@ replace_path = "history/offmap_powers"
 replace_path = "common/offmap_powers"
 replace_path = "common/game_rules"
 replace_path = "events"
+replace_path = "decisions"
 replace_path = "common/disease"
 replace_path = "dlc_metadata"
 

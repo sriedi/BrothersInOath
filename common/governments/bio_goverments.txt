@@ -46,9 +46,55 @@ feudal_governments = {
 	}
 }
 republic_governments = {
-	
+	vogtei_government ={
 
-	guild_republic_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			CITY
+			FORT
+			HOSPITAL
+		}
+		potential = {
+			NAND = {
+				controls_religion = yes
+				is_female = yes
+				}
+			OR = {
+				primary_title = { has_title_flag = vogtei_gov }
+				primary_title = {
+					OR ={
+					title = k_schwyz_vogtei
+					title = k_unterwalden_vogtei
+					title = k_burgundy_vogtei
+					}
+				}
+			}
+		}
+		accepts_liege_governments = { # Accepts other vogteis
+			feudal_government
+			vogtei_government
+		}
+		color = { 30 122 30 }
+		frame_suffix = "_tribal"
+		title_prefix = "vogtei_"
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+		can_inherit = no
+
+		commander_limit = 10
+		capital_move_delay = 600
+		vassal_call_to_arms = {
+			feudal_government
+			merchant_republic_government
+			theocracy_government
+			commonassembly_government
+		}
+	}
+
+	guildrepublic_government = {
 			preferred_holdings = { CITY }
 			allowed_holdings = { 
 				TRADE_POST
@@ -81,18 +127,23 @@ republic_governments = {
 				}
 				is_female = no
 				OR = {
+					OR = {
+						primary_title = { 
+							OR = {
+							title = d_basel
+							title = d_zuerich
+							title = d_schaffhausen
+							}
+						}
+					}
+					primary_title = { has_title_flag = guildrep_gov }
 					AND = {
 						is_patrician = yes
 						OR = {
-							liege_before_war = {
-								NOT = { character = PREV }
-								is_merchant_republic = yes
-								NOT = {
-									liege_before_war = {
-										NOT = { character = PREV }
-										is_merchant_republic = yes
-									}
-								}
+							primary_title = { 
+								title = d_basel
+								title = d_zuerich
+								title = d_schaffhausen
 							}
 							has_game_started = no
 						}
@@ -101,26 +152,17 @@ republic_governments = {
 						OR = {
 							AND = {
 								has_game_started = yes
-								is_merchant_republic = yes
+								primary_title = { has_title_flag = guildrep_gov }
 							}
 						}
 						higher_real_tier_than = count
-						any_demesne_province = {
-							always = yes
-						}
-						NOT = {
-							liege_before_war = {
-								NOT = { character = PREV }
-								is_merchant_republic = yes
-							}
-						}
 					}
 				}
 			}
 			
-			color = { 250 0 0 }
+			color = { 232 126 32 }
 			
-			merchant_republic = yes
+			#merchant_republic = yes
 			ignore_in_vassal_limit_calculation = {
 			feudal_government
 			commonassembly_government
@@ -138,48 +180,4 @@ republic_governments = {
 			capital_move_delay = 600
 	}
 
-}
-
-feudal_governments = {
-
-	vogtei_government ={
-		preferred_holdings = { CASTLE }
-		allowed_holdings = { 
-			CASTLE 
-			CITY
-			FORT
-			HOSPITAL
-		}
-		potential = {
-			AND = {
-				NAND = {
-					controls_religion = yes
-					is_female = yes
-					}
-				primary_title = {
-					has_title_flag = vogtei
-				}
-			}
-		}
-		accepts_liege_governments = { # Accepts other republics or Common Assemblies
-			feudal_government
-		}
-		color = { 30 122 0 }
-		frame_suffix = "_feudal"
-		title_prefix = "vogtei_"
-		can_imprison_without_reason = no
-		can_revoke_without_reason = no
-		can_usurp_kingdoms_and_empires = no
-		can_grant_kingdoms_and_empires_to_other_government = no
-
-		commander_limit = 10
-		capital_move_delay = 600
-		vassal_call_to_arms = {
-			feudal_government
-			merchant_republic_government
-			theocracy_government
-			commonassembly_government
-		}
-	}
-	
 }

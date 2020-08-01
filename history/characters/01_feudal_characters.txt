@@ -1,1 +1,2178 @@
+#1000 Vogts
+
+1001 = {	#Herman	Gessler
+	name ="Hermann"	
+	dna ="aglci0fgf00"	
+	properties ="wg0kdg000000000000000000000000000000"	
+	female =no	
+	dynasty =241	
+	martial =4	
+	diplomacy =2	
+	intrigue =10	
+	stewardship =5	
+	religion ="catholic"	
+	culture ="low_alemannic"	
+	trait ="intricate_webweaver"	
+	trait ="arbitrary"	
+	trait ="cruel"	
+	trait ="ambitious"	
+	trait ="quick"	
+	trait ="craven"	
+	trait ="diligent"	
+
+	1242.9.30={	
+		birth=yes
+		effect = { set_government_type = vogtei_government }
+	}
+	1280.1.1={
+		effect = { set_government_type = vogtei_government }
+	}	
+	
+	1254.2.3 = {add_spouse=1006}
+	
+}
+1006={ #dead wife Gessler
+	name="Mechthild"
+	female=yes
+	dynasty=241
+	dna="cdlhglpheok"
+	culture=low_alemannic
+	religion=catholic
+	martial=1
+	diplomacy=3
+	stewardship=6
+	intrigue=5
+	learning=4
+	trait="brilliant_strategist"
+	trait="ambitious"
+	1241.1.27={birth=yes}
+	1269.10.17={death=yes}
+	}		
+
+1002={#Son of the Vogt Gessler
+	name="Dietmar"
+	dynasty=241
+	dna="cndhjlphefc"
+	culture=low_alemannic
+	religion=catholic
+	martial=6
+	diplomacy=5
+	stewardship=3
+	intrigue=2
+	learning=5
+	trait="indulgent_wastrel"
+	trait="envious"
+	trait="charitable"
+	trait="diligent"
+
+	father = 1001
+	mother = 1006
+
+	1255.1.1={birth=yes}
+	1277.10.25 = {add_spouse=103}
+	1285.3.23={death=yes}
+	}
+	
+	1003={ #His Wife
+	name="Kriemhild"
+	female=yes
+	dynasty=242
+	dna="ddlogignpok"
+	culture=low_alemannic
+	religion=catholic
+	martial=6
+	diplomacy=2
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait="underhanded_rogue"
+	trait="honest"
+	trait="gregarious"
+	trait="lustful"
+	1259.8.24={birth=yes}
+	1277.10.25 = {add_spouse=1002}
+	1286.6.20={death=yes}
+	}
+	
+
+1010={#Gerhard Landenberg vogt of unterwalden
+	name="Gerhard"
+	dynasty=242
+	dna="gjbpbgonben"
+	culture=low_alemannic
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=4
+	learning=4
+	trait="flamboyant_schemer"
+	trait="proud"
+	trait="shy"
+	trait="deceitful"
+	1234.1.1={
+	birth=yes
+	effect = { set_government_type = vogtei_government }
+	}
+	1280.1.1={
+		effect = { set_government_type = vogtei_government }
+	}
+	1257.10.6 = {add_spouse=1011}
+	1287.10.20={death=yes}
+}
+		
+1011={
+	name="Jutta"
+	female=yes
+	dynasty=243
+	dna="pdkhcemcbhm"
+	culture=low_alemannic
+	religion=catholic
+	martial=6
+	diplomacy=2
+	stewardship=2
+	intrigue=3
+	learning=1
+	trait="charismatic_negotiator"
+	trait="cruel"
+	1239.5.7={birth=yes}
+	1257.10.6 = {add_spouse=1010}
+	1286.2.23={death=yes}
+}
+
+1012={
+	name="Emich"
+	dynasty=242
+	dna="pdbhbemnbhm"
+	culture=low_alemannic
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=1
+	learning=5
+	trait="brilliant_strategist"
+	trait="ambitious"
+	trait="humble"
+	trait="envious"
+	father=1010
+	mother=1011
+	1259.6.11={birth=yes}
+	1328.8.13={death=yes}
+}
+
+1013={
+	name="Manegold"
+	dynasty=242
+	dna="dnbhbeocbhm"
+	culture=low_alemannic
+	religion=catholic
+	martial=3
+	diplomacy=8
+	stewardship=3
+	intrigue=0
+	learning=4
+	trait="skilled_tactician"
+	trait="cynical"
+	trait="greedy"
+	father=1010
+	mother=1011
+	1260.10.23={birth=yes}
+	1304.3.12={death=yes}
+}
+
+1014={
+	name="Walter"
+	dynasty=242
+	dna="gjnpcgmcbem"
+	culture=low_alemannic
+	religion=catholic
+	martial=3
+	diplomacy=2
+	stewardship=5
+	intrigue=4
+	learning=6
+	trait="flamboyant_schemer"
+	trait="deceitful"
+	trait="cynical"
+	father=1010
+	mother=1011
+	1264.8.25={birth=yes}
+	1320.5.25={death=yes}
+}
+
+1015={
+	name="Gebhard"
+	dynasty=242
+	dna="gdkpcemnden"
+	culture=low_alemannic
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=6
+	intrigue=2
+	learning=3
+	trait="flamboyant_schemer"
+	trait="craven"
+	trait="proud"
+	trait="gregarious"
+	father=1010
+	mother=1011
+	1267.11.3={birth=yes}
+	1331.12.16={death=yes}
+}
+
+#3000 Minor Swiss Nobles
+3000={
+	name="Hartmann" #Hartmann of Buchegg
+	dynasty=246
+	dna="plomjhdlmml"
+	culture=low_alemannic
+	religion=catholic
+	martial=7
+	diplomacy=6
+	stewardship=6
+	intrigue=5
+	learning=2
+	trait="intricate_webweaver"
+	trait="poet"
+	trait="chaste"
+	trait="paranoid"
+	1261.3.1={birth=yes}
+	1280.1.15 = {add_spouse=3001}
+	1307.3.21={death=yes}
+}
+	
+3001={
+	name="Irmele"
+	female=yes
+	dynasty=rondom
+	dna="llcjhggijck"
+	culture=low_alemannic
+	religion=catholic
+	martial=6
+	diplomacy=2
+	stewardship=1
+	intrigue=6
+	learning=6
+	trait="thrifty_clerk"
+	trait="kind"
+	trait="patient"
+	trait="ambitious"
+	trait="gluttonous"
+	1262.8.21={birth=yes}
+	1280.1.15 = {add_spouse=3000}
+	1331.10.29={death=yes}
+}
+	
+3002={
+	name="Ernst"
+	dynasty=246
+	dna="plcjhgdimmk"
+	culture=low_alemannic
+	religion=catholic
+	martial=3
+	diplomacy=8
+	stewardship=4
+	intrigue=8
+	learning=4
+	trait="tough_soldier"
+	trait="humble"
+	trait="trusting"
+	father=3000
+	mother=3001
+	1280.11.25={birth=yes}
+	1331.11.10={death=yes}
+}
+
+3003={
+	name="Ferdinand" #Ferdinand GrÃ¼nenberg Lord of the Surgau
+	dynasty=247
+	dna="jokjjcbacaf"
+	culture=low_alemannic
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=5
+	intrigue=5
+	learning=6
+	trait="thrifty_clerk"
+	trait="celibate"
+	trait="patient"
+	trait="diligent"
+	1242.1.1={birth=yes}
+	1261.1.19 = {add_spouse=3004}
+	1293.4.25={death=yes}
+	}
+	
+3004={
+	name="Eufemia"
+	female=yes
+	dynasty=9028
+	dna="mjedmahocin"
+	culture=low_alemannic
+	religion=catholic
+	martial=0
+	diplomacy=3
+	stewardship=4
+	intrigue=2
+	learning=1
+	trait="thrifty_clerk"
+	trait="craven"
+	trait="kind"
+	trait="greedy"
+	trait="temperate"
+	1245.3.25={birth=yes}
+	1261.1.19 = {add_spouse=3003}
+	1305.12.21={death=yes}
+}
+	
+3005={
+	name="Alarich"
+	dynasty=247
+	dna="ooedjajacin"
+	culture=low_alemannic
+	religion=catholic
+	martial=3
+	diplomacy=5
+	stewardship=0
+	intrigue=4
+	learning=1
+	trait="underhanded_rogue"
+	trait="envious"
+	trait="zealous"
+	father=3003
+	mother=3004
+	1267.1.18={birth=yes}
+	1337.4.2={death=yes}
+}
+	
+3006={
+	name="Klementia"
+	female=yes
+	dynasty=247
+	dna="gokdncbacin"
+	culture=low_alemannic
+	religion=catholic
+	martial=2
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=3
+	trait="thrifty_clerk"
+	trait="paranoid"
+	trait="leper"
+	father=3003
+	mother=3004
+	1270.2.6={birth=yes}
+	1329.10.7={death=yes}
+}
+	
+3007={
+	name="Emich"
+	dynasty=247
+	dna="jjejmdbocfn"
+	culture=low_alemannic
+	religion=catholic
+	martial=2
+	diplomacy=1
+	stewardship=6
+	intrigue=2
+	learning=6
+	trait="charismatic_negotiator"
+	trait="diligent"
+	father=3003
+	mother=3004
+	1274.5.22={birth=yes}
+	1320.9.30={death=yes}
+}
+######## Landenbergs ######
+3008={
+	name="Dietwin" #Lord of Thurgau
+	dynasty=242
+	dna="anhjkccgoab"
+	culture=middle_alemannic
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=1
+	intrigue=3
+	learning=5
+	trait="thrifty_clerk"
+	trait="lustful"
+	trait="diligent"
+	trait="wroth"
+	trait="patient"
+	1221.1.1={
+	birth=yes
+	effect = { set_government_type = feudal_government }
+	}
+	1279.1.1={
+		effect = { set_government_type = feudal_government }
+	}
+	1261.9.7 = {add_spouse=3009}
+	1281.1.10={death=yes}
+}
+
+3009={
+	name="Luitgard"
+	female=yes
+	dynasty=243
+	dna="dibpanhablo"
+	culture=middle_alemannic
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=3
+	intrigue=2
+	learning=6
+	trait="skilled_tactician"
+	trait="charitable"
+	trait="cynical"
+	trait="proud"
+	trait="cruel"
+	1228.12.11={birth=yes}
+	1240.9.7 = {add_spouse=3008}
+	1305.7.24={death=yes}
+}
+
+3010={
+	name="Otto"
+	dynasty=242
+	dna="aihpkncgeae"
+	culture=middle_alemannic
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=6
+	intrigue=7
+	learning=6
+	trait="midas_touched"
+	trait="chaste"
+	father=3008
+	mother=3009
+	1244.10.20={
+		birth=yes
+		effect = { set_government_type = feudal_government }
+	}
+	1279.1.1={
+		effect = { set_government_type = feudal_government }
+	}
+	1267.11.30 = {add_spouse=3013}
+	1323.10.13={death=yes}
+}
+
+3011={
+	name="Gebhard"
+	dynasty=242
+	dna="aibjaccablb"
+	culture=middle_alemannic
+	religion=catholic
+	martial=5
+	diplomacy=1
+	stewardship=6
+	intrigue=3
+	learning=2
+	trait="flamboyant_schemer"
+	trait="gregarious"
+	trait="stressed"
+	father=3008
+	mother=3009
+	1241.12.8={
+		birth=yes
+		effect = { set_government_type = feudal_government }
+	}
+	1279.1.1={
+		effect = { set_government_type = feudal_government }
+	}
+	1262.10.31 = {add_spouse=3012}
+	1332.8.14={death=yes}
+}
+
+3012={
+	name="Gisela"
+	female=yes
+	dynasty=244
+	dna="llgcnignkgf"
+	culture=middle_alemannic
+	religion=catholic
+	martial=1
+	diplomacy=6
+	stewardship=3
+	intrigue=6
+	learning=2
+	trait="elusive_shadow"
+	trait="envious"
+	trait="paranoid"
+	trait="temperate"
+	trait="patient"
+	1241.6.25={birth=yes}
+	1262.10.31 = {add_spouse=3011}
+	1319.6.6={death=yes}
+}
+
+3013={
+	name="Amalie"
+	female=yes
+	dynasty=245
+	dna="mdcipehhofc"
+	culture=middle_alemannic
+	religion=catholic
+	martial=2
+	diplomacy=5
+	stewardship=2
+	intrigue=2
+	learning=1
+	trait="tough_soldier"
+	1240.12.15={birth=yes}
+	1267.11.30 = {add_spouse=3010}
+	1341.5.19={death=yes}
+}
+
+3014={
+	name="Cothilda"
+	female=yes
+	dynasty=242
+	dna="iigjaigakgb"
+	culture=middle_alemannic
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=0
+	intrigue=5
+	learning=4
+	trait="fortune_builder"
+	trait="cynical"
+	trait="gluttonous"
+	father=3011
+	mother=3012
+	1282.2.16={birth=yes}
+	1319.11.11={death=yes}
+}
+
+3015={
+	name="Adela"
+	female=yes
+	dynasty=242
+	dna="albcncgakgb"
+	culture=middle_alemannic
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=7
+	intrigue=2
+	learning=4
+	trait="underhanded_rogue"
+	trait="patient"
+	trait="brave"
+	trait="diligent"
+	father=3011
+	mother=3012
+	1280.6.11={birth=yes}
+	1324.1.15={death=yes}
+}
+
+3016={
+	name="Elisabeth"
+	female=yes
+	dynasty=242
+	dna="mdhpcncgofc"
+	culture=middle_alemannic
+	religion=catholic
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=2
+	learning=1
+	trait="elusive_shadow"
+	trait="impaler"
+	trait="charitable"
+	trait="honest"
+	father=3010
+	mother=3013
+	1290.4.3={birth=yes}
+	1344.7.15={death=yes}
+}
+	
+#### The Toggenburgs
+3017={
+	name="Friedrich"
+	dynasty=248
+	dna="clkggnpbooi"
+	culture=low_alemannic
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=3
+	trait="thrifty_clerk"
+	trait="arbitrary"
+	1239.1.1={birth=yes}
+	1259.7.8 = {add_spouse=3018}
+	1310.3.31={death=yes}
+}
+
+3018={
+	name="Hedwig"
+	female=yes
+	dynasty=none
+	dna="hkbhdbfhlka"
+	culture=low_alemannic
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=4
+	intrigue=3
+	learning=3
+	trait="flamboyant_schemer"
+	trait="brave"
+	trait="stressed"
+	1242.10.4={birth=yes}
+	1259.7.8 = {add_spouse=3017}
+	1307.7.23={death=yes}
+}
+
+3019={
+	name="Friedrica"
+	female=yes
+	dynasty=248
+	dna="ckkggnphoka"
+	culture=low_alemannic
+	religion=catholic
+	martial=3
+	diplomacy=3
+	stewardship=4
+	intrigue=5
+	learning=5
+	trait="tough_soldier"
+	trait="just"
+	trait="patient"
+	trait="gregarious"
+	trait="ambitious"
+	father=3017
+	mother=3018
+	1265.9.13={birth=yes}
+	1319.4.23={death=yes}
+}
+
+3020={
+	name="Brunhilde"
+	female=yes
+	dynasty=248
+	dna="ckbhgnfboka"
+	culture=low_alemannic
+	religion=catholic
+	martial=1
+	diplomacy=5
+	stewardship=2
+	intrigue=3
+	learning=6
+	trait="brilliant_strategist"
+	trait="stressed"
+	father=3017
+	mother=3018
+	1267.4.2={birth=yes}
+	1309.1.19={death=yes}
+}
+
+3021={
+	name="Heilwiva"
+	female=yes
+	dynasty=248
+	dna="clbhgbpbiaa"
+	culture=low_alemannic
+	religion=catholic
+	martial=6
+	diplomacy=3
+	stewardship=4
+	intrigue=3
+	learning=1
+	trait="skilled_tactician"
+	trait="greedy"
+	trait="ill"
+	father=3017
+	mother=3018
+	1269.12.23={birth=yes}
+	1315.6.16={death=yes}
+}
+
+3022={
+	name="Bernhard"
+	dynasty=248
+	dna="eaidpjmbdgh"
+	culture=low_alemannic
+	religion=catholic
+	martial=3
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=3
+	trait="thrifty_clerk"
+	trait="zealous"
+	trait="wroth"
+	trait="honest"
+	1250.1.1={birth=yes}
+	1290.12.6={death=yes}
+}
+
+3023={
+	name="Humbert"
+	dynasty=248
+	dna="lamiajiockf"
+	culture=low_alemannic
+	religion=catholic
+	martial=3
+	diplomacy=2
+	stewardship=4
+	intrigue=3
+	learning=7
+	trait="tough_soldier"
+	trait="ambitious"
+	1241.1.1={birth=yes}
+	1324.1.26={death=yes}
+}
+	
+#The Rapperswilers	
+	
+3024={
+	name="Rudolf"
+	dynasty=249
+	dna="hijgipdnakh"
+	culture=middle_alemannic
+	religion=catholic
+	martial=3
+	diplomacy=7
+	stewardship=4
+	intrigue=7
+	learning=4
+	trait="brilliant_strategist"
+	trait="wroth"
+	trait="kind"
+	trait="wroth"
+	1228.11.1={birth=yes}
+	1246.1.14 = {add_spouse=3025}
+	1261.9.24={death=yes}
+}
+
+3025={
+	name="Konstanze"
+	female=yes
+	dynasty=2
+	dna="ghbgpmncabm"
+	culture ="middle_alemannic"	
+	religion=catholic
+	martial=4
+	diplomacy=1
+	stewardship=6
+	intrigue=2
+	learning=7
+	trait="skilled_tactician"
+	trait="gluttonous"
+	trait="kind"
+	1232.12.11={birth=yes}
+	1246.1.14 = {add_spouse=3024}
+	1283.11.22={death=yes}
+}
+
+3026={
+	name="Eufemia"
+	female=yes
+	dna="ghjgpmdcdbm"
+	culture ="middle_alemannic"	
+	religion=catholic
+	martial=3
+	diplomacy=6
+	stewardship=3
+	intrigue=7
+	learning=2
+	trait="intricate_webweaver"
+	trait="temperate"
+	father=3024
+	mother=3025
+	1250.9.13={birth=yes}
+	1294.8.29={death=yes}
+}
+
+3032={
+	name="Rudolf" #Lord of Rapperswil
+	dynasty=249
+	dna="pijjbddnabh"
+	culture ="middle_alemannic"	
+	religion=catholic
+	martial=2
+	diplomacy=4
+	stewardship=4
+	intrigue=7
+	learning=2
+	trait="fortune_builder"
+	trait="paranoid"
+	trait="temperate"
+	trait="craven"
+	father=3024
+	mother=3025
+	1254.3.18={birth=yes
+		effect = { set_government_type = feudal_government }
+	}
+	1279.1.1={
+		effect = { set_government_type = feudal_government }
+	}
+	1283.4.11={death=yes}
+}
+	
+#The Hombergs
+3027={
+	name="Adam"
+	dynasty=243
+	dna="phipjabkohj"
+	culture ="middle_alemannic"	
+	religion=catholic
+	martial=2
+	diplomacy=7
+	stewardship=5
+	intrigue=5
+	learning=0
+	trait="skilled_tactician"
+	trait="deceitful"
+	trait="honest"
+	trait="stressed"
+	1255.1.1={
+		birth=yes
+		effect = { set_government_type = feudal_government }
+	}
+	1276.6.13 = {add_spouse=3028}
+	1279.1.1={
+		effect = { set_government_type = feudal_government }
+	}
+	1321.6.13={death=yes}
+}
+	
+3028={
+	name="Heilwiva"
+	female=yes
+	dna="ionailjdphk"
+	culture ="middle_alemannic"	
+	religion=catholic
+	martial=8
+	diplomacy=4
+	stewardship=6
+	intrigue=4
+	learning=2
+	trait="charismatic_negotiator"
+	trait="temperate"
+	trait="kind"
+	trait="zealous"
+	trait="gregarious"
+	1256.6.5={birth=yes}
+	1276.6.13 = {add_spouse=3027}
+	1299.3.23={death=yes}
+}
+	
+3029={
+	name="Engelbert"
+	dynasty=243
+	dna="poiajlbdohj"
+	culture ="middle_alemannic"	
+	religion=catholic
+	martial=3
+	diplomacy=2
+	stewardship=3
+	intrigue=5
+	learning=5
+	trait="skilled_tactician"
+	trait="cruel"
+	father=3027
+	mother=3028
+	1279.11.2={birth=yes}
+	1328.5.18={death=yes}
+}
+	
+3030={
+	name="Margarete"
+	female=yes
+	dynasty=243
+	dna="ihipjabdobj"
+	culture ="middle_alemannic"	
+	religion=catholic
+	martial=3
+	diplomacy=7
+	stewardship=5
+	intrigue=7
+	learning=4
+	trait="charismatic_negotiator"
+	trait="hunter"
+	trait="chaste"
+	trait="ambitious"
+	trait="wounded"
+	father=3027
+	mother=3028
+	1284.9.5={birth=yes}
+	1337.7.1={death=yes}
+}
+	
+3031={
+	name="Magnus"
+	dynasty=243
+	dna="jjalecklfhj"
+	culture ="middle_alemannic"	
+	religion=catholic
+	martial=5
+	diplomacy=7
+	stewardship=5
+	intrigue=3
+	learning=7
+	trait="flamboyant_schemer"
+	trait="cruel"
+	trait="gluttonous"
+	trait="proud"
+	1222.1.1={
+		birth=yes
+		effect = { set_government_type = feudal_government }
+	}
+	1279.1.1={
+		effect = { set_government_type = feudal_government }
+	}
+	1287.2.4={death=yes}
+}
+
+##The Regensbergs
+3033={
+	name="Bernhard"
+	dynasty=250
+	dna="ablljippanl"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=7
+	learning=4
+	trait="flamboyant_schemer"
+	trait="deceitful"
+	trait="charitable"
+	trait="lustful"
+	trait="paranoid"
+	1253.1.1={birth=yes}
+	1279.1.1={
+		effect = { set_government_type = feudal_government }
+	}
+	1272.1.29 = {add_spouse=3034}
+	1312.12.9={death=yes}
+}
+
+3034={
+	name="Friedrica"
+	female=yes
+	dynasty=251
+	dna="ljofgaijjod"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=3
+	diplomacy=3
+	stewardship=4
+	intrigue=1
+	learning=5
+	trait="flamboyant_schemer"
+	trait="temperate"
+	1255.7.9={birth=yes}
+	1272.1.29 = {add_spouse=3033}
+	1324.1.14={death=yes}
+}
+
+3035={
+	name="Liutbrand"
+	dynasty=250
+	dna="lblfjifpond"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=7
+	diplomacy=5
+	stewardship=3
+	intrigue=8
+	learning=5
+	trait="flamboyant_schemer"
+	trait="mystic"
+	trait="ambitious"
+	father=3033
+	mother=3034
+	1278.1.20={birth=yes}
+	1327.11.6={death=yes}
+}
+
+3036={
+	name="Siegmund"
+	dynasty=250
+	dna="ajoloipmjod"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=5
+	diplomacy=2
+	stewardship=3
+	intrigue=0
+	learning=4
+	trait="charismatic_negotiator"
+	trait="envious"
+	trait="content"
+	trait="kind"
+	father=3033
+	mother=3034
+	1280.7.4={birth=yes}
+	1357.9.5={death=yes}
+}
+
+3037={
+	name="Viktor"
+	dynasty=250
+	dna="ibjjbpkkjcd"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=1
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait="elusive_shadow"
+	trait="scholar"
+	trait="humble"
+	trait="trusting"
+	trait="diligent"
+	trait="gregarious"
+	1228.1.1={birth=yes}
+	1279.1.1={
+		effect = { set_government_type = feudal_government }
+	}
+	1250.11.26 = {add_spouse=3038}
+	1289.12.24={death=yes}
+}
+
+3038={
+	name="Heilwiva"
+	female=yes
+	dynasty=251
+	dna="nelknmfifba"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=3
+	diplomacy=6
+	stewardship=2
+	intrigue=4
+	learning=8
+	trait="midas_touched"
+	trait="hedonist"
+	trait="cruel"
+	1232.9.1={birth=yes}
+	1250.11.26 = {add_spouse=3037}
+	1286.11.25={death=yes}
+}
+	
+3039={
+	name="Amalie"
+	female=yes
+	dynasty=250
+	dna="iblknpkkfca"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=6
+	intrigue=1
+	learning=5
+	trait="tough_soldier"
+	trait="shy"
+	trait="just"
+	trait="cruel"
+	father=3037
+	mother=3038
+	1254.4.25={birth=yes}
+	1310.4.27={death=yes}
+}
+	
+3040={
+	name="Albrecht"
+	dynasty=250
+	dna="nbjjnphijcd"
+	culture="middle_alemannic"
+	religion=catholic
+	martial=7
+	diplomacy=4
+	stewardship=4
+	intrigue=2
+	learning=5
+	trait="grey_eminence"
+	trait="hunter"
+	trait="paranoid"
+	trait="honest"
+	father=3037
+	mother=3038
+	1259.8.3={birth=yes}
+	1279.1.1={
+		effect = { set_government_type = feudal_government }
+	}
+	1319.3.1={death=yes}
+}
+	
+#####Montforts ####
+
+3041={
+	name="Rudolf"
+	dynasty=245
+	dna="pcmookfffpk"
+	culture="low_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=2
+	intrigue=2
+	learning=7
+	trait="charismatic_negotiator"
+	trait="shy"
+	1253.1.1={birth=yes}
+	1270.10.6 = {add_spouse=3042}
+	1302.3.16={death=yes}
+}
+	
+3042={
+	name="Dorothea"
+	female=yes
+	dynasty=9030
+	dna="kjkgcodhmdp"
+	culture="low_alemannic"
+	religion=catholic
+	martial=6
+	diplomacy=3
+	stewardship=4
+	intrigue=4
+	learning=2
+	trait="elusive_shadow"
+	trait="mystic"
+	trait="cynical"
+	trait="gregarious"
+	trait="zealous"
+	trait="ill"
+	1255.6.17={birth=yes}
+	1270.10.6 = {add_spouse=3041}
+	1309.10.22={death=yes}
+}
+	
+3043={
+	name="Gerlach"
+	dynasty=245
+	dna="pjmookfhjpp"
+	culture="low_alemannic"
+	religion=catholic
+	martial=2
+	diplomacy=4
+	stewardship=1
+	intrigue=2
+	learning=3
+	trait="naive_appeaser"
+	trait="ambitious"
+	trait="brave"
+	trait="charitable"
+	trait="envious"
+	trait="paranoid"
+	father=3041
+	mother=3042
+	1275.4.13={birth=yes}
+	1320.2.17={death=yes}
+}
+	
+3044={
+	name="Friedrica"
+	female=yes
+	dynasty=245
+	dna="kcmockdhmpk"
+	culture="low_alemannic"
+	religion=catholic
+	martial=8
+	diplomacy=3
+	stewardship=1
+	intrigue=5
+	learning=4
+	trait="misguided_warrior"
+	trait="mystic"
+	trait="deceitful"
+	trait="craven"
+	father=3041
+	mother=3042
+	1277.12.29={birth=yes}
+	1344.5.31={death=yes}
+}
+	
+3045={
+	name="Markward"
+	dynasty=245
+	dna="pjkgoodhfpk"
+	culture="low_alemannic"
+	religion=catholic
+	martial=0
+	diplomacy=3
+	stewardship=1
+	intrigue=5
+	learning=4
+	trait="tough_soldier"
+	trait="paranoid"
+	father=3041
+	mother=3042
+	1279.8.2={birth=yes}
+	1328.6.22={death=yes}
+}
+	
+3046={
+	name="Urs"
+	dynasty=245
+	dna="mpkikdfpjgh"
+	culture="low_alemannic"
+	religion=catholic
+	martial=8
+	diplomacy=6
+	stewardship=2
+	intrigue=3
+	learning=6
+	trait="midas_touched"
+	trait="temperate"
+	trait="content"
+	1220.9.26={birth=yes}
+	1247.10.25 = {add_spouse=3047}
+	1274.7.26={death=yes}
+}
+	
+3047={
+	name="Romilda"
+	female=yes
+	dynasty=9029
+	dna="iflpknfhdjp"
+	culture="low_alemannic"
+	religion=catholic
+	martial=0
+	diplomacy=7
+	stewardship=2
+	intrigue=5
+	learning=6
+	trait="brilliant_strategist"
+	trait="temperate"
+	trait="gregarious"
+	1229.10.22={birth=yes}
+	1247.10.25 = {add_spouse=3046}
+	1278.2.3={death=yes}
+}
+	
+3048={
+	name="Cecilie"
+	female=yes
+	dynasty=245
+	dna="iflmkdfhjgp"
+	culture="low_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=3
+	intrigue=4
+	learning=2
+	trait="skilled_tactician"
+	trait="poet"
+	trait="greedy"
+	trait="cynical"
+	father=3046
+	mother=3047
+	1258.10.31={birth=yes}
+	1325.9.6={death=yes}
+}
+	
+3049={
+	name="Romilda"
+	female=yes
+	dynasty=245
+	dna="mflikdfhdgp"
+	culture="low_alemannic"
+	religion=catholic
+	martial=7
+	diplomacy=1
+	stewardship=7
+	intrigue=8
+	learning=5
+	trait="thrifty_clerk"
+	trait="kind"
+	father=3046
+	mother=3047
+	1262.9.10={birth=yes}
+	1309.1.21={death=yes}
+}
+	
+3050={
+	name="Henrike"
+	female=yes
+	dynasty=245
+	dna="iplpenfpfjh"
+	culture="low_alemannic"
+	religion=catholic
+	martial=2
+	diplomacy=4
+	stewardship=6
+	intrigue=7
+	learning=3
+	trait="naive_appeaser"
+	trait="charitable"
+	trait="deceitful"
+	trait="patient"
+	trait="deceitful"
+	trait="gluttonous"
+	father=3046
+	mother=3047
+	1263.12.17={birth=yes}
+	1320.5.2={death=yes}
+}
+	
+3051={
+	name="Isentrude"
+	female=yes
+	dynasty=245
+	dna="ifkionfpjjc"
+	culture="low_alemannic"
+	religion=catholic
+	martial=5
+	diplomacy=3
+	stewardship=4
+	intrigue=7
+	learning=7
+	trait="charismatic_negotiator"
+	trait="shy"
+	trait="kind"
+	trait="arbitrary"
+	trait="gluttonous"
+	father=3046
+	mother=3047
+	1264.10.1={birth=yes}
+	1314.5.26={death=yes}
+}
+	
+3052={
+	name="Andreas"
+	dynasty=245
+	dna="ifkikdfpfgp"
+	culture="low_alemannic"
+	religion=catholic
+	martial=1
+	diplomacy=7
+	stewardship=6
+	intrigue=0
+	learning=5
+	trait="flamboyant_schemer"
+	trait="mystic"
+	trait="cruel"
+	father=3046
+	mother=3047
+	1268.6.27={birth=yes}
+	1317.6.27={death=yes}
+}
+	
+##### The Eschenbachs of Ufgau ####
+3053={
+	name="Berchtold "
+	dynasty=2450
+	dna="cojlnopdjcd"
+	culture="low_alemannic"
+	religion=catholic
+	martial=7
+	diplomacy=6
+	stewardship=4
+	intrigue=5
+	learning=4
+	trait="detached_priest"
+	trait="proud"
+	trait="gluttonous"
+	1241.1.1={birth=yes}
+	1260.9.30 = {add_spouse=3054}
+	1304.3.20={death=yes}
+}
+
+3054={
+	name="Richwara"
+	female=yes
+	dynasty=2451
+	dna="nofhcifdbpp"
+	culture="low_alemannic"
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=2
+	intrigue=3
+	learning=8
+	trait="charismatic_negotiator"
+	trait="mystic"
+	1241.10.6={birth=yes}
+	1260.9.30 = {add_spouse=3053}
+	1312.6.19={death=yes}
+}
+
+3055={
+	name="Guntram"
+	dynasty=2450
+	dna="aojlnopdbpp"
+	culture="low_alemannic"
+	religion=catholic
+	martial=6
+	diplomacy=3
+	stewardship=1
+	intrigue=1
+	learning=5
+	trait="elusive_shadow"
+	trait="patient"
+	trait="greedy"
+	trait="drunkard"
+	father=3053
+	mother=3054
+	1262.11.6={birth=yes}
+	1330.2.4={death=yes}
+}
+
+3056={
+	name="Manegold"
+	dynasty=2450
+	dna="coflnofdjcd"
+	culture="low_alemannic"
+	religion=catholic
+	martial=6
+	diplomacy=4
+	stewardship=4
+	intrigue=6
+	learning=1
+	trait="grey_eminence"
+	father=3053
+	mother=3054
+	1267.3.9={birth=yes}
+	1330.1.1={death=yes}
+}
+
+3057={
+	name="Eginolf"
+	dynasty=2450
+	dna="nojlnipdbcd"
+	culture="low_alemannic"
+	religion=catholic
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait="fortune_builder"
+	father=3053
+	mother=3054
+	1270.8.31={birth=yes}
+	1317.3.7={death=yes}
+}
+	
+###### The Neuenburgs ######
+
+3060={
+	name="Heinrich" #Count of Neuchatel
+	dynasty=280
+	dna="kickpjffdfn"
+	culture="low_alemannic"
+	religion=catholic
+	martial=2
+	diplomacy=2
+	stewardship=1
+	intrigue=3
+	learning=2
+	trait="charismatic_negotiator"
+	trait="proud"
+	1246.11.1={birth=yes}
+	1269.2.19 = {add_spouse=3061}
+	1285.9.9={death=yes}
+}
+
+3061={
+	name="Irmele"
+	female=yes
+	dynasty=281
+	dna="jgfnffanmma"
+	culture="low_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=8
+	stewardship=1
+	intrigue=1
+	learning=7
+	trait="intricate_webweaver"
+	1250.9.15={birth=yes}
+	1269.2.19 = {add_spouse=3060}
+	1307.8.1={death=yes}
+}
+
+3062={
+	name="Albrecht"
+	dynasty=280
+	dna="kickfjffdfn"
+	culture="low_alemannic"
+	religion=catholic
+	martial=5
+	diplomacy=0
+	stewardship=4
+	intrigue=0
+	learning=7
+	trait="intricate_webweaver"
+	trait="wroth"
+	trait="deceitful"
+	trait="lustful"
+	father=3060
+	mother=3061
+	1272.6.30={birth=yes}
+	1318.12.19={death=yes}
+}
+
+3063={
+	name="Osterhild"
+	female=yes
+	dynasty=280
+	dna="jifnfjafmfa"
+	culture="low_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=5
+	intrigue=4
+	learning=2
+	trait="flamboyant_schemer"
+	father=3060
+	mother=3061
+	1276.2.13={birth=yes}
+	1337.9.17={death=yes}
+}
+	
+3065={
+	name="Rudolf" #Lord of the Aarburgund
+	dynasty=280
+	dna="jdhkkenbhnb"
+	culture="low_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=2
+	intrigue=5
+	learning=3
+	trait="fortune_builder"
+	trait="charitable"
+	trait="shy"
+	trait="honest"
+	1257.1.1={birth=yes}
+	1279.9.20 = {add_spouse=3066}
+	1305.1.20={death=yes}
+}
+
+3066={
+	name="Gisela"
+	female=yes
+	dynasty=281
+	dna="pemeihckame"
+	culture="low_alemannic"
+	religion=catholic
+	martial=3
+	diplomacy=3
+	stewardship=2
+	intrigue=2
+	learning=4
+	trait="flamboyant_schemer"
+	trait="lustful"
+	trait="craven"
+	trait="honest"
+	1261.1.30={birth=yes}
+	1279.9.20 = {add_spouse=3065}
+	1310.7.16={death=yes}
+}
+
+3067={
+	name="Amadeus"
+	dynasty=280
+	dna="jdheihhbamb"
+	culture="low_alemannic"
+	religion=catholic
+	martial=7
+	diplomacy=5
+	stewardship=7
+	intrigue=0
+	learning=1
+	trait="fortune_builder"
+	father=3065
+	mother=3066
+	1280.12.19={birth=yes}
+	1344.9.6={death=yes}
+}
+
+3068={
+	name="Jutta"
+	female=yes
+	dynasty=280
+	dna="pehaihnbhmb"
+	culture="low_alemannic"
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=3
+	intrigue=6
+	learning=6
+	trait="flamboyant_schemer"
+	trait="impaler"
+	trait="patient"
+	trait="brave"
+	trait="ill"
+	father=3065
+	mother=3066
+	1283.3.9={birth=yes}
+	1332.10.20={death=yes}
+}
+	
+#Random Dude for Orbre
+3100={
+	name="Raimbaut"
+	dynasty=275
+	dna="dhccjpeiiop"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=3
+	diplomacy=5
+	stewardship=2
+	intrigue=8
+	learning=1
+	trait="underhanded_rogue"
+	trait="craven"
+	1223.1.1={birth=yes}
+	1244.1.30 = {add_spouse=3101}
+	1290.11.9={death=yes}
+}
+
+3101={
+	name="Yolanda"
+	female=yes
+	dynasty=276
+	dna="elmhinljamd"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=1
+	diplomacy=5
+	stewardship=5
+	intrigue=3
+	learning=5
+	trait="naive_appeaser"
+	trait="gluttonous"
+	trait="trusting"
+	1227.5.30={birth=yes}
+	1244.1.30 = {add_spouse=3100}
+	1297.2.28={death=yes}
+}
+
+3102={
+	name="Payen"
+	dynasty=275
+	dna="elccjpeibmp"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=1
+	diplomacy=5
+	stewardship=5
+	intrigue=6
+	learning=7
+	trait="intricate_webweaver"
+	trait="slothful"
+	father=3100
+	mother=3101
+	1248.2.26={birth=yes}
+	1280.7.6={death=yes}
+}
+
+3103={
+	name="Mélisende"
+	female=yes
+	dynasty=275
+	dna="ehmhipeicop"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=2
+	intrigue=6
+	learning=6
+	trait="flamboyant_schemer"
+	trait="celibate"
+	trait="patient"
+	father=3100
+	mother=3101
+	1249.2.16={birth=yes}
+	1306.9.3={death=yes}
+}
+	
+### D'Orons of Rommont ###
+
+3150={
+	name="Maurice"
+	dynasty=273
+	dna="epilbgkkenj"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=6
+	diplomacy=6
+	stewardship=1
+	intrigue=7
+	learning=7
+	trait="fortune_builder"
+	trait="honest"
+	1251.1.1={birth=yes}
+	1269.2.9 = {add_spouse=3151}
+	1291.3.21={death=yes}
+}
+
+3151={
+	name="Élodie"
+	female=yes
+	dynasty=274
+	dna="kjifollmdjd"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=5
+	diplomacy=3
+	stewardship=5
+	intrigue=7
+	learning=2
+	trait="naive_appeaser"
+	trait="honest"
+	trait="temperate"
+	1253.2.14={birth=yes}
+	1269.2.9 = {add_spouse=3150}
+	1306.10.4={death=yes}
+}
+
+3152={
+	name="Jaufré"
+	dynasty=273
+	dna="ejilblkmdnj"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=1
+	diplomacy=2
+	stewardship=1
+	intrigue=6
+	learning=6
+	trait="elusive_shadow"
+	trait="zealous"
+	trait="humble"
+	trait="just"
+	trait="ill"
+	father=3150
+	mother=3151
+	1271.7.24={birth=yes}
+	1332.7.22={death=yes}
+}
+
+3153={
+	name="Rorgues"
+	dynasty=273
+	dna="epilbllkend"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=7
+	diplomacy=3
+	stewardship=2
+	intrigue=3
+	learning=7
+	trait="grey_eminence"
+	trait="content"
+	trait="patient"
+	trait="greedy"
+	trait="gregarious"
+	father=3150
+	mother=3151
+	1273.9.22={birth=yes}
+	1340.3.3={death=yes}
+}
+
+3154={
+	name="Raynaud"
+	dynasty=273
+	dna="epilbllkdnm"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=3
+	intrigue=5
+	learning=6
+	trait="detached_priest"
+	trait="humble"
+	trait="cruel"
+	father=3150
+	mother=3151
+	1278.6.6={birth=yes}
+	1341.5.4={death=yes}
+}
+	
+#### De Gruyers
+3155={
+	name="Rudolphe"
+	dynasty=274
+	dna="immhkekjnjo"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=3
+	intrigue=6
+	learning=8
+	trait="fortune_builder"
+	trait="scholar"
+	trait="charitable"
+	1232.1.1={birth=yes}
+	1251.12.13 = {add_spouse=3156}
+	1312.9.28={death=yes}
+}
+
+3156={
+	name="Yolanda"
+	female=yes
+	dynasty=275
+	dna="cmipbbmfbhh"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=8
+	diplomacy=7
+	stewardship=7
+	intrigue=2
+	learning=2
+	trait="flamboyant_schemer"
+	trait="zealous"
+	trait="ambitious"
+	trait="content"
+	1234.1.29={birth=yes}
+	1251.12.13 = {add_spouse=3155}
+	1279.12.6={death=yes}
+}
+
+3157={
+	name="Louis"
+	dynasty=274
+	dna="iihhkbkfnjh"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=3
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait="detached_priest"
+	trait="greedy"
+	father=3155
+	mother=3156
+	1254.7.27={birth=yes}
+	1315.6.3={death=yes}
+}
+
+3158={
+	name="Amédée"
+	dynasty=274
+	dna="cmifkbkfnho"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=1
+	diplomacy=1
+	stewardship=2
+	intrigue=0
+	learning=4
+	trait="naive_appeaser"
+	trait="trusting"
+	trait="humble"
+	trait="brave"
+	father=3155
+	mother=3156
+	1260.1.12={birth=yes}
+	1322.11.1={death=yes}
+}
+	
+#### De Géneves
+
+3170={
+	name="Aymon"
+	dynasty=2780
+	dna="hhdgbiccbdi"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=3
+	diplomacy=6
+	stewardship=1
+	intrigue=3
+	learning=6
+	trait="tough_soldier"
+	trait="zealous"
+	1228.1.1={birth=yes}
+	1250.10.15 = {add_spouse=3171}
+	1280.10.10={death=yes}
+}
+	
+3171={
+	name="Eloise"
+	female=yes
+	dynasty=277
+	dna="modmbpnfpcl"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=0
+	diplomacy=3
+	stewardship=5
+	intrigue=2
+	learning=3
+	trait="misguided_warrior"
+	trait="slothful"
+	trait="zealous"
+	trait="honest"
+	1230.11.13={birth=yes}
+	1250.10.15 = {add_spouse=3170}
+	1269.2.1={death=yes}
+}
+	
+3172={
+	name="Édouard"
+	dynasty=2780
+	dna="mhdgbpccpcl"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=4
+	diplomacy=7
+	stewardship=1
+	intrigue=4
+	learning=6
+	trait="brilliant_strategist"
+	trait="hedonist"
+	trait="shy"
+	father=3170
+	mother=3171
+	1251.11.10={birth=yes}
+	1312.7.25={death=yes}
+}
+	
+3173={
+	name="Gisèle"
+	female=yes
+	dynasty=2780
+	dna="hhdgbincpdi"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=6
+	diplomacy=3
+	stewardship=3
+	intrigue=0
+	learning=3
+	trait="charismatic_negotiator"
+	trait="brave"
+	trait="trusting"
+	trait="greedy"
+	father=3170
+	mother=3171
+	1254.5.21={birth=yes}
+	1303.12.5={death=yes}
+}
+	
+3174={
+	name="Rorgues"
+	dynasty=2780
+	dna="hhcmbfbcbdl"
+	culture="upper_burgundian"
+	religion=catholic
+	martial=7
+	diplomacy=5
+	stewardship=4
+	intrigue=2
+	learning=2
+	trait="brilliant_strategist"
+	trait="lustful"
+	trait="deceitful"
+	father=3170
+	mother=3171
+	1255.11.25={birth=yes}
+	1311.5.25={death=yes}
+}
+	
+	
+	
+
+	
+
+	
+	
+	
+
+#5000 The Habsburgs
+
+5001 = {
+	name="Rudolf"
+	dynasty=501
+	martial=7
+	diplomacy=6
+	intrigue=4
+	stewardship=8
+	religion="catholic"
+	culture="low_alemannic"
+	trait="zealous"
+	trait="tough_soldier"
+	father=462044
+	mother=7644
+	1218.5.1 = {
+		birth="1218.5.1"
+	}
+	1245.1.2 = {
+		add_spouse=5002
+	}
+	1291.7.15 = {
+		death="1291.7.15"
+	}
+}
+
+5002 = {
+	name="Gertrud"
+	# AKA: Gertrud von Hohenberg
+	female=yes
+	martial=4
+	diplomacy=5
+	intrigue=4
+	stewardship=5
+	religion="catholic"
+	culture="low_alemannic"
+	trait="zealous"
+	trait="amateurish_plotter"
+	father=33301
+	1230.1.1 = {
+		birth="1230.1.1"
+	}
+	1281.2.16 = {
+		death="1281.2.16"
+	}
+}
+
+5003 = {
+	name="Albrecht"
+	dynasty=501
+	martial=5
+	diplomacy=5
+	intrigue=4
+	stewardship=8
+	religion="catholic"
+	culture="low_alemannic"
+	trait="proud"
+	trait="tough_soldier"
+	father=5001
+	mother=5002
+	1255.7.1 = {
+		birth="1255.7.1"
+	}
+	1278.1.3 = {
+		add_spouse=462713
+	}
+	1308.5.1 = {
+		death="1308.5.1"
+	}
+}
+
+5004 = {
+	name="Rudolf"
+	dynasty=501
+	martial=5
+	diplomacy=5
+	intrigue=4
+	stewardship=5
+	religion="catholic"
+	culture="low_alemannic"
+	trait="proud"
+	trait="tough_soldier"
+	father=5001
+	1260.1.1 = {
+		birth="1260.1.1"
+	}
+	
+	1307.7.4 = {
+		death="1307.7.4"
+	}
+}
+
+5005 = {
+	name="Friedrich"
+	dynasty=501
+	martial=5
+	diplomacy=5
+	intrigue=4
+	stewardship=5
+	religion="catholic"
+	culture="low_alemannic"
+	trait="lustful"
+	trait="tough_soldier"
+	father=5003
+	1289.1.1 = {
+		birth="1289.1.1"
+	}
+	1330.1.14 = {
+		death="1330.1.14"
+	}
+}
+462713 = {
+	name="Elisabeth"
+	female=yes
+	martial=6
+	diplomacy=8
+	intrigue=7
+	stewardship=6
+	religion="catholic"
+	culture="low_alemannic"
+	trait="proud"
+	trait="amateurish_plotter"
+	father=462711
+	mother=462712
+	1262.1.3 = {
+		birth="1262.1.3"
+	}
+	1312.1.29 = {
+		death="1312.1.29"
+	}
+}
+
+462714={
+	name="Rudolf" #Count of Laufenburg
+	dynasty=501
+	dna="aoblhaknplh"
+	culture="low_alemannic"
+	religion=catholic
+	martial=0
+	diplomacy=6
+	stewardship=8
+	intrigue=4
+	learning=4
+	trait="tough_soldier"
+	trait="chaste"
+	trait="brave"
+	trait="paranoid"
+	1270.7.15={birth=yes}
+	1314.12.22={death=yes}
+}
+
+462715={
+	name="Rudolf" #Bisoph of Constance
+	dynasty=501
+	dna="fklgaanmmao"
+	culture="low_alemannic"
+	religion=catholic
+	martial=2
+	diplomacy=6
+	stewardship=4
+	intrigue=4
+	learning=2
+	trait="charismatic_negotiator"
+	trait="brave"
+	1239.5.1={birth=yes}
+	1294.5.26={death=yes}
+	}
+	
+
+
+	
+	
+	
+
+
+
+
 

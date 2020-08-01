@@ -6,8 +6,8 @@ title = c_melchtal
 # Settlements
 max_settlements = 5
 
+b_melchtal = castle
 b_fluehe = temple
-b_melchtal = temple
 b_sachseln = city
 #b_melchtal_2 = castle
 #b_melchtal_3 = city

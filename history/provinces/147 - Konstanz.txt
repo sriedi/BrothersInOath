@@ -6,9 +6,9 @@ title = c_konstanz
 # Settlements
 max_settlements = 6
 
+b_st_katharina = temple
 b_konstanz = city
 b_fuerstenberg = castle
-b_st_katharina = temple
 b_allmansdorf = city
 b_petershausen = city
 #b_mainau = temple

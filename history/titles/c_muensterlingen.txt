@@ -1,4 +1,8 @@
-# e_hre
-800.1.1={
-	liege= "k_schwaben"
+1200.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
 }
+
+1210.1.1={
+	liege= d_thurgau
+} 

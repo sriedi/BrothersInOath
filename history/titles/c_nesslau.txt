@@ -1,4 +1,8 @@
-# e_hre
-800.1.1={
-	liege= "k_alemannia"
+1200.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+	liege = d_toggenburg
+}
+1268.1.1= {
+	holder = 3017
 }

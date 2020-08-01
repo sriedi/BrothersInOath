@@ -62,7 +62,7 @@ c_breitlandenberg
 c_bremgarten
 c_brenno
 c_brescia
-c_brgosesia
+c_borgosesia
 c_brienz
 c_brig
 c_buchhorn
@@ -488,7 +488,7 @@ d_aosta
 d_appenzell
 d_arbongau
 d_basel
-d_bergramo
+d_bergamo
 d_bern
 d_besancon
 d_borgomanero

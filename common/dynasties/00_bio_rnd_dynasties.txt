@@ -1,3 +1,9 @@
+# 0 = { 
+# 	name = "Mustermann" 
+# 	culture = "high_alemannic"
+# 	religion =  "catholic"
+# }
+
 # 9000 Random Dynasties
 
 
@@ -141,13 +147,13 @@ religion =  "catholic"
  }
  
 9024 = { 
-name = "DÃ¶nni" 
+name = "Dönni" 
 culture = "high_alemannic"
 religion =  "catholic"
  }
  
 9025  =  { 
-name = "DÃ¶rig" 
+name = "Dörig" 
 culture = "high_alemannic"
 religion =  "catholic"
  }
@@ -157,3 +163,117 @@ name = "Feller"
 culture = "high_alemannic"
 religion =  "catholic"
  }
+
+#Low Allemanic Dynasties
+
+9027  =  { 
+	name = "von Ramstein" 
+	culture = "low_alemannic"
+	religion =  "catholic"
+}
+
+9028 =	{	
+	name="Aichelberg"
+	religion="catholic"
+	culture="low_alemannic"
+	used_for_random=yes
+	
+}
+9029 =	{	
+	name="Anweil"
+	religion="catholic"
+	culture="low_alemannic"
+	used_for_random=yes
+	
+}		
+
+9030 =	{	
+	name="Balgheim"
+	religion="catholic"
+	culture="low_alemannic"
+	used_for_random=yes
+	
+}
+9031 =	{	
+	name="Bemelberg"
+	religion="catholic"
+	culture="low_alemannic"
+	used_for_random=yes
+	
+}
+9032 =	{	
+	name="Beuren"
+	religion="catholic"
+	culture="low_alemannic"
+	used_for_random=yes
+	
+}			
+
+9033  =  { 
+	name = "Schwanden" 
+	culture = "middle_alemannic"
+	religion =  "catholic"
+}
+
+9034  =  { 
+	name = "Güttingen" 
+	culture = "middle_alemannic"
+	religion =  "catholic"
+}
+
+9035 =	{	
+	name="Fiebinger"
+	religion="catholic"
+	culture="low_alemannic"
+	used_for_random=yes
+	
+}	
+9036 =	{	
+	name="Belmot"
+	religion="catholic"
+	culture="low_alemannic"
+	used_for_random=no
+	
+}
+###### Raeto Romanish ####
+
+9037 =	{	
+	name="Belmot"
+	religion="catholic"
+	culture="raetoromanish"
+	used_for_random=yes
+	
+}
+
+9038 =	{	
+	name="Plata"
+	religion="catholic"
+	culture="raetoromanish"
+	used_for_random=yes
+	
+}
+
+9039 =	{	
+	name="Buoz"
+	religion="catholic"
+	culture="raetoromanish"
+	used_for_random=yes
+	
+}
+
+9040 =	{	
+	name="Caduff"
+	religion="catholic"
+	culture="raetoromanish"
+	used_for_random=yes
+	
+}
+9041 =	{	
+	name="Vals"
+	religion="catholic"
+	culture="raetoromanish"
+	used_for_random=yes
+	
+}
+
+
