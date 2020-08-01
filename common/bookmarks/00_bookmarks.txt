@@ -40,5 +40,57 @@ bm_landvogts = {
 			properties ="n00dbh000000000000000000000000000000"	
 		}
 	}
+	selectable_character = {
+		id = 2074 # Arnold von Melchtal
+		age = 45
+		name = "Arnold von Melchtal"
+		title = d_unterwalden
+		title_name = d_unterwalden
+		character = {
+			name ="Arnold"
+			dynasty=56
+			religion= catholic
+			culture= high_alemannic
+			government = commonassembly_government
+			dna ="cebca0giaa0"	
+			properties ="vd0jci000000000000000000000000000000"	
+		}
+	}
+
+	selectable_character = {
+		id = 5003 # Albrecht von Habsburg
+		age = 45
+		name = "Albrecht von Habsburg"
+		title = k_osterreich
+		title_name = k_osterreich
+		
+		character = {
+			name ="Albrecht"
+			dynasty=501
+			religion= catholic
+			culture= low_alemannic
+			government = feudal_government
+			dna="cdjfc0ccfa0"
+			properties="ad0hab000000000000000000000000000000"	
+		}
+	}
+
+	selectable_character = {
+		id = 2120 # Filibert Suter
+		age = 45
+		name = "Filibert Suter"
+		title = d_appenzell
+		title_name = d_appenzell
+		
+		character = {
+			name ="Filibert"
+			dynasty=79
+			religion= catholic
+			culture= low_alemannic
+			government = commonassembly_government
+			dna="cehef0id000"
+			properties="dk0d0k000000000000"
+		}
+	}
 }
 

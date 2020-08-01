@@ -461,7 +461,7 @@ narrative_event = {
 				any_suzerain = {
 					remove_tributary = THIS 
 				}
-				set_defacto_liege = event_target:targetliege
+				set_defacto_liege = 
 				primary_title = {
 					clr_title_flag = in_sworn_alliance
 				}

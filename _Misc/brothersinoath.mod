@@ -1,4 +1,5 @@
- name = "Brothers in Oath"
+ name = "Brothers in Oath - A Swiss Confederacy Mod"
+ picture = "icon_bio.png"
  path = "mod/brothersinoath"
  tags = { "Mods" "Swiss" "Overhaul"}
 user_dir = "BiO" 

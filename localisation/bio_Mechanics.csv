@@ -85,4 +85,7 @@ EVENTTitlebio.219;The Aargau Confederation;;Der Aargauer Bund;;;;;;;;;;;x
 EVTDESCbio.219 ;The people of [From.PrimaryTitle.GetBaseName] have formed a new Conferderation with their sworn allies. This Confederation will now stand as a single united people of bretheren agianst their enemies.;;Das Volk von [From.PrimaryTitle.GetBaseName] hat zusammen mit seinen Schwurbrüdern einen neuen Bund geschaffen. Dieser Bund wird als ein einzig Volk von Brüdern gegen ihre Feinde stehen. ;;;;;;;;;;;x
 EVENTTitlebio.220;The Aarburgundy Confederation;;Der Aarburgunder Bund;;;;;;;;;;;x
 EVTDESCbio.220 ;The people of [From.PrimaryTitle.GetBaseName] have formed a new Conferderation with their sworn allies. This Confederation will now stand as a single united people of bretheren agianst their enemies.;;Das Volk von [From.PrimaryTitle.GetBaseName] hat zusammen mit seinen Schwurbrüdern einen neuen Bund geschaffen. Dieser Bund wird als ein einzig Volk von Brüdern gegen ihre Feinde stehen. ;;;;;;;;;;;x
+liberation_castle;Castle Storm;;Burg Sturm;;;;;;;;;;;x
+liberation_castle_desc;The commoners rise and overthrow the previous lords and social order.;;Die Gemeinen erheben sich und versuchen die bisherige Ordnung zu überwerfen.;;;;;;;;;;;x
+WARNAME_LIB_CASTLE ;Castle Storm;;Burg Sturm;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x

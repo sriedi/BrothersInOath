@@ -79,6 +79,7 @@ narrative_event = {
 #Leader Vote Common Assembly
 narrative_event = {
 	id = bio.101
+	title = EVTTITbio.101
 	desc = EVTDESCbio.101
 	picture = GFX_evt_heretic
 	

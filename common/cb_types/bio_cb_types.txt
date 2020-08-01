@@ -1,0 +1,76 @@
+cb_liberation_castle = {
+    name = liberation_castle
+    war_name = WARNAME_LIB_CASTLE
+    truce_days = 900
+    sprite = 10
+    allow_whitepeace = no
+	can_call_allies = yes
+	is_independence = yes
+	is_revolt_cb = yes
+	press_claim = yes   
+    def_ticking_war_score_multiplier = 1
+    max_defender_occupation_score = 0.6
+    max_attacker_battle_score = 0.85
+    hostages_block_cb = no
+    capturing_defender_is_complete_victory = yes
+	is_permanent = no
+	defender_ai_victory_worth = { factor = -1 }
+	attacker_ai_defeat_worth = { factor = 100 }
+	attacker_ai_victory_worth = { factor = -1 }
+	defender_ai_defeat_worth = { factor = 100 }
+	battle_warscore_mult = 0.2     
+	
+    can_use_title = {
+        always =yes
+	}
+    can_use = {
+        always =yes
+	}
+    
+	is_valid = {
+		FROM = {
+			is_landed = yes
+		}
+	}
+
+	on_success = {
+		ROOT = {
+			THIS = {
+				save_event_target_as = targetliegetitle
+			}
+		}
+		FROM = {
+		any_title = {
+				limit = {
+					dejure_liege_title  = {
+						title = event_target:targetliegetitle 
+					}
+				}
+				usurp_title = { target = ROOT type = claim }
+			}
+		}
+
+				
+		ROOT = {
+			set_defacto_liege = THIS
+		}	
+	}
+	
+	on_success_title = {
+
+	}
+
+	on_fail = {
+		FROM = {
+			imprison = ROOT
+		}
+	}
+		
+	on_reverse_demand = {
+
+	}
+    
+
+    
+
+}#CB Liberation Castle Storm

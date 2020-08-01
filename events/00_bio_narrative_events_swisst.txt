@@ -11,18 +11,14 @@ narrative_event = {
 			primary_title = {
 					title = d_schwyz
 			}
-			any_suzerain = {
-				primary_title = {
-					OR = {
-						title = k_schwyz_vogtei
-						title = k_unterwalden_vogtei
-					}
-				}
+			OR = {
+				liege = {primary_title = {title = k_schwyz_vogtei } }
+				liege = {primary_title = {title = k_unterwalden_vogtei } }
 			}
 		}
 	}
 	mean_time_to_happen = {
-		months = 6
+		years = 4
 	}
 	immediate = {
 		set_global_flag = swiss_rebelion_triggered
@@ -30,20 +26,46 @@ narrative_event = {
 
 	option = {
 		name = EVTOPTAbio.400
-		#Send for the others
+		
+		narrative_event = { 
+			id = bio.403 
+			days = 30
+		}
 
+		d_uri = {
+			holder_scope = {
+				letter_event = { 
+					id= bio.402
+					days = 4
+				}
+			}
+		}
+
+		d_unterwalden = {
+			holder_scope = {
+				letter_event = { 
+					id= bio.402 
+					days = 4
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+		
 	}
 
 	option = {
-		name = EVTOPTBAbio.400
+		name = EVTOPTBbio.400
 	}
 }
 
 #Event to clear the Flag agian
-
 character_event = {
 	id = bio.401
-	desc = EVTDESCbio.401
+	is_triggered_only =yes
+	hide_window = yes
 	immediate = {
 		IF = {
 			limit = {
@@ -51,32 +73,217 @@ character_event = {
 					flag = swiss_rebelion_triggered
 					years >= 3
 				}
+				OR = {
+					d_uri = {
+						had_title_flag = {
+							flag = accepted_oath
+							years >= 3
+						}
+					}
+					d_unterwalden = {
+						had_title_flag = {
+							flag = accepted_oath
+							years >= 3
+						}
+					}
+				}
 			}
 			clr_global_flag = swiss_rebelion_triggered
+			d_uri = {
+				clr_title_flag = accepted_oath
+			}
+			d_unterwalden = {
+				clr_title_flag = accepted_oath
+			}
 		}
-		option = {
-			name = EVTOPTAbio.401
-		}
+	}
+	option = {
+		name = EVTOPTAbio.401
 	}
 }
 
-#Invite to Secret Meeting
+#Invited to Secret Meeting
 letter_event = {
-
+	id = bio.402
+	desc = EVTDESCbio.402
+	
+	is_triggered_only =yes
+	option = {
+		name = EVTOPTAbio.402
+	}
 }
 
 #Secret Meeting Host
 narrative_event = {
+	id = bio.403
+	picture = GFX_evt_bacchants_initiation
+	title = EVTTitbio.403
+	desc = EVTDESCbio.403
+	is_triggered_only =yes
 
+	option = {
+		name = EVTOPTAbio.403
+
+		d_uri = {
+			holder_scope = {
+				narrative_event = { id = bio.404 }
+			}
+		}
+
+		d_unterwalden = {
+			holder_scope = {
+				narrative_event = { id = bio.404 } 
+			}
+		}
+		
+	}
 }
 
 #Secret Meeting Others
 narrative_event = {
+	id = bio.404
+	picture = GFX_evt_bacchants_initiation
+	title = EVTTitbio.404
+	desc = EVTDESCbio.404
+	is_triggered_only =yes
+	
+	option = {
+		name = EVTOPTAbio.404
+		primary_title = {
+			set_title_flag = accepted_oath
+		}
+		FROM = {
+			letter_event = {id = bio.405}
+		}
+		
 
-	#Possibility to Decline
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 30
+				trait = brave
+				
+			}
+			modifier = {
+				factor = 8
+				trait = cynical
+
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBbio.404
+		primary_title = {
+			set_title_flag = rejected_oath
+		}
+		add_trait = craven
+
+		FROM = {
+			letter_event = {id = bio.406}
+		}
+
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 25
+				trait = craven
+			}
+		}
+	}
+}
+
+letter_event = {
+	#Accepts Proposal
+	id = bio.405
+	is_triggered_only =yes
+	desc = EVTDESCbio.405
+	option = {
+		name = EVTOPTAbio.405
+	}
+}
+
+letter_event = {
+	#Rejects Proposal
+	id = bio.406
+	is_triggered_only =yes
+	desc = EVTDESCbio.406
+	option = {
+		name = EVTOPTAbio.406
+	}
 }
 
 #Declare the Burgensturm 
 narrative_event = {
+	id = bio.407
+	picture = GFX_evt_arson_hf
+	title = EVTTitbio.407
+	desc = EVTDESCbio.407
 
+	trigger = {
+		AND = {
+			primary_title = {
+				title = d_schwyz
+			}
+			AND = {
+				d_uri = {
+					has_title_flag = accepted_oath
+				}
+				d_unterwalden = {
+					has_title_flag = accepted_oath
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 60
+	}
+	option = {
+		name = EVTOPTAbio.407
+		war = {
+			target = liege
+			casus_belli = cb_liberation_castle
+			tier = DUKE
+		} 
+		
+		d_uri = {
+			holder_scope = {
+				letter_event = { 
+					id = bio.408 
+					days = 2
+				}
+			}
+		}
+		d_unterwalden = {
+			holder_scope = {
+				letter_event = {  
+				id = bio.408 
+				days = 2
+				}
+			}
+		}
+	}
+	
+}
+
+letter_event = {
+	id = bio.408
+	desc = EVTDESCbio.408
+	is_triggered_only =yes
+	option = {
+		name = EVTOPTAbio.407
+		join_attacker_wars = FROM
+		war = {
+			target = liege
+			casus_belli = cb_liberation_castle
+			tier = DUKE
+		} 
+			
+		FROM = {
+			join_attacker_wars = THIS
+		}
+		primary_title ={
+			clr_title_flag = accepted_oath
+		}
+	}
 }

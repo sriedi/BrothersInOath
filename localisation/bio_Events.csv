@@ -7,23 +7,43 @@ EVTOPBTTbio.100;Your vassals will be angry for you breaking common law.;;Eure Va
 totalelectors;Number of Electors;;Stimmberechtigte;;;;;;;;;;;x
 votescast;cast votes;;abgegebene Stimmen;;;;;;;;;;;x
 currentsupport;votes;;Stimmen;;;;;;;;;;;x
-EVTDESCbio.101;The [From.GetTitle] has called for a Common Assembly to be held in [From.Capital.GetName]. You can cast a vote about the election of the [From.GetTitle]. How do you want to vote.;;Der [From.GetTitle] hat die Landsgemeinde in  [From.Capital.GetName] einberufen. Ihr könnt eure Stimme über die Wahl des [From.GetTitle] abgeben.;;;;;;;;;;;x
+EVTTITbio.101;The Assembly;;Die Landsgemeinde;;;;;;;;;;;x
+EVTDESCbio.101;The [From.GetTitle] has called for a Common Assembly to be held in [From.Capital.GetName]. You can cast a vote about the election of the [From.GetTitle]. How do you want to vote?;;Der [From.GetTitle] hat die Landsgemeinde in  [From.Capital.GetName] einberufen. Ihr könnt eure Stimme über die Wahl des [From.GetTitle] abgeben?;;;;;;;;;;;x
 EVENTOPAbio.101;[From.GetFullName] did a good job. I support [From.GetHerHim] for reelection.;;[From.GetFullName] hat gute Arbeit geleistet. Ich unterstütze [From.GetHerHim] für die Wiederwahl.;;;;;;;;;;;x
-EVENTOPBbio.101;I want a change of leadership in the [GetFullBaseName];;Ich will einen neuen [From.GetTitle].;;;;;;;;;;;x
+EVENTOPBbio.101;I want a change of leadership in the [From.PrimaryTitle.GetFullBaseName];;Ich will einen neuen [From.GetTitle].;;;;;;;;;;;x
 EVENTOPBTTbio.101;A new  [From.GetTitle] will be elected from the election pool.;;Es wird ein neuer [From.GetTitle] aus dem Kollegium der Landsgemeinde gewählt.;;;;;;;;;;;x
 EVENTOPATTbio.101;You support your current ruler.;;Ihr unterstützt den momentanen Herrscher.;;;;;;;;;;;x
 EVTDESCbio.102;I support our [This.GetTitle] and vote for [This.GetHersHis] reelection. ;;Ich unterstütze unseren [This.GetTitle] und Stimme für [This.GetHersHis] Wiederwahl. ;;;;;;;;;;;x
 EVTOPTAbio.102;I‘m very greatful for your trust.;;Ich danke für euer Vertrauen.;;;;;;;;;;;x
 EVTDESCbio.103;I will not support [This.GetFullName] for another term.;;Ich werde [This.GetFullName] nicht für eine weitere Amtszeit wählen.;;;;;;;;;;;x
 EVTOPTAbio.103;So be it.;;So sei es denn.;;;;;;;;;;;x
-EVTDESCbio.104;With [This.currentsupport.GetValue] [This.currentsupport.GetName] [This.GetFullName] is reelected.;;Mit [This.currentsupport.GetValue] [This.currentsupport.GetName] von [This.totalelectors.GetValue] wurde [This.GetFullName] wiedergewählt.;;;;;;;;;;;x
+EVTDESCbio.104;With [This.currentsupport.GetValue] votes. [This.GetFullName] is reelected.;;Mit [This.currentsupport.GetValue] [This.currentsupport.GetName] von [This.totalelectors.GetValue] wurde [This.GetFullName] wiedergewählt.;;;;;;;;;;;x
 EVTOPTAbio.104;I thank the Common Assembly for its support.;;Ich danke der Landsgemeinde für ihr vertrauen.;;;;;;;;;;;x
 EVTDESCbio.105;With only [This.currentsupport.GetValue] [This.currentsupport.GetName] of [This.totalelectors.GetValue] [This.GetFullName] is not reelected.;;Mit nur [This.currentsupport.GetValue] [This.currentsupport.GetName] von [This.totalelectors.GetValue] Wurde [This.GetFullName] nicht wiedergewählt.;;;;;;;;;;;x
 EVTOPTAbio.105;Well that‘s how things go.;;Dann ist‘s halt so.;;;;;;;;;;;x
-EVTDESCbio.106;[From.GetFullName] was reelected as [From.GetTitle] with [From.currentsupport.GetValue] of  [This.totalelectors.GetValue] [This.currentsupport.GetName];;[From.GetFullName] wurde mit [From.currentsupport.GetValue] von [From.totalelectors.GetValue] [From.currentsupport.GetName] wieder zum [From.GetTitle] gewählt.;;;;;;;;;;;x
+EVTDESCbio.106;[From.GetFullName] was reelected as [From.GetTitle] with [From.currentsupport.GetValue] of  [This.totalelectors.GetValue] [This.currentsupport.GetName];;[From.GetFullName] wurde mit [From.currentsupport.GetValue] Stimmen wieder zum [From.GetTitle] gewählt.;;;;;;;;;;;x
 EVTOPTAbio.106;So nothing changes.;;Also ändert sich nichts.;;;;;;;;;;;x
 EVTDESCbio.107;[From.GetFullName] was not reelected as [From.GetTitle] with [From.currentsupport.GetValue] of [From.totalelectors.GetValue] [This.currentsupport.GetName];;[From.GetFullName] wurde mit [From.currentsupport.GetValue] von  [From.totalelectors.GetValue] [From.currentsupport.GetName] als [From.GetTitle] abgewählt.;;;;;;;;;;;x
 EVTOPTAbio.107;Intresting.;;Interessante Entwicklung.;;;;;;;;;;;x
 EVTDESCbio.108;The time for a common assembly is approaching. In the next spring the law demands one to be held.;;Der Zeitpunkt für eine neue Landsgemeinde kommt näher. Im nächsten Frühling verlangt das Gesetz, dass die Stände zusammen treten.;;;;;;;;;;;x
 EVTOPTAbio.108;I should make preperations.;;Ich sollte die Vorbereitungen dafür treffen.;;;;;;;;;;;x
+EVTDESCbio.400;The life is not getting easier in the lands arround lake lucerne. The Vogts keep pressureing the people to new taxes and keep harassing us. Maybe we should call a secret meeting with the others to discuss … possible steps. The memory of the days of the direct domain are still fresh. The others won‘t refuse to attend.;;Das Leben in den Ländern der Waldstätten wird nicht einfacher. Die Vögte pressen immer mehr Steuern und plagen uns ständig. Vielleicht sollten wir ein Geheimtreffen der Fürsten der Waldstätten abhalten … um mögliche Schritte zu besprechen. Die Erinnerung an die Reichsunmittelbarkeit ist immer noch frisch. Die anderen werden sicher Bald;;;;;;;;;;;x
+EVTOPTAbio.400;Reach out to them;;Ruft die anderen Zusammen;;;;;;;;;;;x
+EVTOPTBbio.400;Not now;;Nicht jetzt;;;;;;;;;;;x
+EVTDESCbio.402;A secret message reaches you from [From.GetFullName] in [From.PrimaryTitle.GetBaseName]. A gathering of all the vassals of the Vogts is bound to happen. In earlyer days such gatherings were regular. We are bound by honor to at least listen to their proposal.;;Eine geheime Nachricht erreicht euch von [From.GetFullName] in [From.PrimaryTitle.GetBaseName]. Ein geheimes Treffen aller Länder der Vögte soll stattfinden. In alter Zeit gab es öfters solche Treffen. Wir sind der Ehre wegen verpflichtet sie anzuhöhren.;;;;;;;;;;;x
+EVTOPTAbio.402;Well at least tell me the location.;;Sagt mir wenigstens wo.;;;;;;;;;;;x
+EVTTitbio.403;Brothers in Oath;;Schwurbürder;;;;;;;;;;;x
+EVTDESCbio.403;After long preperations you are sure: Only if all stand together we can stand a chance against the Vogts. On a small pasture all of the leaders have gathered to talk about  the Vogts and what to do about them. After all the misery described by every one of the leaders you rise and propose to swear an oath of ethernal alliance, and to rise against the Vogts as soon as the opportunity arises.;;Nach langer Vorbereitung und Bedenkzeit seid ihr euch sicher: Nur wenn wir alle zusammenstehen haben wir eine Chance gegen die Vögte. Auf einer kleinen Wiese haben sich alle Anführer Versammelt und sprechen über das Leid, das die Vögte über die Menschen gebracht haben. Da steht ihr auf und unterbreitet euren Vorschlag: Einen Schwur ewiger Allianz und Beistand. Die Vögte sollen sobald sich eine günstige Gelegenheit zeigt Vertrieben werden.;;;;;;;;;;;x
+EVTOPTAbio.403;Listen up!;;Hört zu!;;;;;;;;;;;x
+EVTTitbio.403;Brothers in Oath;;Schwurbürder;;;;;;;;;;;x
+EVTDESCbio.404;On a small pasture all of the leaders have gathered to talk about  the Vogts and what to do about them. After all the misery described by every one of the leaders [From.GetFullName] rises and proposes to swear an oath of ethernal alliance, and to rise against the Vogts as soon as the opportunity arises.;;Auf einer kleinen Wiese haben sich alle Anführer Versammelt und sprechen über das Leid, das die Vögte über die Menschen gebracht haben. Da steht [From.GetFullName] auf und unterbreitet einen Vorschlag: Einen Schwur ewiger Allianz und Beistand. Die Vögte sollen sobald sich eine günstige Gelegenheit zeigt Vertrieben werden.;;;;;;;;;;;x
+EVTOPTAbio.404;I will take this oath. Down with the Vogts!;;Ich werde diesen Schwur schwören! Nieder mit den Vogten.;;;;;;;;;;;x
+EVTOPTBbio.404;I will not commit treason!;;Ich werde sicher keinen Verrat begehen!;;;;;;;;;;;x
+EVTDESCbio.405;[This.GetFullName] I will swear this Oath with you! In the name of [From.Religion.GetRandomGodName].;;[This.GetFullName] Ich werde diesen Eid mit euch schwören. Im Namen [From.Religion.GetRandomGodName].;;;;;;;;;;;x
+EVTOPTAbio.405;Amen!;;Amen!;;;;;;;;;;;x
+EVTDESCbio.406;[This.GetFullName] I can‘t stand and commit treason agianst my liege!;;[This.GetFullName], ich kann nicht verrat an meinem Lehnsherr begehen.;;;;;;;;;;;x
+EVTOPTAbio.406;Coward!;;Feigling!;;;;;;;;;;;x
+EVTTitbio.407;Storm the Castles!;;;;;;;;;;;;;x
+EVTDESCbio.407;After months of preperations and sabotage the time has come. Our Alliance must rise and drive out the unjust rulers once and for all of this land.;;Nach Monaten der Sabotage und Vorbereitung ist die Zeit nun gekommen! Unser Bund muss sich erheben und die ungerechten Fürsten ein für alle mal vertreiben.;;;;;;;;;;;x
+EVTOPTAbio.407;To Freedom;;Zur Freiheit;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
