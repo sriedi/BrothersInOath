@@ -5,6 +5,5 @@
 }
 1280.1.1={
 	liege= "d_zuerich"
-	government = merchant_republic_government
 	holder = 30001
 }

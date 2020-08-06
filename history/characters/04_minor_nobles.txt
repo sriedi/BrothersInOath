@@ -299,30 +299,6 @@
 	}
 	1301.1.17={death=yes}
 }
-4012={
-	name="Arnold"
-	dynasty=253
-	dna="gaiidbedjeh"
-	culture ="middle_alemannic"
-	religion=catholic
-	martial=4
-	diplomacy=5
-	stewardship=6
-	intrigue=7
-	learning=7
-	trait="skilled_tactician"
-	trait="trusting"
-	trait="cruel"
-	trait="ambitious"
-	trait="content"
-	father=4009
-	mother=4010
-	1246.6.5={birth=yes}
-	1279.1.1={
-		effect = { set_government_type = feudal_government }
-	}
-	1301.1.17={death=yes}
-}
 
 4013={
 	name="Cecilie"
@@ -747,7 +723,7 @@
 	1298.11.26={death=yes}
 }
 
-4031={
+40310={
 	name="Uorschla "
 	female=yes
 	dynasty=9041

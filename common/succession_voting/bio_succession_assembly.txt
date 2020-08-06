@@ -16,6 +16,7 @@ assembly_elective_voteing = {
 		}
 		additive_modifier = { #Then the Councilors.
 			value = 20
+			de_facto_liege = FROMFROM
 			OR = { 
 				has_job_title = job_chancellor
 				has_job_title = job_marshal

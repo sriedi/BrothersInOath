@@ -1,0 +1,5 @@
+Bug Fixes
+############
+
+Fixed a Broken Event in the Confederacy Forming Option.
+Fixed foreing Dukes voteing in common assembly voteing because they hold a council position.

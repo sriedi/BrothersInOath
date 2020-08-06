@@ -1,5 +1,0 @@
-
-1200.1.1={
-	law = agnatic_succession
-	government = feudal_government
-}

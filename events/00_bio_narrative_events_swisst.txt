@@ -243,7 +243,6 @@ narrative_event = {
 		war = {
 			target = liege
 			casus_belli = cb_liberation_castle
-			tier = DUKE
 		} 
 		
 		d_uri = {
@@ -276,7 +275,6 @@ letter_event = {
 		war = {
 			target = liege
 			casus_belli = cb_liberation_castle
-			tier = DUKE
 		} 
 			
 		FROM = {

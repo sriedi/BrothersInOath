@@ -1,13 +1,14 @@
 cb_liberation_castle = {
-    name = liberation_castle
-    war_name = WARNAME_LIB_CASTLE
+    name = CB_LIBERATION_CASTLE_NAME
+    war_name = CB_LIBERATION_CASTLE_WARNAME
     truce_days = 900
-    sprite = 10
+    sprite = 23
     allow_whitepeace = no
 	can_call_allies = yes
 	is_independence = yes
 	is_revolt_cb = yes
-	press_claim = yes   
+	press_claim = yes
+	defender_can_call_allies = no   
     def_ticking_war_score_multiplier = 1
     max_defender_occupation_score = 0.6
     max_attacker_battle_score = 0.85
@@ -21,56 +22,70 @@ cb_liberation_castle = {
 	battle_warscore_mult = 0.2     
 	
     can_use_title = {
-        always =yes
+        FROM = {
+			government = vogtei_government
+		}
 	}
     can_use = {
         always =yes
 	}
+
+	can_use_gui = {
+		always =no
+	} 
     
 	is_valid = {
+		
 		FROM = {
 			is_landed = yes
+			higher_tier_than = DUKE
 		}
 	}
 
 	on_success = {
-		ROOT = {
-			THIS = {
-				save_event_target_as = targetliegetitle
-			}
-		}
-		FROM = {
-		any_title = {
-				limit = {
-					dejure_liege_title  = {
-						title = event_target:targetliegetitle 
-					}
-				}
-				usurp_title = { target = ROOT type = claim }
-			}
-		}
-
-				
 		ROOT = {
 			set_defacto_liege = THIS
 		}	
 	}
 	
 	on_success_title = {
-
+		ROOT = {
+			primary_title = {
+				save_event_target_as = targetliegetitle
+			}
+		}
+		FROM = {
+			any_title = {
+				IF = {
+					limit = {
+						AND = {
+							de_jure_liege = event_target:targetliegetitle
+							OR = {
+							de_facto_liege = FROM
+							holder = FROM
+							}
+						}
+					}
+					usurp_title = { target = ROOT type = claim }
+					}
+			}
+			destroy_landed_title = primary_title
+			death = {
+				death_reason = death_execution
+				killer = ROOT
+			}
+		}
 	}
 
-	on_fail = {
+	on_reverse_demand = {
 		FROM = {
 			imprison = ROOT
 		}
-	}
-		
-	on_reverse_demand = {
-
-	}
-    
-
-    
+		ROOT = {
+			abdicate = yes
+			clear_wealth = yes
+			add_trait = peasant_leader
+		}
+	}  
 
 }#CB Liberation Castle Storm
