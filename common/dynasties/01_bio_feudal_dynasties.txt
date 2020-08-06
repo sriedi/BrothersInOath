@@ -2,7 +2,7 @@
 501=
 {
 	name="von Habsburg"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion="catholic"
 	coat_of_arms=
 	{
@@ -41,7 +41,7 @@
 242=
 {
 	name="Landenberg"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
     coat_of_arms = {
         template = 0
@@ -59,21 +59,21 @@
 243=
 {
 	name="Homberg"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 
 244=
 {
 	name="Toggenburg"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 
 245=
 {
 	name="Montfort"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 
@@ -132,44 +132,44 @@
 249=
 {
 	name="von Rapperswil"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 
 250=
 {
 	name="von Regensberg"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 
 251=
 {
 	name="Hohenrohn"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 252=
 {
 	name="von Rohr"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 253=
 {
 	name="Iberg"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 
 253={
 	name="Hallwyl"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 254={
 	name="Krauer"
-	culture="middle_allemannic"
+	culture="middle_alemannic"
 	religion= "catholic"
 }
 
@@ -424,7 +424,7 @@
 295=
 {
 	name="de Savoie"
-	culture="savoian"
+	culture="savoyian"
 	religion="catholic"
 	coat_of_arms=
 	{
@@ -439,43 +439,43 @@
 
 296=  {
 	name="de Tournon" 
-	culture="savoian"
+	culture="savoyian"
 	religion="catholic"
 }
 
 297=  {
 	name="de Voyer" 
-	culture="savoian"
+	culture="savoyian"
 	religion="catholic"
 }
 
 298=  {
 	name="de Paulmy" 
-	culture="savoian"
+	culture="savoyian"
 	religion="catholic"
 }
 
 299=  {
 	name="Milliet" 
-	culture="savoian"
+	culture="savoyian"
 	religion="catholic"
 }
 
 300=  {
 	name="Deschamps" 
-	culture="savoian"
+	culture="savoyian"
 	religion="catholic"
 }
 
 301=  {
 	name="Métral" 
-	culture="savoian"
+	culture="savoyian"
 	religion="catholic"
 }
 
 302=  {
 	name="d'Allinges" 
-	culture="savoian"
+	culture="savoyian"
 	religion="catholic"
 }
 

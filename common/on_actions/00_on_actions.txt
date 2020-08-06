@@ -1,33 +1,14 @@
 #character
 on_startup = {
 	events = {
-		1337 # Emperor Ticket character spawning event
 		GR.13 #True cognatic for rule gender = all
-		MNM.10025 #Save game conversion of secret_traits to secret religions
-		741 #Block "Beyond the Indus" achievement for dynasty if you start and meet the conditions for it
-		ZP.5 #Change Zorastrian pet traits into modifiers
-		HF.20372 # Apply Crowned_by_traits
-		HFP.30031 # Set up freckles
-		HF.1 # Set up Great Conquerors for Shattered World
-		HF.2 # Set up Primogeniture in Shattered World
-		HF.5 # Alternate Start General maintenance
 		HF.23205 # Altstart Dogmatic/Cosmopolitan effects.
-		HF.25057 #Give West African Grand Masters some Masks.
-		HF.23472 #Add Irminsul special building on Charlemagne start.
 		HF.23035 #Status of Women cleanup for customized religions on Random Start.
-		HF.25070 #Add Tattoos to landless starting Warrior Lodge members of high ranks.
 		HFP.40028 # Remove child traits
 		689 # scripted default elective token setup
-		HFP.24025 #Enable Eldership for appropriate religions/Doctrines.
 		GR.30 # Generate random families for characters without
-		HF.23776 #Assign African tattoos.
-		HFP.20804 #Clear Byzantine commander variables on the Emperor.
-		HF.23778 #Setting up god-emperors on Altstart.
-		HFP.23028 #Cleanup Monenvasia if Hellenism rule is off.
-		HFP.24120 #Setup Princely Elector Titles.
 		HFP.11051 # Hidden event to give commanders (who do not have it already) the commander bonus
-		LT.32000 # Adding the historical flag to wonders and setting Hagia Sophia cult flag.
-		LT.40001 # Turning Yngvar of Kievan Rus Russian/Slavic
+
 	}
 }
 
@@ -45,35 +26,17 @@ on_yearly_pulse = {
 		# MNM.4430 # Passive nice trait gain for buddhist/jain monastic societies ### now only triggered upon succeeding in missions
 		MNM.9815 # Seal of Solomon artifact makes you immune to possession
 		MNM.70030 # Secret society visibility reduction
-		bear.7 # Secret bear generation
-		bear.1 # Secret bear discovery. Called here and in bear.7, as bear.1 can be temporarily precluded
 		GR.23 # Repeat exclave purge for AI's every year if they are at war
 		HF.20405 #Ticking negative opinion modifier for uncrowned Catholic
 		HF.21999 #Main Appease hidden event, no further pulses are required.
 		HF.22999 #Main Antagonize hidden event, no further pulses are required.
-		HF.3 # Activate GHW's and holy orders when running randomized rel names
-		8306
-		8400
-		8410
-		TOG.400
-		TOG.401
-		TOG.402
-		TOG.403
-		HF.304 # Child of Destiny gains bloodline if above Duke tier
-		62933
-		62934
-		HFP.44002 # Holy Orders check if their liege, if any, is still fit to rule them
-		HF.49460 # Reconquista Adventurer
-		HF.49470 # Reconquista flavor tombola
-		HFP.24001 # Elder has too much to live for.
 		### Fatimid Events ###
-		LT.40016 # Fatimid Invasion of Egypt
 		# Court maintenance events
 		LT.61001 #Add/remove stats
 		LT.61002 #Add relationship
 		LT.61003 #Add modifiers
 		LT.61004 #Add nicknames
-		BIO.401 #Clear Global Flag Swiss Confederation after X amount of time
+		bio.401 #Clear Global Flag Swiss Confederation after X amount of time
 	}
 	
 	random_events = {
@@ -826,9 +789,6 @@ on_five_year_pulse = {
 		GR.1
 		MNM.10030 # Have AI characters join societies
 		HF.20375 # Catholic/Fraticelli Kings/Emperors who have not been crowned will receive random negative events.
-		HFP.20604 # Hidden check for physique_variable.
-		HF.99 # Legendary warrior arrives		
-		HF.10050 # Warrior Lodges: Maintenance: AIs joins available warrior lodges
 		HF.21997 #AI picks Antagonizing target.
 		HF.21998 #AI picks Swaying target.
 		HF.24129 # Knights and Bards arrive.

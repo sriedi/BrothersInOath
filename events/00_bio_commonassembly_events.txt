@@ -205,7 +205,7 @@ character_event = {
     }
     option = {
         name = EVTOPTAbio.104
-		any_vassal = { letter_event = {id = bio.106} }
+		any_vassal = { letter_event = {id = bio.106 days = 2} }
 		clr_character_flag = holding_commonassembly
         #[I shall not dissapoint the good people who trust me!So help me God!]
         prestige = 200
@@ -238,7 +238,7 @@ character_event = {
     option = {
          name = EVTOPTAbio.105
 		 #[Well that's how things go.]
-		 any_vassal = { letter_event = {id = bio.106} }
+		 any_vassal = { letter_event = {id = bio.106 days = 2} }
 		 clr_character_flag = holding_commonassembly
 		 
          primary_title = {
@@ -255,9 +255,7 @@ letter_event = {
     id = bio.106
     desc = EVTDESCbio.106
     is_triggered_only = yes
-	mean_time_to_happen = {
-		days = 2
-    }
+	
 	option = {
 		name = EVTOPTAbio.106
 		
@@ -268,9 +266,7 @@ letter_event = {
     id = bio.107
     desc = EVTDESCbio.107
     is_triggered_only = yes
-	mean_time_to_happen = {
-		days = 2
-    }
+	
 	option = {
 		name = EVTOPTAbio.107
 		
@@ -281,7 +277,7 @@ letter_event = {
 #Remove Title Flag after given Amount of time
 
 character_event = {
-	id = bio.107
+	id = bio.108
 	desc = EVTDESCbio.108
 	picture = GFX_evt_culture_change
 	

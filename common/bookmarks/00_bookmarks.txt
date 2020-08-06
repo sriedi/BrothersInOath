@@ -14,7 +14,7 @@ bm_landvogts = {
 		title_name = d_uri
 		
 		character = {
-			name="Walter"
+			
 			dynasty=55
 			religion=catholic
 			culture=high_alemannic
@@ -31,7 +31,7 @@ bm_landvogts = {
 		title_name = d_schwyz
 		
 		character = {
-			name ="Werner"
+			
 			dynasty=50
 			religion= catholic
 			culture= high_alemannic
@@ -47,7 +47,7 @@ bm_landvogts = {
 		title = d_unterwalden
 		title_name = d_unterwalden
 		character = {
-			name ="Arnold"
+			
 			dynasty=56
 			religion= catholic
 			culture= high_alemannic
@@ -59,13 +59,13 @@ bm_landvogts = {
 
 	selectable_character = {
 		id = 5003 # Albrecht von Habsburg
-		age = 45
+		age = 26
 		name = "Albrecht von Habsburg"
 		title = k_osterreich
 		title_name = k_osterreich
 		
 		character = {
-			name ="Albrecht"
+			
 			dynasty=501
 			religion= catholic
 			culture= low_alemannic
@@ -77,13 +77,13 @@ bm_landvogts = {
 
 	selectable_character = {
 		id = 2120 # Filibert Suter
-		age = 45
+		age = 34
 		name = "Filibert Suter"
 		title = d_appenzell
 		title_name = d_appenzell
 		
 		character = {
-			name ="Filibert"
+			
 			dynasty=79
 			religion= catholic
 			culture= low_alemannic

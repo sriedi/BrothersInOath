@@ -68,7 +68,7 @@ k_papal_state = {
 	title = "POPE"
 	foa = "POPE_FOA"
 	short_name = yes
-	
+	culture = italian
 	
 	# Always exists
 	landless = yes
@@ -106,6 +106,7 @@ k_orthodox = {
 	landless = yes
 	
 	# Controls a religion
+	culture = greek
 	controls_religion = orthodox
 	
 	religion = orthodox
@@ -145,7 +146,7 @@ d_knights_templar = {
 	holy_order = yes
 	mercenary_type = knights_templar_composition
 	
-	culture = frankish
+	culture = german
 	
 	# Parent Religion 
 	religion = catholic
@@ -284,7 +285,7 @@ d_white_company = {
 	allow = {
 		religion_group = christian
 	}
-	
+	culture = italian
 	# Parent Religion 
 	religion = catholic
 	
@@ -317,6 +318,7 @@ d_great_company = {
 		religion_group = christian
 	}
 	
+	culture = saxon
 	# Parent Religion 
 	religion = catholic
 	
@@ -348,7 +350,7 @@ d_company_of_st_george = {
 	allow = {
 		religion_group = christian
 	}
-	
+	culture = english
 	# Parent Religion 
 	religion = catholic
 	
@@ -383,7 +385,7 @@ d_star_company = {
 	
 	# Parent Religion 
 	religion = catholic
-	
+	culture = frankish
 	mercenary = yes
 
 	title = "CONDOTTIERO"
@@ -415,7 +417,7 @@ d_little_hat_company = {
 	
 	# Parent Religion 
 	religion = catholic
-	
+	culture = dutch
 	mercenary = yes
 
 	title = "CONDOTTIERO"
@@ -446,7 +448,7 @@ d_rose_company = {
 	
 	# Parent Religion 
 	religion = catholic
-	
+	culture = italian
 	mercenary = yes
 
 	title = "CONDOTTIERO"
@@ -546,7 +548,7 @@ d_swiss_company = {
 	
 	# Parent Religion 
 	religion = catholic
-	
+	culture = high_alemannic
 	mercenary = yes
 
 	title = "CAPTAIN"
@@ -708,7 +710,7 @@ d_lombard_band = {
 	
 	# Parent Religion 
 	religion = catholic
-	
+	culture = italian
 	mercenary = yes
 
 	title = "CONDOTTIERO"
@@ -740,7 +742,7 @@ d_swiss_band = {
 	
 	# Parent Religion 
 	religion = catholic
-	
+	culture = high_alemannic
 	mercenary = yes
 
 	title = "CAPTAIN"
@@ -967,6 +969,8 @@ e_hre = {                      # Created by special decision only
 	
 	short_name = yes
 	
+	culture = german
+
 	allow = {
 		always = no 
 	}
