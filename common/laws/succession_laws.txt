@@ -1,17 +1,7 @@
 
 #Remove Papal Succsession
 succession_laws = {
-	succ_papal_succession = {
-		potential = {
-			always = no
-		}
-		
-		effect = {
-			succession = papal_succession
-		}
-		revoke_allowed = {
-			always = no
-		}		
+	succ_papal_succession = {	
 	}
 }
 
@@ -558,6 +548,13 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
+			AND = {
+				tier = COUNT
+				holder_scope = {
+					government = commonassembly_government
+					trait = commoner
+				}
+			}
 			holder_scope = {
 				NOT = { 
 					religion_group = muslim
@@ -831,6 +828,13 @@ succession_laws = {
 				OR = { 
 					title = e_byzantium
 					title = e_roman_empire
+				}
+			}
+			AND = {
+				tier = COUNT
+				holder_scope = {
+					government = commonassembly_government
+					trait = commoner
 				}
 			}
 			holder_scope = {

@@ -33,21 +33,24 @@
 	intrigue =3	
 	stewardship =9	
 	religion ="catholic"	
-	culture ="high_alemannic"	
+	culture ="high_alemannic"
+	trait = "commoner"	
 	trait ="grey_eminence"	
 	trait ="zealous"	
 	trait ="fair"	
-	trait ="trusting"	
-	trait ="scarred"	
+	trait ="trusting"		
 	trait ="gregarious"	
 	trait ="diligent"	
 	
-	1238.9.30={	
+	1234.9.30={	
 		birth=yes
 		effect = { set_government_type = commonassembly_government }
 	}
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
+	}
+	1306.1.1={
+		death=yes
 	}	 		
 }	
 
@@ -63,13 +66,14 @@
 	intrigue=3
 	learning=4
 	trait="charismatic_negotiator"
+	trait = "commoner"	
 	trait="greedy"
 	trait="lustful"
 	trait="ill"
 	father = 2001
-	1252.3.1={birth=yes}
-	1256.4.30 = {add_spouse=2003}
-	1330.10.7={death=yes}
+	1260.3.1={birth=yes}
+	1276.4.30 = {add_spouse=2003}
+	1310.10.7={death=yes}
 }
 
 2003={
@@ -83,9 +87,10 @@
 	stewardship=5
 	intrigue=7
 	learning=7
+	trait = "commoner"	
 	trait="intricate_webweaver"
-	1258.1.23={birth=yes}
-	1256.4.30 = {add_spouse=2002}
+	1260.1.23={birth=yes}
+	1276.4.30 = {add_spouse=2002}
 	1306.1.23={death=yes}
 }
 
@@ -100,6 +105,7 @@
 	stewardship=6
 	intrigue=1
 	learning=3
+	trait = "commoner"	
 	trait="fortune_builder"
 	trait="celibate"
 	trait="trusting"
@@ -120,12 +126,12 @@
 	stewardship=7
 	intrigue=5
 	learning=5
+	trait = "commoner"	
 	trait="thrifty_clerk"
 	trait="shy"
 	trait="content"
 	father = 2001
 	1254.7.1={birth=yes}
-	1274.2.9 = {add_spouse=2003}
 	1311.4.18={death=yes}
 }
 
@@ -142,6 +148,7 @@
 	intrigue=3
 	learning=1
 	father = 2001
+	trait = "commoner"	
 	trait="grey_eminence"
 	trait="gardener"
 	1257.11.1={birth=yes}
@@ -159,11 +166,12 @@
 	stewardship=5
 	intrigue=6
 	learning=4
+	trait = "commoner"	
 	trait="flamboyant_schemer"
 	trait="diligent"
 	trait="zealous"
 	1255.9.1={birth=yes}
-	1274.2.9 = {add_spouse=20010}
+	1274.2.9 = {add_spouse=2010}
 	1315.9.23={death=yes}
 }
 
@@ -179,6 +187,7 @@
 	stewardship=2
 	intrigue=2
 	learning=5
+	trait = "commoner"	
 	trait="tough_soldier"
 	trait="hunter"
 	trait="gluttonous"
@@ -200,6 +209,7 @@
 	stewardship=1
 	intrigue=4
 	learning=5
+	trait = "commoner"	
 	trait="skilled_tactician"
 	trait="cynical"
 	trait="kind"
@@ -211,7 +221,6 @@
 2010={
 	name="Hemma"
 	female=yes
-	dynasty=0
 	dna="ccmehejckdk"
 	culture=high_alemannic
 	religion=catholic
@@ -220,13 +229,15 @@
 	stewardship=8
 	intrigue=6
 	learning=4
+	trait = "commoner"	
 	trait="fortune_builder"
 	trait="cruel"
 	trait="ambitious"
 	trait="envious"
 	trait="gregarious"
-	1257.6.3={birth=yes
-	effect={ dynasty=none }
+	1257.6.3={
+	birth=yes
+	effect= { dynasty=none }
 	}
 	1274.2.9 = {add_spouse=2007}
 	1310.9.28={death=yes}
@@ -244,19 +255,21 @@
 	stewardship=4
 	intrigue=6
 	learning=1
+	trait = "commoner"
 	trait="elusive_shadow"
 	trait="paranoid"
 	trait="brave"
 	trait="just"
 	trait="slothful"
-	1240.1.1={
+	1220.1.1={
 		birth=yes
 		effect = { set_government_type = commonassembly_government }
 	}
+	1246.4.29 = {add_spouse=2012}
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
 	}	 	
-	1256.4.29 = {add_spouse=2012}
+	
 	1295.5.21={death=yes}
 	}
 	
@@ -272,10 +285,11 @@
 	stewardship=5
 	intrigue=6
 	learning=3
+	trait = "commoner"
 	trait="skilled_tactician"
 	trait="chaste"
-	1240.1.22={birth=yes}
-	1256.4.29 = {add_spouse=2011}
+	1220.1.22={birth=yes}
+	1246.4.29 = {add_spouse=2011}
 	1285.12.9={death=yes}
 	}
 	
@@ -290,11 +304,12 @@
 	stewardship=6
 	intrigue=1
 	learning=2
+	trait = "commoner"
 	trait="grey_eminence"
 	trait="diligent"
 	trait="honest"
-	father=2002
-	mother=2003
+	father=2011
+	mother=2012
 	1257.1.24={birth=yes}
 	1317.12.12={death=yes}
 	}
@@ -311,9 +326,10 @@
 	stewardship=7
 	intrigue=4
 	learning=4
+	trait = "commoner"	
 	trait="charismatic_negotiator"
-	father=2002
-	mother=2003
+	father=2011
+	mother=2012
 	1258.2.25={birth=yes}
 	1327.1.14={death=yes}
 	}
@@ -330,11 +346,12 @@
 	stewardship=2
 	intrigue=7
 	learning=3
+	trait = "commoner"
 	trait="fortune_builder"
 	trait="hunter"
 	trait="just"
-	father=2002
-	mother=2003
+	father=2011
+	mother=2012
 	1259.11.21={birth=yes}
 	1311.5.4={death=yes}
 	}
@@ -351,11 +368,12 @@
 	stewardship=4
 	intrigue=3
 	learning=3
+	trait = "commoner"
 	trait="thrifty_clerk"
 	trait="hunter"
 	trait="shy"
-	father=2002
-	mother=2003
+	father=2011
+	mother=2012
 	1263.3.30={birth=yes}
 	1283.4.5={death=yes}
 	}
@@ -371,15 +389,16 @@
 	stewardship=6
 	intrigue=5
 	learning=7
+	trait = "commoner"
 	trait="intricate_webweaver"
 	trait="envious"
 	trait="charitable"
 	trait="gregarious"
-	1249.5.1={
+	1240.5.1={
 		birth=yes
 		effect = { set_government_type = commonassembly_government }
 	}
-	1270.11.6 = {add_spouse=2018}
+	1262.11.6 = {add_spouse=2018}
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
 	}	
@@ -398,11 +417,12 @@
 	stewardship=4
 	intrigue=6
 	learning=3
+	trait = "commoner"
 	trait="skilled_tactician"
 	trait="ambitious"
 	trait="arbitrary"
-	1266.5.14={birth=yes}
-	1270.11.6 = {add_spouse=2017}
+	1241.5.14={birth=yes}
+	1262.11.6 = {add_spouse=2017}
 	1279.7.10={death=yes}
 }
 	
@@ -418,6 +438,7 @@
 	stewardship=4
 	intrigue=3
 	learning=7
+	trait = "commoner"
 	trait="indulgent_wastrel"
 	trait="diligent"
 	trait="shy"
@@ -440,6 +461,7 @@
 	stewardship=6
 	intrigue=7
 	learning=2
+	trait = "commoner"
 	trait="thrifty_clerk"
 	trait="temperate"
 	trait="content"
@@ -461,6 +483,7 @@
 	stewardship=5
 	intrigue=1
 	learning=1
+	trait = "commoner"
 	trait="brilliant_strategist"
 	trait="wroth"
 	trait="honest"
@@ -482,12 +505,12 @@
 	diplomacy =8	
 	intrigue =3	
 	stewardship =9	
-	religion ="catholic"	
+	religion ="catholic"
+	trait = "commoner"	
 	culture ="high_alemannic"	
 	trait ="fortune_builder"	
 	trait ="trusting"	
-	trait ="fair"	
-	trait ="scarred"	
+	trait ="fair"		
 	trait ="just"	
 	trait ="kind"	
 	
@@ -498,7 +521,9 @@
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
 	}	 	
-		 
+	1310.2.15={
+		death = yes
+	}
 		
 }
 
@@ -513,7 +538,7 @@
 	stewardship=2
 	intrigue=4
 	learning=2
-
+	trait = "commoner"
 	father=2022
 	1270.1.1={birth=yes}
 	1306.11.28={death=yes}
@@ -532,6 +557,7 @@
 	stewardship=3
 	intrigue=3
 	learning=7
+	trait = "commoner"
 	trait="brilliant_strategist"
 	trait="impaler"
 	trait="honest"
@@ -559,6 +585,7 @@
 	stewardship=2
 	intrigue=3
 	learning=6
+	trait = "commoner"
 	trait="flamboyant_schemer"
 	trait="impaler"
 	trait="temperate"
@@ -582,6 +609,7 @@
 	stewardship=7
 	intrigue=1
 	learning=4
+	trait = "commoner"
 	trait="charismatic_negotiator"
 	trait="craven"
 	trait="temperate"
@@ -604,6 +632,7 @@
 	stewardship=6
 	intrigue=2
 	learning=3
+	trait = "commoner"
 	trait="fortune_builder"
 	trait="impaler"
 	trait="ambitious"
@@ -626,6 +655,7 @@
 	stewardship=4
 	intrigue=1
 	learning=4
+	trait = "commoner"
 	trait="indulgent_wastrel"
 	trait="poet"
 	trait="gluttonous"
@@ -650,6 +680,7 @@
 	stewardship=3
 	intrigue=5
 	learning=2
+	trait = "commoner"
 	trait="brilliant_strategist"
 	trait="celibate"
 	1232.11.1={
@@ -676,6 +707,7 @@
 	stewardship=3
 	intrigue=2
 	learning=2
+	trait = "commoner"
 	trait="thrifty_clerk"
 	trait="arbitrary"
 	trait="trusting"
@@ -698,6 +730,7 @@
 	stewardship=5
 	intrigue=6
 	learning=0
+	trait = "commoner"
 	trait="skilled_tactician"
 	trait="celibate"
 	trait="humble"
@@ -719,6 +752,7 @@
 	stewardship=3
 	intrigue=4
 	learning=8
+	trait = "commoner"
 	trait="thrifty_clerk"
 	trait="zealous"
 	father=2029
@@ -738,6 +772,7 @@
 	stewardship=3
 	intrigue=4
 	learning=4
+	trait = "commoner"
 	trait="underhanded_rogue"
 	trait="gregarious"
 	trait="kind"
@@ -758,6 +793,7 @@
 	stewardship=5
 	intrigue=4
 	learning=4
+	trait = "commoner"
 	trait="skilled_tactician"
 	trait="cruel"
 	trait="greedy"
@@ -784,6 +820,7 @@
 	stewardship=0
 	intrigue=4
 	learning=6
+	trait = "commoner"
 	trait="tough_soldier"
 	trait="gluttonous"
 	trait="cynical"
@@ -812,6 +849,7 @@
 	stewardship=4
 	intrigue=3
 	learning=6
+	trait = "commoner"
 	trait="grey_eminence"
 	trait="celibate"
 	trait="stressed"
@@ -831,6 +869,7 @@
 	stewardship=5
 	intrigue=1
 	learning=6
+	trait = "commoner"
 	trait="misguided_warrior"
 	trait="trusting"
 	trait="gluttonous"
@@ -852,6 +891,7 @@
 	stewardship=1
 	intrigue=4
 	learning=6
+	trait = "commoner"
 	trait="intricate_webweaver"
 	trait="arbitrary"
 	trait="cruel"
@@ -874,8 +914,8 @@
 	stewardship=0
 	intrigue=4
 	learning=5
+	trait = "commoner"
 	trait="brilliant_strategist"
-	trait="shy"
 	trait="shy"
 	trait="trusting"
 	father=2035
@@ -896,6 +936,7 @@
 	stewardship=2
 	intrigue=1
 	learning=3
+	trait = "commoner"
 	trait="indulgent_wastrel"
 	trait="poet"
 	trait="arbitrary"
@@ -919,6 +960,7 @@
 	stewardship=2
 	intrigue=5
 	learning=5
+	trait = "commoner"
 	trait="thrifty_clerk"
 	trait="just"
 	trait="proud"
@@ -943,6 +985,7 @@
 	stewardship=7
 	intrigue=5
 	learning=3
+	trait = "commoner"
 	trait="intricate_webweaver"
 	trait="zealous"
 	trait="kind"
@@ -950,7 +993,7 @@
 		birth=yes
 		effect = { set_government_type = commonassembly_government }
 	}
-	1276.12.9 = {add_spouse=2043}
+	1270.12.9 = {add_spouse=2043}
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
 	}
@@ -969,13 +1012,14 @@
 	stewardship=4
 	intrigue=5
 	learning=4
+	trait = "commoner"
 	trait="tough_soldier"
 	trait="celibate"
 	trait="slothful"
 	trait="kind"
 	trait="content"
-	1255.8.28={birth=yes}
-	1286.12.9 = {add_spouse=2042}
+	1254.8.28={birth=yes}
+	1270.12.9 = {add_spouse=2042}
 	1321.7.29={death=yes}
 }
 
@@ -990,6 +1034,7 @@
 	stewardship=2
 	intrigue=7
 	learning=7
+	trait = "commoner"
 	trait="elusive_shadow"
 	trait="deceitful"
 	father=2042
@@ -1009,6 +1054,7 @@
 	stewardship=3
 	intrigue=2
 	learning=4
+	trait = "commoner"
 	trait="elusive_shadow"
 	trait="wounded"
 	father=2042
@@ -1028,6 +1074,7 @@
 	stewardship=7
 	intrigue=3
 	learning=6
+	trait = "commoner"
 	trait="indulgent_wastrel"
 	trait="honest"
 	father=2042
@@ -1047,6 +1094,7 @@
 	stewardship=7
 	intrigue=4
 	learning=4
+	trait = "commoner"
 	trait="midas_touched"
 	father=2042
 	mother=2043
@@ -1067,6 +1115,7 @@
 	stewardship=2
 	intrigue=5
 	learning=1
+	trait = "commoner"
 	trait="intricate_webweaver"
 	trait="ambitious"
 	1251.1.1={
@@ -1092,13 +1141,14 @@
 	stewardship=5
 	intrigue=1
 	learning=5
+	trait = "commoner"
 	trait="tough_soldier"
 	trait="brave"
 	trait="cruel"
 	1254.11.7={birth=yes
 	effect={ dynasty=none }
 	}
-	1274.2.27 = {add_spouse=2047}
+	1274.2.27 = {add_spouse=2048}
 	1302.2.26={death=yes}
 }
 
@@ -1113,6 +1163,7 @@
 	stewardship=6
 	intrigue=5
 	learning=7
+	trait = "commoner"
 	trait="underhanded_rogue"
 	trait="diligent"
 	trait="humble"
@@ -1134,6 +1185,7 @@
 	stewardship=0
 	intrigue=4
 	learning=0
+	trait = "commoner"
 	trait="tough_soldier"
 	trait="craven"
 	trait="just"
@@ -1155,6 +1207,7 @@
 	stewardship=4
 	intrigue=3
 	learning=2
+	trait = "commoner"
 	trait="flamboyant_schemer"
 	trait="greedy"
 	trait="just"
@@ -1175,6 +1228,7 @@
 	stewardship=3
 	intrigue=2
 	learning=3
+	trait = "commoner"
 	trait="fortune_builder"
 	trait="patient"
 	trait="charitable"
@@ -1197,6 +1251,7 @@
 	stewardship=6
 	intrigue=6
 	learning=2
+	trait = "commoner"
 	trait="tough_soldier"
 	trait="hunter"
 	1254.1.1={birth=yes}
@@ -1219,6 +1274,7 @@
 	stewardship=4
 	intrigue=5
 	learning=4
+	trait = "commoner"
 	trait="midas_touched"
 	trait="gardener"
 	trait="gluttonous"
@@ -1226,8 +1282,10 @@
 	trait="arbitrary"
 	1255.9.28={
 		birth=yes
-		effect = { set_government_type = commonassembly_government }
-		effect={ dynasty=none }
+		effect = { 
+			set_government_type = commonassembly_government 
+			dynasty = none 
+		}
 	}
 	1273.1.1 = {add_spouse=2054}
 	1280.1.1={
@@ -1247,6 +1305,7 @@
 	stewardship=3
 	intrigue=1
 	learning=4
+	trait = "commoner"
 	trait="fortune_builder"
 	trait="duelist"
 	trait="trusting"
@@ -1269,6 +1328,7 @@
 	stewardship=5
 	intrigue=4
 	learning=6
+	trait = "commoner"
 	trait="indulgent_wastrel"
 	trait="craven"
 	father=2054
@@ -1311,6 +1371,7 @@
 	intrigue=4
 	learning=4
 	trait="underhanded_rogue"
+	trait = "commoner"
 	1238.1.1={
 	birth=yes
 	effect = { set_government_type = commonassembly_government }
@@ -1334,6 +1395,7 @@
 	stewardship=1
 	intrigue=0
 	learning=3
+	trait = "commoner"
 	trait="grey_eminence"
 	trait="scholar"
 	trait="brave"
@@ -1354,6 +1416,7 @@
 	stewardship=2
 	intrigue=0
 	learning=2
+	trait = "commoner"
 	trait="skilled_tactician"
 	trait="cruel"
 	trait="kind"
@@ -1375,6 +1438,7 @@
 	stewardship=4
 	intrigue=4
 	learning=7
+	trait = "commoner"
 	trait="skilled_tactician"
 	trait="diligent"
 	father=2059
@@ -1394,6 +1458,7 @@
 	stewardship=6
 	intrigue=4
 	learning=1
+	trait = "commoner"
 	trait="tough_soldier"
 	trait="hedonist"
 	trait="brave"
@@ -1420,7 +1485,8 @@
 	intrigue =3	
 	stewardship =9	
 	religion ="catholic"	
-	culture ="high_alemannic"	
+	culture ="high_alemannic"
+	trait = "low_noble"	
 	trait ="tough_soldier"	
 	trait ="midas_touched"	
 	trait ="temperate"	
@@ -1429,14 +1495,18 @@
 	trait ="hunter"	
 	trait ="light_foot_leader"	
 	 	
-	1233.9.30={	
+	1231.9.30={	
 		birth=yes
-		effect = { set_government_type = feudal_governments }
+		effect = { set_government_type = feudal_government }
 	}
+	1250.1.1 = {add_spouse=2068}
 	1280.1.1={
-		effect = { set_government_type = feudal_governments }
+		effect = { set_government_type = feudal_government }
+	}
+	1298.1.1 ={
+		death = yes
 	}	
-	1256.1.1 = {add_spouse=2068}
+	
 		 
 		
 }		
@@ -1452,12 +1522,13 @@
 	stewardship=3
 	intrigue=7
 	learning=4
+	trait = "low_noble"	
 	trait="tough_soldier"
-	1238.1.1={
+	1232.1.1={
 		birth=yes
 		effect={ dynasty=none }
 	}
-	1256.1.1 = {add_spouse=2067}
+	1250.1.1 = {add_spouse=2067}
 	1275.6.8={death=yes}
 }
 
@@ -1474,6 +1545,7 @@
 	stewardship=4
 	intrigue=3
 	learning=4
+	trait = "low_noble"	
 	trait="naive_appeaser"
 	trait="cruel"
 	trait="honest"
@@ -1494,6 +1566,7 @@
 	stewardship=5
 	intrigue=1
 	learning=4
+	trait = "low_noble"	
 	trait="flamboyant_schemer"
 	trait="trusting"
 	trait="patient"
@@ -1515,6 +1588,7 @@
 	stewardship=0
 	intrigue=3
 	learning=4
+	trait = "low_noble"	
 	trait="skilled_tactician"
 	trait="envious"
 	trait="paranoid"
@@ -1537,6 +1611,7 @@
 	stewardship=5
 	intrigue=4
 	learning=4
+	trait = "low_noble"	
 	trait="flamboyant_schemer"
 	trait="wroth"
 	trait="diligent"
@@ -1559,22 +1634,24 @@
 	intrigue =2	
 	stewardship =6	
 	religion ="catholic"	
-	culture ="high_alemannic"	
+	culture ="high_alemannic"
+	trait = "commoner"		
 	trait ="tough_soldier"	
 	trait ="lustful"	
 	trait ="kind"	
 	trait ="proud"	
 	trait ="gregarious"	
 	 	
-	trait ="light_foot_leader"	
-	 	
-	father = 0		
+	trait ="light_foot_leader"		
 	1249.4.15={	
 		birth=yes
 		effect = { set_government_type = commonassembly_government }
 	}
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
+	}
+	1286.1.1={
+		death =yes
 	}				 
 		
 }		
@@ -1589,6 +1666,7 @@
 	stewardship=2
 	intrigue=4
 	learning=6
+	trait = "commoner"
 	trait="charismatic_negotiator"
 	trait="greedy"
 	trait="arbitrary"
@@ -1609,6 +1687,7 @@
 	stewardship=4
 	intrigue=6
 	learning=7
+	trait = "commoner"
 	trait="flamboyant_schemer"
 	trait="lustful"
 	father = 2074
@@ -1627,6 +1706,7 @@
 	stewardship=2
 	intrigue=6
 	learning=4
+	trait="commoner"
 	trait="indulgent_wastrel"
 	trait="chaste"
 	trait="patient"
@@ -1649,6 +1729,7 @@
 	stewardship=4
 	intrigue=4
 	learning=7
+	trait="commoner"
 	trait="midas_touched"
 	trait="just"
 	trait="deceitful"
@@ -1675,6 +1756,7 @@
 	stewardship=2
 	intrigue=2
 	learning=4
+	trait="commoner"
 	trait="tough_soldier"
 	trait="greedy"
 	trait="lustful"
@@ -1695,6 +1777,7 @@
 	stewardship=1
 	intrigue=5
 	learning=4
+	trait="commoner"
 	trait="fortune_builder"
 	trait="hunter"
 	trait="cynical"
@@ -1716,6 +1799,7 @@
 	stewardship=5
 	intrigue=1
 	learning=1
+	trait="commoner"
 	trait="tough_soldier"
 	trait="kind"
 	father=2076
@@ -1735,6 +1819,7 @@
 	stewardship=6
 	intrigue=2
 	learning=4
+	trait="commoner"
 	trait="skilled_tactician"
 	trait="hunter"
 	trait="shy"
@@ -1757,6 +1842,7 @@
 	stewardship=4
 	intrigue=5
 	learning=3
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="poet"
 	trait="cynical"
@@ -1767,10 +1853,10 @@
 		birth=yes
 		effect = { set_government_type = commonassembly_government }
 	}
+	1269.10.9 = {add_spouse=2081}
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
 	}
-	1271.10.9 = {add_spouse=2081}
 	1290.7.8={death=yes}
 }
 
@@ -1785,12 +1871,13 @@
 	stewardship=2
 	intrigue=3
 	learning=4
+	trait="commoner"
 	trait="misguided_warrior"
 	trait="impaler"
 	trait="patient"
 	trait="slothful"
 	1251.5.18={birth=yes}
-	1271.10.9 = {add_spouse=2080}
+	1269.10.9 = {add_spouse=2080}
 	1315.10.6={death=yes}
 }
 
@@ -1805,6 +1892,7 @@
 	stewardship=3
 	intrigue=3
 	learning=4
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="impaler"
 	trait="just"
@@ -1825,6 +1913,7 @@
 	stewardship=5
 	intrigue=7
 	learning=2
+	trait="commoner"
 	trait="grey_eminence"
 	trait="cynical"
 	trait="depressed"
@@ -1845,6 +1934,7 @@
 	stewardship=3
 	intrigue=1
 	learning=4
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="gardener"
 	trait="temperate"
@@ -1868,6 +1958,7 @@
 	stewardship=4
 	intrigue=2
 	learning=3
+	trait="commoner"
 	trait="grey_eminence"
 	trait="chaste"
 	trait="charitable"
@@ -1894,6 +1985,7 @@
 	stewardship=6
 	intrigue=2
 	learning=4
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="diligent"
 	trait="patient"
@@ -1915,6 +2007,7 @@
 	stewardship=0
 	intrigue=7
 	learning=0
+	trait="commoner"
 	trait="intricate_webweaver"
 	trait="hunter"
 	trait="cruel"
@@ -1938,6 +2031,7 @@
 	stewardship=0
 	intrigue=7
 	learning=4
+	trait="commoner"
 	trait="grey_eminence"
 	trait="gardener"
 	trait="zealous"
@@ -1958,6 +2052,7 @@
 	stewardship=3
 	intrigue=0
 	learning=5
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="charitable"
 	trait="humble"
@@ -1982,15 +2077,16 @@
 	stewardship=2
 	intrigue=8
 	learning=6
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="duelist"
 	trait="trusting"
 	trait="patient"
-	1257.1.1={
+	1253.1.1={
 		birth=yes
 		effect = { set_government_type = commonassembly_government }
 	}
-	1278.9.26 = {add_spouse=2091}
+	1276.9.26 = {add_spouse=2091}
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
 	}
@@ -2009,12 +2105,13 @@
 	stewardship=5
 	intrigue=2
 	learning=8
+	trait="commoner"
 	trait="skilled_tactician"
-	1261.9.25={
+	1255.9.25={
 		birth=yes
 		effect={ dynasty=none }
 	}
-	1278.9.26 = {add_spouse=2090}
+	1276.9.26 = {add_spouse=2090}
 	1311.1.6={death=yes}
 }
 
@@ -2030,6 +2127,7 @@
 	stewardship=6
 	intrigue=6
 	learning=2
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="content"
 	trait="lustful"
@@ -2051,6 +2149,7 @@
 	stewardship=4
 	intrigue=4
 	learning=7
+	trait="commoner"
 	trait="elusive_shadow"
 	father=2090
 	mother=2091
@@ -2070,6 +2169,7 @@
 	stewardship=3
 	intrigue=5
 	learning=1
+	trait="commoner"
 	trait="grey_eminence"
 	trait="impaler"
 	trait="humble"
@@ -2094,6 +2194,7 @@
 	stewardship=4
 	intrigue=4
 	learning=4
+	trait="commoner"
 	trait="skilled_tactician"
 	trait="scholar"
 	trait="lustful"
@@ -2102,10 +2203,11 @@
 		birth=yes
 		effect = { set_government_type = commonassembly_government }
 	}
+	1270.4.2 = {add_spouse=2096}
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
 	}
-	1270.4.2 = {add_spouse=2096}
+	
 	1294.6.14={death=yes}
 }
 	
@@ -2121,6 +2223,7 @@
 	stewardship=8
 	intrigue=2
 	learning=3
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="trusting"
 	trait="patient"
@@ -2142,6 +2245,7 @@
 	stewardship=5
 	intrigue=2
 	learning=3
+	trait="commoner"
 	trait="intricate_webweaver"
 	trait="arbitrary"
 	trait="cruel"
@@ -2163,6 +2267,7 @@
 	stewardship=4
 	intrigue=6
 	learning=1
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="craven"
 	father=2095
@@ -2182,6 +2287,7 @@
 	stewardship=4
 	intrigue=7
 	learning=3
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="trusting"
 	trait="just"
@@ -2204,6 +2310,7 @@
 	stewardship=3
 	intrigue=8
 	learning=4
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="greedy"
 	trait="proud"
@@ -2212,10 +2319,11 @@
 		effect = { set_government_type = commonassembly_government }
 	}
 	1266.4.12 = {add_spouse=2101}
-	1305.2.7={death=yes}
+	
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
 	}
+	1305.2.7={death=yes}
 }
 
 2101={
@@ -2230,6 +2338,7 @@
 	stewardship=5
 	intrigue=2
 	learning=7
+	trait="commoner"
 	trait="tough_soldier"
 	trait="zealous"
 	trait="humble"
@@ -2252,6 +2361,7 @@
 	stewardship=5
 	intrigue=4
 	learning=4
+	trait="commoner"
 	trait="skilled_tactician"
 	trait="craven"
 	trait="diligent"
@@ -2273,6 +2383,7 @@
 	stewardship=4
 	intrigue=5
 	learning=2
+	trait="commoner"
 	trait="grey_eminence"
 	trait="charitable"
 	trait="content"
@@ -2293,6 +2404,7 @@
 	stewardship=7
 	intrigue=3
 	learning=5
+	trait="commoner"
 	trait="midas_touched"
 	trait="impaler"
 	trait="patient"
@@ -2317,16 +2429,18 @@
 	stewardship=2
 	intrigue=3
 	learning=4
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="charitable"
 	1241.1.1={
 		birth=yes
 		effect = { set_government_type = commonassembly_government }
 	}
+	1261.11.14 = {add_spouse=2106}
 	1280.1.1={
 		effect = { set_government_type = commonassembly_government }
 	}
-	1261.11.14 = {add_spouse=2106}
+	
 	1316.9.29={death=yes}
 }
 
@@ -2342,6 +2456,7 @@
 	stewardship=4
 	intrigue=4
 	learning=4
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="hedonist"
 	trait="humble"
@@ -2361,6 +2476,7 @@
 	stewardship=6
 	intrigue=3
 	learning=6
+	trait="commoner"
 	trait="intricate_webweaver"
 	trait="just"
 	trait="ambitious"
@@ -2384,6 +2500,7 @@
 	stewardship=4
 	intrigue=3
 	learning=4
+	trait="commoner"
 	trait="brilliant_strategist"
 	trait="duelist"
 	trait="brave"
@@ -2405,6 +2522,7 @@
 	stewardship=4
 	intrigue=0
 	learning=6
+	trait="commoner"
 	trait="intricate_webweaver"
 	trait="ambitious"
 	trait="patient"
@@ -2425,6 +2543,7 @@
 	stewardship=3
 	intrigue=3
 	learning=3
+	trait="commoner"
 	trait="midas_touched"
 	trait="lustful"
 	father=2105
@@ -2444,13 +2563,14 @@
 	stewardship=4
 	intrigue=6
 	learning=4
+	trait="commoner"
 	trait="tough_soldier"
 	trait="proud"
 	trait="charitable"
 	trait="shy"
 	trait="cruel"
-	1260.7.1={birth=yes}
-	1294.3.14 = {add_spouse=21061}
+	1251.7.1={birth=yes}
+	1274.3.14 = {add_spouse=21061}
 	1306.1.2={death=yes}
 }
 
@@ -2466,14 +2586,15 @@
 	stewardship=7
 	intrigue=5
 	learning=8
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="craven"
 	trait="content"
 	trait="deceitful"
 	trait="just"
 	trait="depressed"
-	1258.7.6={birth=yes}
-	1294.3.14 = {add_spouse=2105}
+	1252.7.6={birth=yes}
+	1274.3.14 = {add_spouse=2105}
 	1318.11.23={death=yes}
 }
 
@@ -2489,6 +2610,7 @@
 	stewardship=5
 	intrigue=0
 	learning=3
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="brave"
 	trait="wroth"
@@ -2511,6 +2633,7 @@
 	stewardship=0
 	intrigue=3
 	learning=6
+	trait="commoner"
 	trait="midas_touched"
 	trait="duelist"
 	trait="craven"
@@ -2533,6 +2656,7 @@
 	stewardship=7
 	intrigue=7
 	learning=0
+	trait="commoner"
 	trait="charismatic_negotiator"
 	father=2105
 	mother=21061
@@ -2553,6 +2677,7 @@
 	stewardship=3
 	intrigue=6
 	learning=2
+	trait="commoner"
 	trait="skilled_tactician"
 	trait="humble"
 	1233.1.1={
@@ -2578,6 +2703,7 @@
 	stewardship=7
 	intrigue=3
 	learning=4
+	trait="commoner"
 	trait="brilliant_strategist"
 	trait="impaler"
 	trait="temperate"
@@ -2599,6 +2725,7 @@
 	stewardship=5
 	intrigue=4
 	learning=3
+	trait="commoner"
 	trait="midas_touched"
 	trait="cruel"
 	trait="zealous"
@@ -2620,6 +2747,7 @@
 	stewardship=5
 	intrigue=5
 	learning=0
+	trait="commoner"
 	trait="midas_touched"
 	trait="diligent"
 	trait="greedy"
@@ -2642,6 +2770,7 @@
 	stewardship=3
 	intrigue=1
 	learning=4
+	trait="commoner"
 	trait="charismatic_negotiator"
 	father=2110
 	mother=2111
@@ -2661,6 +2790,7 @@
 	stewardship=7
 	intrigue=5
 	learning=3
+	trait="commoner"
 	trait="tough_soldier"
 	1245.1.1={
 		birth=yes
@@ -2685,6 +2815,7 @@
 	stewardship=8
 	intrigue=0
 	learning=4
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="humble"
 	trait="arbitrary"
@@ -2705,6 +2836,7 @@
 	stewardship=4
 	intrigue=3
 	learning=8
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="charitable"
 	trait="arbitrary"
@@ -2727,6 +2859,7 @@
 	stewardship=0
 	intrigue=4
 	learning=4
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="lustful"
 	father=2115
@@ -2747,6 +2880,7 @@
 	stewardship=7
 	intrigue=8
 	learning=6
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="mystic"
 	father=2115
@@ -2769,6 +2903,7 @@
 	stewardship=5
 	intrigue=2
 	learning=7
+	trait="commoner"
 	trait="tough_soldier"
 	trait="trusting"
 	trait="charitable"
@@ -2793,6 +2928,7 @@
 	stewardship=5
 	intrigue=2
 	learning=2
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="cruel"
 	trait="temperate"
@@ -2815,6 +2951,7 @@
 	stewardship=2
 	intrigue=4
 	learning=4
+	trait="commoner"
 	trait="brilliant_strategist"
 	trait="content"
 	trait="temperate"
@@ -2835,6 +2972,7 @@
 	stewardship=3
 	intrigue=2
 	learning=5
+	trait="commoner"
 	trait="tough_soldier"
 	trait="brave"
 	trait="greedy"
@@ -2855,6 +2993,7 @@
 	stewardship=5
 	intrigue=4
 	learning=2
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="chaste"
 	trait="shy"
@@ -2880,6 +3019,7 @@
 	stewardship=7
 	intrigue=3
 	learning=2
+	trait="commoner"
 	trait="tough_soldier"
 	trait="just"
 	trait="paranoid"
@@ -2903,6 +3043,7 @@
 	stewardship=7
 	intrigue=5
 	learning=4
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="slothful"
 	trait="gluttonous"
@@ -2926,6 +3067,7 @@
 	stewardship=6
 	intrigue=4
 	learning=4
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="scholar"
 	trait="cruel"
@@ -2971,11 +3113,12 @@
 	stewardship=6
 	intrigue=3
 	learning=3
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="just"
 	trait="paranoid"
 	trait="cynical"
-	1220.3.1={birth=yes}
+	1219.3.1={birth=yes}
 	1238.5.19 = {add_spouse=2130}
 	1283.12.3={death=yes}
 }
@@ -2992,12 +3135,13 @@
 	stewardship=5
 	intrigue=8
 	learning=2
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="mystic"
 	trait="humble"
 	trait="content"
 	trait="gregarious"
-	1223.5.7={birth=yes}
+	1221.5.7={birth=yes}
 	1238.5.19 = {add_spouse=2129}
 	1269.10.27={death=yes}
 }
@@ -3014,6 +3158,7 @@
 	stewardship=1
 	intrigue=0
 	learning=2
+	trait="commoner"
 	trait="elusive_shadow"
 	trait="hunter"
 	trait="charitable"
@@ -3035,6 +3180,7 @@
 	stewardship=4
 	intrigue=2
 	learning=4
+	trait="commoner"
 	trait="tough_soldier"
 	trait="slothful"
 	trait="paranoid"
@@ -3055,6 +3201,7 @@
 	stewardship=2
 	intrigue=3
 	learning=5
+	trait="commoner"
 	trait="intricate_webweaver"
 	trait="impaler"
 	trait="greedy"
@@ -3077,6 +3224,7 @@
 	stewardship=0
 	intrigue=6
 	learning=3
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="humble"
 	1240.11.1={birth=yes}
@@ -3095,6 +3243,7 @@
 	stewardship=5
 	intrigue=4
 	learning=5
+	trait="commoner"
 	trait="brilliant_strategist"
 	trait="gardener"
 	trait="gluttonous"
@@ -3117,6 +3266,7 @@
 	stewardship=1
 	intrigue=3
 	learning=3
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="lustful"
 	trait="patient"
@@ -3138,6 +3288,7 @@
 	stewardship=1
 	intrigue=6
 	learning=6
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="content"
 	trait="proud"
@@ -3160,6 +3311,7 @@
 	stewardship=2
 	intrigue=8
 	learning=3
+	trait="commoner"
 	trait="midas_touched"
 	trait="poet"
 	trait="deceitful"
@@ -3182,6 +3334,7 @@
 	stewardship=5
 	intrigue=2
 	learning=7
+	trait="commoner"
 	trait="grey_eminence"
 	trait="proud"
 	trait="patient"
@@ -3204,10 +3357,10 @@
 	stewardship=6
 	intrigue=4
 	learning=6
+	trait="commoner"
 	trait="naive_appeaser"
 	trait="humble"
 	trait="ambitious"
-	trait="deceitful"
 	trait="deceitful"
 	father=2138
 	mother=2139
@@ -3227,6 +3380,7 @@
 	stewardship=3
 	intrigue=2
 	learning=4
+	trait="commoner"
 	trait="indulgent_wastrel"
 	trait="chaste"
 	trait="zealous"
@@ -3249,6 +3403,7 @@
 	stewardship=4
 	intrigue=7
 	learning=5
+	trait="commoner"
 	trait="skilled_tactician"
 	trait="kind"
 	trait="zealous"
@@ -3272,6 +3427,7 @@
 	stewardship=3
 	intrigue=5
 	learning=7
+	trait="commoner"
 	trait="fortune_builder"
 	trait="content"
 	trait="paranoid"
@@ -3291,6 +3447,7 @@
 	stewardship=7
 	intrigue=6
 	learning=2
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="duelist"
 	trait="wroth"
@@ -3313,9 +3470,9 @@
 	stewardship=5
 	intrigue=6
 	learning=5
+	trait="commoner"
 	trait="midas_touched"
 	trait="zealous"
-	trait="lustful"
 	trait="lustful"
 	trait="honest"
 	father=2142
@@ -3337,6 +3494,7 @@
 	stewardship=2
 	intrigue=0
 	learning=4
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="craven"
 	trait="greedy"
@@ -3359,6 +3517,7 @@
 	stewardship=4
 	intrigue=3
 	learning=4
+	trait="commoner"
 	trait="intricate_webweaver"
 	trait="temperate"
 	trait="diligent"
@@ -3382,6 +3541,7 @@
 	stewardship=6
 	intrigue=7
 	learning=4
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="patient"
 	trait="gregarious"
@@ -3404,6 +3564,7 @@
 	stewardship=5
 	intrigue=4
 	learning=2
+	trait="commoner"
 	trait="brilliant_strategist"
 	trait="craven"
 	trait="shy"
@@ -3426,6 +3587,7 @@
 	stewardship=4
 	intrigue=6
 	learning=0
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="craven"
 	trait="patient"
@@ -3451,6 +3613,7 @@
 	stewardship=5
 	intrigue=1
 	learning=3
+	trait="commoner"
 	trait="grey_eminence"
 	trait="gregarious"
 	trait="just"
@@ -3471,6 +3634,7 @@
 	stewardship=4
 	intrigue=1
 	learning=4
+	trait="commoner"
 	trait="grey_eminence"
 	trait="lustful"
 	trait="cruel"
@@ -3492,6 +3656,7 @@
 	stewardship=5
 	intrigue=2
 	learning=6
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="charitable"
 	trait="craven"
@@ -3512,6 +3677,7 @@
 	stewardship=4
 	intrigue=1
 	learning=4
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="mystic"
 	trait="humble"
@@ -3535,6 +3701,7 @@
 	stewardship=6
 	intrigue=4
 	learning=8
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="hedonist"
 	trait="content"
@@ -3557,6 +3724,7 @@
 	stewardship=3
 	intrigue=0
 	learning=2
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="deceitful"
 	trait="gluttonous"
@@ -3577,6 +3745,7 @@
 	stewardship=8
 	intrigue=4
 	learning=2
+	trait="commoner"
 	trait="skilled_tactician"
 	trait="arbitrary"
 	trait="ambitious"
@@ -3599,6 +3768,7 @@ name="Ursula"
 	stewardship=5
 	intrigue=4
 	learning=3
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="content"
 	trait="cynical"
@@ -3621,6 +3791,7 @@ name="Ursula"
 	stewardship=4
 	intrigue=5
 	learning=4
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="paranoid"
 	father=2155
@@ -3642,6 +3813,7 @@ name="Ursula"
 	stewardship=8
 	intrigue=3
 	learning=3
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="just"
 	1223.1.1={birth=yes}
@@ -3661,6 +3833,7 @@ name="Ursula"
 	stewardship=6
 	intrigue=3
 	learning=3
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="scholar"
 	trait="kind"
@@ -3681,6 +3854,7 @@ name="Ursula"
 	stewardship=5
 	intrigue=5
 	learning=5
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="deceitful"
 	father=2160
@@ -3700,6 +3874,7 @@ name="Ursula"
 	stewardship=3
 	intrigue=8
 	learning=6
+	trait="commoner"
 	trait="skilled_tactician"
 	trait="scholar"
 	trait="brave"
@@ -3723,6 +3898,7 @@ name="Ursula"
 	stewardship=6
 	intrigue=3
 	learning=5
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="deceitful"
 	father=2160
@@ -3743,6 +3919,7 @@ name="Ursula"
 	stewardship=5
 	intrigue=2
 	learning=0
+	trait="commoner"
 	trait="tough_soldier"
 	trait="deceitful"
 	trait="ambitious"
@@ -3765,6 +3942,7 @@ name="Ursula"
 	stewardship=3
 	intrigue=4
 	learning=0
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="zealous"
 	trait="ambitious"
@@ -3784,6 +3962,7 @@ name="Ursula"
 	stewardship=3
 	intrigue=4
 	learning=7
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="paranoid"
 	trait="arbitrary"
@@ -3804,6 +3983,7 @@ name="Ursula"
 	stewardship=6
 	intrigue=6
 	learning=8
+	trait="commoner"
 	trait="tough_soldier"
 	trait="envious"
 	trait="cruel"
@@ -3827,9 +4007,10 @@ name="Ursula"
 	stewardship=2
 	intrigue=5
 	learning=8
+	trait="commoner"
 	trait="brilliant_strategist"
 	trait="proud"
-	1262.1.1={birth=yes}
+	1261.1.1={birth=yes}
 	1278.10.20 = {add_spouse=2170}
 	1316.11.5={death=yes}
 }
@@ -3846,8 +4027,9 @@ name="Ursula"
 	stewardship=3
 	intrigue=6
 	learning=7
+	trait="commoner"
 	trait="flamboyant_schemer"
-	1263.7.17={birth=yes}
+	1261.7.17={birth=yes}
 	1278.10.20 = {add_spouse=2169}
 	1335.8.6={death=yes}
 }
@@ -3863,6 +4045,7 @@ name="Ursula"
 	stewardship=7
 	intrigue=8
 	learning=4
+	trait="commoner"
 	trait="underhanded_rogue"
 	trait="charitable"
 	trait="humble"
@@ -3886,6 +4069,7 @@ name="Ursula"
 	stewardship=2
 	intrigue=3
 	learning=2
+	trait="commoner"
 	trait="charismatic_negotiator"
 	trait="ambitious"
 	trait="just"
@@ -3910,6 +4094,7 @@ name="Ursula"
 	stewardship=2
 	intrigue=0
 	learning=2
+	trait="commoner"
 	trait="grey_eminence"
 	trait="cruel"
 	trait="gregarious"
@@ -3930,6 +4115,7 @@ name="Ursula"
 	stewardship=4
 	intrigue=4
 	learning=2
+	trait="commoner"
 	trait="naive_appeaser"
 	trait="lustful"
 	trait="temperate"
@@ -3950,6 +4136,7 @@ name="Ursula"
 	stewardship=4
 	intrigue=6
 	learning=1
+	trait="commoner"
 	trait="skilled_tactician"
 	trait="craven"
 	trait="greedy"
@@ -3970,6 +4157,7 @@ name="Ursula"
 	stewardship=1
 	intrigue=3
 	learning=4
+	trait="commoner"
 	trait="intricate_webweaver"
 	father=2173
 	mother=2174
@@ -3989,6 +4177,7 @@ name="Ursula"
 	stewardship=5
 	intrigue=5
 	learning=4
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="kind"
 	trait="stressed"
@@ -4010,6 +4199,7 @@ name="Ursula"
 	stewardship=4
 	intrigue=3
 	learning=8
+	trait="commoner"
 	trait="brilliant_strategist"
 	trait="paranoid"
 	trait="gluttonous"
@@ -4029,6 +4219,7 @@ name="Ursula"
 	stewardship=2
 	intrigue=7
 	learning=6
+	trait="commoner"
 	trait="intricate_webweaver"
 	trait="cruel"
 	trait="charitable"
@@ -4051,6 +4242,7 @@ name="Ursula"
 	stewardship=7
 	intrigue=1
 	learning=6
+	trait="commoner"
 	trait="intricate_webweaver"
 	trait="cruel"
 	trait="ambitious"
@@ -4062,7 +4254,6 @@ name="Ursula"
 2181={
 	name="Margarete"
 	female=yes
-	dynasty=95
 	dna="kjgkhobjbap"
 	culture="high_alemannic"
 	religion=catholic
@@ -4071,6 +4262,7 @@ name="Ursula"
 	stewardship=4
 	intrigue=2
 	learning=4
+	trait="commoner"
 	trait="brilliant_strategist"
 	trait="greedy"
 	1230.6.10={birth=yes}
@@ -4090,6 +4282,7 @@ name="Ursula"
 	stewardship=2
 	intrigue=4
 	learning=4
+	trait="commoner"
 	trait="flamboyant_schemer"
 	trait="chaste"
 	trait="ill"
@@ -4111,6 +4304,7 @@ name="Ursula"
 	stewardship=3
 	intrigue=4
 	learning=4
+	trait="commoner"
 	trait="thrifty_clerk"
 	trait="hunter"
 	trait="greedy"
@@ -4135,6 +4329,7 @@ name="Ursula"
 	stewardship=2
 	intrigue=3
 	learning=5
+	trait="commoner"
 	trait="detached_priest"
 	father=2180
 	mother=2181
@@ -4154,6 +4349,7 @@ name="Ursula"
 	stewardship=3
 	intrigue=5
 	learning=2
+	trait="commoner"
 	trait="elusive_shadow"
 	trait="gluttonous"
 	father=2180

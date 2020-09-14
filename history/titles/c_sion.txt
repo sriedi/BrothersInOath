@@ -1,7 +1,8 @@
 1200.1.1 = {
-	law = succ_catholic_bishopric
 	liege = d_sion_bishopric
 }
 1261.1.1 = {
+	law = agnatic_succession
+	law = succ_catholic_bishopric
 	holder = 4033 #Pierre d'Oron
 }

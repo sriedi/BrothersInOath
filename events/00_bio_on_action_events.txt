@@ -1,0 +1,176 @@
+#Set correct Heritage Trait
+character_event = {
+	id = bio.10
+	is_triggered_only =yes
+	hide_window = yes
+	immediate = {
+		any_character = {
+			if ={
+				limit = {
+					NOR = {
+						trait = low_noble
+						trait = high_noble
+						trait = commoner
+					}
+				}
+				if = {
+					limit = {
+						government = feudal_government
+						NOT = {
+							dynasty = none
+						}
+					}
+					if = {
+						limit = {
+							OR = {
+							higher_tier_than = DUKE
+							realm_size >= 60
+							}
+						}
+						add_trait = high_noble
+					}
+					else = {
+						add_trait = low_noble
+					}
+				}
+				else = {
+					add_trait = commoner
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTAbio.10
+	}
+}
+
+### Trait on Birth
+character_event = {
+	id = bio.11
+	is_triggered_only =yes
+	hide_window = yes
+	immediate = {
+		if = {
+			limit = {
+				father_even_if_dead  = {
+					NOR = {
+						trait = commoner
+						trait = low_noble
+						trait = high_noble
+					}
+					}
+				}
+				if = {
+					limit = {
+						government = feudal
+							NOT = {
+								dynasty = none
+							}
+						}
+						if = {
+							limit = {
+								father = {
+									OR = {
+										AND = {
+										is_landed = yes
+										higher_tier_than = DUKE
+										}
+										realm_size >= 60
+									}
+								}
+							}
+								add_trait = high_noble
+						}
+						else = {
+							add_trait = low_noble
+						}		
+					
+				}
+				else = {
+					add_trait = commoner
+				}
+			}
+		
+	}
+	option = {
+		name = EVTOPTAbio.10
+	}
+}
+
+character_event = {
+	id = bio.12
+	is_triggered_only =yes
+	hide_window = yes
+	immediate = {
+		if = {
+			limit = {
+				NOR = {
+					trait = commoner
+					trait = low_noble
+					trait = high_noble
+				}
+			}
+			if = {
+				limit = {
+					NOT = {dynasty = none}
+					host = {
+						trait = high_noble
+					}
+				}
+				add_trait = high_noble
+			}
+			else_if = {
+				limit = {
+					NOT = {dynasty = none}
+					host = {
+						trait = low_noble
+					}
+				}
+				add_trait = low_noble
+			}
+			else = {
+				add_trait = commoner
+			}
+		}
+	}
+	option = {
+		name = EVTOPTAbio.10
+	}
+}
+
+
+#Recive Title and Climb the ladder
+character_event = {
+	id = bio.13
+	is_triggered_only =yes
+	hide_window = yes
+	immediate = {
+			if = {
+				limit = {
+					government = feudal_government
+					NOR = {
+						trait = low_noble
+						trait = high_noble
+					}
+				}
+				if = {
+					limit = {
+						trait = commoner
+					}
+					remove_trait = commoner
+				}
+				if = {
+					limit = {
+						higher_tier_than = duke
+					}
+					add_trait = high_noble
+				}
+				else = {
+					add_trait = low_noble
+				}
+			}
+		}
+	option = {
+		name = EVTOPTAbio.10
+	}
+}

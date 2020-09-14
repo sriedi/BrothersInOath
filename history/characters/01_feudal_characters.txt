@@ -11,25 +11,26 @@
 	intrigue =10	
 	stewardship =5	
 	religion ="catholic"	
-	culture ="low_alemannic"	
+	culture ="low_alemannic"
 	trait ="intricate_webweaver"	
 	trait ="arbitrary"	
-	trait ="cruel"	
-	trait ="ambitious"	
+	trait ="cruel"		
 	trait ="quick"	
 	trait ="craven"	
 	trait ="diligent"	
 
-	1242.9.30={	
+	1232.9.30={	
 		birth=yes
 		effect = { set_government_type = vogtei_government }
+		effect={add_trait = "low_noble"}
 	}
+	1254.2.3 = {add_spouse=1006}
 	1280.1.1={
 		effect = { set_government_type = vogtei_government }
+	}
+	1303.2.14={
+		death = yes
 	}	
-	
-	1254.2.3 = {add_spouse=1006}
-	
 }
 1006={ #dead wife Gessler
 	name="Mechthild"
@@ -43,9 +44,10 @@
 	stewardship=6
 	intrigue=5
 	learning=4
+	trait="low_noble"
 	trait="brilliant_strategist"
 	trait="ambitious"
-	1241.1.27={birth=yes}
+	1231.1.27={birth=yes}
 	1269.10.17={death=yes}
 	}		
 
@@ -60,6 +62,7 @@
 	stewardship=3
 	intrigue=2
 	learning=5
+	trait="low_noble"
 	trait="indulgent_wastrel"
 	trait="envious"
 	trait="charitable"
@@ -69,7 +72,7 @@
 	mother = 1006
 
 	1255.1.1={birth=yes}
-	1277.10.25 = {add_spouse=103}
+	1277.10.25 = {add_spouse=1003}
 	1285.3.23={death=yes}
 	}
 	
@@ -85,6 +88,7 @@
 	stewardship=5
 	intrigue=4
 	learning=5
+	trait="low_noble"
 	trait="underhanded_rogue"
 	trait="honest"
 	trait="gregarious"
@@ -106,6 +110,7 @@
 	stewardship=7
 	intrigue=4
 	learning=4
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="proud"
 	trait="shy"
@@ -114,10 +119,10 @@
 	birth=yes
 	effect = { set_government_type = vogtei_government }
 	}
+	1257.10.6 = {add_spouse=1011}
 	1280.1.1={
 		effect = { set_government_type = vogtei_government }
 	}
-	1257.10.6 = {add_spouse=1011}
 	1287.10.20={death=yes}
 }
 		
@@ -133,6 +138,7 @@
 	stewardship=2
 	intrigue=3
 	learning=1
+	trait="low_noble"
 	trait="charismatic_negotiator"
 	trait="cruel"
 	1239.5.7={birth=yes}
@@ -151,6 +157,7 @@
 	stewardship=5
 	intrigue=1
 	learning=5
+	trait="low_noble"
 	trait="brilliant_strategist"
 	trait="ambitious"
 	trait="humble"
@@ -172,6 +179,7 @@
 	stewardship=3
 	intrigue=0
 	learning=4
+	trait="low_noble"
 	trait="skilled_tactician"
 	trait="cynical"
 	trait="greedy"
@@ -192,6 +200,7 @@
 	stewardship=5
 	intrigue=4
 	learning=6
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="deceitful"
 	trait="cynical"
@@ -212,6 +221,7 @@
 	stewardship=6
 	intrigue=2
 	learning=3
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="craven"
 	trait="proud"
@@ -234,6 +244,7 @@
 	stewardship=6
 	intrigue=5
 	learning=2
+	trait="low_noble"
 	trait="intricate_webweaver"
 	trait="poet"
 	trait="chaste"
@@ -246,7 +257,6 @@
 3001={
 	name="Irmele"
 	female=yes
-	dynasty=rondom
 	dna="llcjhggijck"
 	culture=low_alemannic
 	religion=catholic
@@ -255,6 +265,7 @@
 	stewardship=1
 	intrigue=6
 	learning=6
+	trait="low_noble"
 	trait="thrifty_clerk"
 	trait="kind"
 	trait="patient"
@@ -276,6 +287,7 @@
 	stewardship=4
 	intrigue=8
 	learning=4
+	trait="low_noble"
 	trait="tough_soldier"
 	trait="humble"
 	trait="trusting"
@@ -296,6 +308,7 @@
 	stewardship=5
 	intrigue=5
 	learning=6
+	trait="low_noble"
 	trait="thrifty_clerk"
 	trait="celibate"
 	trait="patient"
@@ -317,6 +330,7 @@
 	stewardship=4
 	intrigue=2
 	learning=1
+	trait="low_noble"
 	trait="thrifty_clerk"
 	trait="craven"
 	trait="kind"
@@ -338,6 +352,7 @@
 	stewardship=0
 	intrigue=4
 	learning=1
+	trait="low_noble"
 	trait="underhanded_rogue"
 	trait="envious"
 	trait="zealous"
@@ -359,6 +374,7 @@
 	stewardship=5
 	intrigue=4
 	learning=3
+	trait="low_noble"
 	trait="thrifty_clerk"
 	trait="paranoid"
 	trait="leper"
@@ -379,6 +395,7 @@
 	stewardship=6
 	intrigue=2
 	learning=6
+	trait="low_noble"
 	trait="charismatic_negotiator"
 	trait="diligent"
 	father=3003
@@ -398,6 +415,7 @@
 	stewardship=1
 	intrigue=3
 	learning=5
+	trait="low_noble"
 	trait="thrifty_clerk"
 	trait="lustful"
 	trait="diligent"
@@ -407,10 +425,10 @@
 	birth=yes
 	effect = { set_government_type = feudal_government }
 	}
+	1261.9.7 = {add_spouse=3009}
 	1279.1.1={
 		effect = { set_government_type = feudal_government }
 	}
-	1261.9.7 = {add_spouse=3009}
 	1281.1.10={death=yes}
 }
 
@@ -426,12 +444,13 @@
 	stewardship=3
 	intrigue=2
 	learning=6
+	trait="low_noble"
 	trait="skilled_tactician"
 	trait="charitable"
 	trait="cynical"
 	trait="proud"
 	trait="cruel"
-	1228.12.11={birth=yes}
+	1224.12.11={birth=yes}
 	1240.9.7 = {add_spouse=3008}
 	1305.7.24={death=yes}
 }
@@ -447,6 +466,7 @@
 	stewardship=6
 	intrigue=7
 	learning=6
+	trait="low_noble"
 	trait="midas_touched"
 	trait="chaste"
 	father=3008
@@ -455,10 +475,10 @@
 		birth=yes
 		effect = { set_government_type = feudal_government }
 	}
+	1267.11.30 = {add_spouse=3013}
 	1279.1.1={
 		effect = { set_government_type = feudal_government }
 	}
-	1267.11.30 = {add_spouse=3013}
 	1323.10.13={death=yes}
 }
 
@@ -473,6 +493,7 @@
 	stewardship=6
 	intrigue=3
 	learning=2
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="gregarious"
 	trait="stressed"
@@ -482,10 +503,10 @@
 		birth=yes
 		effect = { set_government_type = feudal_government }
 	}
+	1262.10.31 = {add_spouse=3012}
 	1279.1.1={
 		effect = { set_government_type = feudal_government }
 	}
-	1262.10.31 = {add_spouse=3012}
 	1332.8.14={death=yes}
 }
 
@@ -501,6 +522,7 @@
 	stewardship=3
 	intrigue=6
 	learning=2
+	trait="low_noble"
 	trait="elusive_shadow"
 	trait="envious"
 	trait="paranoid"
@@ -523,10 +545,11 @@
 	stewardship=2
 	intrigue=2
 	learning=1
+	trait="low_noble"
 	trait="tough_soldier"
 	1240.12.15={birth=yes}
 	1267.11.30 = {add_spouse=3010}
-	1341.5.19={death=yes}
+	1315.5.19={death=yes}
 }
 
 3014={
@@ -541,6 +564,7 @@
 	stewardship=0
 	intrigue=5
 	learning=4
+	trait="low_noble"
 	trait="fortune_builder"
 	trait="cynical"
 	trait="gluttonous"
@@ -562,6 +586,7 @@
 	stewardship=7
 	intrigue=2
 	learning=4
+	trait="low_noble"
 	trait="underhanded_rogue"
 	trait="patient"
 	trait="brave"
@@ -584,6 +609,7 @@
 	stewardship=4
 	intrigue=2
 	learning=1
+	trait="low_noble"
 	trait="elusive_shadow"
 	trait="impaler"
 	trait="charitable"
@@ -606,6 +632,7 @@
 	stewardship=5
 	intrigue=4
 	learning=3
+	trait="low_noble"
 	trait="thrifty_clerk"
 	trait="arbitrary"
 	1239.1.1={birth=yes}
@@ -616,7 +643,7 @@
 3018={
 	name="Hedwig"
 	female=yes
-	dynasty=none
+
 	dna="hkbhdbfhlka"
 	culture=low_alemannic
 	religion=catholic
@@ -625,10 +652,13 @@
 	stewardship=4
 	intrigue=3
 	learning=3
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="brave"
 	trait="stressed"
-	1242.10.4={birth=yes}
+	1242.10.4={birth=yes
+	effect = { dynasty = none }
+	}
 	1259.7.8 = {add_spouse=3017}
 	1307.7.23={death=yes}
 }
@@ -645,6 +675,7 @@
 	stewardship=4
 	intrigue=5
 	learning=5
+	trait="low_noble"
 	trait="tough_soldier"
 	trait="just"
 	trait="patient"
@@ -668,6 +699,7 @@
 	stewardship=2
 	intrigue=3
 	learning=6
+	trait="low_noble"
 	trait="brilliant_strategist"
 	trait="stressed"
 	father=3017
@@ -688,6 +720,7 @@
 	stewardship=4
 	intrigue=3
 	learning=1
+	trait="low_noble"
 	trait="skilled_tactician"
 	trait="greedy"
 	trait="ill"
@@ -708,6 +741,7 @@
 	stewardship=6
 	intrigue=3
 	learning=3
+	trait="low_noble"
 	trait="thrifty_clerk"
 	trait="zealous"
 	trait="wroth"
@@ -727,6 +761,7 @@
 	stewardship=4
 	intrigue=3
 	learning=7
+	trait="low_noble"
 	trait="tough_soldier"
 	trait="ambitious"
 	1241.1.1={birth=yes}
@@ -746,12 +781,11 @@
 	stewardship=4
 	intrigue=7
 	learning=4
+	trait="low_noble"
 	trait="brilliant_strategist"
-	trait="wroth"
 	trait="kind"
-	trait="wroth"
 	1228.11.1={birth=yes}
-	1246.1.14 = {add_spouse=3025}
+	1248.1.14 = {add_spouse=3025}
 	1261.9.24={death=yes}
 }
 
@@ -767,11 +801,12 @@
 	stewardship=6
 	intrigue=2
 	learning=7
+	trait="low_noble"
 	trait="skilled_tactician"
 	trait="gluttonous"
 	trait="kind"
-	1232.12.11={birth=yes}
-	1246.1.14 = {add_spouse=3024}
+	1230.12.11={birth=yes}
+	1248.1.14 = {add_spouse=3024}
 	1283.11.22={death=yes}
 }
 
@@ -786,6 +821,7 @@
 	stewardship=3
 	intrigue=7
 	learning=2
+	trait="low_noble"
 	trait="intricate_webweaver"
 	trait="temperate"
 	father=3024
@@ -805,6 +841,7 @@
 	stewardship=4
 	intrigue=7
 	learning=2
+	trait="low_noble"
 	trait="fortune_builder"
 	trait="paranoid"
 	trait="temperate"
@@ -832,6 +869,7 @@
 	stewardship=5
 	intrigue=5
 	learning=0
+	trait="low_noble"
 	trait="skilled_tactician"
 	trait="deceitful"
 	trait="honest"
@@ -858,6 +896,7 @@
 	stewardship=6
 	intrigue=4
 	learning=2
+	trait="low_noble"
 	trait="charismatic_negotiator"
 	trait="temperate"
 	trait="kind"
@@ -879,6 +918,7 @@
 	stewardship=3
 	intrigue=5
 	learning=5
+	trait="low_noble"
 	trait="skilled_tactician"
 	trait="cruel"
 	father=3027
@@ -899,6 +939,7 @@
 	stewardship=5
 	intrigue=7
 	learning=4
+	trait="low_noble"
 	trait="charismatic_negotiator"
 	trait="hunter"
 	trait="chaste"
@@ -921,6 +962,7 @@
 	stewardship=5
 	intrigue=3
 	learning=7
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="cruel"
 	trait="gluttonous"
@@ -947,16 +989,17 @@
 	stewardship=4
 	intrigue=7
 	learning=4
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="deceitful"
 	trait="charitable"
 	trait="lustful"
 	trait="paranoid"
 	1253.1.1={birth=yes}
+	1272.1.29 = {add_spouse=3034}
 	1279.1.1={
 		effect = { set_government_type = feudal_government }
 	}
-	1272.1.29 = {add_spouse=3034}
 	1312.12.9={death=yes}
 }
 
@@ -972,6 +1015,7 @@
 	stewardship=4
 	intrigue=1
 	learning=5
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="temperate"
 	1255.7.9={birth=yes}
@@ -990,6 +1034,7 @@
 	stewardship=3
 	intrigue=8
 	learning=5
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="mystic"
 	trait="ambitious"
@@ -1010,6 +1055,7 @@
 	stewardship=3
 	intrigue=0
 	learning=4
+	trait="low_noble"
 	trait="charismatic_negotiator"
 	trait="envious"
 	trait="content"
@@ -1031,6 +1077,7 @@
 	stewardship=5
 	intrigue=4
 	learning=5
+	trait="low_noble"
 	trait="elusive_shadow"
 	trait="scholar"
 	trait="humble"
@@ -1038,10 +1085,10 @@
 	trait="diligent"
 	trait="gregarious"
 	1228.1.1={birth=yes}
+	1250.11.26 = {add_spouse=3038}
 	1279.1.1={
 		effect = { set_government_type = feudal_government }
 	}
-	1250.11.26 = {add_spouse=3038}
 	1289.12.24={death=yes}
 }
 
@@ -1057,6 +1104,7 @@
 	stewardship=2
 	intrigue=4
 	learning=8
+	trait="low_noble"
 	trait="midas_touched"
 	trait="hedonist"
 	trait="cruel"
@@ -1077,6 +1125,7 @@
 	stewardship=6
 	intrigue=1
 	learning=5
+	trait="low_noble"
 	trait="tough_soldier"
 	trait="shy"
 	trait="just"
@@ -1098,6 +1147,7 @@
 	stewardship=4
 	intrigue=2
 	learning=5
+	trait="low_noble"
 	trait="grey_eminence"
 	trait="hunter"
 	trait="paranoid"
@@ -1124,6 +1174,7 @@
 	stewardship=2
 	intrigue=2
 	learning=7
+	trait="high_noble"
 	trait="charismatic_negotiator"
 	trait="shy"
 	1253.1.1={birth=yes}
@@ -1143,13 +1194,14 @@
 	stewardship=4
 	intrigue=4
 	learning=2
+	trait="high_noble"
 	trait="elusive_shadow"
 	trait="mystic"
 	trait="cynical"
 	trait="gregarious"
 	trait="zealous"
 	trait="ill"
-	1255.6.17={birth=yes}
+	1254.6.17={birth=yes}
 	1270.10.6 = {add_spouse=3041}
 	1309.10.22={death=yes}
 }
@@ -1165,6 +1217,7 @@
 	stewardship=1
 	intrigue=2
 	learning=3
+	trait="high_noble"
 	trait="naive_appeaser"
 	trait="ambitious"
 	trait="brave"
@@ -1189,6 +1242,7 @@
 	stewardship=1
 	intrigue=5
 	learning=4
+	trait="high_noble"
 	trait="misguided_warrior"
 	trait="mystic"
 	trait="deceitful"
@@ -1210,6 +1264,7 @@
 	stewardship=1
 	intrigue=5
 	learning=4
+	trait="high_noble"
 	trait="tough_soldier"
 	trait="paranoid"
 	father=3041
@@ -1229,6 +1284,7 @@
 	stewardship=2
 	intrigue=3
 	learning=6
+	trait="high_noble"
 	trait="midas_touched"
 	trait="temperate"
 	trait="content"
@@ -1249,6 +1305,7 @@
 	stewardship=2
 	intrigue=5
 	learning=6
+	trait="high_noble"
 	trait="brilliant_strategist"
 	trait="temperate"
 	trait="gregarious"
@@ -1269,6 +1326,7 @@
 	stewardship=3
 	intrigue=4
 	learning=2
+	trait="high_noble"
 	trait="skilled_tactician"
 	trait="poet"
 	trait="greedy"
@@ -1291,6 +1349,7 @@
 	stewardship=7
 	intrigue=8
 	learning=5
+	trait="high_noble"
 	trait="thrifty_clerk"
 	trait="kind"
 	father=3046
@@ -1311,9 +1370,9 @@
 	stewardship=6
 	intrigue=7
 	learning=3
+	trait="high_noble"
 	trait="naive_appeaser"
 	trait="charitable"
-	trait="deceitful"
 	trait="patient"
 	trait="deceitful"
 	trait="gluttonous"
@@ -1335,6 +1394,7 @@
 	stewardship=4
 	intrigue=7
 	learning=7
+	trait="high_noble"
 	trait="charismatic_negotiator"
 	trait="shy"
 	trait="kind"
@@ -1357,6 +1417,7 @@
 	stewardship=6
 	intrigue=0
 	learning=5
+	trait="high_noble"
 	trait="flamboyant_schemer"
 	trait="mystic"
 	trait="cruel"
@@ -1378,6 +1439,7 @@
 	stewardship=4
 	intrigue=5
 	learning=4
+	trait="low_noble"
 	trait="detached_priest"
 	trait="proud"
 	trait="gluttonous"
@@ -1389,7 +1451,6 @@
 3054={
 	name="Richwara"
 	female=yes
-	dynasty=2451
 	dna="nofhcifdbpp"
 	culture="low_alemannic"
 	religion=catholic
@@ -1398,6 +1459,7 @@
 	stewardship=2
 	intrigue=3
 	learning=8
+	trait="low_noble"
 	trait="charismatic_negotiator"
 	trait="mystic"
 	1241.10.6={birth=yes}
@@ -1416,6 +1478,7 @@
 	stewardship=1
 	intrigue=1
 	learning=5
+	trait="low_noble"
 	trait="elusive_shadow"
 	trait="patient"
 	trait="greedy"
@@ -1437,6 +1500,7 @@
 	stewardship=4
 	intrigue=6
 	learning=1
+	trait="low_noble"
 	trait="grey_eminence"
 	father=3053
 	mother=3054
@@ -1455,6 +1519,7 @@
 	stewardship=5
 	intrigue=4
 	learning=4
+	trait="low_noble"
 	trait="fortune_builder"
 	father=3053
 	mother=3054
@@ -1475,6 +1540,7 @@
 	stewardship=1
 	intrigue=3
 	learning=2
+	trait="low_noble"
 	trait="charismatic_negotiator"
 	trait="proud"
 	1246.11.1={birth=yes}
@@ -1494,6 +1560,7 @@
 	stewardship=1
 	intrigue=1
 	learning=7
+	trait="low_noble"
 	trait="intricate_webweaver"
 	1250.9.15={birth=yes}
 	1269.2.19 = {add_spouse=3060}
@@ -1511,6 +1578,7 @@
 	stewardship=4
 	intrigue=0
 	learning=7
+	trait="low_noble"
 	trait="intricate_webweaver"
 	trait="wroth"
 	trait="deceitful"
@@ -1533,6 +1601,7 @@
 	stewardship=5
 	intrigue=4
 	learning=2
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	father=3060
 	mother=3061
@@ -1551,6 +1620,7 @@
 	stewardship=2
 	intrigue=5
 	learning=3
+	trait="low_noble"
 	trait="fortune_builder"
 	trait="charitable"
 	trait="shy"
@@ -1572,6 +1642,7 @@
 	stewardship=2
 	intrigue=2
 	learning=4
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="lustful"
 	trait="craven"
@@ -1592,6 +1663,7 @@
 	stewardship=7
 	intrigue=0
 	learning=1
+	trait="low_noble"
 	trait="fortune_builder"
 	father=3065
 	mother=3066
@@ -1611,6 +1683,7 @@
 	stewardship=3
 	intrigue=6
 	learning=6
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="impaler"
 	trait="patient"
@@ -1634,6 +1707,7 @@
 	stewardship=2
 	intrigue=8
 	learning=1
+	trait="low_noble"
 	trait="underhanded_rogue"
 	trait="craven"
 	1223.1.1={birth=yes}
@@ -1653,6 +1727,7 @@
 	stewardship=5
 	intrigue=3
 	learning=5
+	trait="low_noble"
 	trait="naive_appeaser"
 	trait="gluttonous"
 	trait="trusting"
@@ -1672,6 +1747,7 @@
 	stewardship=5
 	intrigue=6
 	learning=7
+	trait="low_noble"
 	trait="intricate_webweaver"
 	trait="slothful"
 	father=3100
@@ -1692,6 +1768,7 @@
 	stewardship=2
 	intrigue=6
 	learning=6
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="celibate"
 	trait="patient"
@@ -1716,7 +1793,10 @@
 	learning=7
 	trait="fortune_builder"
 	trait="honest"
-	1251.1.1={birth=yes}
+	1251.1.1={
+	birth=yes
+	effect={add_trait = "low_noble"}
+	}
 	1269.2.9 = {add_spouse=3151}
 	1291.3.21={death=yes}
 }
@@ -1736,7 +1816,10 @@
 	trait="naive_appeaser"
 	trait="honest"
 	trait="temperate"
-	1253.2.14={birth=yes}
+	1253.2.14={
+		birth=yes
+		effect={add_trait = "low_noble"}
+		}
 	1269.2.9 = {add_spouse=3150}
 	1306.10.4={death=yes}
 }
@@ -1759,7 +1842,10 @@
 	trait="ill"
 	father=3150
 	mother=3151
-	1271.7.24={birth=yes}
+	1271.7.24={
+	birth=yes
+	effect={add_trait = "low_noble"}
+	}
 	1332.7.22={death=yes}
 }
 
@@ -1781,7 +1867,10 @@
 	trait="gregarious"
 	father=3150
 	mother=3151
-	1273.9.22={birth=yes}
+	1273.9.22={
+	birth=yes
+	effect={add_trait = "low_noble"}
+	}
 	1340.3.3={death=yes}
 }
 
@@ -1796,12 +1885,16 @@
 	stewardship=3
 	intrigue=5
 	learning=6
+	trait="low_noble"
 	trait="detached_priest"
 	trait="humble"
 	trait="cruel"
 	father=3150
 	mother=3151
-	1278.6.6={birth=yes}
+	1278.6.6={
+	birth=yes
+	effect={add_trait = "low_noble"}
+	}
 	1341.5.4={death=yes}
 }
 	
@@ -1820,7 +1913,10 @@
 	trait="fortune_builder"
 	trait="scholar"
 	trait="charitable"
-	1232.1.1={birth=yes}
+	1232.1.1={
+	birth=yes
+	effect={add_trait = "low_noble"}
+	}
 	1251.12.13 = {add_spouse=3156}
 	1312.9.28={death=yes}
 }
@@ -1837,11 +1933,15 @@
 	stewardship=7
 	intrigue=2
 	learning=2
+	trait="low_noble"
 	trait="flamboyant_schemer"
 	trait="zealous"
 	trait="ambitious"
 	trait="content"
-	1234.1.29={birth=yes}
+	1234.1.29={
+	birth=yes
+	effect={add_trait = "low_noble"}
+	}
 	1251.12.13 = {add_spouse=3155}
 	1279.12.6={death=yes}
 }
@@ -1857,11 +1957,15 @@
 	stewardship=5
 	intrigue=4
 	learning=5
+	trait="low_noble"
 	trait="detached_priest"
 	trait="greedy"
 	father=3155
 	mother=3156
-	1254.7.27={birth=yes}
+	1254.7.27={
+	birth=yes
+	effect={add_trait = "low_noble"}
+	}
 	1315.6.3={death=yes}
 }
 
@@ -1876,13 +1980,17 @@
 	stewardship=2
 	intrigue=0
 	learning=4
+	trait="low_noble"
 	trait="naive_appeaser"
 	trait="trusting"
 	trait="humble"
 	trait="brave"
 	father=3155
 	mother=3156
-	1260.1.12={birth=yes}
+	1260.1.12={
+	birth=yes
+	effect={add_trait = "low_noble"}
+	}
 	1322.11.1={death=yes}
 }
 	
@@ -1901,7 +2009,9 @@
 	learning=6
 	trait="tough_soldier"
 	trait="zealous"
-	1228.1.1={birth=yes}
+	1228.1.1={	birth=yes
+	effect={add_trait = "high_noble"}
+	}
 	1250.10.15 = {add_spouse=3171}
 	1280.10.10={death=yes}
 }
@@ -1918,11 +2028,14 @@
 	stewardship=5
 	intrigue=2
 	learning=3
+	trait="high_noble"
 	trait="misguided_warrior"
 	trait="slothful"
 	trait="zealous"
 	trait="honest"
-	1230.11.13={birth=yes}
+	1230.11.13={birth=yes
+	effect={add_trait = "high_noble"}
+	}
 	1250.10.15 = {add_spouse=3170}
 	1269.2.1={death=yes}
 }
@@ -1938,12 +2051,15 @@
 	stewardship=1
 	intrigue=4
 	learning=6
+	trait="high_noble"
 	trait="brilliant_strategist"
 	trait="hedonist"
 	trait="shy"
 	father=3170
 	mother=3171
-	1251.11.10={birth=yes}
+	1251.11.10={birth=yes
+	effect={add_trait = "high_noble"}
+	}
 	1312.7.25={death=yes}
 }
 	
@@ -1959,13 +2075,16 @@
 	stewardship=3
 	intrigue=0
 	learning=3
+	trait="high_noble"
 	trait="charismatic_negotiator"
 	trait="brave"
 	trait="trusting"
 	trait="greedy"
 	father=3170
 	mother=3171
-	1254.5.21={birth=yes}
+	1254.5.21={birth=yes
+	effect={add_trait = "high_noble"}
+	}
 	1303.12.5={death=yes}
 }
 	
@@ -1980,22 +2099,17 @@
 	stewardship=4
 	intrigue=2
 	learning=2
+	trait="high_noble"
 	trait="brilliant_strategist"
 	trait="lustful"
 	trait="deceitful"
 	father=3170
 	mother=3171
-	1255.11.25={birth=yes}
+	1255.11.25={birth=yes
+	effect={add_trait = "high_noble"}
+	}
 	1311.5.25={death=yes}
 }
-	
-	
-	
-
-	
-
-	
-	
 	
 
 #5000 The Habsburgs
@@ -2011,16 +2125,15 @@
 	culture="low_alemannic"
 	trait="zealous"
 	trait="tough_soldier"
-	father=462044
-	mother=7644
 	1218.5.1 = {
-		birth="1218.5.1"
+		birth=yes
+		effect={add_trait = "high_noble"}
 	}
-	1245.1.2 = {
+	1246.1.2 = {
 		add_spouse=5002
 	}
 	1291.7.15 = {
-		death="1291.7.15"
+		death=yes
 	}
 }
 
@@ -2036,12 +2149,15 @@
 	culture="low_alemannic"
 	trait="zealous"
 	trait="amateurish_plotter"
-	father=33301
 	1230.1.1 = {
-		birth="1230.1.1"
+		birth=yes
+		effect={add_trait = "high_noble"}
+	}
+	1246.1.2 = {
+		add_spouse=5001
 	}
 	1281.2.16 = {
-		death="1281.2.16"
+		death=yes
 	}
 }
 
@@ -2054,18 +2170,19 @@
 	stewardship=8
 	religion="catholic"
 	culture="low_alemannic"
-	trait="proud"
-	trait="tough_soldier"
 	father=5001
 	mother=5002
+	trait="proud"
+	trait="tough_soldier"
 	1255.7.1 = {
-		birth="1255.7.1"
+		birth=yes
+		effect={add_trait = "high_noble"}
 	}
 	1278.1.3 = {
 		add_spouse=462713
 	}
 	1308.5.1 = {
-		death="1308.5.1"
+		death=yes
 	}
 }
 
@@ -2078,15 +2195,16 @@
 	stewardship=5
 	religion="catholic"
 	culture="low_alemannic"
+	father=5001
 	trait="proud"
 	trait="tough_soldier"
-	father=5001
 	1260.1.1 = {
-		birth="1260.1.1"
+		birth=yes
+		effect={add_trait = "high_noble"}
 	}
 	
 	1307.7.4 = {
-		death="1307.7.4"
+		death=yes
 	}
 }
 
@@ -2099,14 +2217,15 @@
 	stewardship=5
 	religion="catholic"
 	culture="low_alemannic"
+	father=5003
 	trait="lustful"
 	trait="tough_soldier"
-	father=5003
 	1289.1.1 = {
-		birth="1289.1.1"
+		birth=yes
+		effect={add_trait = "high_noble"}
 	}
 	1330.1.14 = {
-		death="1330.1.14"
+		death=yes
 	}
 }
 462713 = {
@@ -2120,13 +2239,12 @@
 	culture="low_alemannic"
 	trait="proud"
 	trait="amateurish_plotter"
-	father=462711
-	mother=462712
 	1262.1.3 = {
-		birth="1262.1.3"
+		birth=yes
+		add_trait = "high_noble"
 	}
 	1312.1.29 = {
-		death="1312.1.29"
+		death=yes
 	}
 }
 
@@ -2143,9 +2261,10 @@
 	learning=4
 	trait="tough_soldier"
 	trait="chaste"
-	trait="brave"
-	trait="paranoid"
-	1270.7.15={birth=yes}
+	1270.7.15={
+		birth=yes
+		effect={add_trait = "high_noble"}
+	}
 	1314.12.22={death=yes}
 }
 
@@ -2162,9 +2281,12 @@
 	learning=2
 	trait="charismatic_negotiator"
 	trait="brave"
-	1239.5.1={birth=yes}
-	1294.5.26={death=yes}
+	1239.5.1={
+		birth=yes
+		effect={add_trait = "high_noble"}
 	}
+	1294.5.26={death=yes}
+}
 	
 
 

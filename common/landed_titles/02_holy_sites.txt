@@ -1,24 +1,44 @@
 c_chur = { # 201
  holy_site = catholic
+ holy_site = cathar
+ holy_site = fraticelli
+ holy_site = waldensian
+ holy_site = lollard
  holy_site = orthodox
 }
 
 c_solothurn = { # 234
  holy_site = catholic
+ holy_site = cathar
+ holy_site = fraticelli
+ holy_site = waldensian
+ holy_site = lollard
  holy_site = orthodox
 }
 
 c_melchtal = { # 511
  holy_site = catholic
+ holy_site = cathar
+ holy_site = fraticelli
+ holy_site = waldensian
+ holy_site = lollard
  holy_site = orthodox
 }
 
 c_einsideln = { # 161
  holy_site = catholic
+ holy_site = cathar
+ holy_site = fraticelli
+ holy_site = waldensian
+ holy_site = lollard
  holy_site = orthodox
 }
 
 c_gaggiolo = { # 398
  holy_site = catholic
+ holy_site = cathar
+ holy_site = fraticelli
+ holy_site = waldensian
+ holy_site = lollard
  holy_site = orthodox
 }

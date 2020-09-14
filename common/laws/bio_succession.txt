@@ -7,6 +7,7 @@ succession_laws = {
 			potential = {
 				holder_scope = {
 					government = commonassembly_government
+					trait = commoner
 					OR = {
 							culture = middle_alemannic
 							culture = high_alemannic
@@ -15,6 +16,7 @@ succession_laws = {
 				}
 
 			allow = {
+				trait = commoner
 				holder_scope = {
 					government = commonassembly_government
 					OR = {

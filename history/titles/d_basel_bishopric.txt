@@ -1,7 +1,6 @@
-1200.1.1 = {
-	law = succ_catholic_bishopric
 
-}
 1261.1.1 = {
+	law = agnatic_succession
+	law = succ_catholic_bishopric
 	holder = 6047 #Heinrich
 }	

@@ -43,31 +43,21 @@ cb_liberation_castle = {
 	}
 
 	on_success = {
-		ROOT = {
-			set_defacto_liege = THIS
-		}	
+
 	}
 	
 	on_success_title = {
-		ROOT = {
-			primary_title = {
-				save_event_target_as = targetliegetitle
+		FROM = {	
+			any_demesne_title  = {
+				limit = {de_jure_liege = ROOT }
+				usurp_title = {
+					target = ROOT
+					type = invasion
+				}
 			}
-		}
-		FROM = {
-			any_title = {
-				IF = {
-					limit = {
-						AND = {
-							de_jure_liege = event_target:targetliegetitle
-							OR = {
-							de_facto_liege = FROM
-							holder = FROM
-							}
-						}
-					}
-					usurp_title = { target = ROOT type = claim }
-					}
+			any_vassal = {
+				limit = {de_jure_liege = ROOT}
+				set_defacto_liege = ROOT
 			}
 			destroy_landed_title = primary_title
 			death = {
@@ -75,11 +65,14 @@ cb_liberation_castle = {
 				killer = ROOT
 			}
 		}
+		ROOT = {
+			set_defacto_liege = THIS
+		}	
 	}
 
 	on_reverse_demand = {
-		FROM = {
-			imprison = ROOT
+		ROOT = {
+			imprison = FROM
 		}
 		ROOT = {
 			abdicate = yes
@@ -89,3 +82,8 @@ cb_liberation_castle = {
 	}  
 
 }#CB Liberation Castle Storm
+
+
+# cb_liberation_commoners = {
+	#Liberate other duchies that are ruled by commoners.
+# }

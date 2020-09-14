@@ -1,0 +1,7 @@
+# k_alemannia
+1270.1.1={
+	law = succ_open_elective
+}
+1277.11.25 ={
+	holder = 6412
+}

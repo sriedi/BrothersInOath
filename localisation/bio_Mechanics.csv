@@ -2,6 +2,12 @@
 traderoute_province_desc;Is traderoute Province;;Ist eine Handelsrouten Provinz;;;;;;;;;;;x
 BISHOPRIC;Bishopric;;Bistum;;;;;;;;;;;x
 ABBEY;Abbey of;;Kloster;;;;;;;;;;;x
+commoner;Commoner;;Gemeiner;;;;;;;;;;;x
+commoner_desc;Commoners are low-born with no connection to nobility. Nobles might not take a Commoner seriously.;;Gemeine sind niedrig Gebore ohne adelige Vorfahren. Adelige nehmen Gemeine weniger ernst.;;;;;;;;;;;x
+low_noble;Low Noble;;Niedriger Adel;;;;;;;;;;;x
+low_noble_desc;Low Nobles are nobles but not very influencial outside of their land.;;Niedriger Adeliger von edler Geburt aber ausserhalb des eigenen Machtbereichs nicht sehr einflussreich.;;;;;;;;;;;x
+high_noble;High Noble;;Hochadel;;;;;;;;;;;x
+high_noble_desc;High Nobles are of high birth and through their heritage have a huge influence in the empire.;;Hochadelige sind von edler Herkunft und haben dadurch im ganzen Reich Einfluss.;;;;;;;;;;;x
 form_sworn_alliance;Form a Sworn Alliance;;Schwurbund anbieten;;;;;;;;;;;x
 form_sworn_alliance_desc;Propose a sworn alliance between your terretories. Sworn Alliances will not be dissolved when a Ruler dies. You will be the leader of the alliance;;Schlägt vor einen gegenseitigen Bundesschwur zu leisten. Schwurbünde überdauern, selbst wenn ein Herrscher stirbt. Ihr werded der Anführer des Bundes sein.;;;;;;;;;;;x
 invite_sworn_alliance;Invite to Sworn Alliance;;Zu Schwurbund einladen;;;;;;;;;;;x

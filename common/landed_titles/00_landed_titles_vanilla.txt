@@ -58,12 +58,12 @@ e_byzantium = {
 	}
 }
 
-
+### The Pope
 k_papal_state = {
 	color={ 255 249 198 }
 	color2={ 220 220 0 }
 	
-	capital = 0 # Gaggiolo
+	capital = 398 # Gaggiolo
 	
 	title = "POPE"
 	foa = "POPE_FOA"
@@ -77,6 +77,7 @@ k_papal_state = {
 	controls_religion = catholic
 	
 	religion = catholic
+	culture = italian
 	
 	# Cannot be held as a secondary title
 	primary = yes

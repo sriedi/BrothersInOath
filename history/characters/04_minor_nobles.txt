@@ -12,17 +12,20 @@
 	intrigue =6
 	stewardship =8	
 	religion ="catholic"	
-	culture ="middle_alemannic"	
+	culture ="middle_alemannic"
+	trait="low_noble"		
 	trait ="scholarly_theologian"	
-	trait ="chaste"	
 	trait ="zealous"	
-	trait ="proud"	
+	trait ="monk"	
 	trait ="scholar"	
 	trait ="celibate"	
 
 	1231.4.15={	
 		birth=yes
-	}	
+	}
+	1300.1.25={	
+		death = yes
+	}		
 	
 }	
 
@@ -37,17 +40,20 @@
 	intrigue =4
 	stewardship =7	
 	religion ="catholic"	
-	culture ="low_alemannic"	
+	culture ="low_alemannic"
+	trait="low_noble"	
 	trait ="indulgent_wastrel"	
-	trait ="greedy"	
 	trait ="zealous"	
-	trait ="proud"	
+	trait ="monk"	
 	trait ="stressed"	
 	trait ="celibate"	
 	 	
 	1258.4.15={	
 		birth=yes
 	}
+	1316.1.25={	
+		death = yes
+	}	
 }
 
 4002={
@@ -61,8 +67,8 @@
 	stewardship=6
 	intrigue=5
 	learning=1
+	trait="monk"	
 	trait="underhanded_rogue"
-	trait="hunter"
 	trait="envious"
 	trait="charitable"
 	1253.1.1={birth=yes}
@@ -82,8 +88,8 @@
 	stewardship=5
 	intrigue=4
 	learning=3
+	trait="low_noble"	
 	trait="underhanded_rogue"
-	trait="charitable"
 	trait="gluttonous"
 	trait="proud"
 	trait="wroth"
@@ -105,6 +111,7 @@
 	stewardship=6
 	intrigue=5
 	learning=5
+	trait="low_noble"	
 	trait="intricate_webweaver"
 	trait="celibate"
 	trait="slothful"
@@ -125,6 +132,7 @@
 	stewardship=3
 	intrigue=5
 	learning=6
+	trait="low_noble"	
 	trait="thrifty_clerk"
 	trait="hunter"
 	trait="cruel"
@@ -149,6 +157,7 @@
 	stewardship=4
 	intrigue=2
 	learning=8
+	trait="low_noble"	
 	trait="thrifty_clerk"
 	trait="lustful"
 	trait="temperate"
@@ -170,6 +179,7 @@
 	stewardship=3
 	intrigue=4
 	learning=3
+	trait="low_noble"	
 	trait="charismatic_negotiator"
 	trait="deceitful"
 	trait="content"
@@ -193,6 +203,7 @@
 	stewardship=4
 	intrigue=0
 	learning=5
+	trait="low_noble"	
 	trait="brilliant_strategist"
 	trait="wroth"
 	trait="ambitious"
@@ -217,6 +228,7 @@
 	stewardship=4
 	intrigue=5
 	learning=5
+	trait="low_noble"	
 	trait="flamboyant_schemer"
 	trait="brave"
 	trait="cynical"
@@ -241,6 +253,7 @@
 	stewardship=5
 	intrigue=3
 	learning=2
+	trait="low_noble"	
 	trait="midas_touched"
 	trait="gardener"
 	trait="lustful"
@@ -262,6 +275,7 @@
 	stewardship=3
 	intrigue=0
 	learning=6
+	trait="low_noble"	
 	trait="tough_soldier"
 	trait="envious"
 	trait="honest"
@@ -286,6 +300,7 @@
 	stewardship=6
 	intrigue=7
 	learning=7
+	trait="low_noble"	
 	trait="skilled_tactician"
 	trait="trusting"
 	trait="cruel"
@@ -312,6 +327,7 @@
 	stewardship=5
 	intrigue=5
 	learning=5
+	trait="low_noble"	
 	trait="indulgent_wastrel"
 	trait="temperate"
 	trait="wroth"
@@ -334,6 +350,7 @@
 	stewardship=3
 	intrigue=7
 	learning=7
+	trait="low_noble"	
 	trait="tough_soldier"
 	trait="envious"
 	trait="twin"
@@ -357,6 +374,7 @@
 	stewardship=3
 	intrigue=7
 	learning=7
+	trait="low_noble"	
 	trait="tough_soldier"
 	trait="envious"
 	trait="twin"
@@ -382,6 +400,7 @@
 	stewardship=6
 	intrigue=3
 	learning=3
+	trait="low_noble"	
 	trait="misguided_warrior"
 	trait="shy"
 	trait="greedy"
@@ -403,6 +422,7 @@
 	stewardship=3
 	intrigue=3
 	learning=2
+	trait="low_noble"	
 	trait="midas_touched"
 	trait="content"
 	trait="arbitrary"
@@ -423,6 +443,7 @@
 	stewardship=5
 	intrigue=3
 	learning=7
+	trait="low_noble"	
 	trait="indulgent_wastrel"
 	trait="deceitful"
 	trait="brave"
@@ -447,6 +468,7 @@
 	stewardship=3
 	intrigue=4
 	learning=6
+	trait="low_noble"	
 	trait="underhanded_rogue"
 	trait="proud"
 	trait="chaste"
@@ -467,6 +489,7 @@
 	stewardship=4
 	intrigue=2
 	learning=7
+	trait="low_noble"	
 	trait="thrifty_clerk"
 	trait="chaste"
 	trait="deceitful"
@@ -490,20 +513,20 @@
 	intrigue =8	
 	stewardship =10	
 	religion ="catholic"	
-	culture ="raetoromanish"	
+	culture ="raetoromanish"
+	trait="low_noble"		
 	trait ="indulgent_wastrel"	
 	trait ="greedy"	
 	trait ="zealous"	
 	trait ="proud"	
 	trait ="stressed"	
 	trait ="celibate"	
-	 	
-	 	
-	father = 0	
-	mother=0	
 	1238.4.15={	
 		birth=yes
-	}	
+	}
+	1299.8.15={	
+		death = yes
+	}		
 	
 }	
 
@@ -519,6 +542,7 @@
 	stewardship=6
 	intrigue=8
 	learning=5
+	trait="low_noble"	
 	trait="flamboyant_schemer"
 	trait="humble"
 	trait="wroth"
@@ -540,10 +564,11 @@
 	stewardship=5
 	intrigue=3
 	learning=4
+	trait="low_noble"	
 	trait="intricate_webweaver"
 	trait="cruel"
 	trait="paranoid"
-	1224.2.18={birth=yes}
+	1221.2.18={birth=yes}
 	1239.7.26 = {add_spouse=4022}
 	1286.3.10={death=yes}
 }
@@ -560,6 +585,7 @@
 	stewardship=4
 	intrigue=5
 	learning=3
+	trait="low_noble"	
 	trait="charismatic_negotiator"
 	trait="hedonist"
 	trait="cruel"
@@ -567,12 +593,12 @@
 	trait="zealous"
 	father=4022
 	mother=4023
-	1244.2.29={birth=yes}
+	1244.2.26={birth=yes}
 	1316.10.28={death=yes}
 }
 
 4025={
-	name="Madlaina "
+	name="Madlaina"
 	female=yes
 	dynasty=9037
 	dna="doeoonifjfj"
@@ -583,6 +609,7 @@
 	stewardship=4
 	intrigue=8
 	learning=4
+	trait="low_noble"	
 	trait="fortune_builder"
 	trait="arbitrary"
 	trait="kind"
@@ -604,6 +631,7 @@
 	stewardship=3
 	intrigue=5
 	learning=4
+	trait="low_noble"	
 	trait="flamboyant_schemer"
 	trait="celibate"
 	trait="temperate"
@@ -628,9 +656,10 @@
 	stewardship=3
 	intrigue=6
 	learning=3
+	trait="low_noble"	
 	trait="tough_soldier"
 	trait="chaste"
-	trait="slothful"
+	trait="monk"
 	trait="kind"
 	1220.1.1={birth=yes}
 	1286.10.23={death=yes}
@@ -649,6 +678,7 @@
 	stewardship=7
 	intrigue=7
 	learning=3
+	trait="low_noble"	
 	trait="fortune_builder"
 	trait="honest"
 	trait="gregarious"
@@ -670,6 +700,7 @@
 	stewardship=2
 	intrigue=4
 	learning=3
+	trait="low_noble"	
 	trait="misguided_warrior"
 	trait="scholar"
 	trait="wroth"
@@ -692,6 +723,7 @@
 	stewardship=7
 	intrigue=8
 	learning=2
+	trait="low_noble"	
 	trait="charismatic_negotiator"
 	trait="cruel"
 	trait="slothful"
@@ -713,6 +745,7 @@
 	stewardship=6
 	intrigue=6
 	learning=7
+	trait="low_noble"	
 	trait="thrifty_clerk"
 	trait="gregarious"
 	trait="arbitrary"
@@ -735,6 +768,7 @@
 	stewardship=4
 	intrigue=2
 	learning=5
+	trait="low_noble"	
 	trait="intricate_webweaver"
 	trait="content"
 	trait="chaste"
@@ -756,6 +790,7 @@
 	stewardship=5
 	intrigue=3
 	learning=8
+	trait="low_noble"	
 	trait="brilliant_strategist"
 	trait="gardener"
 	trait="craven"
@@ -778,10 +813,14 @@
 	stewardship=1
 	intrigue=3
 	learning=4
+	trait="low_noble"	
 	trait="underhanded_rogue"
 	trait="temperate"
 	trait="arbitrary"
-	1244.1.1={birth=yes}
+	1244.1.1={
+		birth=yes
+		effect = {dynasty = none}
+	}
 	1292.8.29={death=yes}
 	}
 
@@ -797,8 +836,9 @@
 	stewardship=8
 	intrigue=4
 	learning=7
+	trait="low_noble"	
 	trait="midas_touched"
-	trait="cruel"
+	trait="monk"
 	trait="humble"
 	trait="charitable"
 	trait="slothful"
@@ -820,6 +860,7 @@
 	stewardship=6
 	intrigue=5
 	learning=6
+	trait="low_noble"	
 	trait="skilled_tactician"
 	trait="content"
 	1254.1.1={birth=yes}
@@ -839,6 +880,7 @@
 	stewardship=4
 	intrigue=7
 	learning=0
+	trait="low_noble"	
 	trait="brilliant_strategist"
 	trait="gardener"
 	1255.3.24={birth=yes}
@@ -857,6 +899,7 @@
 	stewardship=3
 	intrigue=6
 	learning=5
+	trait="low_noble"	
 	trait="tough_soldier"
 	trait="craven"
 	trait="deceitful"
@@ -878,6 +921,7 @@
 	stewardship=1
 	intrigue=3
 	learning=3
+	trait="low_noble"	
 	trait="elusive_shadow"
 	trait="paranoid"
 	trait="charitable"
@@ -900,6 +944,7 @@
 	stewardship=1
 	intrigue=7
 	learning=5
+	trait="low_noble"	
 	trait="grey_eminence"
 	trait="content"
 	trait="gluttonous"
@@ -923,6 +968,7 @@
 	stewardship=8
 	intrigue=3
 	learning=3
+	trait="low_noble"	
 	trait="thrifty_clerk"
 	trait="gardener"
 	trait="trusting"

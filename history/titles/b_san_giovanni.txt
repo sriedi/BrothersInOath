@@ -2,3 +2,7 @@
 500.1.1={
 	liege= "k_papal_state"
 }
+
+1277.11.25 ={
+	holder = 6412
+}

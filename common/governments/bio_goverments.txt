@@ -15,9 +15,9 @@ feudal_governments = {
 					is_feudal = yes
 					}
 				OR = {
-						culture = middle_alemannic
-						culture = high_alemannic
-					}
+				trait = commoner	
+				trait = peasant_leader
+				}
 			}
 		}
 		accepts_liege_governments = { # Accepts other republics or Common Assemblies

@@ -3,3 +3,10 @@ Bug Fixes
 
 Fixed a Broken Event in the Confederacy Forming Option.
 Fixed foreing Dukes voteing in common assembly voteing because they hold a council position.
+Fixed a Bug were loading a save or resigning led to a CTD
+
+
+Balance
+#############
+
+The Castle-Storm CB now also confiscates every de jure county of the attacker in the defenders possesion

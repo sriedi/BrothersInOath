@@ -28,6 +28,7 @@ central_germanic = {
 			Mechthild_Matilda Oda Osterhild Richara_Ricarda Richenza Richwara Romilda Serhilda_Serhilda Sofie_Sophia Sybille_Sibylla Trude
 			Ulrike Ursula_Ursula Ute_Ute Walpurga Wilhelmina_Wilhelmina Winfrida Wulfhilde_Ulfhild
 		}
+
 		from_dynasty_prefix = "von "
 		parent = high_alemannic
 		color = {0.7 0.4 0.3}
@@ -70,6 +71,7 @@ central_germanic = {
 			Mechthild_Matilda Oda Osterhild Richara_Ricarda Richenza Richwara Romilda Serhilda_Serhilda Sofie_Sophia Sybille_Sibylla Trude
 			Ulrike Ursula_Ursula Ute_Ute Walpurga Wilhelmina_Wilhelmina Winfrida Wulfhilde_Ulfhild
 		}
+
 		from_dynasty_prefix = "von "
 		parent = high_alemannic
 		color = {0.6 0.7 0.3}
@@ -113,7 +115,7 @@ central_germanic = {
 			Ulrike Ursula_Ursula Ute_Ute Walpurga Wilhelmina_Wilhelmina Winfrida Wulfhilde_Ulfhild
 		}
 		from_dynasty_prefix = "von "
-		
+
 		allow_looting = yes
 		color = {0.6 0.8 0.3}
 		modifier = default_culture_modifier
@@ -155,6 +157,7 @@ central_germanic = {
 			Mechthild_Matilda Oda Osterhild Richara_Ricarda Richenza Richwara Romilda Serhilda_Serhilda Sofie_Sophia Sybille_Sibylla Trude
 			Ulrike Ursula_Ursula Ute_Ute Walpurga Wilhelmina_Wilhelmina Winfrida Wulfhilde_Ulfhild
 		}
+
 		from_dynasty_prefix = "von "
 		parent = german
 		color = {0.1 0.2 0.8}
@@ -200,6 +203,7 @@ central_germanic = {
 	parent = german
 	color = {0.8 0.2 0.6}
 	modifier = default_culture_modifier
+
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 30
 	mat_grf_name_chance = 10
@@ -242,6 +246,7 @@ latin = {
 		grammar_transform = french
 
 	parent = frankish
+	
 	modifier = default_culture_modifier
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 30
@@ -309,6 +314,7 @@ latin = {
 
 	parent = frankish
 	color = {0.7 0.2 1}
+
 	modifier = default_culture_modifier
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 30
@@ -333,6 +339,7 @@ latin = {
 		
 		from_dynasty_prefix = "de "
 	color = {0.2 1 0.2}
+
 	modifier = default_culture_modifier
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 30

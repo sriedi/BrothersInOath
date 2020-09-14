@@ -1,0 +1,75 @@
+#Traits for Gamemechanics
+
+#Commoner
+commoner = {
+	opposites = {
+		low_noble
+		high_noble
+	}
+	  
+	potential = {
+		OR = {
+			AND = {
+				primary_title = {
+					lower_tier_than = DUKE
+				}
+				OR = {
+					culture = middle_alemannic
+					culture = high_alemannic
+					culture = upper_burgundian
+					culture = raetoromanish
+				}
+			}
+			trait = peasant_leader
+		}
+	}
+
+	agnatic = yes
+	birth = 10000  
+	stewardship = 2
+	diplomacy_penalty = -5
+	same_opinion_if_same_religion = 25
+	opposite_opinion = -20
+	monthly_character_prestige = -0.2
+	
+}
+
+
+low_noble = {
+	potential = {
+		AND = {
+		is_feudal = yes
+			primary_title = {
+				higher_tier_than = COUNT
+			}
+		}
+	}
+
+	agnatic = yes
+	birth = 10000  
+	stewardship = 1
+	diplomacy = 1
+	same_opinion_if_same_religion = 25
+	opposite_opinion = -20
+	
+}
+
+#High Noble
+high_noble = {
+	potential = {
+		is_feudal = yes
+		primary_title = {
+			higher_tier_than = DUKE
+		}
+	}
+
+	agnatic = yes
+	birth = 10000  
+	diplomacy = 3
+	monthly_character_prestige = 5
+	same_opinion_if_same_religion = 25
+	general_opinion = 10
+
+}
+
+
